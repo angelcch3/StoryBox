@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Allow in Window Menu</key>
+		<false/>
+		<!-- Localize begin -->
+		<key>Alternate Window Title</key>
+		<string>Ρυθμίσεις προγράμματος αναπαραγωγής</string>
+		<!-- Localize end -->
+		<key>Fade Support</key>
+		<true/>
+		<key>Fade on Idle</key>
+		<false/>
+		<key>Save Position</key>
+		<true/>
+		<key>Process Activation Click</key>
+		<true/>
+		<key>Refresh On Activate Change</key>
+		<true/>
+		<key>Fore Color</key>
+		<dict>
+			<key>red</key>
+			<real>1.0</real>
+			<key>green</key>
+			<real>1.0</real>
+			<key>blue</key>
+			<real>1.0</real>
+			<key>alpha</key>
+			<real>1.0</real>
+		</dict>
+		<key>Root Views</key>
+		<array>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>3</integer>
+		</array>
+		<key>Default Size</key>
+		<dict>
+			<key>x</key>
+			<integer>315</integer>
+			<key>y</key>
+			<integer>146</integer>
+		</dict>
+		<key>Default Position</key>
+		<dict>
+			<key>x</key>
+			<integer>-1</integer>
+			<key>y</key>
+			<integer>-1</integer>
+		</dict>
+		<key>Custom Command Views</key>
+		<array>
+			<integer>4</integer>
+		</array>
+	</dict>
+	<key>0</key>
+	<dict>
+		<key>Comment</key>
+		<string>Root View</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>Title bar</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Close Box</string>
+		<key>Process Deactive Click</key>
+		<true/>
+		<key>Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Use Port Color</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Window Title</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Ρυθμίσεις προγράμματος αναπαραγωγής</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>4</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<false/>
+		<key>Has Drop Down Menu</key>
+		<true/>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>0</integer>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel Container</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Save Last Panel</key>
+		<true/>
+		<key>Fade Panels</key>
+		<true/>
+		<key>Panels</key>
+		<array>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>PlayerSettingsPanelZoom</string>
+				<key>Panel Nib Name</key>
+				<string>PlayerSettingsPanelZoom</string>
+				<key>Panel ID</key>
+				<integer>1000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>PlayerSettingsPanelColor</string>
+				<key>Panel Nib Name</key>
+				<string>PlayerSettingsPanelColor</string>
+				<key>Panel ID</key>
+				<integer>2000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>PlayerSettingsPanelEQ</string>
+				<key>Panel Nib Name</key>
+				<string>PlayerSettingsPanelEQ</string>
+				<key>Panel ID</key>
+				<integer>3000</integer>
+			</dict>
+		</array>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Comment</key>
+		<string>Switch Box</string>
+		<key>Process Deactive Click</key>
+		<true/>
+		<key>Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

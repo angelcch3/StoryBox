@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> 使用光盘默认</string>
+	<key>00  </key>
+	<string>未知</string>
+	<key>aa  </key>
+	<string>阿法尔文</string>
+	<key>ab  </key>
+	<string>阿布哈兹文</string>
+	<key>ae  </key>
+	<string>阿维斯陀文</string>
+	<key>af  </key>
+	<string>阿非利堪斯文</string>
+	<key>am  </key>
+	<string>阿姆哈拉文</string>
+	<key>ar  </key>
+	<string>阿拉伯文</string>
+	<key>as  </key>
+	<string>阿萨姆文</string>
+	<key>ay  </key>
+	<string>艾马拉文</string>
+	<key>az  </key>
+	<string>阿塞拜疆文</string>
+	<key>ba  </key>
+	<string>巴什基尔文</string>
+	<key>be  </key>
+	<string>白俄罗斯文</string>
+	<key>bg  </key>
+	<string>保加利亚文</string>
+	<key>bh  </key>
+	<string>比哈尔文</string>
+	<key>bi  </key>
+	<string>比斯拉玛文</string>
+	<key>bn  </key>
+	<string>孟加拉文</string>
+	<key>bo  </key>
+	<string>藏文</string>
+	<key>br  </key>
+	<string>布列塔尼文</string>
+	<key>bs  </key>
+	<string>波斯尼亚文</string>
+	<key>ca  </key>
+	<string>加泰罗尼亚文</string>
+	<key>ce  </key>
+	<string>车臣文</string>
+	<key>ch  </key>
+	<string>查莫罗文</string>
+	<key>co  </key>
+	<string>科西嘉文</string>
+	<key>cs  </key>
+	<string>捷克文</string>
+	<key>cu  </key>
+	<string>教堂斯拉夫文</string>
+	<key>cv  </key>
+	<string>楚瓦什文</string>
+	<key>cy  </key>
+	<string>威尔士文</string>
+	<key>da  </key>
+	<string>丹麦文</string>
+	<key>de  </key>
+	<string>德文</string>
+	<key>dz  </key>
+	<string>不丹文</string>
+	<key>el  </key>
+	<string>希腊文</string>
+	<key>en  </key>
+	<string>英文</string>
+	<key>eo  </key>
+	<string>世界文</string>
+	<key>es  </key>
+	<string>西班牙文</string>
+	<key>et  </key>
+	<string>爱沙尼亚文</string>
+	<key>eu  </key>
+	<string>巴斯克文</string>
+	<key>fa  </key>
+	<string>波斯文</string>
+	<key>fi  </key>
+	<string>芬兰文</string>
+	<key>fj  </key>
+	<string>斐济文</string>
+	<key>fo  </key>
+	<string>法罗文</string>
+	<key>fr  </key>
+	<string>法文</string>
+	<key>fy  </key>
+	<string>弗里斯兰文</string>
+	<key>ga  </key>
+	<string>爱尔兰文</string>
+	<key>gd  </key>
+	<string>苏格兰盖尔文</string>
+	<key>gl  </key>
+	<string>加利西亚文</string>
+	<key>gn  </key>
+	<string>瓜拉尼文</string>
+	<key>gu  </key>
+	<string>古吉拉特文</string>
+	<key>gv  </key>
+	<string>马恩岛文</string>
+	<key>ha  </key>
+	<string>豪萨文</string>
+	<key>hi  </key>
+	<string>印地文</string>
+	<key>ho  </key>
+	<string>希里莫图文</string>
+	<key>hr  </key>
+	<string>克罗地亚文</string>
+	<key>hu  </key>
+	<string>匈牙利文</string>
+	<key>hy  </key>
+	<string>亚美尼亚文</string>
+	<key>hz  </key>
+	<string>赫雷罗文</string>
+	<key>ia  </key>
+	<string>国际文 A</string>
+	<key>ie  </key>
+	<string>国际文 E</string>
+	<key>ik  </key>
+	<string>依努庇克文</string>
+	<key>in  </key>
+	<string>印尼文</string>
+	<key>is  </key>
+	<string>冰岛文</string>
+	<key>it  </key>
+	<string>意大利文</string>
+	<key>iu  </key>
+	<string>爱斯基摩文</string>
+	<key>iw  </key>
+	<string>希伯来文</string>
+	<key>ja  </key>
+	<string>日文</string>
+	<key>ji  </key>
+	<string>依地文</string>
+	<key>jw  </key>
+	<string>爪哇文</string>
+	<key>ka  </key>
+	<string>格鲁吉亚文</string>
+	<key>ki  </key>
+	<string>基库尤文</string>
+	<key>kj  </key>
+	<string>克万亚玛文</string>
+	<key>kk  </key>
+	<string>哈萨克文</string>
+	<key>kl  </key>
+	<string>格陵兰文</string>
+	<key>km  </key>
+	<string>柬埔寨文</string>
+	<key>kn  </key>
+	<string>卡纳达文</string>
+	<key>ko  </key>
+	<string>韩文</string>
+	<key>ks  </key>
+	<string>克什米尔文</string>
+	<key>ku  </key>
+	<string>库尔德文</string>
+	<key>kv  </key>
+	<string>科米文</string>
+	<key>kw  </key>
+	<string>康沃尔文</string>
+	<key>ky  </key>
+	<string>吉尔吉斯文</string>
+	<key>la  </key>
+	<string>拉丁文</string>
+	<key>lb  </key>
+	<string>卢森堡文</string>
+	<key>ln  </key>
+	<string>林加拉文</string>
+	<key>lo  </key>
+	<string>老挝文</string>
+	<key>lt  </key>
+	<string>立陶宛文</string>
+	<key>lv  </key>
+	<string>拉脱维亚文</string>
+	<key>mg  </key>
+	<string>马尔加什文</string>
+	<key>mh  </key>
+	<string>马绍尔文</string>
+	<key>mi  </key>
+	<string>毛利文</string>
+	<key>mk  </key>
+	<string>马其顿文</string>
+	<key>ml  </key>
+	<string>马拉雅拉姆文</string>
+	<key>mn  </key>
+	<string>蒙古文</string>
+	<key>mo  </key>
+	<string>摩尔达维亚文</string>
+	<key>mr  </key>
+	<string>马拉地文</string>
+	<key>ms  </key>
+	<string>马来文</string>
+	<key>mt  </key>
+	<string>马耳他文</string>
+	<key>my  </key>
+	<string>缅甸文</string>
+	<key>na  </key>
+	<string>瑙鲁文</string>
+	<key>nd  </key>
+	<string>北恩德贝勒文</string>
+	<key>ne  </key>
+	<string>尼泊尔文</string>
+	<key>ng  </key>
+	<string>恩敦加文</string>
+	<key>nl  </key>
+	<string>荷兰文</string>
+	<key>no  </key>
+	<string>挪威文</string>
+	<key>nr  </key>
+	<string>南恩德贝勒文</string>
+	<key>nv  </key>
+	<string>纳瓦霍文</string>
+	<key>ny  </key>
+	<string>齐切瓦文</string>
+	<key>oc  </key>
+	<string>欧西坦文</string>
+	<key>om  </key>
+	<string>奥罗莫文</string>
+	<key>or  </key>
+	<string>奥里亚文</string>
+	<key>os  </key>
+	<string>奥塞梯文</string>
+	<key>pa  </key>
+	<string>旁遮普文</string>
+	<key>pi  </key>
+	<string>巴利文</string>
+	<key>pl  </key>
+	<string>波兰文</string>
+	<key>ps  </key>
+	<string>普什图文</string>
+	<key>pt  </key>
+	<string>葡萄牙文</string>
+	<key>qu  </key>
+	<string>盖丘亚文</string>
+	<key>rm  </key>
+	<string>雷蒂亚－罗马文</string>
+	<key>rn  </key>
+	<string>基隆迪文</string>
+	<key>ro  </key>
+	<string>罗马尼亚文</string>
+	<key>ru  </key>
+	<string>俄文</string>
+	<key>rw  </key>
+	<string>金亚瓦达文</string>
+	<key>sa  </key>
+	<string>梵文</string>
+	<key>sc  </key>
+	<string>撒丁文</string>
+	<key>sd  </key>
+	<string>信德文</string>
+	<key>se  </key>
+	<string>北萨米文</string>
+	<key>sg  </key>
+	<string>桑戈文</string>
+	<key>sh  </key>
+	<string>塞尔维亚-克罗地亚文</string>
+	<key>si  </key>
+	<string>僧伽罗文</string>
+	<key>sk  </key>
+	<string>斯洛伐克文</string>
+	<key>sl  </key>
+	<string>斯洛文尼亚文</string>
+	<key>sm  </key>
+	<string>萨摩亚文</string>
+	<key>sn  </key>
+	<string>绍纳文</string>
+	<key>so  </key>
+	<string>索马里文</string>
+	<key>sq  </key>
+	<string>阿尔巴尼亚文</string>
+	<key>sr  </key>
+	<string>塞尔维亚文</string>
+	<key>ss  </key>
+	<string>西史瓦提文</string>
+	<key>st  </key>
+	<string>塞索托文</string>
+	<key>su  </key>
+	<string>巽他文</string>
+	<key>sv  </key>
+	<string>瑞典文</string>
+	<key>sw  </key>
+	<string>斯瓦希里文</string>
+	<key>ta  </key>
+	<string>泰米尔文</string>
+	<key>te  </key>
+	<string>泰卢固文</string>
+	<key>tg  </key>
+	<string>塔吉克文</string>
+	<key>th  </key>
+	<string>泰文</string>
+	<key>ti  </key>
+	<string>提格里尼亚文</string>
+	<key>tk  </key>
+	<string>土库曼文</string>
+	<key>tl  </key>
+	<string>塔加路文</string>
+	<key>tn  </key>
+	<string>色札那文</string>
+	<key>to  </key>
+	<string>汤加文</string>
+	<key>tr  </key>
+	<string>土耳其文</string>
+	<key>ts  </key>
+	<string>宗加文</string>
+	<key>tt  </key>
+	<string>塔塔尔文</string>
+	<key>tw  </key>
+	<string>特威文</string>
+	<key>ty  </key>
+	<string>塔希提文</string>
+	<key>ug  </key>
+	<string>维吾尔文</string>
+	<key>uk  </key>
+	<string>乌克兰文</string>
+	<key>ur  </key>
+	<string>乌尔都文</string>
+	<key>uz  </key>
+	<string>乌兹别克文</string>
+	<key>vi  </key>
+	<string>越南文</string>
+	<key>vo  </key>
+	<string>沃拉普克文</string>
+	<key>wo  </key>
+	<string>沃洛夫文</string>
+	<key>xh  </key>
+	<string>科萨文</string>
+	<key>yo  </key>
+	<string>约鲁巴文</string>
+	<key>za  </key>
+	<string>壮文</string>
+	<key>zh  </key>
+	<string>中文</string>
+	<key>zu  </key>
+	<string>祖鲁文</string>
+</dict>
+</plist>

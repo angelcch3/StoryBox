@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<key>Panel Cmd ID</key>
+		<string>SEQP</string>
+		<!-- Localize begin -->
+		<key>Panel Name</key>
+		<string>Audio-equalizer</string>
+		<!-- Localize end -->
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>3001</key>
+	<dict>
+		<key>Comment</key>
+		<string>On Check Box</string>
+		<key>Use Port Color</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Aan</string>
+		<!-- Localize end -->
+	</dict>
+	<key>3002</key>
+	<dict>
+		<key>Comment</key>
+		<string>Check Box Label</string>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Aan</string>
+		<!-- Localize end -->
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3003</key>
+	<dict>
+		<key>Comment</key>
+		<string>Preset Popup</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Right Justify</key>
+		<true/>
+		<key>Auto Sync to Popup</key>
+		<false/>
+		<!-- Localize begin -->
+		<key>Default Popup Text</key>
+		<string>Selecteer</string>
+		<!-- Localize end -->
+	</dict>
+	<!-- EQ bands -->
+	<key>3011</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 1 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3012</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 2 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3013</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 3 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3014</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 4 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3015</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 5 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3016</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 6 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3017</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 7 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3018</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 8 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3019</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 9 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>3020</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 10 Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>5</real>
+		<key>Min Value</key>
+		<integer>-12</integer>
+		<key>Max Value</key>
+		<integer>12</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6003</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<!-- EQ Hz Labels -->
+	<key>3021</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 1 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3022</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 2 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3023</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 3 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3024</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 4 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3025</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 5 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3026</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 6 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3027</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 7 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3028</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 8 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3029</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 9 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3030</key>
+	<dict>
+		<key>Comment</key>
+		<string>Band 10 Label</string>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<!-- tick marks -->
+	<key>3031</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 1</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3032</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 2</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3033</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 3</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3034</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 4</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3035</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 5</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3036</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 6</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3037</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 7</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3038</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 8</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3039</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 9</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>7</integer>
+		<key>Horizontal Tick Marks</key>
+		<true/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

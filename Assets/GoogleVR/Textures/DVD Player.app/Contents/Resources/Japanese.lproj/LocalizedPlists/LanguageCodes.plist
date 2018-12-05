@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> ディスクのデフォルトを使用</string>
+	<key>00  </key>
+	<string>不明</string>
+	<key>aa  </key>
+	<string>アファル語</string>
+	<key>ab  </key>
+	<string>アプハジヤ語</string>
+	<key>ae  </key>
+	<string>アベスター語</string>
+	<key>af  </key>
+	<string>アフリカーンス語</string>
+	<key>am  </key>
+	<string>アムハラ語</string>
+	<key>ar  </key>
+	<string>アラビア語</string>
+	<key>as  </key>
+	<string>アッサム語</string>
+	<key>ay  </key>
+	<string>アイマラ語</string>
+	<key>az  </key>
+	<string>アゼルバイジャン語</string>
+	<key>ba  </key>
+	<string>バシキール語</string>
+	<key>be  </key>
+	<string>ベラルーシ語</string>
+	<key>bg  </key>
+	<string>ブルガリア語</string>
+	<key>bh  </key>
+	<string>ビハール語</string>
+	<key>bi  </key>
+	<string>ビスラマ語</string>
+	<key>bn  </key>
+	<string>ベンガル語</string>
+	<key>bo  </key>
+	<string>チベット語</string>
+	<key>br  </key>
+	<string>ブルターニュ語</string>
+	<key>bs  </key>
+	<string>ボスニア語</string>
+	<key>ca  </key>
+	<string>カタロニア語</string>
+	<key>ce  </key>
+	<string>チェチェン語</string>
+	<key>ch  </key>
+	<string>チャモロ語</string>
+	<key>co  </key>
+	<string>コルシカ語</string>
+	<key>cs  </key>
+	<string>チェコ語</string>
+	<key>cu  </key>
+	<string>教会スラブ語</string>
+	<key>cv  </key>
+	<string>チュバシ語</string>
+	<key>cy  </key>
+	<string>ウェールズ語</string>
+	<key>da  </key>
+	<string>デンマーク語</string>
+	<key>de  </key>
+	<string>ドイツ語</string>
+	<key>dz  </key>
+	<string>ブータン語</string>
+	<key>el  </key>
+	<string>ギリシャ語</string>
+	<key>en  </key>
+	<string>英語</string>
+	<key>eo  </key>
+	<string>エスペラント語</string>
+	<key>es  </key>
+	<string>スペイン語</string>
+	<key>et  </key>
+	<string>エストニア語</string>
+	<key>eu  </key>
+	<string>バスク語</string>
+	<key>fa  </key>
+	<string>ペルシャ語</string>
+	<key>fi  </key>
+	<string>フィンランド語</string>
+	<key>fj  </key>
+	<string>フィジー語</string>
+	<key>fo  </key>
+	<string>フェロー語</string>
+	<key>fr  </key>
+	<string>フランス語</string>
+	<key>fy  </key>
+	<string>フリジア語</string>
+	<key>ga  </key>
+	<string>アイルランド語</string>
+	<key>gd  </key>
+	<string>ゲール語</string>
+	<key>gl  </key>
+	<string>ガリシア語</string>
+	<key>gn  </key>
+	<string>グアラニー語</string>
+	<key>gu  </key>
+	<string>グジャラート語</string>
+	<key>gv  </key>
+	<string>マンクス語</string>
+	<key>ha  </key>
+	<string>ハウサ語</string>
+	<key>hi  </key>
+	<string>ヒンディー語</string>
+	<key>ho  </key>
+	<string>ヒリ・モトゥ語</string>
+	<key>hr  </key>
+	<string>クロアチア語</string>
+	<key>hu  </key>
+	<string>ハンガリー語</string>
+	<key>hy  </key>
+	<string>アルメニア語</string>
+	<key>hz  </key>
+	<string>ヘレロ語</string>
+	<key>ia  </key>
+	<string>インターリンガ</string>
+	<key>ie  </key>
+	<string>インターリング</string>
+	<key>ik  </key>
+	<string>イヌピア語</string>
+	<key>in  </key>
+	<string>インドネシア語</string>
+	<key>is  </key>
+	<string>アイスランド語</string>
+	<key>it  </key>
+	<string>イタリア語</string>
+	<key>iu  </key>
+	<string>イヌクチタット語</string>
+	<key>iw  </key>
+	<string>ヘブライ語</string>
+	<key>ja  </key>
+	<string>日本語</string>
+	<key>ji  </key>
+	<string>イディッシュ語</string>
+	<key>jw  </key>
+	<string>ジャワ語</string>
+	<key>ka  </key>
+	<string>ジョージア語</string>
+	<key>ki  </key>
+	<string>キクユ語</string>
+	<key>kj  </key>
+	<string>クアンヤマ語</string>
+	<key>kk  </key>
+	<string>カザフ語</string>
+	<key>kl  </key>
+	<string>グリーンランド語</string>
+	<key>km  </key>
+	<string>カンボジア語</string>
+	<key>kn  </key>
+	<string>カンナダ語</string>
+	<key>ko  </key>
+	<string>韓国語</string>
+	<key>ks  </key>
+	<string>カシミール語</string>
+	<key>ku  </key>
+	<string>クルド語</string>
+	<key>kv  </key>
+	<string>コミ語</string>
+	<key>kw  </key>
+	<string>コーンウォール語</string>
+	<key>ky  </key>
+	<string>キルギス語</string>
+	<key>la  </key>
+	<string>ラテン語</string>
+	<key>lb  </key>
+	<string>ルクセンブルク語</string>
+	<key>ln  </key>
+	<string>リンガラ語</string>
+	<key>lo  </key>
+	<string>ラオス語</string>
+	<key>lt  </key>
+	<string>リトアニア語</string>
+	<key>lv  </key>
+	<string>ラトビア語</string>
+	<key>mg  </key>
+	<string>マダガスカル語</string>
+	<key>mh  </key>
+	<string>マーシャル語</string>
+	<key>mi  </key>
+	<string>マオリ語</string>
+	<key>mk  </key>
+	<string>マケドニア語</string>
+	<key>ml  </key>
+	<string>マラヤーラム語</string>
+	<key>mn  </key>
+	<string>モンゴル語</string>
+	<key>mo  </key>
+	<string>モルダビア語</string>
+	<key>mr  </key>
+	<string>マラッタ語</string>
+	<key>ms  </key>
+	<string>マレー語</string>
+	<key>mt  </key>
+	<string>マルタ語</string>
+	<key>my  </key>
+	<string>ビルマ語</string>
+	<key>na  </key>
+	<string>ナウル語</string>
+	<key>nd  </key>
+	<string>ネデベレ語（北部）</string>
+	<key>ne  </key>
+	<string>ネパール語</string>
+	<key>ng  </key>
+	<string>ヌドンガ語</string>
+	<key>nl  </key>
+	<string>オランダ語</string>
+	<key>no  </key>
+	<string>ノルウェー語</string>
+	<key>nr  </key>
+	<string>ネデベレ語（南部）</string>
+	<key>nv  </key>
+	<string>ナバホ語</string>
+	<key>ny  </key>
+	<string>チェワ語</string>
+	<key>oc  </key>
+	<string>オシタン語</string>
+	<key>om  </key>
+	<string>オロモ語</string>
+	<key>or  </key>
+	<string>オリヤー語</string>
+	<key>os  </key>
+	<string>オシーシャ語</string>
+	<key>pa  </key>
+	<string>パンジャブ語</string>
+	<key>pi  </key>
+	<string>パーリ語</string>
+	<key>pl  </key>
+	<string>ポーランド語</string>
+	<key>ps  </key>
+	<string>パシュト語</string>
+	<key>pt  </key>
+	<string>ポルトガル語</string>
+	<key>qu  </key>
+	<string>クチュア語</string>
+	<key>rm  </key>
+	<string>レトロマン語</string>
+	<key>rn  </key>
+	<string>キルンディー語</string>
+	<key>ro  </key>
+	<string>ルーマニア語</string>
+	<key>ru  </key>
+	<string>ロシア語</string>
+	<key>rw  </key>
+	<string>キニャルワンダ語</string>
+	<key>sa  </key>
+	<string>サンスクリット語</string>
+	<key>sc  </key>
+	<string>サルデーニャ語</string>
+	<key>sd  </key>
+	<string>シンド語</string>
+	<key>se  </key>
+	<string>北サモス語</string>
+	<key>sg  </key>
+	<string>サングロ語</string>
+	<key>sh  </key>
+	<string>セルボクロアチア語</string>
+	<key>si  </key>
+	<string>シンハラ語</string>
+	<key>sk  </key>
+	<string>スロバキア語</string>
+	<key>sl  </key>
+	<string>スロベニア語</string>
+	<key>sm  </key>
+	<string>サモア語</string>
+	<key>sn  </key>
+	<string>ショナ語</string>
+	<key>so  </key>
+	<string>ソマリ語</string>
+	<key>sq  </key>
+	<string>アルバニア語</string>
+	<key>sr  </key>
+	<string>セルビア語</string>
+	<key>ss  </key>
+	<string>シスワティ語</string>
+	<key>st  </key>
+	<string>セソソ語</string>
+	<key>su  </key>
+	<string>スンダ語</string>
+	<key>sv  </key>
+	<string>スウェーデン語</string>
+	<key>sw  </key>
+	<string>スワヒリ語</string>
+	<key>ta  </key>
+	<string>タミール語</string>
+	<key>te  </key>
+	<string>テルグ語</string>
+	<key>tg  </key>
+	<string>タジク語</string>
+	<key>th  </key>
+	<string>タイ語</string>
+	<key>ti  </key>
+	<string>ティグリニア語</string>
+	<key>tk  </key>
+	<string>トルクメン語</string>
+	<key>tl  </key>
+	<string>タガログ語</string>
+	<key>tn  </key>
+	<string>セツワナ語</string>
+	<key>to  </key>
+	<string>トンガ語</string>
+	<key>tr  </key>
+	<string>トルコ語</string>
+	<key>ts  </key>
+	<string>ツオンガ語</string>
+	<key>tt  </key>
+	<string>タタール語</string>
+	<key>tw  </key>
+	<string>トウィ語</string>
+	<key>ty  </key>
+	<string>タヒチ語</string>
+	<key>ug  </key>
+	<string>ウイグル語</string>
+	<key>uk  </key>
+	<string>ウクライナ語</string>
+	<key>ur  </key>
+	<string>ウルドゥ語</string>
+	<key>uz  </key>
+	<string>ウズベク語</string>
+	<key>vi  </key>
+	<string>ベトナム語</string>
+	<key>vo  </key>
+	<string>ヴォラピュク語</string>
+	<key>wo  </key>
+	<string>ウォロフ語</string>
+	<key>xh  </key>
+	<string>コーサ語</string>
+	<key>yo  </key>
+	<string>ヨルバ語</string>
+	<key>za  </key>
+	<string>チワン語</string>
+	<key>zh  </key>
+	<string>中国語</string>
+	<key>zu  </key>
+	<string>ズールー語</string>
+</dict>
+</plist>

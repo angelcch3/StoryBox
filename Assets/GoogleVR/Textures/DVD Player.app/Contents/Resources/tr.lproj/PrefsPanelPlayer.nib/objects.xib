@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonStaticText" id="923">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1100</int>
+      <string name="title">DVD Oynatıcı açıldığında:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">30 13 175 16 </string>
+      <string name="bounds">13 30 29 205 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="933">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1501</int>
+      <string name="helpTagText">Görüntüleyici Dock’ta simge durumuna küçültüldüğünde oynatmayı duraklat</string>
+      <string name="title">Oynatımı duraklat</string>
+      <string name="viewFrame">211 252 250 18 </string>
+      <string name="bounds">252 211 270 461 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="932">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1500</int>
+      <string name="title">Görüntüleyici simge durumuna &#10;küçültüldüğünde:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">-67 243 272 41 </string>
+      <string name="bounds">243 -67 284 205 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="929">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1301</int>
+      <string name="helpTagText">DVD Oynatıcı sesi kapatıldığında gizli altyazıları aç</string>
+      <string name="title">Gizli altyazıları göster</string>
+      <string name="viewFrame">211 215 250 18 </string>
+      <string name="bounds">215 211 233 461 </string>
+    </object>
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 500 297 </string>
+      <array count="14" name="subviews">
+        <reference idRef="923"/>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">Geçerli bir disk tanınırsa tam ekrana ayarla</string>
+          <int name="initialState">2</int>
+          <string name="title">Tam ekran moduna geç</string>
+          <string name="viewFrame">211 13 241 18 </string>
+          <string name="bounds">13 211 31 452 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">Geçerli bir disk tanınırsa diski oynatmaya başla</string>
+          <string name="title">Diski oynatmaya başla</string>
+          <string name="viewFrame">211 35 233 18 </string>
+          <string name="bounds">35 211 53 444 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">Disk takıldığında:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 111 175 16 </string>
+          <string name="bounds">111 30 127 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">DVD Oynatıcı zaten çalışıyorken geçerli bir disk takılırsa oynatmaya başla</string>
+          <string name="title">Diski oynatmaya başla</string>
+          <string name="viewFrame">211 111 228 18 </string>
+          <string name="bounds">111 211 129 439 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">Ses kapatıldığında:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 215 175 16 </string>
+          <string name="bounds">215 30 231 205 </string>
+        </object>
+        <reference idRef="929"/>
+        <reference idRef="932"/>
+        <reference idRef="933"/>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">Bu, pil gücünü korur. Sürücü uyanırken diskin taranması daha yavaş olabilir.</string>
+          <string name="viewFrame">213 169 249 31 </string>
+          <string name="bounds">169 213 200 462 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">Pili kullanarak oynatırken:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">24 148 181 16 </string>
+          <string name="bounds">148 24 164 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">1</int>
+          <string name="title">DVD sürücüyü uyku durumuna geçir</string>
+          <string name="viewFrame">211 147 318 18 </string>
+          <string name="bounds">147 211 165 529 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">DVD Oynatıcı etkin değilken:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">24 73 181 16 </string>
+          <string name="bounds">73 24 89 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">Oynatıcı etkin değilken oynatımı geçici olarak duraklat</string>
+          <string name="title">Oynatımı duraklat</string>
+          <string name="viewFrame">211 73 211 18 </string>
+          <string name="bounds">73 211 91 422 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 500 </string>
+    </object>
+    <reference idRef="938"/>
+    <reference idRef="935"/>
+    <reference idRef="928"/>
+    <reference idRef="934"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Pencere</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 500 296 </string>
+        <array count="1" name="subviews">
+          <reference idRef="922"/>
+        </array>
+        <string name="bounds">0 0 296 500 </string>
+      </object>
+      <string name="windowRect">92 838 388 1338 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="937"/>
+    <reference idRef="927"/>
+    <reference idRef="926"/>
+    <reference idRef="887"/>
+    <reference idRef="925"/>
+    <reference idRef="939"/>
+    <reference idRef="924"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

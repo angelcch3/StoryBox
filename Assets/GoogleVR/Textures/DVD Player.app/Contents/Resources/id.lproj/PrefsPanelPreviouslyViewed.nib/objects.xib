@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5000</int>
+      <string name="classID">com.apple.DVDPlayer.PrvP</string>
+      <string name="viewFrame">0 0 500 244 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonStaticText" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5100</int>
+          <string name="title">Mulai memutar disk dari:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">69 20 190 16 </string>
+          <string name="bounds">20 69 36 259 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5101</int>
+          <int name="numRows">4</int>
+          <int name="intercellHeight">4</int>
+          <array count="4" name="radioTitles">
+            <array count="1">
+              <string>Awal</string>
+            </array>
+            <array count="1">
+              <string>Posisi terakhir diputar</string>
+            </array>
+            <array count="1">
+              <string>Penanda default</string>
+            </array>
+            <array count="1">
+              <string>Selalu tanya</string>
+            </array>
+          </array>
+          <string name="viewFrame">267 20 200 87 </string>
+          <string name="bounds">20 267 107 467 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5102</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">Menahan tombol Option saat disk mulai untuk memutar akan memaksa Pemutar DVD bertanya dari mana dimulai.</string>
+          <string name="viewFrame">267 107 223 50 </string>
+          <string name="bounds">107 267 157 490 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5200</int>
+          <string name="title">Selalu gunakan pengaturan disk untuk:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">12 165 247 16 </string>
+          <string name="bounds">165 12 181 259 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5201</int>
+          <string name="helpTagText">Gunakan pengaturan ekualiser terakhir yang digunakan dengan disk ini</string>
+          <string name="title">Ekualiser Audio</string>
+          <string name="viewFrame">265 165 150 18 </string>
+          <string name="bounds">165 265 183 415 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5202</int>
+          <string name="helpTagText">Gunakan pengaturan warna video terakhir yang digunakan dengan disk ini</string>
+          <string name="title">Warna Video</string>
+          <string name="viewFrame">265 188 99 18 </string>
+          <string name="bounds">188 265 206 364 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5203</int>
+          <string name="helpTagText">Gunakan pengaturan zoom terakhir yang digunakan dengan disk ini</string>
+          <string name="title">Zoom Video</string>
+          <string name="viewFrame">265 210 96 18 </string>
+          <string name="bounds">210 265 228 361 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 244 500 </string>
+    </object>
+    <reference idRef="928"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 500 244 </string>
+      <array count="1" name="subviews">
+        <reference idRef="922"/>
+      </array>
+      <string name="bounds">0 0 244 500 </string>
+    </object>
+    <reference idRef="924"/>
+    <reference idRef="925"/>
+    <reference idRef="926"/>
+    <reference idRef="927"/>
+    <reference idRef="923"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Jendela</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 362 288 862 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="929"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

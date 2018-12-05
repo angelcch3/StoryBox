@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Fade Support</key>
+		<true/>
+		<key>Process Activation Click</key>
+		<true/>
+	</dict>
+	<key>0</key>
+	<dict>
+		<key>Comment</key>
+		<string>Root</string>
+		<key>Background Color</key> <!-- (0.0 - 1.0) -->
+		<dict>
+			<key>alpha</key>
+			<real>0.625</real>
+			<key>blue</key>
+			<real>0.0</real>
+			<key>green</key>
+			<real>0.0</real>
+			<key>red</key>
+			<real>0.0</real>
+		</dict>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>Quartz Extreme Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Quartz Extreme</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Quartz Extreme Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Transparency Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Transparency</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Transparency Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Comment</key>
+		<string>Thumbnails Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Thumbnails</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Comment</key>
+		<string>Thumbnails Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>Comment</key>
+		<string>Video Zoom Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Video Zoom</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>Comment</key>
+		<string>Video Zoom Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>Comment</key>
+		<string>Video Color Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Video Color</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>Comment</key>
+		<string>Video Color Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>Comment</key>
+		<string>Deinterlacing Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Video Deinterlacing</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>Comment</key>
+		<string>Deinterlacing Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Unsupported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>13</key>
+	<dict>
+		<key>Comment</key>
+		<string>EQ Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Audio Equalizer</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>14</key>
+	<dict>
+		<key>Comment</key>
+		<string>EQ Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>15</key>
+	<dict>
+		<key>Comment</key>
+		<string>HD Label</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>HD</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>16</key>
+	<dict>
+		<key>Comment</key>
+		<string>HD Text</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Supported</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Size</key>
+		<integer>24</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>65535</integer>
+			<key>green</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>65535</integer>
+		</dict>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

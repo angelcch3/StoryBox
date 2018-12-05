@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 580 264 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5000</int>
+          <string name="classID">com.apple.DVDPlayer.PrvP</string>
+          <string name="viewFrame">0 0 580 264 </string>
+          <array count="7" name="subviews">
+            <object class="IBCarbonStaticText" id="927">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5100</int>
+              <string name="title">Начинать просмотр:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">19 20 312 16 </string>
+              <string name="bounds">20 19 36 331 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="928">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5101</int>
+              <int name="numRows">4</int>
+              <int name="intercellHeight">4</int>
+              <array count="4" name="radioTitles">
+                <array count="1">
+                  <string>С начала диска</string>
+                </array>
+                <array count="1">
+                  <string>С последней позиции</string>
+                </array>
+                <array count="1">
+                  <string>С закладки по умолчанию</string>
+                </array>
+                <array count="1">
+                  <string>Спрашивать всегда</string>
+                </array>
+              </array>
+              <string name="viewFrame">337 20 252 87 </string>
+              <string name="bounds">20 337 107 589 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="929">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5102</int>
+              <boolean name="enabled">FALSE</boolean>
+              <int name="fontStyle">-2</int>
+              <int name="controlSize">1</int>
+              <string name="title">При запуске диска и длительном нажатии клавиши Option появится окно с вопросом, откуда начать просмотр.</string>
+              <string name="viewFrame">340 107 216 63 </string>
+              <string name="bounds">107 340 170 556 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5200</int>
+              <string name="title">Всегда использовать настройки CD/DVD для:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">19 185 312 16 </string>
+              <string name="bounds">185 19 201 331 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5201</int>
+              <string name="helpTagText">Использовать последние настройки эквалайзера для этого диска</string>
+              <string name="title">Эквалайзера</string>
+              <string name="viewFrame">337 185 193 18 </string>
+              <string name="bounds">185 337 203 530 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="924">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5202</int>
+              <string name="helpTagText">Использовать последние настройки цвета видео для этого диска</string>
+              <string name="title">Цвета видео</string>
+              <string name="viewFrame">337 208 193 16 </string>
+              <string name="bounds">208 337 224 530 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="923">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5203</int>
+              <string name="helpTagText">Использовать последние настройки масштаба для этого диска</string>
+              <string name="title">Масштаба видео</string>
+              <string name="viewFrame">337 230 193 16 </string>
+              <string name="bounds">230 337 246 530 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 264 580 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 264 580 </string>
+    </object>
+    <reference idRef="927"/>
+    <reference idRef="926"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Окно</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 362 308 942 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="925"/>
+    <reference idRef="923"/>
+    <reference idRef="922"/>
+    <reference idRef="928"/>
+    <reference idRef="924"/>
+    <reference idRef="929"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

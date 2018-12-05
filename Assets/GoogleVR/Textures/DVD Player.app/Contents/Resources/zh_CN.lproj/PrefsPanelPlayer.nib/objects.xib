@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 500 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">“DVD 播放程序”打开时：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 13 175 16 </string>
+          <string name="bounds">13 30 29 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">如果识别出有效的光盘则设定成全屏幕</string>
+          <string name="title">进入全屏幕模式</string>
+          <string name="viewFrame">211 13 111 16 </string>
+          <string name="bounds">13 211 29 322 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">如果识别出有效的光盘则开始播放</string>
+          <string name="title">开始播放光盘</string>
+          <string name="viewFrame">211 35 98 16 </string>
+          <string name="bounds">35 211 51 309 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">插入光盘时：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 111 175 16 </string>
+          <string name="bounds">111 30 127 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">如果在 DVD 播放程序已经运行后插入有效的光盘则开始播放</string>
+          <string name="title">开始播放光盘</string>
+          <string name="viewFrame">211 111 98 16 </string>
+          <string name="bounds">111 211 127 309 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">静音时：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 215 175 16 </string>
+          <string name="bounds">215 30 231 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">DVD 播放程序静音时打开隐藏式字幕</string>
+          <string name="title">显示隐藏式字幕</string>
+          <string name="viewFrame">212 215 111 16 </string>
+          <string name="bounds">215 212 231 323 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">当显示窗口最小化时：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">24 252 181 16 </string>
+          <string name="bounds">252 24 268 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1501</int>
+          <string name="helpTagText">当显示窗口最小化到程序坞中时暂停播放</string>
+          <string name="title">暂停播放</string>
+          <string name="viewFrame">212 252 72 16 </string>
+          <string name="bounds">252 212 268 284 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">这会节省电池电量。唤醒驱动器时，扫描光盘可能会变慢。</string>
+          <string name="viewFrame">213 169 267 31 </string>
+          <string name="bounds">169 213 200 480 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">当使用电池播放时：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">24 148 181 16 </string>
+          <string name="bounds">148 24 164 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">将 DVD 驱动器置入睡眠状态</string>
+          <string name="viewFrame">211 141 224 31 </string>
+          <string name="bounds">141 211 172 435 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">“DVD 播放程序”不活跃时：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">24 73 181 16 </string>
+          <string name="bounds">73 24 89 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">当播放程序不活跃时临时暂停播放</string>
+          <string name="title">暂停播放</string>
+          <string name="viewFrame">211 73 187 16 </string>
+          <string name="bounds">73 211 89 398 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 500 </string>
+    </object>
+    <reference idRef="939"/>
+    <reference idRef="928"/>
+    <reference idRef="924"/>
+    <reference idRef="935"/>
+    <reference idRef="938"/>
+    <reference idRef="934"/>
+    <reference idRef="933"/>
+    <reference idRef="937"/>
+    <reference idRef="923"/>
+    <reference idRef="932"/>
+    <reference idRef="926"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 500 296 </string>
+      <array count="1" name="subviews">
+        <reference idRef="922"/>
+      </array>
+      <string name="bounds">0 0 296 500 </string>
+    </object>
+    <reference idRef="929"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">窗口</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">92 838 388 1338 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="927"/>
+    <reference idRef="925"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

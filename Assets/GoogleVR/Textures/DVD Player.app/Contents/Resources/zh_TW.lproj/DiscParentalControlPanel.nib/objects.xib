@@ -1,0 +1,118 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonCustom" id="888">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4000</int>
+      <string name="classID">com.apple.DVDPlayer.DPCP</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">0 0 378 231 </string>
+      <array count="6" name="subviews">
+        <object class="IBCarbonRoundButton" id="972">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4006</int>
+          <ostype name="command">LckB</ostype>
+          <string name="viewFrame">20 203 20 20 </string>
+          <string name="bounds">203 20 223 40 </string>
+        </object>
+        <object class="IBCarbonCustom" id="973">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4007</int>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">46 208 272 15 </string>
+          <string name="bounds">208 46 223 318 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="976">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4003</int>
+          <int name="controlSize">1</int>
+          <int name="intercellHeight">8</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>永遠先詢問授權</string>
+            </array>
+            <array count="1">
+              <string>永遠允許播放</string>
+            </array>
+          </array>
+          <string name="viewFrame">140 98 175 40 </string>
+          <string name="bounds">98 140 138 315 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="977">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4001</int>
+          <int name="fontStyle">4</int>
+          <int name="controlSize">1</int>
+          <string name="title">Parental Control text placeholder</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">8 12 362 16 </string>
+          <string name="bounds">12 8 28 370 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="978">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4002</int>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">若已啟用「分級保護控制」，打開此媒體時：</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">8 76 362 13 </string>
+          <string name="bounds">76 8 89 370 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="982">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4008</int>
+          <ostype name="command">HlpB</ostype>
+          <string name="viewFrame">335 203 25 25 </string>
+          <string name="bounds">203 335 228 360 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+      </array>
+      <string name="bounds">0 0 231 378 </string>
+    </object>
+    <reference idRef="978"/>
+    <reference idRef="982"/>
+    <reference idRef="976"/>
+    <reference idRef="977"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 378 231 </string>
+      <array count="1" name="subviews">
+        <reference idRef="888"/>
+      </array>
+      <string name="bounds">0 0 231 378 </string>
+    </object>
+    <reference idRef="973"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">視窗</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">386 991 617 1369 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="972"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="886"/>
+    <reference idRef="888"/>
+    <reference idRef="1"/>
+    <reference idRef="888"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DiscParentalControlPanel</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">991</unsigned_int>
+</object>

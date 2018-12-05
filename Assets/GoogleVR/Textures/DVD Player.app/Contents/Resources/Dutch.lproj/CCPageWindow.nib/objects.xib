@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="5" name="allObjects">
+    <object class="IBCarbonWindow" id="886">
+      <string name="windowRect">154 142 378 536 </string>
+      <string name="title">Bijschriften voor spraak en geluiden</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="bounds">0 0 224 394 </string>
+        <string name="viewFrame">0 0 394 224 </string>
+        <array count="3" name="subviews">
+          <object class="IBCarbonCustom" id="891">
+            <string name="bounds">2 2 222 392 </string>
+            <string name="viewFrame">2 2 390 220 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="classID">com.apple.DVDPlayer.CCPB</string>
+          </object>
+          <object class="IBCarbonTextView" id="901">
+            <string name="bounds">4 4 220 390 </string>
+            <string name="viewFrame">4 4 386 216 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <boolean name="noSelection">TRUE</boolean>
+            <boolean name="outputInUnicode">TRUE</boolean>
+            <boolean name="noDragProcs">TRUE</boolean>
+            <boolean name="wrap">TRUE</boolean>
+            <boolean name="noCaretWhenInactive">TRUE</boolean>
+            <boolean name="noSelectionWhenInactive">TRUE</boolean>
+            <boolean name="disableDragAndDrop">TRUE</boolean>
+            <boolean name="fontSubstitution">TRUE</boolean>
+          </object>
+          <object class="IBCarbonCustom" id="892">
+            <string name="bounds">197 367 221 391 </string>
+            <string name="viewFrame">367 197 24 24 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <string name="classID">com.apple.DVDPlayer.grwb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="metal">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+    </object>
+    <reference idRef="887"/>
+    <reference idRef="891"/>
+    <reference idRef="892"/>
+    <reference idRef="901"/>
+  </array>
+  <array count="5" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CCPageWindow</string>
+    <reference idRef="886"/>
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">902</unsigned_int>
+</object>

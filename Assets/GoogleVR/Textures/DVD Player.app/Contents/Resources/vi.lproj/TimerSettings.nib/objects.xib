@@ -1,0 +1,285 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonStaticText" id="202">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <string name="title">Cài đặt Hẹn giờ</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">102 9 114 16 </string>
+      <string name="bounds">9 102 25 216 </string>
+    </object>
+    <object class="IBCarbonEditText" id="205">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="title">120</string>
+      <string name="viewFrame">128 76 27 16 </string>
+      <string name="bounds">76 128 92 155 </string>
+    </object>
+    <object class="IBCarbonMenu" id="181">
+      <string name="title">Bật lên:</string>
+      <array count="4" name="items">
+        <object class="IBCarbonMenuItem" id="197">
+          <string name="title">Thoát Trình phát DVD</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="184">
+          <string name="title">Ngủ</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="180">
+          <string name="title">Tắt máy</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="183">
+          <string name="title">Đăng xuất</string>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Cài đặt Hẹn giờ</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="viewFrame">0 0 319 178 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonStaticText" id="195">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">phút</string>
+            <string name="viewFrame">163 75 63 16 </string>
+            <string name="bounds">75 163 91 226 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="182">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <reference name="menu" idRef="181"/>
+            <string name="title">Tác vụ:</string>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">20 39 230 20 </string>
+            <string name="bounds">39 20 59 250 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="185">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+            <string name="title">Cài đặt Hẹn giờ</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">102 9 114 16 </string>
+            <string name="bounds">9 102 25 216 </string>
+          </object>
+          <object class="IBCarbonRadioGroup" id="186">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="intercellHeight">6</int>
+            <array count="2" name="radioTitles">
+              <array count="1">
+                <string>trong</string>
+              </array>
+              <array count="1">
+                <string>ở cuối tiêu đề hiện tại</string>
+              </array>
+            </array>
+            <string name="viewFrame">64 74 186 44 </string>
+            <string name="bounds">74 64 118 250 </string>
+          </object>
+          <object class="IBCarbonEditText" id="192">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="title">120</string>
+            <string name="viewFrame">127 76 27 16 </string>
+            <string name="bounds">76 127 92 154 </string>
+          </object>
+          <object class="IBCarbonButton" id="193">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">229 138 70 20 </string>
+            <string name="bounds">138 229 158 299 </string>
+          </object>
+          <object class="IBCarbonButton" id="194">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Hủy</string>
+            <string name="viewFrame">137 138 70 20 </string>
+            <string name="bounds">138 137 158 207 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 178 319 </string>
+      </object>
+      <string name="windowRect">331 521 509 840 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonWindow" id="198">
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Cài đặt Hẹn giờ</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="199">
+        <string name="viewFrame">0 0 319 178 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonStaticText" id="201">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">phút</string>
+            <string name="viewFrame">169 75 63 16 </string>
+            <string name="bounds">75 169 91 232 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="206">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <object name="menu" class="IBCarbonMenu" id="207">
+              <string name="title">Bật lên:</string>
+              <array count="4" name="items">
+                <object class="IBCarbonMenuItem" id="209">
+                  <string name="title">Thoát Trình phát DVD</string>
+                  <boolean name="checked">TRUE</boolean>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="211">
+                  <string name="title">Ngủ</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="210">
+                  <string name="title">Tắt máy</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="208">
+                  <string name="title">Đăng xuất</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+              </array>
+            </object>
+            <string name="title">Tác vụ:</string>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">20 39 231 20 </string>
+            <string name="bounds">39 20 59 251 </string>
+          </object>
+          <reference idRef="202"/>
+          <object class="IBCarbonRadioGroup" id="203">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="intercellHeight">6</int>
+            <array count="2" name="radioTitles">
+              <array count="1">
+                <string>trong</string>
+              </array>
+              <array count="1">
+                <string>ở cuối tiêu đề hiện tại</string>
+              </array>
+            </array>
+            <string name="viewFrame">64 74 193 44 </string>
+            <string name="bounds">74 64 118 257 </string>
+          </object>
+          <reference idRef="205"/>
+          <object class="IBCarbonButton" id="200">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">229 138 70 20 </string>
+            <string name="bounds">138 229 158 299 </string>
+          </object>
+          <object class="IBCarbonButton" id="204">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Hủy</string>
+            <string name="viewFrame">137 138 70 20 </string>
+            <string name="bounds">138 137 158 207 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 178 319 </string>
+      </object>
+      <string name="windowRect">351 541 529 860 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="209"/>
+    <reference idRef="194"/>
+    <reference idRef="183"/>
+    <reference idRef="167"/>
+    <reference idRef="207"/>
+    <reference idRef="201"/>
+    <reference idRef="200"/>
+    <reference idRef="193"/>
+    <reference idRef="195"/>
+    <reference idRef="210"/>
+    <reference idRef="192"/>
+    <reference idRef="199"/>
+    <reference idRef="185"/>
+    <reference idRef="206"/>
+    <reference idRef="186"/>
+    <reference idRef="184"/>
+    <reference idRef="197"/>
+    <reference idRef="204"/>
+    <reference idRef="208"/>
+    <reference idRef="182"/>
+    <reference idRef="211"/>
+    <reference idRef="203"/>
+    <reference idRef="180"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="199"/>
+    <reference idRef="199"/>
+    <reference idRef="182"/>
+    <reference idRef="1"/>
+    <reference idRef="1"/>
+    <reference idRef="207"/>
+    <reference idRef="167"/>
+    <reference idRef="181"/>
+    <reference idRef="166"/>
+    <reference idRef="206"/>
+    <reference idRef="199"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="207"/>
+    <reference idRef="167"/>
+    <reference idRef="198"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="199"/>
+    <reference idRef="207"/>
+    <reference idRef="167"/>
+    <reference idRef="207"/>
+    <reference idRef="199"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>TimerSettingsDialog</string>
+    <reference idRef="198"/>
+    <string>TimerSettingsSheet</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">212</unsigned_int>
+</object>

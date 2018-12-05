@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonStaticText" id="929">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5102</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="fontStyle">-2</int>
+      <int name="controlSize">1</int>
+      <string name="title">Ak podržíte kláves Option po vložení disku, DVD Player sa opýta, odkiaľ spustiť prehrávanie.</string>
+      <string name="viewFrame">249 107 231 43 </string>
+      <string name="bounds">107 249 150 480 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 530 244 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="922">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5000</int>
+            <string name="classID">com.apple.DVDPlayer.PrvP</string>
+            <string name="viewFrame">0 0 530 244 </string>
+            <array count="7" name="subviews">
+              <object class="IBCarbonStaticText" id="927">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5100</int>
+                <string name="title">Spustiť prehrávanie disku od:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">50 20 190 16 </string>
+                <string name="bounds">20 50 36 240 </string>
+              </object>
+              <object class="IBCarbonRadioGroup" id="928">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5101</int>
+                <int name="numRows">4</int>
+                <int name="intercellHeight">4</int>
+                <array count="4" name="radioTitles">
+                  <array count="1">
+                    <string>Začiatku</string>
+                  </array>
+                  <array count="1">
+                    <string>Poslednej prehrávanej pozície</string>
+                  </array>
+                  <array count="1">
+                    <string>Predvolenej záložky</string>
+                  </array>
+                  <array count="1">
+                    <string>Vždy sa opýtať</string>
+                  </array>
+                </array>
+                <string name="viewFrame">246 20 214 87 </string>
+                <string name="bounds">20 246 107 460 </string>
+              </object>
+              <reference idRef="929"/>
+              <object class="IBCarbonStaticText" id="925">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5200</int>
+                <string name="title">Použiť nastavenia disku pre:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">50 165 190 16 </string>
+                <string name="bounds">165 50 181 240 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="926">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5201</int>
+                <string name="helpTagText">Použiť posledné nastavenia ekvalizéra použité pre tento disk</string>
+                <string name="title">Ekvalizér</string>
+                <string name="viewFrame">246 165 150 18 </string>
+                <string name="bounds">165 246 183 396 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="924">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5202</int>
+                <string name="helpTagText">Použiť posledné nastavenia farby videa použité pre tento disk</string>
+                <string name="title">Farbu videa</string>
+                <string name="viewFrame">246 188 93 18 </string>
+                <string name="bounds">188 246 206 339 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5203</int>
+                <string name="helpTagText">Použiť posledné nastavenia zväčšenia použité pre tento disk</string>
+                <string name="title">Zväčšenie videa</string>
+                <string name="viewFrame">246 210 119 18 </string>
+                <string name="bounds">210 246 228 365 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 244 530 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 244 530 </string>
+      </object>
+      <string name="windowRect">44 362 288 892 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="928"/>
+    <reference idRef="927"/>
+    <reference idRef="887"/>
+    <reference idRef="924"/>
+    <reference idRef="923"/>
+    <reference idRef="925"/>
+    <reference idRef="926"/>
+    <reference idRef="922"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

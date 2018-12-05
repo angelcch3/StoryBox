@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> основна на диску</string>
+	<key>00  </key>
+	<string>невідомо</string>
+	<key>aa  </key>
+	<string>афарська</string>
+	<key>ab  </key>
+	<string>абхазька</string>
+	<key>ae  </key>
+	<string>авестійська</string>
+	<key>af  </key>
+	<string>африкаанс</string>
+	<key>am  </key>
+	<string>амхарська</string>
+	<key>ar  </key>
+	<string>арабська</string>
+	<key>as  </key>
+	<string>ассамська</string>
+	<key>ay  </key>
+	<string>аймара</string>
+	<key>az  </key>
+	<string>азербайджанська</string>
+	<key>ba  </key>
+	<string>башкирська</string>
+	<key>be  </key>
+	<string>білоруська</string>
+	<key>bg  </key>
+	<string>болгарська</string>
+	<key>bh  </key>
+	<string>біхарі</string>
+	<key>bi  </key>
+	<string>біслама</string>
+	<key>bn  </key>
+	<string>бенгальська</string>
+	<key>bo  </key>
+	<string>тибетська</string>
+	<key>br  </key>
+	<string>бретонська</string>
+	<key>bs  </key>
+	<string>боснійська</string>
+	<key>ca  </key>
+	<string>каталонська</string>
+	<key>ce  </key>
+	<string>чеченська</string>
+	<key>ch  </key>
+	<string>чаморро</string>
+	<key>co  </key>
+	<string>корсиканська</string>
+	<key>cs  </key>
+	<string>чеська</string>
+	<key>cu  </key>
+	<string>церковнослов’янська</string>
+	<key>cv  </key>
+	<string>чуваська</string>
+	<key>cy  </key>
+	<string>валійська</string>
+	<key>da  </key>
+	<string>данська</string>
+	<key>de  </key>
+	<string>німецька</string>
+	<key>dz  </key>
+	<string>бутанська</string>
+	<key>el  </key>
+	<string>грецька</string>
+	<key>en  </key>
+	<string>англійська</string>
+	<key>eo  </key>
+	<string>есперанто</string>
+	<key>es  </key>
+	<string>іспанська</string>
+	<key>et  </key>
+	<string>естонська</string>
+	<key>eu  </key>
+	<string>баскська</string>
+	<key>fa  </key>
+	<string>перська</string>
+	<key>fi  </key>
+	<string>фінська</string>
+	<key>fj  </key>
+	<string>фіджі</string>
+	<key>fo  </key>
+	<string>фарерська</string>
+	<key>fr  </key>
+	<string>французька</string>
+	<key>fy  </key>
+	<string>фризька</string>
+	<key>ga  </key>
+	<string>ірландська</string>
+	<key>gd  </key>
+	<string>шотландська гельська</string>
+	<key>gl  </key>
+	<string>галісійська</string>
+	<key>gn  </key>
+	<string>гуарані</string>
+	<key>gu  </key>
+	<string>гуджараті</string>
+	<key>gv  </key>
+	<string>менкська</string>
+	<key>ha  </key>
+	<string>хауса</string>
+	<key>hi  </key>
+	<string>хінді</string>
+	<key>ho  </key>
+	<string>хірі-моту</string>
+	<key>hr  </key>
+	<string>хорватська</string>
+	<key>hu  </key>
+	<string>угорська</string>
+	<key>hy  </key>
+	<string>вірменська</string>
+	<key>hz  </key>
+	<string>гереро</string>
+	<key>ia  </key>
+	<string>інтерлінгва</string>
+	<key>ie  </key>
+	<string>інтерлінгве</string>
+	<key>ik  </key>
+	<string>інупіак</string>
+	<key>in  </key>
+	<string>індонезійська</string>
+	<key>is  </key>
+	<string>ісландська</string>
+	<key>it  </key>
+	<string>італійська</string>
+	<key>iu  </key>
+	<string>інуктітут</string>
+	<key>iw  </key>
+	<string>іврит</string>
+	<key>ja  </key>
+	<string>японська</string>
+	<key>ji  </key>
+	<string>їдиш</string>
+	<key>jw  </key>
+	<string>яванська</string>
+	<key>ka  </key>
+	<string>грузинська</string>
+	<key>ki  </key>
+	<string>кікую</string>
+	<key>kj  </key>
+	<string>кунама</string>
+	<key>kk  </key>
+	<string>казахська</string>
+	<key>kl  </key>
+	<string>гренландська</string>
+	<key>km  </key>
+	<string>камбоджійська</string>
+	<key>kn  </key>
+	<string>каннада</string>
+	<key>ko  </key>
+	<string>корейська</string>
+	<key>ks  </key>
+	<string>кашмірі</string>
+	<key>ku  </key>
+	<string>курдська</string>
+	<key>kv  </key>
+	<string>комі</string>
+	<key>kw  </key>
+	<string>корнуольська</string>
+	<key>ky  </key>
+	<string>киргизька</string>
+	<key>la  </key>
+	<string>латинська</string>
+	<key>lb  </key>
+	<string>люксембурзька</string>
+	<key>ln  </key>
+	<string>лінгала</string>
+	<key>lo  </key>
+	<string>лаоська</string>
+	<key>lt  </key>
+	<string>литовська</string>
+	<key>lv  </key>
+	<string>латиська</string>
+	<key>mg  </key>
+	<string>малагасійська</string>
+	<key>mh  </key>
+	<string>маршалльська</string>
+	<key>mi  </key>
+	<string>маорі</string>
+	<key>mk  </key>
+	<string>македонська</string>
+	<key>ml  </key>
+	<string>малайялам</string>
+	<key>mn  </key>
+	<string>монгольська</string>
+	<key>mo  </key>
+	<string>молдовська</string>
+	<key>mr  </key>
+	<string>маратхі</string>
+	<key>ms  </key>
+	<string>малайська</string>
+	<key>mt  </key>
+	<string>мальтійська</string>
+	<key>my  </key>
+	<string>бірманська</string>
+	<key>na  </key>
+	<string>науру</string>
+	<key>nd  </key>
+	<string>ндебеле північна</string>
+	<key>ne  </key>
+	<string>непальська</string>
+	<key>ng  </key>
+	<string>ндонга</string>
+	<key>nl  </key>
+	<string>голландська</string>
+	<key>no  </key>
+	<string>норвезька</string>
+	<key>nr  </key>
+	<string>ндебелє південна</string>
+	<key>nv  </key>
+	<string>навахо</string>
+	<key>ny  </key>
+	<string>чічева</string>
+	<key>oc  </key>
+	<string>окситанська</string>
+	<key>om  </key>
+	<string>оромо</string>
+	<key>or  </key>
+	<string>орія</string>
+	<key>os  </key>
+	<string>осетинська</string>
+	<key>pa  </key>
+	<string>пенджабі</string>
+	<key>pi  </key>
+	<string>палі</string>
+	<key>pl  </key>
+	<string>польська</string>
+	<key>ps  </key>
+	<string>пушту</string>
+	<key>pt  </key>
+	<string>португальська</string>
+	<key>qu  </key>
+	<string>кечуа</string>
+	<key>rm  </key>
+	<string>ретороманська</string>
+	<key>rn  </key>
+	<string>кірунді</string>
+	<key>ro  </key>
+	<string>румунська</string>
+	<key>ru  </key>
+	<string>російська</string>
+	<key>rw  </key>
+	<string>кіньяруанда</string>
+	<key>sa  </key>
+	<string>санскрит</string>
+	<key>sc  </key>
+	<string>сардинська</string>
+	<key>sd  </key>
+	<string>синдхі</string>
+	<key>se  </key>
+	<string>північносаамська</string>
+	<key>sg  </key>
+	<string>санго</string>
+	<key>sh  </key>
+	<string>сербсько-хорватська</string>
+	<key>si  </key>
+	<string>сингальська</string>
+	<key>sk  </key>
+	<string>словацька</string>
+	<key>sl  </key>
+	<string>словенська</string>
+	<key>sm  </key>
+	<string>самоанська</string>
+	<key>sn  </key>
+	<string>шона</string>
+	<key>so  </key>
+	<string>сомалійська</string>
+	<key>sq  </key>
+	<string>албанська</string>
+	<key>sr  </key>
+	<string>сербська</string>
+	<key>ss  </key>
+	<string>сісваті</string>
+	<key>st  </key>
+	<string>сесото</string>
+	<key>su  </key>
+	<string>Сунданська</string>
+	<key>sv  </key>
+	<string>шведська</string>
+	<key>sw  </key>
+	<string>суахілі</string>
+	<key>ta  </key>
+	<string>тамільська</string>
+	<key>te  </key>
+	<string>телугу</string>
+	<key>tg  </key>
+	<string>таджикська</string>
+	<key>th  </key>
+	<string>тайська</string>
+	<key>ti  </key>
+	<string>тигріні</string>
+	<key>tk  </key>
+	<string>туркменська</string>
+	<key>tl  </key>
+	<string>тагальська</string>
+	<key>tn  </key>
+	<string>сетсвана</string>
+	<key>to  </key>
+	<string>тонга</string>
+	<key>tr  </key>
+	<string>турецька</string>
+	<key>ts  </key>
+	<string>тсонга</string>
+	<key>tt  </key>
+	<string>татарська</string>
+	<key>tw  </key>
+	<string>тві</string>
+	<key>ty  </key>
+	<string>таїтянська</string>
+	<key>ug  </key>
+	<string>уйгурська</string>
+	<key>uk  </key>
+	<string>українська</string>
+	<key>ur  </key>
+	<string>урду</string>
+	<key>uz  </key>
+	<string>узбецька</string>
+	<key>vi  </key>
+	<string>в’єтнамська</string>
+	<key>vo  </key>
+	<string>волап’юк</string>
+	<key>wo  </key>
+	<string>волоф</string>
+	<key>xh  </key>
+	<string>кхоса</string>
+	<key>yo  </key>
+	<string>йоруба</string>
+	<key>za  </key>
+	<string>чжуан</string>
+	<key>zh  </key>
+	<string>китайська</string>
+	<key>zu  </key>
+	<string>зулуська</string>
+</dict>
+</plist>

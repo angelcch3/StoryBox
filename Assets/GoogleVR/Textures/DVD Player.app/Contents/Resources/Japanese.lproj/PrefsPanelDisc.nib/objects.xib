@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonRoundButton" id="953">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2400</int>
+      <ostype name="command">DSHp</ostype>
+      <string name="viewFrame">437 258 25 25 </string>
+      <string name="bounds">258 437 283 462 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonPopupButton" id="948">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2102</int>
+      <string name="helpTagText">ディスクで複数利用できる場合は、オーディオで優先使用する言語を選択してください</string>
+      <object name="menu" class="IBCarbonMenu" id="949">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="950">
+            <string name="title">PlaceHolder</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">159 40 269 20 </string>
+      <string name="bounds">40 159 60 428 </string>
+    </object>
+    <object class="IBCarbonHIView" id="931">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2000</int>
+      <string name="classID">com.apple.DVDPlayer.DscP</string>
+      <string name="viewFrame">0 0 482 300 </string>
+      <array count="17" name="subviews">
+        <object class="IBCarbonStaticText" id="941">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2100</int>
+          <string name="title">言語</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">30 11 29 16 </string>
+          <string name="bounds">11 30 27 59 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="943">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2101</int>
+          <string name="viewFrame">59 23 389 1 </string>
+          <string name="bounds">23 59 24 448 </string>
+        </object>
+        <reference idRef="948"/>
+        <object class="IBCarbonPopupButton" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2103</int>
+          <string name="helpTagText">ディスクで複数利用できる場合は、字幕で優先使用する言語を選択してください</string>
+          <object name="menu" class="IBCarbonMenu" id="939">
+            <string name="title">Popup:</string>
+            <array count="1" name="items">
+              <object class="IBCarbonMenuItem" id="940">
+                <string name="title">PlaceHolder</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <int name="titleJustification">0</int>
+          <string name="viewFrame">159 72 269 20 </string>
+          <string name="bounds">72 159 92 428 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="945">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2104</int>
+          <string name="helpTagText">ディスクで複数利用できる場合は、DVDメニューで優先使用する言語を選択してください</string>
+          <object name="menu" class="IBCarbonMenu" id="946">
+            <string name="title">Popup:</string>
+            <array count="1" name="items">
+              <object class="IBCarbonMenuItem" id="947">
+                <string name="title">PlaceHolder</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <int name="titleJustification">0</int>
+          <string name="viewFrame">159 104 269 20 </string>
+          <string name="bounds">104 159 124 428 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2200</int>
+          <string name="title">インターネット:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 152 126 16 </string>
+          <string name="bounds">152 30 168 156 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2201</int>
+          <string name="helpTagText">DVD@ccess Webリンクが出現したとき、ブラウザを自動的に起動させます</string>
+          <string name="title">DVD@ccess Webリンクを使用</string>
+          <string name="viewFrame">158 148 226 22 </string>
+          <string name="bounds">148 158 170 384 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="942">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2300</int>
+          <string name="title">オーディオ</string>
+          <string name="viewFrame">30 189 66 16 </string>
+          <string name="bounds">189 30 205 96 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="951">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2301</int>
+          <string name="viewFrame">96 202 354 1 </string>
+          <string name="bounds">202 96 203 450 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2302</int>
+          <string name="helpTagText">サウンド出力に使用する装置を選択します</string>
+          <object name="menu" class="IBCarbonMenu" id="934">
+            <string name="title">Popup:</string>
+            <array count="1" name="items">
+              <object class="IBCarbonMenuItem" id="935">
+                <string name="title">システムサウンド出力</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <int name="titleJustification">-2</int>
+          <string name="viewFrame">159 219 269 20 </string>
+          <string name="bounds">219 159 239 428 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="944">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2303</int>
+          <string name="helpTagText">チェックを付けると、サウンドが大きくなりますが、スピーカーに悪影響を及ぼすおそれがあり&#10;ます</string>
+          <string name="title">ドルビー・ダイナミックレンジ圧縮を使用しない</string>
+          <string name="viewFrame">81 247 308 22 </string>
+          <string name="bounds">247 81 269 389 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="936">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2304</int>
+          <int name="controlSize">1</int>
+          <string name="title">出力を変更するには、再生を停止してください。</string>
+          <string name="foreColor">0 0 0 </string>
+          <string name="viewFrame">112 270 248 24 </string>
+          <string name="bounds">270 112 294 360 </string>
+        </object>
+        <reference idRef="953"/>
+        <object class="IBCarbonStaticText" id="955">
+          <ostype name="controlSignature">cfbs</ostype>
+          <string name="title">オーディオ:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">66 42 90 16 </string>
+          <string name="bounds">42 66 58 156 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="956">
+          <ostype name="controlSignature">cfbs</ostype>
+          <string name="title">字幕:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">96 74 60 16 </string>
+          <string name="bounds">74 96 90 156 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="957">
+          <ostype name="controlSignature">cfbs</ostype>
+          <string name="title">DVDメニュー:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">54 106 102 16 </string>
+          <string name="bounds">106 54 122 156 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="958">
+          <ostype name="controlSignature">cfbs</ostype>
+          <string name="title">オーディオ出力:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">38 221 118 16 </string>
+          <string name="bounds">221 38 237 156 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 300 482 </string>
+    </object>
+    <reference idRef="942"/>
+    <reference idRef="945"/>
+    <reference idRef="937"/>
+    <reference idRef="936"/>
+    <reference idRef="956"/>
+    <object class="IBCarbonRootControl" id="886">
+      <string name="viewFrame">0 0 480 300 </string>
+      <array count="1" name="subviews">
+        <reference idRef="931"/>
+      </array>
+      <string name="bounds">0 0 300 480 </string>
+    </object>
+    <reference idRef="951"/>
+    <reference idRef="950"/>
+    <reference idRef="939"/>
+    <reference idRef="934"/>
+    <reference idRef="941"/>
+    <reference idRef="938"/>
+    <reference idRef="944"/>
+    <reference idRef="946"/>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Window</string>
+      <reference name="rootControl" idRef="886"/>
+      <string name="windowRect">337 506 637 986 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="932"/>
+    <reference idRef="949"/>
+    <reference idRef="933"/>
+    <reference idRef="943"/>
+    <reference idRef="940"/>
+    <reference idRef="947"/>
+    <reference idRef="935"/>
+    <reference idRef="955"/>
+    <reference idRef="957"/>
+    <reference idRef="958"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="887"/>
+    <reference idRef="931"/>
+    <reference idRef="949"/>
+    <reference idRef="938"/>
+    <reference idRef="933"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="945"/>
+    <reference idRef="1"/>
+    <reference idRef="931"/>
+    <reference idRef="948"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="939"/>
+    <reference idRef="946"/>
+    <reference idRef="934"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelDisc</string>
+    <reference idRef="887"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">959</unsigned_int>
+</object>

@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonStaticText" id="929">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5102</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="fontStyle">-2</int>
+      <int name="controlSize">1</int>
+      <string name="title">Chcete‑li zobrazit dotaz na místo začátku &#10;přehrávání, podržte při spouštění disku &#10;klávesu Alt.</string>
+      <string name="viewFrame">231 107 229 43 </string>
+      <string name="bounds">107 231 150 460 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 480 244 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5000</int>
+          <string name="classID">com.apple.DVDPlayer.PrvP</string>
+          <string name="viewFrame">0 0 480 244 </string>
+          <array count="7" name="subviews">
+            <object class="IBCarbonStaticText" id="927">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5100</int>
+              <string name="title">Spustit přehrávání od:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">32 21 190 16 </string>
+              <string name="bounds">21 32 37 222 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="928">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5101</int>
+              <int name="numRows">4</int>
+              <int name="intercellHeight">4</int>
+              <array count="4" name="radioTitles">
+                <array count="1">
+                  <string>Začátku</string>
+                </array>
+                <array count="1">
+                  <string>Naposledy přehrávaného místa</string>
+                </array>
+                <array count="1">
+                  <string>Výchozí záložky</string>
+                </array>
+                <array count="1">
+                  <string>Vždy zobrazit dotaz</string>
+                </array>
+              </array>
+              <string name="viewFrame">228 20 232 87 </string>
+              <string name="bounds">20 228 107 460 </string>
+            </object>
+            <reference idRef="929"/>
+            <object class="IBCarbonStaticText" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5200</int>
+              <string name="title">Vždy použít nastavení disku pro:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">14 166 208 16 </string>
+              <string name="bounds">166 14 182 222 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5201</int>
+              <string name="helpTagText">Použije poslední nastavení ekvalizéru tohoto disku</string>
+              <string name="title">Zvukový ekvalizér</string>
+              <string name="viewFrame">228 165 150 18 </string>
+              <string name="bounds">165 228 183 378 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="924">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5202</int>
+              <string name="helpTagText">Použije poslední nastavení barev tohoto disku</string>
+              <string name="title">Nastavení obrazu</string>
+              <string name="viewFrame">228 188 150 16 </string>
+              <string name="bounds">188 228 204 378 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="923">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5203</int>
+              <string name="helpTagText">Použije poslední nastavení měřítka tohoto disku </string>
+              <string name="title">Měřítko obrazu</string>
+              <string name="viewFrame">228 210 150 16 </string>
+              <string name="bounds">210 228 226 378 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 244 480 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 244 480 </string>
+    </object>
+    <reference idRef="922"/>
+    <reference idRef="926"/>
+    <reference idRef="923"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 362 288 842 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="924"/>
+    <reference idRef="928"/>
+    <reference idRef="927"/>
+    <reference idRef="925"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

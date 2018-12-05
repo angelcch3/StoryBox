@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Fönster</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="886">
+        <string name="viewFrame">0 0 480 300 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="931">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2000</int>
+            <string name="classID">com.apple.DVDPlayer.DscP</string>
+            <string name="viewFrame">0 0 480 300 </string>
+            <array count="17" name="subviews">
+              <object class="IBCarbonStaticText" id="941">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2100</int>
+                <string name="title">Språk</string>
+                <int name="justification">-2</int>
+                <string name="viewFrame">30 11 132 16 </string>
+                <string name="bounds">11 30 27 162 </string>
+              </object>
+              <object class="IBCarbonSeparator" id="943">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2101</int>
+                <string name="viewFrame">74 23 376 1 </string>
+                <string name="bounds">23 74 24 450 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="948">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2102</int>
+                <string name="helpTagText">Välj språk för ljudkanalen när det finns på skivan</string>
+                <object name="menu" class="IBCarbonMenu" id="949">
+                  <string name="title">Popupmeny:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="950">
+                      <string name="title">Placeholder</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">164 40 251 20 </string>
+                <string name="bounds">40 164 60 415 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="938">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2103</int>
+                <string name="helpTagText">Välj språk för undertextning när det finns på skivan</string>
+                <object name="menu" class="IBCarbonMenu" id="939">
+                  <string name="title">Popupmeny:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="940">
+                      <string name="title">Placeholder</string>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">164 72 251 20 </string>
+                <string name="bounds">72 164 92 415 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="945">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2104</int>
+                <string name="helpTagText">Välj språk för DVD-menyerna när det finns på skivan</string>
+                <object name="menu" class="IBCarbonMenu" id="946">
+                  <string name="title">Popupmeny:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="947">
+                      <string name="title">Placeholder</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">164 104 251 20 </string>
+                <string name="bounds">104 164 124 415 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="937">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2200</int>
+                <string name="title">Internet:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">58 151 103 16 </string>
+                <string name="bounds">151 58 167 161 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="932">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2201</int>
+                <string name="helpTagText">Aktivera automatisk öppning av webbläsare när en DVD@ccess-länk påträffas</string>
+                <string name="title">Aktivera DVD@ccess-webblänkar</string>
+                <string name="viewFrame">163 148 231 22 </string>
+                <string name="bounds">148 163 170 394 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="942">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2300</int>
+                <string name="title">Ljud</string>
+                <string name="viewFrame">30 190 33 16 </string>
+                <string name="bounds">190 30 206 63 </string>
+              </object>
+              <object class="IBCarbonSeparator" id="951">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2301</int>
+                <string name="viewFrame">66 202 384 1 </string>
+                <string name="bounds">202 66 203 450 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="933">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2302</int>
+                <string name="helpTagText">Välj vilken enhet som ska användas för utljud</string>
+                <object name="menu" class="IBCarbonMenu" id="934">
+                  <string name="title">Popupmeny:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="935">
+                      <string name="title">Systemljud ut</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">-2</int>
+                <string name="viewFrame">164 219 169 20 </string>
+                <string name="bounds">219 164 239 333 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="944">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2303</int>
+                <string name="helpTagText">När den är markerad är ljudet starkare men kan eventuellt skada högtalarna</string>
+                <string name="title">Avaktivera Dolby dynamic range-komprimering</string>
+                <string name="viewFrame">92 247 323 22 </string>
+                <string name="bounds">247 92 269 415 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="936">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2304</int>
+                <int name="controlSize">1</int>
+                <string name="title">Avbryt uppspelningen för ändring av utsignal.</string>
+                <string name="foreColor">0 0 0 </string>
+                <string name="viewFrame">127 270 250 14 </string>
+                <string name="bounds">270 127 284 377 </string>
+              </object>
+              <object class="IBCarbonRoundButton" id="953">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2400</int>
+                <ostype name="command">DSHp</ostype>
+                <string name="viewFrame">438 258 25 25 </string>
+                <string name="bounds">258 438 283 463 </string>
+                <int name="contentType">132</int>
+                <int name="iconCreator">1835098995</int>
+                <int name="iconType">1751477360</int>
+              </object>
+              <object class="IBCarbonStaticText" id="955">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">Ljud:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">101 42 60 16 </string>
+                <string name="bounds">42 101 58 161 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="956">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">Undertextning:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">62 74 99 16 </string>
+                <string name="bounds">74 62 90 161 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="957">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">DVD-meny:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">86 106 75 16 </string>
+                <string name="bounds">106 86 122 161 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="958">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">Ljudutsignal:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">71 221 90 16 </string>
+                <string name="bounds">221 71 237 161 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 300 480 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 300 480 </string>
+      </object>
+      <string name="windowRect">337 506 637 986 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="951"/>
+    <reference idRef="943"/>
+    <reference idRef="950"/>
+    <reference idRef="940"/>
+    <reference idRef="945"/>
+    <reference idRef="933"/>
+    <reference idRef="957"/>
+    <reference idRef="958"/>
+    <reference idRef="947"/>
+    <reference idRef="949"/>
+    <reference idRef="946"/>
+    <reference idRef="937"/>
+    <reference idRef="934"/>
+    <reference idRef="948"/>
+    <reference idRef="932"/>
+    <reference idRef="935"/>
+    <reference idRef="956"/>
+    <reference idRef="931"/>
+    <reference idRef="942"/>
+    <reference idRef="953"/>
+    <reference idRef="955"/>
+    <reference idRef="886"/>
+    <reference idRef="938"/>
+    <reference idRef="941"/>
+    <reference idRef="944"/>
+    <reference idRef="939"/>
+    <reference idRef="936"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="949"/>
+    <reference idRef="939"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="946"/>
+    <reference idRef="948"/>
+    <reference idRef="945"/>
+    <reference idRef="931"/>
+    <reference idRef="933"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="934"/>
+    <reference idRef="931"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="887"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="938"/>
+    <reference idRef="931"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelDisc</string>
+    <reference idRef="887"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">959</unsigned_int>
+</object>

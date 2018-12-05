@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonCheckBox" id="925">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1102</int>
+      <string name="helpTagText">Έναρξη αναπαραγωγής αν αναγνωριστεί έγκυρος δίσκος</string>
+      <string name="title">Έναρξη αναπαραγωγής δίσκου</string>
+      <string name="viewFrame">256 37 234 18 </string>
+      <string name="bounds">37 256 55 490 </string>
+    </object>
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 602 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">Όταν ανοίγει το DVD Player:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">58 13 192 16 </string>
+          <string name="bounds">13 58 29 250 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">Ρύθμιση σε πλήρη οθόνη αν αναγνωριστεί έγκυρος δίσκος</string>
+          <string name="title">Μετάβαση σε λειτουργία πλήρους οθόνης</string>
+          <string name="viewFrame">256 13 293 18 </string>
+          <string name="bounds">13 256 31 549 </string>
+        </object>
+        <reference idRef="925"/>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">Όταν εισάγεται δίσκος:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">75 103 175 16 </string>
+          <string name="bounds">103 75 119 250 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">Έναρξη αναπαραγωγής αν εισαχθεί έγκυρος δίσκος ενώ το DVD Player βρίσκεται ήδη σε λειτουργία</string>
+          <string name="title">Έναρξη αναπαραγωγής δίσκου</string>
+          <string name="viewFrame">256 103 234 18 </string>
+          <string name="bounds">103 256 121 490 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">Όταν έχει γίνει σίγαση:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">75 215 175 16 </string>
+          <string name="bounds">215 75 231 250 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">Ενεργοποίηση των κλειστών λεζάντων όταν έχει γίνει σίγαση του ήχου DVD Player</string>
+          <string name="title">Εμφάνιση κλειστών λεζάντων</string>
+          <string name="viewFrame">257 215 216 18 </string>
+          <string name="bounds">215 257 233 473 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">Όταν ελαχιστοποιείται το &#10;πρόγραμμα προβολής:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">74 244 176 35 </string>
+          <string name="bounds">244 74 279 250 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1501</int>
+          <string name="helpTagText">Παύση αναπαραγωγής όταν το πρόγραμμα προβολής ελαχιστοποιηθεί στο Dock</string>
+          <string name="title">Παύση αναπαραγωγής</string>
+          <string name="viewFrame">257 252 171 18 </string>
+          <string name="bounds">252 257 270 428 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">Με αυτήν τη ρύθμιση, εξοικονομείται ενέργεια στην μπαταρία. Κατά την αφύπνιση της μονάδας, η σάρωση του δίσκου μπορεί να είναι πιο αργή.</string>
+          <string name="viewFrame">258 167 324 43 </string>
+          <string name="bounds">167 258 210 582 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">Όταν γίνεται αναπαραγωγή ενώ &#10;χρησιμοποιείται η μπαταρία:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">32 135 218 33 </string>
+          <string name="bounds">135 32 168 250 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">Μετάβαση μονάδας DVD σε κατάσταση ύπνου</string>
+          <string name="viewFrame">256 141 326 18 </string>
+          <string name="bounds">141 256 159 582 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">Όταν το DVD Player είναι ανενεργό:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 70 230 16 </string>
+          <string name="bounds">70 20 86 250 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">Προσωρινή παύση της αναπαραγωγής όταν το πρόγραμμα αναπαραγωγής είναι ανενεργό</string>
+          <string name="title">Παύση αναπαραγωγής</string>
+          <string name="viewFrame">256 70 171 18 </string>
+          <string name="bounds">70 256 88 427 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 602 </string>
+    </object>
+    <reference idRef="933"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 602 296 </string>
+      <array count="1" name="subviews">
+        <reference idRef="922"/>
+      </array>
+      <string name="bounds">0 0 296 602 </string>
+    </object>
+    <reference idRef="934"/>
+    <reference idRef="927"/>
+    <reference idRef="937"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Παράθυρο</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">92 838 388 1440 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="928"/>
+    <reference idRef="924"/>
+    <reference idRef="939"/>
+    <reference idRef="926"/>
+    <reference idRef="929"/>
+    <reference idRef="935"/>
+    <reference idRef="938"/>
+    <reference idRef="932"/>
+    <reference idRef="923"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

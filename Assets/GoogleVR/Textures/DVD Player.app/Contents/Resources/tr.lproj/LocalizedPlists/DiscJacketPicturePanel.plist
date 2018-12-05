@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Disc</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>Kapak Resmi</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>jacketpicture</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>DiscItemJacketPicture.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>DJck</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2001</key>
+	<dict>
+		<key>Comment</key>
+		<string>Jacket Picture Image Well</string>
+		<key>Support Drag And Drop</key>
+		<true/>
+		<key>Preserve Aspect Ratio</key>
+		<true/>
+		<key>Center X</key>
+		<true/>
+		<key>Center Y</key>
+		<true/>
+		<key>Image Inset</key>
+		<integer>3</integer>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Kapak Resmi Görüntüsü</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>kapak resmi</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

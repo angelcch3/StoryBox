@@ -1,0 +1,215 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="29" name="allObjects">
+    <object class="IBCarbonMenuItem" id="999">
+      <string name="title">DVD-format</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">FrmC</ostype>
+      <object name="submenu" class="IBCarbonMenu" id="1000">
+        <string name="title">DVD-format</string>
+        <boolean name="autoDisable">TRUE</boolean>
+        <array count="2" name="items">
+          <object class="IBCarbonMenuItem" id="1001">
+            <string name="title">Standard oppløsning (SD)</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">SDef</ostype>
+          </object>
+          <object class="IBCarbonMenuItem" id="1002">
+            <string name="title">Høy oppløsning (HD)</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">HDef</ostype>
+          </object>
+        </array>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="1020">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="887">
+      <string name="title">Tilpass til skjerm</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">VMax</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="900">
+      <string name="title">Bokmerker</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">CBSb</ostype>
+      <object name="submenu" class="IBCarbonMenu" id="901">
+        <string name="title">Bokmerker</string>
+        <boolean name="autoDisable">TRUE</boolean>
+      </object>
+    </object>
+    <object class="IBCarbonMenu" id="888">
+      <string name="title">Meny</string>
+      <array count="19" name="items">
+        <object class="IBCarbonMenuItem" id="889">
+          <string name="title">Halv størrelse</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">VHlf</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="890">
+          <string name="title">Faktisk størrelse</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">VNrm</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1025">
+          <string name="title">Dobbel størrelse</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">VDbl</ostype>
+        </object>
+        <reference idRef="887"/>
+        <object class="IBCarbonMenuItem" id="886">
+          <string name="title">Gå til fullskjermmodus</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">VPrs</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="891">
+          <boolean name="separator">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="899">
+          <string name="title">DVD-meny</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CDMn</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="998">
+          <string name="title">Begynnelsen av platen</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">DBeg</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="893">
+          <string name="title">Tittel</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CTSb</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="894">
+            <string name="title">Tittel</string>
+            <boolean name="autoDisable">TRUE</boolean>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="895">
+          <string name="title">Kapittel</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CCSb</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="896">
+            <string name="title">Kapittel</string>
+            <boolean name="autoDisable">TRUE</boolean>
+          </object>
+        </object>
+        <reference idRef="900"/>
+        <reference idRef="999"/>
+        <object class="IBCarbonMenuItem" id="1030">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="915">
+          <string name="title">Legg til bokmerke…</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">ABkm</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="910">
+          <boolean name="separator">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1022">
+          <string name="title">Bruk nåværende bilde som omslagsbilde</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">CFJP</ostype>
+        </object>
+        <reference idRef="1020"/>
+        <object class="IBCarbonMenuItem" id="898">
+          <string name="title">Lyd av</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CMut</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1033">
+          <string name="title">Slå på</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">TgCC</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="1033"/>
+    <reference idRef="886"/>
+    <reference idRef="1022"/>
+    <reference idRef="890"/>
+    <object class="IBCarbonMenuItem" id="1017">
+      <string name="title">Fjern miniatyrbilder</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">IBRT</ostype>
+    </object>
+    <reference idRef="1025"/>
+    <reference idRef="1001"/>
+    <object class="IBCarbonMenu" id="1014">
+      <string name="title">Meny</string>
+      <array count="2" name="items">
+        <object class="IBCarbonMenuItem" id="1015">
+          <string name="title">Generer manglende miniatyrbilder</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">IBGT</ostype>
+        </object>
+        <reference idRef="1017"/>
+      </array>
+    </object>
+    <reference idRef="894"/>
+    <reference idRef="889"/>
+    <reference idRef="891"/>
+    <reference idRef="998"/>
+    <reference idRef="915"/>
+    <reference idRef="1015"/>
+    <reference idRef="901"/>
+    <reference idRef="1002"/>
+    <reference idRef="895"/>
+    <reference idRef="896"/>
+    <reference idRef="898"/>
+    <reference idRef="899"/>
+    <reference idRef="910"/>
+    <reference idRef="1030"/>
+    <reference idRef="893"/>
+    <reference idRef="1000"/>
+  </array>
+  <array count="29" name="allParents">
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1014"/>
+    <reference idRef="888"/>
+    <reference idRef="1000"/>
+    <reference idRef="1"/>
+    <reference idRef="893"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1014"/>
+    <reference idRef="900"/>
+    <reference idRef="1000"/>
+    <reference idRef="888"/>
+    <reference idRef="895"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="999"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ImageBarListContextualMenu</string>
+    <reference idRef="1014"/>
+    <string>VidContextualMenu</string>
+    <reference idRef="888"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1040</unsigned_int>
+</object>

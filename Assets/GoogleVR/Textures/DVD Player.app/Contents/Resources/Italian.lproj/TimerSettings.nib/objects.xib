@@ -1,0 +1,333 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonMenuItem" id="210">
+      <string name="title">Spegni</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="208">
+      <string name="title">Logout</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonButton" id="194">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <int name="buttonType">2</int>
+      <string name="title">Annulla</string>
+      <string name="viewFrame">137 138 70 20 </string>
+      <string name="bounds">20 137 40 207 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="202">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="title">Impostazioni timer</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">87 9 144 16 </string>
+      <string name="bounds">153 87 169 231 </string>
+    </object>
+    <object class="IBCarbonButton" id="193">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">229 138 70 20 </string>
+      <string name="bounds">20 229 40 299 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="184">
+      <string name="title">Stop</string>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonEditText" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="title">120</string>
+      <string name="viewFrame">102 76 27 16 </string>
+      <string name="bounds">86 102 102 129 </string>
+    </object>
+    <object class="IBCarbonMenu" id="207">
+      <string name="title">Popup:</string>
+      <array count="4" name="items">
+        <object class="IBCarbonMenuItem" id="209">
+          <string name="title">Esci da DVD Player</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <object class="IBCarbonMenuItem" id="211">
+          <string name="title">Stop</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="210"/>
+        <reference idRef="208"/>
+      </array>
+    </object>
+    <object class="IBCarbonWindow" id="198">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Impostazioni timer</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="199">
+        <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        </object>
+        <string name="viewFrame">0 0 319 178 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonStaticText" id="201">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <string name="title">minuti</string>
+            <string name="viewFrame">150 75 63 16 </string>
+            <string name="bounds">87 150 103 213 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="206">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <reference name="menu" idRef="207"/>
+            <string name="title">Azione:</string>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">20 39 239 20 </string>
+            <string name="bounds">119 20 139 259 </string>
+          </object>
+          <reference idRef="202"/>
+          <object class="IBCarbonRadioGroup" id="203">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <int name="intercellHeight">6</int>
+            <array count="2" name="radioTitles">
+              <array count="1">
+                <string>tra</string>
+              </array>
+              <array count="1">
+                <string>al termine del titolo attuale</string>
+              </array>
+            </array>
+            <string name="viewFrame">64 74 195 44 </string>
+            <string name="bounds">60 64 104 259 </string>
+          </object>
+          <object class="IBCarbonEditText" id="205">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="title">120</string>
+            <string name="viewFrame">112 76 27 16 </string>
+            <string name="bounds">86 112 102 139 </string>
+          </object>
+          <object class="IBCarbonButton" id="200">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">229 138 70 20 </string>
+            <string name="bounds">20 229 40 299 </string>
+          </object>
+          <object class="IBCarbonButton" id="204">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Annulla</string>
+            <string name="viewFrame">131 138 76 20 </string>
+            <string name="bounds">20 131 40 207 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 178 319 </string>
+      </object>
+      <string name="windowRect">351 541 529 860 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="180">
+      <string name="title">Spegni</string>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <reference idRef="204"/>
+    <object class="IBCarbonStaticText" id="195">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">7</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="title">minuti</string>
+      <string name="viewFrame">136 75 63 16 </string>
+      <string name="bounds">87 136 103 199 </string>
+    </object>
+    <object class="IBCarbonMenu" id="181">
+      <string name="title">Popup:</string>
+      <array count="4" name="items">
+        <object class="IBCarbonMenuItem" id="197">
+          <string name="title">Esci da DVD Player</string>
+          <boolean name="checked">TRUE</boolean>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="184"/>
+        <reference idRef="180"/>
+        <object class="IBCarbonMenuItem" id="183">
+          <string name="title">Logout</string>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+      </array>
+    </object>
+    <reference idRef="197"/>
+    <reference idRef="201"/>
+    <reference idRef="209"/>
+    <object class="IBCarbonStaticText" id="185">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="title">Impostazioni timer</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">87 9 145 16 </string>
+      <string name="bounds">153 87 169 232 </string>
+    </object>
+    <reference idRef="205"/>
+    <reference idRef="211"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Impostazioni timer</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        </object>
+        <string name="viewFrame">0 0 319 178 </string>
+        <array count="7" name="subviews">
+          <reference idRef="195"/>
+          <object class="IBCarbonPopupButton" id="182">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <reference name="menu" idRef="181"/>
+            <string name="title">Azione:</string>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">20 39 245 20 </string>
+            <string name="bounds">119 20 139 265 </string>
+          </object>
+          <reference idRef="185"/>
+          <object class="IBCarbonRadioGroup" id="186">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            </object>
+            <int name="intercellHeight">6</int>
+            <array count="2" name="radioTitles">
+              <array count="1">
+                <string>tra</string>
+              </array>
+              <array count="1">
+                <string>al termine del titolo attuale</string>
+              </array>
+            </array>
+            <string name="viewFrame">58 74 207 44 </string>
+            <string name="bounds">60 58 104 265 </string>
+          </object>
+          <reference idRef="192"/>
+          <reference idRef="193"/>
+          <reference idRef="194"/>
+        </array>
+        <string name="bounds">0 0 178 319 </string>
+      </object>
+      <string name="windowRect">331 521 509 840 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="200"/>
+    <reference idRef="186"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="203"/>
+    <reference idRef="206"/>
+    <reference idRef="183"/>
+    <reference idRef="182"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="207"/>
+    <reference idRef="207"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="181"/>
+    <reference idRef="167"/>
+    <reference idRef="206"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="182"/>
+    <reference idRef="181"/>
+    <reference idRef="199"/>
+    <reference idRef="207"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+    <reference idRef="207"/>
+    <reference idRef="1"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="198"/>
+    <reference idRef="166"/>
+    <reference idRef="199"/>
+    <reference idRef="199"/>
+    <reference idRef="181"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>TimerSettingsDialog</string>
+    <reference idRef="198"/>
+    <string>TimerSettingsSheet</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">228</unsigned_int>
+</object>

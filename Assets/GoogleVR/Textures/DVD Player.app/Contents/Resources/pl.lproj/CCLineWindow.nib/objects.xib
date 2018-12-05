@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="4" name="allObjects">
+    <object class="IBCarbonWindow" id="892">
+      <string name="windowRect">159 540 185 690 </string>
+      <string name="title">Informacje</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="899">
+        <string name="bounds">0 0 26 150 </string>
+        <string name="viewFrame">0 0 150 26 </string>
+        <array count="2" name="subviews">
+          <object class="IBCarbonHIView" id="947">
+            <string name="bounds">0 0 26 150 </string>
+            <string name="viewFrame">0 0 150 26 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="classID">com.apple.DVDPlayer.CCLB</string>
+          </object>
+          <object class="IBCarbonTextView" id="946">
+            <string name="bounds">0 0 26 150 </string>
+            <string name="viewFrame">0 0 150 26 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <boolean name="noSelection">TRUE</boolean>
+            <boolean name="outputInUnicode">TRUE</boolean>
+            <boolean name="noDragProcs">TRUE</boolean>
+            <boolean name="noCaretWhenInactive">TRUE</boolean>
+            <boolean name="noSelectionWhenInactive">TRUE</boolean>
+            <boolean name="singleLine">TRUE</boolean>
+            <boolean name="disableDragAndDrop">TRUE</boolean>
+            <boolean name="fontSubstitution">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="themeBrush">-1</int>
+      <boolean name="hasShadow">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+    </object>
+    <reference idRef="899"/>
+    <reference idRef="946"/>
+    <reference idRef="947"/>
+  </array>
+  <array count="4" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="892"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>CCLineWindow</string>
+    <reference idRef="892"/>
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+    <string>View1</string>
+    <reference idRef="947"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">948</unsigned_int>
+</object>

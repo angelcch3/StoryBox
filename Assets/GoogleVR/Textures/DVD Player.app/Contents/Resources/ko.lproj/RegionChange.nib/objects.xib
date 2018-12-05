@@ -1,0 +1,188 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonHIView" id="902">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">10</int>
+      <string name="classID">com.apple.DVDPlayer.imgv</string>
+      <string name="viewFrame">107 90 338 167 </string>
+      <string name="bounds">90 107 257 445 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="901">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">HlpB</ostype>
+      <string name="viewFrame">509 334 25 25 </string>
+      <string name="bounds">334 509 359 534 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonStaticText" id="911">
+      <int name="fontStyle">4</int>
+      <string name="title">DVD 드라이브 지역을 선택해야 합니다.</string>
+      <string name="viewFrame">107 15 336 16 </string>
+      <string name="bounds">15 107 31 443 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="898">
+      <string name="title">항목 3</string>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonStaticText" id="912">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <int name="fontStyle">-2</int>
+      <string name="title">&lt;실행 시 여기에 설명 텍스트가 대치됨&gt;</string>
+      <string name="viewFrame">110 39 389 48 </string>
+      <string name="bounds">39 110 87 499 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="899">
+      <string name="title">항목 1</string>
+      <boolean name="checked">TRUE</boolean>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonPopupButton" id="900">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <int name="selectedItem">-2147483648</int>
+      <object name="menu" class="IBCarbonMenu" id="893">
+        <string name="title">팝업:</string>
+        <array count="3" name="items">
+          <reference idRef="899"/>
+          <object class="IBCarbonMenuItem" id="897">
+            <string name="title">항목 2</string>
+            <string name="helpTagText"></string>
+            <string name="extendedHelpTagText"></string>
+          </object>
+          <reference idRef="898"/>
+        </array>
+      </object>
+      <string name="title">다음으로 드라이브 지역 변경:</string>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">176 286 201 20 </string>
+      <string name="bounds">286 176 306 377 </string>
+    </object>
+    <object class="IBCarbonIcon" id="910">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">11</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">538976288</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 15 64 64 </string>
+      <string name="bounds">15 20 79 84 </string>
+    </object>
+    <reference idRef="897"/>
+    <object class="IBCarbonButton" id="896">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">1</int>
+      <string name="title">취소</string>
+      <string name="viewFrame">297 335 61 20 </string>
+      <string name="bounds">335 297 355 358 </string>
+    </object>
+    <object class="IBCarbonCustom" id="895">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">7</int>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">47 337 234 15 </string>
+      <string name="bounds">337 47 352 281 </string>
+    </object>
+    <reference idRef="893"/>
+    <object class="IBCarbonStaticText" id="913">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <string name="title">현재 드라이브 지역:   &lt;0&gt;</string>
+      <string name="viewFrame">224 262 153 16 </string>
+      <string name="bounds">262 224 278 377 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 551 377 </string>
+      <array count="12" name="subviews">
+        <object class="IBCarbonCustom" id="890">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">176 288 201 16 </string>
+          <string name="bounds">288 176 304 377 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="891">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <ostype name="command">LckB</ostype>
+          <string name="viewFrame">20 335 20 20 </string>
+          <string name="bounds">335 20 355 40 </string>
+        </object>
+        <object class="IBCarbonButton" id="894">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <string name="title">드라이브 지역 설정</string>
+          <string name="viewFrame">370 335 130 20 </string>
+          <string name="bounds">335 370 355 500 </string>
+        </object>
+        <reference idRef="895"/>
+        <reference idRef="896"/>
+        <reference idRef="900"/>
+        <reference idRef="901"/>
+        <reference idRef="902"/>
+        <reference idRef="910"/>
+        <reference idRef="911"/>
+        <reference idRef="912"/>
+        <reference idRef="913"/>
+      </array>
+      <string name="bounds">0 0 377 551 </string>
+    </object>
+    <reference idRef="890"/>
+    <reference idRef="894"/>
+    <reference idRef="891"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">드라이브 지역</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 768 421 1319 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="900"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RegionChange</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">916</unsigned_int>
+</object>

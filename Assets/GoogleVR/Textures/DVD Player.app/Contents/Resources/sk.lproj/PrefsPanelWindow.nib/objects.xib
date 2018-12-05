@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonHIView" id="999">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4000</int>
+      <string name="classID">com.apple.DVDPlayer.WndP</string>
+      <string name="viewFrame">0 0 480 106 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonStaticText" id="1006">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4001</int>
+          <string name="title">Možnosti</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">50 11 64 16 </string>
+          <string name="bounds">11 50 27 114 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1004">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4002</int>
+          <string name="viewFrame">115 21 355 4 </string>
+          <string name="bounds">21 115 25 470 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1005">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4003</int>
+          <string name="helpTagText">Zapnúť alebo vypnúť zobrazovanie stavu videa</string>
+          <string name="title">Zobraziť informácie o stave</string>
+          <string name="viewFrame">183 34 239 20 </string>
+          <string name="bounds">34 183 54 422 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1001">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4004</int>
+          <string name="helpTagText">Povoliť oknám, aby sa postupne strácali a objavovali</string>
+          <string name="title">Animovať ovládanie pri skrývaní</string>
+          <string name="viewFrame">183 56 239 20 </string>
+          <string name="bounds">56 183 76 422 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 106 480 </string>
+    </object>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="886">
+        <string name="viewFrame">0 0 480 106 </string>
+        <array count="1" name="subviews">
+          <reference idRef="999"/>
+        </array>
+        <string name="bounds">0 0 106 480 </string>
+      </object>
+      <string name="windowRect">66 267 172 747 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="1006"/>
+    <reference idRef="886"/>
+    <reference idRef="1001"/>
+    <reference idRef="1004"/>
+    <reference idRef="1005"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+    <reference idRef="999"/>
+    <reference idRef="887"/>
+    <reference idRef="999"/>
+    <reference idRef="999"/>
+    <reference idRef="999"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelWindow</string>
+    <reference idRef="887"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1031</unsigned_int>
+</object>

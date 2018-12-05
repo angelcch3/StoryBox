@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonStaticText" id="934">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1150</int>
+      <string name="title">When DVD Player is inactive:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">24 73 181 16 </string>
+      <string name="bounds">73 24 89 205 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Window</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 500 296 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="922">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1000</int>
+            <string name="classID">com.apple.DVDPlayer.PlyP</string>
+            <string name="viewFrame">0 0 500 297 </string>
+            <array count="14" name="subviews">
+              <object class="IBCarbonStaticText" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1100</int>
+                <string name="title">When DVD Player opens:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">30 13 175 16 </string>
+                <string name="bounds">13 30 29 205 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="924">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1101</int>
+                <string name="helpTagText">Set to full screen if a valid disc is recognized</string>
+                <string name="title">Enter Full Screen mode</string>
+                <string name="viewFrame">211 13 187 16 </string>
+                <string name="bounds">13 211 29 398 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="925">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1102</int>
+                <string name="helpTagText">Start playback if a valid disc is recognized</string>
+                <string name="title">Start playing disc</string>
+                <string name="viewFrame">211 35 187 16 </string>
+                <string name="bounds">35 211 51 398 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="926">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1200</int>
+                <string name="title">When a disc is inserted:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">30 111 175 16 </string>
+                <string name="bounds">111 30 127 205 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="927">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1201</int>
+                <string name="helpTagText">Start playback if a valid disc is inserted after DVD Player is already running</string>
+                <string name="title">Start playing disc</string>
+                <string name="viewFrame">211 111 187 16 </string>
+                <string name="bounds">111 211 127 398 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="928">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1300</int>
+                <string name="title">When muted:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">31 215 175 16 </string>
+                <string name="bounds">215 31 231 206 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="929">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1301</int>
+                <string name="helpTagText">Turn on closed captioning when DVD Player sound is muted</string>
+                <string name="title">Show Closed Captioning</string>
+                <string name="viewFrame">212 215 187 16 </string>
+                <string name="bounds">215 212 231 399 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="932">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1500</int>
+                <string name="title">When viewer is minimized:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">25 252 181 16 </string>
+                <string name="bounds">252 25 268 206 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="933">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1501</int>
+                <string name="helpTagText">Pause playback when viewer is minimized into the Dock</string>
+                <string name="title">Pause playback</string>
+                <string name="viewFrame">212 252 187 16 </string>
+                <string name="bounds">252 212 268 399 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="939">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1702</int>
+                <boolean name="enabled">FALSE</boolean>
+                <int name="fontStyle">-2</int>
+                <int name="controlSize">1</int>
+                <string name="title">This preserves battery charge. Scanning of the disc may be slower while the drive wakes up.</string>
+                <string name="viewFrame">213 169 267 31 </string>
+                <string name="bounds">169 213 200 480 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="937">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1700</int>
+                <string name="title">When playing using battery:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">24 148 181 16 </string>
+                <string name="bounds">148 24 164 205 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="938">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1701</int>
+                <int name="initialState">2</int>
+                <string name="title">Put the DVD drive to sleep</string>
+                <string name="viewFrame">211 141 224 31 </string>
+                <string name="bounds">141 211 172 435 </string>
+              </object>
+              <reference idRef="934"/>
+              <object class="IBCarbonCheckBox" id="935">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1151</int>
+                <string name="helpTagText">Temporarily pause playback when player is inactive</string>
+                <string name="title">Pause playback</string>
+                <string name="viewFrame">211 73 187 16 </string>
+                <string name="bounds">73 211 89 398 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 297 500 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 296 500 </string>
+      </object>
+      <string name="windowRect">92 838 388 1338 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="922"/>
+    <reference idRef="924"/>
+    <reference idRef="937"/>
+    <reference idRef="887"/>
+    <reference idRef="935"/>
+    <reference idRef="927"/>
+    <reference idRef="923"/>
+    <reference idRef="926"/>
+    <reference idRef="933"/>
+    <reference idRef="928"/>
+    <reference idRef="938"/>
+    <reference idRef="925"/>
+    <reference idRef="932"/>
+    <reference idRef="939"/>
+    <reference idRef="929"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

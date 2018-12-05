@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>6000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>HD (høj opløsning)</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>hd</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>PreferenceItemHD.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>HdPn</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

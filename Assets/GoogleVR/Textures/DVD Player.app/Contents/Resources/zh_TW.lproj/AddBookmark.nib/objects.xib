@@ -1,0 +1,240 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="22" name="allObjects">
+    <object class="IBCarbonStaticText" id="893">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <string name="viewFrame">68 50 100 16 </string>
+      <string name="bounds">50 68 66 168 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="899">
+      <string name="viewFrame">0 0 340 170 </string>
+      <array count="9" name="subviews">
+        <object class="IBCarbonStaticText" id="903">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <string name="title">書籤：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">11 23 50 16 </string>
+          <string name="bounds">23 11 39 61 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="906">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <string name="title">標題：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">11 50 50 16 </string>
+          <string name="bounds">50 11 66 61 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="900">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <string name="title">時間：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">11 74 50 16 </string>
+          <string name="bounds">74 11 90 61 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="902">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <string name="viewFrame">68 74 100 16 </string>
+          <string name="bounds">74 68 90 168 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="904">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <string name="viewFrame">68 50 100 16 </string>
+          <string name="bounds">50 68 66 168 </string>
+        </object>
+        <object class="IBCarbonEditText" id="901">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">71 23 246 16 </string>
+          <string name="bounds">23 71 39 317 </string>
+        </object>
+        <object class="IBCarbonButton" id="908">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">新增</string>
+          <string name="viewFrame">250 130 70 20 </string>
+          <string name="bounds">130 250 150 320 </string>
+        </object>
+        <object class="IBCarbonButton" id="905">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <string name="title">取消</string>
+          <string name="viewFrame">168 130 70 20 </string>
+          <string name="bounds">130 168 150 238 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="907">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">9</int>
+          <string name="title">設為預設書籤</string>
+          <string name="viewFrame">66 98 176 14 </string>
+          <string name="bounds">98 66 112 242 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 170 340 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 340 170 </string>
+      <array count="9" name="subviews">
+        <object class="IBCarbonStaticText" id="889">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <string name="title">書籤：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">11 23 50 16 </string>
+          <string name="bounds">23 11 39 61 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="890">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <string name="title">標題：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">11 50 50 16 </string>
+          <string name="bounds">50 11 66 61 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="891">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <string name="title">時間：</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">11 74 50 16 </string>
+          <string name="bounds">74 11 90 61 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="892">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <string name="viewFrame">68 74 100 16 </string>
+          <string name="bounds">74 68 90 168 </string>
+        </object>
+        <reference idRef="893"/>
+        <object class="IBCarbonEditText" id="894">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">71 23 246 16 </string>
+          <string name="bounds">23 71 39 317 </string>
+        </object>
+        <object class="IBCarbonButton" id="895">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">新增</string>
+          <string name="viewFrame">250 130 70 20 </string>
+          <string name="bounds">130 250 150 320 </string>
+        </object>
+        <object class="IBCarbonButton" id="896">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <string name="title">取消</string>
+          <string name="viewFrame">168 130 70 20 </string>
+          <string name="bounds">130 168 150 238 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="897">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">9</int>
+          <string name="title">設為預設書籤</string>
+          <string name="viewFrame">66 98 176 14 </string>
+          <string name="bounds">98 66 112 242 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 170 340 </string>
+    </object>
+    <reference idRef="903"/>
+    <reference idRef="901"/>
+    <reference idRef="896"/>
+    <reference idRef="900"/>
+    <reference idRef="904"/>
+    <reference idRef="907"/>
+    <reference idRef="892"/>
+    <reference idRef="897"/>
+    <object class="IBCarbonWindow" id="898">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">加入書籤</string>
+      <reference name="rootControl" idRef="899"/>
+      <string name="windowRect">407 180 577 520 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="894"/>
+    <reference idRef="895"/>
+    <reference idRef="905"/>
+    <reference idRef="891"/>
+    <reference idRef="889"/>
+    <reference idRef="902"/>
+    <reference idRef="906"/>
+    <reference idRef="908"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">加入書籤</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">407 180 577 520 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="890"/>
+  </array>
+  <array count="22" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="898"/>
+    <reference idRef="886"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="887"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="899"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>AddBookmarkDialog</string>
+    <reference idRef="898"/>
+    <string>AddBookmarkSheet</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">909</unsigned_int>
+</object>

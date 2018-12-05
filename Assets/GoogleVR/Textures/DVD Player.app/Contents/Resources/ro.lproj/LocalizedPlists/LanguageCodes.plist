@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Limbă implicită disc</string>
+	<key>00  </key>
+	<string>Necunoscută</string>
+	<key>aa  </key>
+	<string>Afar</string>
+	<key>ab  </key>
+	<string>Abhază</string>
+	<key>ae  </key>
+	<string>Avestan</string>
+	<key>af  </key>
+	<string>Afrikaans</string>
+	<key>am  </key>
+	<string>Amharică</string>
+	<key>ar  </key>
+	<string>Arabă</string>
+	<key>as  </key>
+	<string>Asameză</string>
+	<key>ay  </key>
+	<string>Aymară</string>
+	<key>az  </key>
+	<string>Azeră</string>
+	<key>ba  </key>
+	<string>Bașkiră</string>
+	<key>be  </key>
+	<string>Bielorusă</string>
+	<key>bg  </key>
+	<string>Bulgară</string>
+	<key>bh  </key>
+	<string>Bihari</string>
+	<key>bi  </key>
+	<string>Bislama</string>
+	<key>bn  </key>
+	<string>Bengaleză</string>
+	<key>bo  </key>
+	<string>Tibetană</string>
+	<key>br  </key>
+	<string>Bretonă</string>
+	<key>bs  </key>
+	<string>Bosniacă</string>
+	<key>ca  </key>
+	<string>Catalană</string>
+	<key>ce  </key>
+	<string>Cecenă</string>
+	<key>ch  </key>
+	<string>Chamorro</string>
+	<key>co  </key>
+	<string>Corsicană</string>
+	<key>cs  </key>
+	<string>Cehă</string>
+	<key>cu  </key>
+	<string>Slavonă bisericească</string>
+	<key>cv  </key>
+	<string>Ciuvașă</string>
+	<key>cy  </key>
+	<string>Galeză</string>
+	<key>da  </key>
+	<string>Daneză</string>
+	<key>de  </key>
+	<string>Germană</string>
+	<key>dz  </key>
+	<string>Bhutaneză</string>
+	<key>el  </key>
+	<string>Greacă</string>
+	<key>en  </key>
+	<string>Engleză</string>
+	<key>eo  </key>
+	<string>Esperanto</string>
+	<key>es  </key>
+	<string>Spaniolă</string>
+	<key>et  </key>
+	<string>Estonă</string>
+	<key>eu  </key>
+	<string>Bască</string>
+	<key>fa  </key>
+	<string>Persană</string>
+	<key>fi  </key>
+	<string>Finlandeză</string>
+	<key>fj  </key>
+	<string>Fiji</string>
+	<key>fo  </key>
+	<string>Faroeză</string>
+	<key>fr  </key>
+	<string>Franceză</string>
+	<key>fy  </key>
+	<string>Frizonă</string>
+	<key>ga  </key>
+	<string>Irlandeză</string>
+	<key>gd  </key>
+	<string>Gaelică scoțiană</string>
+	<key>gl  </key>
+	<string>Galiciană</string>
+	<key>gn  </key>
+	<string>Guarani</string>
+	<key>gu  </key>
+	<string>Gujarati</string>
+	<key>gv  </key>
+	<string>Manx</string>
+	<key>ha  </key>
+	<string>Hausa</string>
+	<key>hi  </key>
+	<string>Hindusă</string>
+	<key>ho  </key>
+	<string>Hiri Motu</string>
+	<key>hr  </key>
+	<string>Croată</string>
+	<key>hu  </key>
+	<string>Maghiară</string>
+	<key>hy  </key>
+	<string>Armeană</string>
+	<key>hz  </key>
+	<string>Herero</string>
+	<key>ia  </key>
+	<string>Interlingua</string>
+	<key>ie  </key>
+	<string>Interlingue</string>
+	<key>ik  </key>
+	<string>Inupiaq</string>
+	<key>in  </key>
+	<string>Indoneziană</string>
+	<key>is  </key>
+	<string>Islandeză</string>
+	<key>it  </key>
+	<string>Italiană</string>
+	<key>iu  </key>
+	<string>Inuktitut</string>
+	<key>iw  </key>
+	<string>Ebraică</string>
+	<key>ja  </key>
+	<string>Japoneză</string>
+	<key>ji  </key>
+	<string>Idiș</string>
+	<key>jw  </key>
+	<string>Javaneză</string>
+	<key>ka  </key>
+	<string>Georgiană</string>
+	<key>ki  </key>
+	<string>Kikuyu</string>
+	<key>kj  </key>
+	<string>Kuanyama</string>
+	<key>kk  </key>
+	<string>Kazahă</string>
+	<key>kl  </key>
+	<string>Groenlandeză</string>
+	<key>km  </key>
+	<string>Cambodgiană</string>
+	<key>kn  </key>
+	<string>Kannada</string>
+	<key>ko  </key>
+	<string>Coreeană</string>
+	<key>ks  </key>
+	<string>Cașmireză</string>
+	<key>ku  </key>
+	<string>Kurdă</string>
+	<key>kv  </key>
+	<string>Komi</string>
+	<key>kw  </key>
+	<string>Celtă (Cornwall)</string>
+	<key>ky  </key>
+	<string>Kîrgîză</string>
+	<key>la  </key>
+	<string>Latină</string>
+	<key>lb  </key>
+	<string>Luxemburgheză</string>
+	<key>ln  </key>
+	<string>Lingala</string>
+	<key>lo  </key>
+	<string>Laoțiană</string>
+	<key>lt  </key>
+	<string>Lituaniană</string>
+	<key>lv  </key>
+	<string>Letonă</string>
+	<key>mg  </key>
+	<string>Malgașă</string>
+	<key>mh  </key>
+	<string>Marshall</string>
+	<key>mi  </key>
+	<string>Maori</string>
+	<key>mk  </key>
+	<string>Macedoneană</string>
+	<key>ml  </key>
+	<string>Malayalam</string>
+	<key>mn  </key>
+	<string>Mongolă</string>
+	<key>mo  </key>
+	<string>Moldovenească</string>
+	<key>mr  </key>
+	<string>Marathi</string>
+	<key>ms  </key>
+	<string>Malaeziană</string>
+	<key>mt  </key>
+	<string>Malteză</string>
+	<key>my  </key>
+	<string>Birmaneză</string>
+	<key>na  </key>
+	<string>Nauru</string>
+	<key>nd  </key>
+	<string>Ndebele, Nord</string>
+	<key>ne  </key>
+	<string>Nepaleză</string>
+	<key>ng  </key>
+	<string>Ndonga</string>
+	<key>nl  </key>
+	<string>Olandeză</string>
+	<key>no  </key>
+	<string>Norvegiană</string>
+	<key>nr  </key>
+	<string>Ndebele, Sud</string>
+	<key>nv  </key>
+	<string>Navajo</string>
+	<key>ny  </key>
+	<string>Chichewa</string>
+	<key>oc  </key>
+	<string>Occitană</string>
+	<key>om  </key>
+	<string>Oromo</string>
+	<key>or  </key>
+	<string>Oriya</string>
+	<key>os  </key>
+	<string>Osețiană</string>
+	<key>pa  </key>
+	<string>Punjabi</string>
+	<key>pi  </key>
+	<string>Pali</string>
+	<key>pl  </key>
+	<string>Poloneză</string>
+	<key>ps  </key>
+	<string>Pașto</string>
+	<key>pt  </key>
+	<string>Portugheză</string>
+	<key>qu  </key>
+	<string>Quechua</string>
+	<key>rm  </key>
+	<string>Retoromană</string>
+	<key>rn  </key>
+	<string>Kirundi</string>
+	<key>ro  </key>
+	<string>Română</string>
+	<key>ru  </key>
+	<string>Rusă</string>
+	<key>rw  </key>
+	<string>Kinyarwanda</string>
+	<key>sa  </key>
+	<string>Sanscrită</string>
+	<key>sc  </key>
+	<string>Sardiniană</string>
+	<key>sd  </key>
+	<string>Sindhi</string>
+	<key>se  </key>
+	<string>Sami (Nord)</string>
+	<key>sg  </key>
+	<string>Sango</string>
+	<key>sh  </key>
+	<string>Sârbo-croată</string>
+	<key>si  </key>
+	<string>Singaleză</string>
+	<key>sk  </key>
+	<string>Slovacă</string>
+	<key>sl  </key>
+	<string>Slovenă</string>
+	<key>sm  </key>
+	<string>Samoană</string>
+	<key>sn  </key>
+	<string>Shona</string>
+	<key>so  </key>
+	<string>Somaleză</string>
+	<key>sq  </key>
+	<string>Albaneză</string>
+	<key>sr  </key>
+	<string>Sârbă</string>
+	<key>ss  </key>
+	<string>Siswati</string>
+	<key>st  </key>
+	<string>Sesotho</string>
+	<key>su  </key>
+	<string>Sundaneză</string>
+	<key>sv  </key>
+	<string>Suedeză</string>
+	<key>sw  </key>
+	<string>Swahili</string>
+	<key>ta  </key>
+	<string>Tamilă</string>
+	<key>te  </key>
+	<string>Telugu</string>
+	<key>tg  </key>
+	<string>Tadjică</string>
+	<key>th  </key>
+	<string>Thailandeză</string>
+	<key>ti  </key>
+	<string>Tigrinya</string>
+	<key>tk  </key>
+	<string>Turkmenă</string>
+	<key>tl  </key>
+	<string>Tagalogă</string>
+	<key>tn  </key>
+	<string>Setswana</string>
+	<key>to  </key>
+	<string>Tonga</string>
+	<key>tr  </key>
+	<string>Turcă</string>
+	<key>ts  </key>
+	<string>Tsonga</string>
+	<key>tt  </key>
+	<string>Tătară</string>
+	<key>tw  </key>
+	<string>Twi</string>
+	<key>ty  </key>
+	<string>Tahitiană</string>
+	<key>ug  </key>
+	<string>Uigură</string>
+	<key>uk  </key>
+	<string>Ucraineană</string>
+	<key>ur  </key>
+	<string>Urdu</string>
+	<key>uz  </key>
+	<string>Uzbekă</string>
+	<key>vi  </key>
+	<string>Vietnameză</string>
+	<key>vo  </key>
+	<string>Volapük</string>
+	<key>wo  </key>
+	<string>Wolof</string>
+	<key>xh  </key>
+	<string>Xhosa</string>
+	<key>yo  </key>
+	<string>Yoruba</string>
+	<key>za  </key>
+	<string>Zhuang</string>
+	<key>zh  </key>
+	<string>Chineză</string>
+	<key>zu  </key>
+	<string>Zulusă</string>
+</dict>
+</plist>

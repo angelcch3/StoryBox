@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonMenuItem" id="944">
+      <string name="title">删除</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">RmBk</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonHIView" id="933">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1001</int>
+      <string name="classID">com.apple.DVDPlayer.scrv</string>
+      <string name="viewFrame">0 0 250 312 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="952">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1002</int>
+          <string name="classID">com.apple.DVDPlayer.BkmL</string>
+          <string name="viewFrame">0 0 234 312 </string>
+          <string name="bounds">0 0 312 234 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 312 250 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="955">
+      <string name="title">删除所有书签</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">RABk</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="950">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="954">
+      <string name="title">将当前帧用作缩略图</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">CFBT</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonHIView" id="937">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1003</int>
+      <ostype name="command">ABkm</ostype>
+      <string name="helpTagText">添加书签</string>
+      <string name="classID">com.apple.DVDPlayer.imgb</string>
+      <string name="viewFrame">8 318 29 22 </string>
+      <string name="bounds">318 8 340 37 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="886">
+      <string name="viewFrame">0 0 250 348 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="931">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1000</int>
+          <string name="classID">com.apple.DVDPlayer.BkPn</string>
+          <string name="viewFrame">0 0 250 348 </string>
+          <array count="4" name="subviews">
+            <reference idRef="933"/>
+            <reference idRef="937"/>
+            <object class="IBCarbonHIView" id="938">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1005</int>
+              <ostype name="command">RmBk</ostype>
+              <string name="helpTagText">移除所选书签</string>
+              <string name="classID">com.apple.DVDPlayer.imgb</string>
+              <string name="viewFrame">37 318 28 22 </string>
+              <string name="bounds">318 37 340 65 </string>
+            </object>
+            <object class="IBCarbonBevelButton" id="941">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1006</int>
+              <int name="contentType">0</int>
+              <int name="menuBehavior">8192</int>
+              <int name="menuPlacement">4</int>
+              <int name="selectedItem">7</int>
+              <object name="menu" class="IBCarbonMenu" id="942">
+                <string name="title">BevelMenu</string>
+                <array count="10" name="items">
+                  <object class="IBCarbonMenuItem" id="948">
+                    <string name="title">显示缩略图</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <ostype name="command">SBkT</ostype>
+                    <string name="helpTagText"></string>
+                    <string name="extendedHelpTagText"></string>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="949">
+                    <string name="title">生成丢失的缩略图</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <ostype name="command">GBkT</ostype>
+                    <string name="helpTagText"></string>
+                    <string name="extendedHelpTagText"></string>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="953">
+                    <string name="title">移除缩略图</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <ostype name="command">RBTh</ostype>
+                    <string name="helpTagText"></string>
+                    <string name="extendedHelpTagText"></string>
+                  </object>
+                  <reference idRef="950"/>
+                  <object class="IBCarbonMenuItem" id="943">
+                    <string name="title">重新命名</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <ostype name="command">RnBk</ostype>
+                    <string name="helpTagText"></string>
+                    <string name="extendedHelpTagText"></string>
+                  </object>
+                  <reference idRef="954"/>
+                  <reference idRef="944"/>
+                  <reference idRef="955"/>
+                  <object class="IBCarbonMenuItem" id="951">
+                    <boolean name="separator">TRUE</boolean>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="helpTagText"></string>
+                    <string name="extendedHelpTagText"></string>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="947">
+                    <string name="title">设为默认</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <ostype name="command">DfBk</ostype>
+                    <string name="helpTagText"></string>
+                    <string name="extendedHelpTagText"></string>
+                  </object>
+                </array>
+              </object>
+              <string name="viewFrame">73 318 31 22 </string>
+              <string name="bounds">318 73 340 104 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 348 250 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 348 250 </string>
+    </object>
+    <reference idRef="947"/>
+    <reference idRef="942"/>
+    <reference idRef="951"/>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">窗口</string>
+      <reference name="rootControl" idRef="886"/>
+      <string name="windowRect">122 580 470 830 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="931"/>
+    <reference idRef="938"/>
+    <reference idRef="953"/>
+    <reference idRef="949"/>
+    <reference idRef="943"/>
+    <reference idRef="941"/>
+    <reference idRef="948"/>
+    <reference idRef="952"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="942"/>
+    <reference idRef="931"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="931"/>
+    <reference idRef="887"/>
+    <reference idRef="942"/>
+    <reference idRef="941"/>
+    <reference idRef="942"/>
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="931"/>
+    <reference idRef="942"/>
+    <reference idRef="933"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ClipPanelBookmarks</string>
+    <reference idRef="887"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">963</unsigned_int>
+</object>

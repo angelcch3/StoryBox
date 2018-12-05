@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 480 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">DVD 플레이어를 실행할 때:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">35 13 175 17 </string>
+          <string name="bounds">13 35 30 210 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">유효한 디스크가 인식되면 전체 화면으로 설정</string>
+          <string name="title">전체 화면 모드 시작</string>
+          <string name="viewFrame">216 13 187 16 </string>
+          <string name="bounds">13 216 29 403 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">유효한 디스크가 인식되었을때 재생을 시작합니다</string>
+          <string name="title">디스크 재생 시작</string>
+          <string name="viewFrame">216 35 187 16 </string>
+          <string name="bounds">35 216 51 403 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">디스크를 넣었을 때:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">35 111 175 17 </string>
+          <string name="bounds">111 35 128 210 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">DVD 플레이어가 이미 실행 중일 때 유효한 디스크가 삽입되었다면 재생을 시작합니다</string>
+          <string name="title">디스크 재생 시작</string>
+          <string name="viewFrame">216 111 187 16 </string>
+          <string name="bounds">111 216 127 403 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">소리 끔 상태일 때:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">35 215 175 17 </string>
+          <string name="bounds">215 35 232 210 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">DVD 플레이어 사운드가 소리 끔 상태일 때 청각 장애인용 자막 켜기</string>
+          <string name="title">청각 장애인용 자막 보기</string>
+          <string name="viewFrame">216 215 187 16 </string>
+          <string name="bounds">215 216 231 403 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">화면 뷰어가 최소화되었을 때:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">29 252 181 17 </string>
+          <string name="bounds">252 29 269 210 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1501</int>
+          <string name="helpTagText">화면 뷰어가 Dock에 최소화되었을때 재생을 일시 정지합니다</string>
+          <string name="title">재생 일시 정지</string>
+          <string name="viewFrame">216 252 187 16 </string>
+          <string name="bounds">252 216 268 403 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">배터리 잔량이 유지됩니다. 해당 드라이브가 깨어나는 동안 디스크 검색이 느려질 수 있습니다.</string>
+          <string name="viewFrame">218 169 252 31 </string>
+          <string name="bounds">169 218 200 470 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">배터리를 사용하여 재생 중일 때:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">17 148 193 16 </string>
+          <string name="bounds">148 17 164 210 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">DVD 드라이브를 잠자기 상태로 두기</string>
+          <string name="viewFrame">216 141 243 31 </string>
+          <string name="bounds">141 216 172 459 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">DVD 플레이어가 비활성 상태일 때:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">5 73 205 17 </string>
+          <string name="bounds">73 5 90 210 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">플레이어가 비활성 상태이면 재생을 일시 정지합니다</string>
+          <string name="title">재생 일시 정지</string>
+          <string name="viewFrame">216 73 187 16 </string>
+          <string name="bounds">73 216 89 403 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 480 </string>
+    </object>
+    <reference idRef="928"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 480 296 </string>
+      <array count="1" name="subviews">
+        <reference idRef="922"/>
+      </array>
+      <string name="bounds">0 0 296 480 </string>
+    </object>
+    <reference idRef="926"/>
+    <reference idRef="927"/>
+    <reference idRef="934"/>
+    <reference idRef="938"/>
+    <reference idRef="937"/>
+    <reference idRef="933"/>
+    <reference idRef="932"/>
+    <reference idRef="923"/>
+    <reference idRef="925"/>
+    <reference idRef="924"/>
+    <reference idRef="939"/>
+    <reference idRef="929"/>
+    <reference idRef="935"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">윈도우</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">92 838 388 1318 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

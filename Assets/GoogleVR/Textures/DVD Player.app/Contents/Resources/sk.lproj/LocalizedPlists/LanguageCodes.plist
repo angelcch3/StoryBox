@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Použiť predvolený jazyk disku</string>
+	<key>00  </key>
+	<string>Neznáme</string>
+	<key>aa  </key>
+	<string>Afarčina</string>
+	<key>ab  </key>
+	<string>Abcházština</string>
+	<key>ae  </key>
+	<string>Avestánčina</string>
+	<key>af  </key>
+	<string>Afrikánčina</string>
+	<key>am  </key>
+	<string>Amharčina</string>
+	<key>ar  </key>
+	<string>Arabčina</string>
+	<key>as  </key>
+	<string>Asámčina</string>
+	<key>ay  </key>
+	<string>Ajmarčina</string>
+	<key>az  </key>
+	<string>Azerbajdžančina</string>
+	<key>ba  </key>
+	<string>Baškirčina</string>
+	<key>be  </key>
+	<string>Bieloruština</string>
+	<key>bg  </key>
+	<string>Bulharčina</string>
+	<key>bh  </key>
+	<string>Bihárčina</string>
+	<key>bi  </key>
+	<string>Bislamčina</string>
+	<key>bn  </key>
+	<string>Bengálčina</string>
+	<key>bo  </key>
+	<string>Tibetčina</string>
+	<key>br  </key>
+	<string>Bretónčina</string>
+	<key>bs  </key>
+	<string>Bosniančina</string>
+	<key>ca  </key>
+	<string>Katalánčina</string>
+	<key>ce  </key>
+	<string>Čečenčina</string>
+	<key>ch  </key>
+	<string>Čamorčina</string>
+	<key>co  </key>
+	<string>Korzičtina</string>
+	<key>cs  </key>
+	<string>Čeština</string>
+	<key>cu  </key>
+	<string>Cirkevná slovančina</string>
+	<key>cv  </key>
+	<string>Čuvaština</string>
+	<key>cy  </key>
+	<string>Waleština</string>
+	<key>da  </key>
+	<string>Dánčina</string>
+	<key>de  </key>
+	<string>Nemčina</string>
+	<key>dz  </key>
+	<string>Butánčina</string>
+	<key>el  </key>
+	<string>Gréčtina</string>
+	<key>en  </key>
+	<string>Angličtina</string>
+	<key>eo  </key>
+	<string>Esperanto</string>
+	<key>es  </key>
+	<string>Španielčina</string>
+	<key>et  </key>
+	<string>Estónčina</string>
+	<key>eu  </key>
+	<string>Baskičtina</string>
+	<key>fa  </key>
+	<string>Perzština</string>
+	<key>fi  </key>
+	<string>Fínčina</string>
+	<key>fj  </key>
+	<string>Fidžijčina</string>
+	<key>fo  </key>
+	<string>Faerčina</string>
+	<key>fr  </key>
+	<string>Francúzština</string>
+	<key>fy  </key>
+	<string>Frízština</string>
+	<key>ga  </key>
+	<string>Írčina</string>
+	<key>gd  </key>
+	<string>Škótska gaelčina</string>
+	<key>gl  </key>
+	<string>Galícijčina</string>
+	<key>gn  </key>
+	<string>Guaraníjčina</string>
+	<key>gu  </key>
+	<string>Gudžarátčina</string>
+	<key>gv  </key>
+	<string>Mančina</string>
+	<key>ha  </key>
+	<string>Hauština</string>
+	<key>hi  </key>
+	<string>Hindčina</string>
+	<key>ho  </key>
+	<string>Hiri Motu</string>
+	<key>hr  </key>
+	<string>Chorvátčina</string>
+	<key>hu  </key>
+	<string>Maďarčina</string>
+	<key>hy  </key>
+	<string>Arménčina</string>
+	<key>hz  </key>
+	<string>Hererčina</string>
+	<key>ia  </key>
+	<string>Interlingua</string>
+	<key>ie  </key>
+	<string>Umelý jazyk</string>
+	<key>ik  </key>
+	<string>Inupiaq</string>
+	<key>in  </key>
+	<string>Indonézština</string>
+	<key>is  </key>
+	<string>Islandčina</string>
+	<key>it  </key>
+	<string>Taliančina</string>
+	<key>iu  </key>
+	<string>Inuktitut</string>
+	<key>iw  </key>
+	<string>Hebrejčina</string>
+	<key>ja  </key>
+	<string>Japončina</string>
+	<key>ji  </key>
+	<string>Jidiš</string>
+	<key>jw  </key>
+	<string>Jávčina</string>
+	<key>ka  </key>
+	<string>Gruzínčina</string>
+	<key>ki  </key>
+	<string>Kikuju</string>
+	<key>kj  </key>
+	<string>Kuaňama</string>
+	<key>kk  </key>
+	<string>Kazaština</string>
+	<key>kl  </key>
+	<string>Grónčina</string>
+	<key>km  </key>
+	<string>Kambodžtina</string>
+	<key>kn  </key>
+	<string>Kannadčina</string>
+	<key>ko  </key>
+	<string>Kórejčina</string>
+	<key>ks  </key>
+	<string>Kašmírčina</string>
+	<key>ku  </key>
+	<string>Kurdčina</string>
+	<key>kv  </key>
+	<string>Komijčina</string>
+	<key>kw  </key>
+	<string>Kornčina</string>
+	<key>ky  </key>
+	<string>Kirgizština</string>
+	<key>la  </key>
+	<string>Latinčina</string>
+	<key>lb  </key>
+	<string>Luxemburčina</string>
+	<key>ln  </key>
+	<string>Lingalčina</string>
+	<key>lo  </key>
+	<string>Laoština</string>
+	<key>lt  </key>
+	<string>Litovčina</string>
+	<key>lv  </key>
+	<string>Lotyština</string>
+	<key>mg  </key>
+	<string>Malgaština</string>
+	<key>mh  </key>
+	<string>Maršalčina</string>
+	<key>mi  </key>
+	<string>Maorčina</string>
+	<key>mk  </key>
+	<string>Macedónčina</string>
+	<key>ml  </key>
+	<string>Malajalámčina</string>
+	<key>mn  </key>
+	<string>Mongolčina</string>
+	<key>mo  </key>
+	<string>Moldavčina</string>
+	<key>mr  </key>
+	<string>Máráthčina</string>
+	<key>ms  </key>
+	<string>Malajčina</string>
+	<key>mt  </key>
+	<string>Maltčina</string>
+	<key>my  </key>
+	<string>Barmčina</string>
+	<key>na  </key>
+	<string>Nauruština</string>
+	<key>nd  </key>
+	<string>Severná ndebelčina</string>
+	<key>ne  </key>
+	<string>Nepálčina</string>
+	<key>ng  </key>
+	<string>Ndonga</string>
+	<key>nl  </key>
+	<string>Holandčina</string>
+	<key>no  </key>
+	<string>Nórčina</string>
+	<key>nr  </key>
+	<string>Južná ndebelčina</string>
+	<key>nv  </key>
+	<string>Navaho</string>
+	<key>ny  </key>
+	<string>Čičeva</string>
+	<key>oc  </key>
+	<string>Okcitánčina</string>
+	<key>om  </key>
+	<string>Oromčina</string>
+	<key>or  </key>
+	<string>Uríjčina</string>
+	<key>os  </key>
+	<string>Osetčina</string>
+	<key>pa  </key>
+	<string>Pandžábčina</string>
+	<key>pi  </key>
+	<string>Páli</string>
+	<key>pl  </key>
+	<string>Poľština</string>
+	<key>ps  </key>
+	<string>Paštčina</string>
+	<key>pt  </key>
+	<string>Portugalčina</string>
+	<key>qu  </key>
+	<string>Kečuánčina</string>
+	<key>rm  </key>
+	<string>Reto-románčina</string>
+	<key>rn  </key>
+	<string>Kirundi</string>
+	<key>ro  </key>
+	<string>Rumunčina</string>
+	<key>ru  </key>
+	<string>Ruština</string>
+	<key>rw  </key>
+	<string>Rwandčina</string>
+	<key>sa  </key>
+	<string>Sanskrit</string>
+	<key>sc  </key>
+	<string>Sardínčina</string>
+	<key>sd  </key>
+	<string>Sindčina</string>
+	<key>se  </key>
+	<string>Severná sámčina</string>
+	<key>sg  </key>
+	<string>Sango</string>
+	<key>sh  </key>
+	<string>Srbochorvátčina</string>
+	<key>si  </key>
+	<string>Sinhálčina</string>
+	<key>sk  </key>
+	<string>Slovenčina</string>
+	<key>sl  </key>
+	<string>Slovinčina</string>
+	<key>sm  </key>
+	<string>Samojčina</string>
+	<key>sn  </key>
+	<string>Šona</string>
+	<key>so  </key>
+	<string>Somálčina</string>
+	<key>sq  </key>
+	<string>Albánčina</string>
+	<key>sr  </key>
+	<string>Srbčina</string>
+	<key>ss  </key>
+	<string>Siswati</string>
+	<key>st  </key>
+	<string>Sesotčina</string>
+	<key>su  </key>
+	<string>Sundčina</string>
+	<key>sv  </key>
+	<string>Švédčina</string>
+	<key>sw  </key>
+	<string>Svahilčina</string>
+	<key>ta  </key>
+	<string>Tamilčina</string>
+	<key>te  </key>
+	<string>Telugčina</string>
+	<key>tg  </key>
+	<string>Tadžičtina</string>
+	<key>th  </key>
+	<string>Thajčina</string>
+	<key>ti  </key>
+	<string>Tigrejčina</string>
+	<key>tk  </key>
+	<string>Turkménčina</string>
+	<key>tl  </key>
+	<string>Tagalština</string>
+	<key>tn  </key>
+	<string>Setswančina</string>
+	<key>to  </key>
+	<string>Tongčina</string>
+	<key>tr  </key>
+	<string>Turečtina</string>
+	<key>ts  </key>
+	<string>Tsonga</string>
+	<key>tt  </key>
+	<string>Tatárčina</string>
+	<key>tw  </key>
+	<string>Twi</string>
+	<key>ty  </key>
+	<string>Tahitčina</string>
+	<key>ug  </key>
+	<string>Ujgurčina</string>
+	<key>uk  </key>
+	<string>Ukrajinčina</string>
+	<key>ur  </key>
+	<string>Urdčina</string>
+	<key>uz  </key>
+	<string>Uzbečtina</string>
+	<key>vi  </key>
+	<string>Vietnamčina</string>
+	<key>vo  </key>
+	<string>Volapük</string>
+	<key>wo  </key>
+	<string>Wolofština</string>
+	<key>xh  </key>
+	<string>Xhoština</string>
+	<key>yo  </key>
+	<string>Jorubčina</string>
+	<key>za  </key>
+	<string>Zhuang</string>
+	<key>zh  </key>
+	<string>Čínština</string>
+	<key>zu  </key>
+	<string>Zuluština</string>
+</dict>
+</plist>

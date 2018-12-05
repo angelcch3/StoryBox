@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<key>Panel Cmd ID</key>
+		<string>SClP</string>
+		<!-- Localize begin -->
+		<key>Panel Name</key>
+		<string>Color de video</string>
+		<!-- Localize end -->
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>2001</key>
+	<dict>
+		<key>Comment</key>
+		<string>On Check Box</string>
+		<key>Use Port Color</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Activado</string>
+		<!-- Localize end -->
+	</dict>
+	<key>2002</key>
+	<dict>
+		<key>Comment</key>
+		<string>Check Box Label</string>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Activado</string>
+		<!-- Localize end -->
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2003</key>
+	<dict>
+		<key>Comment</key>
+		<string>Preset Popup</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Right Justify</key>
+		<true/>
+		<key>Auto Sync to Popup</key>
+		<false/>
+		<!-- Localize begin -->
+		<key>Default Popup Text</key>
+		<string>Seleccionar</string>
+		<!-- Localize end -->
+	</dict>
+	<key>2004</key>
+	<dict>
+		<key>Comment</key>
+		<string>Brightness Label</string>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Brillo:</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>2005</key>
+	<dict>
+		<key>Comment</key>
+		<string>Brightness Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<true/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>6</real>
+		<key>Min Value</key>
+		<integer>-333</integer>
+		<key>Max Value</key>
+		<integer>333</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6203</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>2006</key>
+	<dict>
+		<key>Comment</key>
+		<string>Contrast Label</string>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Contraste:</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>2007</key>
+	<dict>
+		<key>Comment</key>
+		<string>Contrast Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<true/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>6</real>
+		<key>Min Value</key>
+		<integer>250</integer>
+		<key>Max Value</key>
+		<integer>1750</integer>
+		<key>Cur Value</key>
+		<integer>1000</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6203</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>2008</key>
+	<dict>
+		<key>Comment</key>
+		<string>Color Label</string>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Color:</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>2009</key>
+	<dict>
+		<key>Comment</key>
+		<string>Color Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<true/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>6</real>
+		<key>Min Value</key>
+		<integer>0</integer>
+		<key>Max Value</key>
+		<integer>2000</integer>
+		<key>Cur Value</key>
+		<integer>1000</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6203</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<key>2010</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tint Label</string>
+		<!-- Localize begin -->
+		<key>Text</key>
+		<string>Tono:</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Theme Font ID</key>
+		<integer>2</integer>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Truncate Text</key>
+		<true/>
+		<key>Truncate Type</key>
+		<integer>2</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+	</dict>
+	<key>2011</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tint Slider</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Horizontal Slider</key>
+		<true/>
+		<key>Animate To Value</key>
+		<true/>
+		<key>Track Length Inset</key>
+		<real>6</real>
+		<key>Min Value</key>
+		<integer>-440</integer>
+		<key>Max Value</key>
+		<integer>440</integer>
+		<key>Cur Value</key>
+		<integer>0</integer>
+		<key>Manually Changed Msg</key>
+		<integer>6203</integer>
+		<key>Send CmdID on SetValue</key>
+		<true/>
+	</dict>
+	<!-- tick marks -->
+	<key>2012</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 1</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>13</integer>
+		<key>Horizontal Tick Marks</key>
+		<false/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2013</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 2</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>13</integer>
+		<key>Horizontal Tick Marks</key>
+		<false/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2014</key>
+	<dict>
+		<key>Comment</key>
+		<string>Tick 3</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Number Of Ticks</key>
+		<integer>13</integer>
+		<key>Horizontal Tick Marks</key>
+		<false/>
+		<key>Hilite Center Tick</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

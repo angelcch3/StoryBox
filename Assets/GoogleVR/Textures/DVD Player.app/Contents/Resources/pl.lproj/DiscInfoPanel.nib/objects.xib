@@ -1,0 +1,333 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="31" name="allObjects">
+    <object class="IBCarbonGroupBox" id="957">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1200</int>
+      <string name="title">Wideo</string>
+      <string name="viewFrame">15 48 241 94 </string>
+      <array count="6" name="subviews">
+        <object class="IBCarbonStaticText" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1205</int>
+          <int name="controlSize">1</int>
+          <string name="title">Format:</string>
+          <string name="viewFrame">6 67 80 16 </string>
+          <string name="bounds">115 21 131 101 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <int name="controlSize">1</int>
+          <string name="title">Wielkość:</string>
+          <string name="viewFrame">6 22 80 16 </string>
+          <string name="bounds">70 21 86 101 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1204</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Proporcje ekranu bieżącego wideo</string>
+          <string name="viewFrame">105 46 130 16 </string>
+          <string name="bounds">94 120 110 250 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1202</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Oryginalna wielkość bieżącego wideo</string>
+          <string name="viewFrame">105 22 130 16 </string>
+          <string name="bounds">70 120 86 250 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1203</int>
+          <int name="controlSize">1</int>
+          <string name="title">Proporcje obrazu:</string>
+          <string name="viewFrame">6 46 95 13 </string>
+          <string name="bounds">94 21 107 116 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1206</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Format bieżącego wideo</string>
+          <string name="viewFrame">105 70 130 16 </string>
+          <string name="bounds">118 120 134 250 </string>
+        </object>
+      </array>
+      <string name="bounds">48 15 142 256 </string>
+    </object>
+    <reference idRef="932"/>
+    <object class="IBCarbonGroupBox" id="958">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1300</int>
+      <string name="title">Dźwięk</string>
+      <string name="viewFrame">271 48 241 94 </string>
+      <array count="6" name="subviews">
+        <object class="IBCarbonStaticText" id="952">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <int name="controlSize">1</int>
+          <string name="title">Format:</string>
+          <string name="viewFrame">6 22 60 16 </string>
+          <string name="bounds">70 277 86 337 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="953">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1302</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Format bieżącego audio</string>
+          <string name="viewFrame">70 22 165 16 </string>
+          <string name="bounds">70 341 86 506 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="954">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1305</int>
+          <int name="controlSize">1</int>
+          <string name="title">Typ:</string>
+          <string name="viewFrame">6 70 60 16 </string>
+          <string name="bounds">118 277 134 337 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="955">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1306</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Typ bieżącego audio</string>
+          <string name="viewFrame">70 70 165 16 </string>
+          <string name="bounds">118 341 134 506 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="961">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1303</int>
+          <int name="controlSize">1</int>
+          <string name="title">Kanały:</string>
+          <string name="viewFrame">6 46 60 16 </string>
+          <string name="bounds">94 277 110 337 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="962">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1304</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Liczba kanałów w bieżącym audio</string>
+          <string name="viewFrame">70 46 165 16 </string>
+          <string name="bounds">94 341 110 506 </string>
+        </object>
+      </array>
+      <string name="bounds">48 271 142 512 </string>
+    </object>
+    <object class="IBCarbonGroupBox" id="959">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1400</int>
+      <string name="title">Nośnik</string>
+      <string name="viewFrame">15 148 497 108 </string>
+      <array count="6" name="subviews">
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1402</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Typ rozdzielczości bieżącego wideo</string>
+          <string name="viewFrame">100 22 388 16 </string>
+          <string name="bounds">170 115 186 503 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="931">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1401</int>
+          <int name="controlSize">1</int>
+          <string name="title">Format:</string>
+          <string name="viewFrame">4 22 80 16 </string>
+          <string name="bounds">170 19 186 99 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="942">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1406</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Ścieżka do nośnika</string>
+          <string name="viewFrame">100 70 388 30 </string>
+          <string name="bounds">218 115 248 503 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="943">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1405</int>
+          <int name="controlSize">1</int>
+          <string name="title">Ścieżka dostępu:</string>
+          <string name="viewFrame">4 70 93 13 </string>
+          <string name="bounds">218 19 231 112 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="944">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1404</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Typ użytego nośnika</string>
+          <string name="viewFrame">100 46 388 16 </string>
+          <string name="bounds">194 115 210 503 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="945">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1403</int>
+          <int name="controlSize">1</int>
+          <string name="title">Typ nośnika:</string>
+          <string name="viewFrame">4 46 80 16 </string>
+          <string name="bounds">194 19 210 99 </string>
+        </object>
+      </array>
+      <string name="bounds">148 15 256 512 </string>
+    </object>
+    <reference idRef="934"/>
+    <object class="IBCarbonStaticText" id="939">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1501</int>
+      <int name="controlSize">1</int>
+      <string name="title">Plik ustawień:</string>
+      <string name="viewFrame">6 24 80 16 </string>
+      <string name="bounds">284 21 300 101 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 527 318 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonCustom" id="888">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1000</int>
+            <string name="classID">com.apple.DVDPlayer.DInP</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">0 0 527 318 </string>
+            <array count="7" name="subviews">
+              <object class="IBCarbonEditText" id="922">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1102</int>
+                <string name="helpTagText">Nazwa wyświetlana na pasku tytułowym okna wideo</string>
+                <boolean name="isUnicode">TRUE</boolean>
+                <boolean name="isSingleLine">TRUE</boolean>
+                <string name="viewFrame">62 18 447 16 </string>
+                <string name="bounds">18 62 34 509 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1101</int>
+                <string name="title">Tytuł:</string>
+                <string name="viewFrame">15 17 42 16 </string>
+                <string name="bounds">17 15 33 57 </string>
+              </object>
+              <reference idRef="957"/>
+              <reference idRef="958"/>
+              <reference idRef="959"/>
+              <object class="IBCarbonGroupBox" id="960">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1500</int>
+                <string name="title">Ustawienia</string>
+                <string name="viewFrame">15 260 464 48 </string>
+                <array count="3" name="subviews">
+                  <object class="IBCarbonStaticText" id="938">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1502</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Nazwa pliku z ustawieniami</string>
+                    <string name="viewFrame">94 24 284 16 </string>
+                    <string name="bounds">284 109 300 393 </string>
+                  </object>
+                  <reference idRef="939"/>
+                  <object class="IBCarbonButton" id="940">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1503</int>
+                    <ostype name="command">DShw</ostype>
+                    <string name="helpTagText">Pokaż położenie pliku ustawień w Finderze</string>
+                    <string name="title">Pokaż</string>
+                    <string name="viewFrame">386 22 70 20 </string>
+                    <string name="bounds">282 401 302 471 </string>
+                  </object>
+                </array>
+                <string name="bounds">260 15 308 479 </string>
+              </object>
+              <object class="IBCarbonRoundButton" id="963">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1600</int>
+                <ostype name="command">DIHp</ostype>
+                <string name="viewFrame">489 281 25 25 </string>
+                <string name="bounds">281 489 306 514 </string>
+                <int name="contentType">132</int>
+                <int name="iconCreator">1835098995</int>
+                <int name="iconType">1751477360</int>
+              </object>
+            </array>
+            <string name="bounds">0 0 318 527 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 318 527 </string>
+      </object>
+      <string name="windowRect">379 850 697 1377 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="940"/>
+    <reference idRef="955"/>
+    <reference idRef="952"/>
+    <reference idRef="927"/>
+    <reference idRef="925"/>
+    <reference idRef="960"/>
+    <reference idRef="953"/>
+    <reference idRef="938"/>
+    <reference idRef="935"/>
+    <reference idRef="942"/>
+    <reference idRef="943"/>
+    <reference idRef="929"/>
+    <reference idRef="961"/>
+    <reference idRef="944"/>
+    <reference idRef="962"/>
+    <reference idRef="963"/>
+    <reference idRef="923"/>
+    <reference idRef="954"/>
+    <reference idRef="931"/>
+    <reference idRef="945"/>
+    <reference idRef="887"/>
+    <reference idRef="928"/>
+    <reference idRef="922"/>
+    <reference idRef="888"/>
+  </array>
+  <array count="31" name="allParents">
+    <reference idRef="888"/>
+    <reference idRef="957"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="957"/>
+    <reference idRef="960"/>
+    <reference idRef="1"/>
+    <reference idRef="960"/>
+    <reference idRef="958"/>
+    <reference idRef="958"/>
+    <reference idRef="957"/>
+    <reference idRef="957"/>
+    <reference idRef="888"/>
+    <reference idRef="958"/>
+    <reference idRef="960"/>
+    <reference idRef="957"/>
+    <reference idRef="959"/>
+    <reference idRef="959"/>
+    <reference idRef="957"/>
+    <reference idRef="958"/>
+    <reference idRef="959"/>
+    <reference idRef="958"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="958"/>
+    <reference idRef="959"/>
+    <reference idRef="959"/>
+    <reference idRef="886"/>
+    <reference idRef="959"/>
+    <reference idRef="888"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DiscInfoPanel</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">964</unsigned_int>
+</object>

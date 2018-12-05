@@ -1,0 +1,215 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="29" name="allObjects">
+    <object class="IBCarbonMenuItem" id="910">
+      <boolean name="separator">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenu" id="888">
+      <string name="title">Menu</string>
+      <array count="19" name="items">
+        <object class="IBCarbonMenuItem" id="889">
+          <string name="title">Nửa Kích cỡ</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">VHlf</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="890">
+          <string name="title">Kích cỡ Thực</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">VNrm</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1025">
+          <string name="title">Kích cỡ Gấp đôi</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">VDbl</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="887">
+          <string name="title">Vừa Màn hình</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">VMax</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="886">
+          <string name="title">Chuyển sang Toàn Màn hình</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">VPrs</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="891">
+          <boolean name="separator">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="899">
+          <string name="title">Menu DVD</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CDMn</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="998">
+          <string name="title">Bắt đầu Đĩa</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">DBeg</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="893">
+          <string name="title">Tiêu đề</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CTSb</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="894">
+            <string name="title">Tiêu đề</string>
+            <boolean name="autoDisable">TRUE</boolean>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="895">
+          <string name="title">Chương</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CCSb</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="896">
+            <string name="title">Chương</string>
+            <boolean name="autoDisable">TRUE</boolean>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="900">
+          <string name="title">Dấu trang</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CBSb</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="901">
+            <string name="title">Dấu trang</string>
+            <boolean name="autoDisable">TRUE</boolean>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="999">
+          <string name="title">Định dạng DVD</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">FrmC</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="1000">
+            <string name="title">Định dạng DVD</string>
+            <boolean name="autoDisable">TRUE</boolean>
+            <array count="2" name="items">
+              <object class="IBCarbonMenuItem" id="1001">
+                <string name="title">Độ nét Chuẩn</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">SDef</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="1002">
+                <string name="title">Độ nét Cao</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">HDef</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="1030">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="915">
+          <string name="title">Thêm Dấu trang…</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">ABkm</ostype>
+        </object>
+        <reference idRef="910"/>
+        <object class="IBCarbonMenuItem" id="1022">
+          <string name="title">Sử dụng Khung Hiện tại làm Ảnh Bìa</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">CFJP</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1020">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="898">
+          <string name="title">Tắt tiếng</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CMut</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1033">
+          <string name="title">Bật</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">TgCC</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="915"/>
+    <reference idRef="999"/>
+    <reference idRef="1002"/>
+    <reference idRef="1020"/>
+    <reference idRef="895"/>
+    <reference idRef="1033"/>
+    <reference idRef="1001"/>
+    <reference idRef="899"/>
+    <reference idRef="1022"/>
+    <reference idRef="898"/>
+    <reference idRef="1030"/>
+    <reference idRef="1000"/>
+    <reference idRef="901"/>
+    <reference idRef="890"/>
+    <reference idRef="1025"/>
+    <reference idRef="900"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="998"/>
+    <reference idRef="889"/>
+    <object class="IBCarbonMenuItem" id="1015">
+      <string name="title">Tạo Hình thu nhỏ Bị thiếu</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">IBGT</ostype>
+    </object>
+    <reference idRef="894"/>
+    <object class="IBCarbonMenuItem" id="1017">
+      <string name="title">Xóa Hình thu nhỏ</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">IBRT</ostype>
+    </object>
+    <reference idRef="896"/>
+    <reference idRef="893"/>
+    <object class="IBCarbonMenu" id="1014">
+      <string name="title">Menu</string>
+      <array count="2" name="items">
+        <reference idRef="1015"/>
+        <reference idRef="1017"/>
+      </array>
+    </object>
+    <reference idRef="891"/>
+  </array>
+  <array count="29" name="allParents">
+    <reference idRef="888"/>
+    <reference idRef="1"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1000"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1000"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="999"/>
+    <reference idRef="900"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1014"/>
+    <reference idRef="893"/>
+    <reference idRef="1014"/>
+    <reference idRef="895"/>
+    <reference idRef="888"/>
+    <reference idRef="1"/>
+    <reference idRef="888"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ImageBarListContextualMenu</string>
+    <reference idRef="1014"/>
+    <string>VidContextualMenu</string>
+    <reference idRef="888"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1040</unsigned_int>
+</object>

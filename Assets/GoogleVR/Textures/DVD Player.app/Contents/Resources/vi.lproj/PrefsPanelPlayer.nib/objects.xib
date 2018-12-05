@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonStaticText" id="926">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1200</int>
+      <string name="title">Khi đĩa được lắp vào:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">20 111 248 16 </string>
+      <string name="bounds">111 20 127 268 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="928">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1300</int>
+      <string name="title">Khi bị tắt tiếng:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">20 215 248 16 </string>
+      <string name="bounds">215 20 231 268 </string>
+    </object>
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 580 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">Khi Trình phát DVD mở:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 13 248 16 </string>
+          <string name="bounds">13 20 29 268 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">Đặt thành toàn màn hình nếu đĩa hợp lệ được nhận dạng</string>
+          <string name="title">Chuyển sang chế độ Toàn Màn hình</string>
+          <string name="viewFrame">274 13 286 16 </string>
+          <string name="bounds">13 274 29 560 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">Bắt đầu phát lại nếu đĩa hợp lệ được nhận dạng</string>
+          <string name="title">Bắt đầu phát đĩa</string>
+          <string name="viewFrame">274 35 286 16 </string>
+          <string name="bounds">35 274 51 560 </string>
+        </object>
+        <reference idRef="926"/>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">Bắt đầu phát lại nếu đĩa hợp lệ được lắp sau khi Trình phát DVD đã chạy</string>
+          <string name="title">Bắt đầu phát đĩa</string>
+          <string name="viewFrame">274 111 286 16 </string>
+          <string name="bounds">111 274 127 560 </string>
+        </object>
+        <reference idRef="928"/>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">Bật chú thích chi tiết khi âm thanh Trình phát DVD bị tắt</string>
+          <string name="title">Hiển thị Chú thích Chi tiết</string>
+          <string name="viewFrame">274 215 286 16 </string>
+          <string name="bounds">215 274 231 560 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">Khi trình xem được thu nhỏ:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 252 248 16 </string>
+          <string name="bounds">252 20 268 268 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1501</int>
+          <string name="helpTagText">Tạm dừng phát lại khi trình xem được thu nhỏ vào Dock</string>
+          <string name="title">Tạm dừng phát lại</string>
+          <string name="viewFrame">274 252 286 16 </string>
+          <string name="bounds">252 274 268 560 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">Thao tác này giúp bảo toàn điện tích pin. Việc quét đĩa có thể chậm hơn khi ổ đĩa đang khởi động.</string>
+          <string name="viewFrame">276 169 273 31 </string>
+          <string name="bounds">169 276 200 549 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">Khi phát bằng pin:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 149 248 16 </string>
+          <string name="bounds">149 20 165 268 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">Đặt ổ đĩa DVD về trạng thái ngủ</string>
+          <string name="viewFrame">274 141 286 31 </string>
+          <string name="bounds">141 274 172 560 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">Khi Trình phát DVD không hoạt động:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 73 248 16 </string>
+          <string name="bounds">73 20 89 268 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">Tạm thời tạm dừng phát lại khi trình phát không hoạt động</string>
+          <string name="title">Tạm dừng phát lại</string>
+          <string name="viewFrame">274 73 286 16 </string>
+          <string name="bounds">73 274 89 560 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 580 </string>
+    </object>
+    <reference idRef="932"/>
+    <reference idRef="929"/>
+    <reference idRef="938"/>
+    <reference idRef="939"/>
+    <reference idRef="935"/>
+    <reference idRef="923"/>
+    <reference idRef="937"/>
+    <reference idRef="934"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Cửa sổ</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 580 296 </string>
+        <array count="1" name="subviews">
+          <reference idRef="922"/>
+        </array>
+        <string name="bounds">0 0 296 580 </string>
+      </object>
+      <string name="windowRect">92 838 388 1418 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="924"/>
+    <reference idRef="927"/>
+    <reference idRef="887"/>
+    <reference idRef="933"/>
+    <reference idRef="925"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonButton" id="896">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Vazgeç</string>
+      <string name="viewFrame">192 62 70 20 </string>
+      <string name="bounds">62 192 82 262 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 364 102 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonStaticText" id="889">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Ad:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">18 23 25 16 </string>
+          <string name="bounds">23 18 39 43 </string>
+        </object>
+        <object class="IBCarbonEditText" id="894">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">53 23 288 16 </string>
+          <string name="bounds">23 53 39 341 </string>
+        </object>
+        <object class="IBCarbonButton" id="895">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Tamam</string>
+          <string name="viewFrame">274 62 70 20 </string>
+          <string name="bounds">62 274 82 344 </string>
+        </object>
+        <reference idRef="896"/>
+        <object class="IBCarbonCheckBox" id="898">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <string name="title">Tüm diskler için kullan</string>
+          <string name="viewFrame">20 65 169 14 </string>
+          <string name="bounds">65 20 79 189 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 102 364 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Ayar Adı</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">367 541 469 905 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="895"/>
+    <reference idRef="894"/>
+    <reference idRef="889"/>
+    <reference idRef="898"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SettingNameSheet</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">900</unsigned_int>
+</object>

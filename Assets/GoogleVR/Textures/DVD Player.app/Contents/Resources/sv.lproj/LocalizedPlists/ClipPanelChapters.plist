@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Chapters Panel</string>
+		<key>Panel Cmd ID</key>
+		<string>CChP</string>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3001</key>
+	<dict>
+		<key>Comment</key>
+		<string>Scroll View</string>
+		<key>Has Vertical Scroll Bars</key>
+		<true/>
+		<key>Has Horizontal Scroll Bars</key>
+		<false/>
+		<key>Has Grow Box</key>
+		<false/>
+		<key>Scrolling Sub View ID</key>
+		<integer>3002</integer>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>3002</key>
+	<dict>
+		<key>Comment</key>
+		<string>List View</string>
+		<key>Line Size</key>
+		<real>18</real>
+		<key>Item Width Inset</key>
+		<real>23</real>
+		<key>Item Height Inset</key>
+		<real>0</real>
+		<key>Thumbnail Height</key>
+		<real>-1</real>
+		<key>Thumbnail Border Width</key>
+		<real>23</real>
+		<key>Thumbnail Border Height</key>
+		<real>8</real>
+		<key>Time Column Width</key>
+		<real>60</real>
+		<key>Column Gap</key>
+		<real>5</real>
+		<key>Line 1 Color</key>
+		<dict>
+			<key>alpha</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Line 2 Color</key>
+		<dict>
+			<key>alpha</key>
+			<integer>65535</integer>
+			<key>blue</key>
+			<integer>5654</integer>
+			<key>green</key>
+			<integer>5654</integer>
+			<key>red</key>
+			<integer>5654</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>kapitel</string>
+		<!-- Localize end -->
+	</dict>
+	<key>3003</key>
+	<dict>
+		<key>Comment</key>
+		<string>Action Btn</string>
+		<key>Off File</key>
+		<string>ClipGearBtnOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>ClipGearBtnOn.tiff</string>
+		<key>Disabled File</key>
+		<string>ClipGearBtnDisabled.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Kapitelåtgärder</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Kapitelåtgärd</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonCheckBox" id="926">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5201</int>
+      <string name="helpTagText">Usa le ultime impostazioni dell&apos;equalizzatore utilizzate con questo disco</string>
+      <string name="title">Equalizzatore audio</string>
+      <string name="viewFrame">205 165 150 18 </string>
+      <string name="bounds">165 205 183 355 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="923">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5203</int>
+      <string name="helpTagText">Usa le ultime impostazioni di zoom utilizzate con questo disco</string>
+      <string name="title">Zoom video</string>
+      <string name="viewFrame">205 210 150 16 </string>
+      <string name="bounds">210 205 226 355 </string>
+    </object>
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5000</int>
+      <string name="classID">com.apple.DVDPlayer.PrvP</string>
+      <string name="viewFrame">0 0 610 244 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonStaticText" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5100</int>
+          <string name="title">Riproduzione dei dischi da:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">23 20 176 16 </string>
+          <string name="bounds">20 23 36 199 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5101</int>
+          <int name="numRows">4</int>
+          <int name="intercellHeight">4</int>
+          <array count="4" name="radioTitles">
+            <array count="1">
+              <string>Inizio</string>
+            </array>
+            <array count="1">
+              <string>Ultima interruzione</string>
+            </array>
+            <array count="1">
+              <string>Segnalibro di default</string>
+            </array>
+            <array count="1">
+              <string>Chiedi sempre</string>
+            </array>
+          </array>
+          <string name="viewFrame">205 20 200 87 </string>
+          <string name="bounds">20 205 107 405 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5102</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">Se tieni premuto il tasto Opzione quando la riproduzione inizia, DVD Player ti chiederà da dove vuoi cominciare.</string>
+          <string name="viewFrame">208 107 370 43 </string>
+          <string name="bounds">107 208 150 578 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5200</int>
+          <string name="title">Impostazioni del disco per:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">9 165 190 16 </string>
+          <string name="bounds">165 9 181 199 </string>
+        </object>
+        <reference idRef="926"/>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5202</int>
+          <string name="helpTagText">Usa le ultime impostazioni di colore video utilizzate con questo disco</string>
+          <string name="title">Colore video</string>
+          <string name="viewFrame">205 188 150 16 </string>
+          <string name="bounds">188 205 204 355 </string>
+        </object>
+        <reference idRef="923"/>
+      </array>
+      <string name="bounds">0 0 244 610 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Finestra</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 610 244 </string>
+        <array count="1" name="subviews">
+          <reference idRef="922"/>
+        </array>
+        <string name="bounds">0 0 244 610 </string>
+      </object>
+      <string name="windowRect">44 362 288 972 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="924"/>
+    <reference idRef="887"/>
+    <reference idRef="928"/>
+    <reference idRef="925"/>
+    <reference idRef="927"/>
+    <reference idRef="929"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

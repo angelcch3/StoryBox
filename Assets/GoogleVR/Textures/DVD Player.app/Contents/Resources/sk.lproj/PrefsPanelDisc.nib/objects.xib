@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonMenu" id="949">
+      <string name="title">Vyskakovacie:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="950">
+          <string name="title">Umiestnenie</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonCheckBox" id="932">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2201</int>
+      <string name="helpTagText">Povoliť automatické spúšťanie prehliadača, keď sa objaví webový odkaz DVD@ccess</string>
+      <string name="title">Povoliť DVD@ccess webové odkazy</string>
+      <string name="viewFrame">191 148 241 18 </string>
+      <string name="bounds">148 191 166 432 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="944">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2303</int>
+      <string name="helpTagText">Zvuk bude hlasnejší, no môže poškodiť reproduktory</string>
+      <string name="title">Zakázať kompresiu Dolby dynamic range</string>
+      <string name="viewFrame">120 247 295 20 </string>
+      <string name="bounds">247 120 267 415 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="956">
+      <ostype name="controlSignature">cfbs</ostype>
+      <string name="title">Titulky:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">129 74 60 16 </string>
+      <string name="bounds">74 129 90 189 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="936">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2304</int>
+      <int name="controlSize">1</int>
+      <string name="title">Pri zmene výstupu zastavte prehrávanie.</string>
+      <string name="foreColor">0 0 0 </string>
+      <string name="viewFrame">180 270 246 13 </string>
+      <string name="bounds">270 180 283 426 </string>
+    </object>
+    <reference idRef="950"/>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="886">
+        <string name="viewFrame">0 0 530 300 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="931">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2000</int>
+            <string name="classID">com.apple.DVDPlayer.DscP</string>
+            <string name="viewFrame">0 0 530 300 </string>
+            <array count="17" name="subviews">
+              <object class="IBCarbonStaticText" id="941">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2100</int>
+                <string name="title">Jazyk</string>
+                <int name="justification">-2</int>
+                <string name="viewFrame">58 11 40 16 </string>
+                <string name="bounds">11 58 27 98 </string>
+              </object>
+              <object class="IBCarbonSeparator" id="943">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2101</int>
+                <string name="viewFrame">98 21 380 4 </string>
+                <string name="bounds">21 98 25 478 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="948">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2102</int>
+                <string name="helpTagText">Vybrať preferovaný jazyk, ak je k dispozícii na disku</string>
+                <reference name="menu" idRef="949"/>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">192 40 256 20 </string>
+                <string name="bounds">40 192 60 448 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="938">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2103</int>
+                <string name="helpTagText">Zvoliť preferovaný jazyk titulkov, ak je k dispozícii na disku</string>
+                <object name="menu" class="IBCarbonMenu" id="939">
+                  <string name="title">Vyskakovacie:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="940">
+                      <string name="title">Umiestnenie</string>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">192 72 256 20 </string>
+                <string name="bounds">72 192 92 448 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="945">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2104</int>
+                <string name="helpTagText">Vybrať preferovaný jazyk pre DVD menu, ak je k dispozícii na disku</string>
+                <object name="menu" class="IBCarbonMenu" id="946">
+                  <string name="title">Vyskakovacie:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="947">
+                      <string name="title">Umiestnenie</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">192 104 256 20 </string>
+                <string name="bounds">104 192 124 448 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="937">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2200</int>
+                <string name="title">Internet:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">86 149 103 16 </string>
+                <string name="bounds">149 86 165 189 </string>
+              </object>
+              <reference idRef="932"/>
+              <object class="IBCarbonStaticText" id="942">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2300</int>
+                <string name="title">Audio</string>
+                <string name="viewFrame">58 190 132 16 </string>
+                <string name="bounds">190 58 206 190 </string>
+              </object>
+              <object class="IBCarbonSeparator" id="951">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2301</int>
+                <string name="viewFrame">99 202 379 1 </string>
+                <string name="bounds">202 99 203 478 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="933">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2302</int>
+                <string name="helpTagText">Vybrať zariadenie, ktoré sa má používať na zvukový výstup</string>
+                <object name="menu" class="IBCarbonMenu" id="934">
+                  <string name="title">Vyskakovacie:</string>
+                  <array count="1" name="items">
+                    <object class="IBCarbonMenuItem" id="935">
+                      <string name="title">Systém zvukového výstupu</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <int name="titleJustification">-2</int>
+                <string name="viewFrame">192 219 256 20 </string>
+                <string name="bounds">219 192 239 448 </string>
+              </object>
+              <reference idRef="944"/>
+              <reference idRef="936"/>
+              <object class="IBCarbonRoundButton" id="953">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">2400</int>
+                <ostype name="command">DSHp</ostype>
+                <string name="viewFrame">488 258 25 25 </string>
+                <string name="bounds">258 488 283 513 </string>
+                <int name="contentType">132</int>
+                <int name="iconCreator">1835098995</int>
+                <int name="iconType">1751477360</int>
+              </object>
+              <object class="IBCarbonStaticText" id="955">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">Audio:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">129 42 60 16 </string>
+                <string name="bounds">42 129 58 189 </string>
+              </object>
+              <reference idRef="956"/>
+              <object class="IBCarbonStaticText" id="957">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">DVD menu:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">114 106 75 16 </string>
+                <string name="bounds">106 114 122 189 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="958">
+                <ostype name="controlSignature">cfbs</ostype>
+                <string name="title">Audiovýstup:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">99 221 90 16 </string>
+                <string name="bounds">221 99 237 189 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 300 530 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 300 530 </string>
+      </object>
+      <string name="windowRect">337 506 637 1036 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="933"/>
+    <reference idRef="934"/>
+    <reference idRef="951"/>
+    <reference idRef="939"/>
+    <reference idRef="937"/>
+    <reference idRef="945"/>
+    <reference idRef="955"/>
+    <reference idRef="948"/>
+    <reference idRef="942"/>
+    <reference idRef="957"/>
+    <reference idRef="958"/>
+    <reference idRef="940"/>
+    <reference idRef="935"/>
+    <reference idRef="947"/>
+    <reference idRef="953"/>
+    <reference idRef="941"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="946"/>
+    <reference idRef="938"/>
+    <reference idRef="943"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="948"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="949"/>
+    <reference idRef="1"/>
+    <reference idRef="931"/>
+    <reference idRef="933"/>
+    <reference idRef="931"/>
+    <reference idRef="938"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="939"/>
+    <reference idRef="934"/>
+    <reference idRef="946"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="945"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelDisc</string>
+    <reference idRef="887"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">959</unsigned_int>
+</object>

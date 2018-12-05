@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Alternate Window Title</key>
+		<string>상자에 관하여</string>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>1</integer>
+				<key>Class ID</key>
+				<string>icsv</string>
+			</dict>
+		</array>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Logo</string>
+		<key>Reference ID</key>
+		<string>AppI</string>
+		<key>File</key>
+		<string>app.icns</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>응용 프로그램 아이콘</string>
+		<key>Accessibility Title</key>
+		<string>응용 프로그램 아이콘</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Name</string>
+		<key>Theme Font ID</key>
+		<integer>4</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Text</key>
+		<string>DVD 플레이어</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Version</string>
+		<key>Font Color</key>
+		<dict>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>0</integer>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Credits</string>
+		<key>Text</key>
+		<string>Copyright © 2001-2014 Apple Inc. 
+모든 권리 보유.
+		
+Dolby Laboratories의 허가 하에 제작됨. 'Dolby', 'Pro-Logic' 및 더블 D 기호는 Dolby Laboratories의 등록 상표입니다.
+
+기밀사항은 공개하지 않습니다. 
+Copyright 1992-1997 Dolby Laboratories.
+모든 권리 보유.
+		</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Comment</key>
+		<string>Dolby Logo</string>
+		<key>File</key>
+		<string>Dolby.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>Dolby 로고</string>
+		<key>Accessibility Title</key>
+		<string>Dolby 로고</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Comment</key>
+		<string>Playback Version</string>
+		<key>Font Color</key>
+		<dict>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

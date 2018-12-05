@@ -1,0 +1,333 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="31" name="allObjects">
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 527 318 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonCustom" id="888">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1000</int>
+            <string name="classID">com.apple.DVDPlayer.DInP</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">0 0 527 318 </string>
+            <array count="7" name="subviews">
+              <object class="IBCarbonEditText" id="922">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1102</int>
+                <string name="helpTagText">Název pro zobrazení v záhlaví okna prohlížeče</string>
+                <boolean name="isUnicode">TRUE</boolean>
+                <boolean name="isSingleLine">TRUE</boolean>
+                <string name="viewFrame">62 18 447 16 </string>
+                <string name="bounds">18 62 34 509 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1101</int>
+                <string name="title">Název:</string>
+                <string name="viewFrame">15 17 42 16 </string>
+                <string name="bounds">17 15 33 57 </string>
+              </object>
+              <object class="IBCarbonGroupBox" id="957">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1200</int>
+                <string name="title">Video</string>
+                <string name="viewFrame">15 48 241 94 </string>
+                <array count="6" name="subviews">
+                  <object class="IBCarbonStaticText" id="925">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1205</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Formát:</string>
+                    <string name="viewFrame">6 70 80 16 </string>
+                    <string name="bounds">118 21 134 101 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="927">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1201</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Velikost:</string>
+                    <string name="viewFrame">6 22 80 16 </string>
+                    <string name="bounds">70 21 86 101 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="929">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1204</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Poměr stran aktuálního videa</string>
+                    <string name="viewFrame">106 46 126 16 </string>
+                    <string name="bounds">94 121 110 247 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="932">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1202</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Nativní velikost aktuálního videa</string>
+                    <string name="viewFrame">106 22 126 16 </string>
+                    <string name="bounds">70 121 86 247 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="934">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1203</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Poměr stran:</string>
+                    <string name="viewFrame">6 46 80 16 </string>
+                    <string name="bounds">94 21 110 101 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="935">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1206</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Formát aktuálního videa</string>
+                    <string name="viewFrame">106 70 126 16 </string>
+                    <string name="bounds">118 121 134 247 </string>
+                  </object>
+                </array>
+                <string name="bounds">48 15 142 256 </string>
+              </object>
+              <object class="IBCarbonGroupBox" id="958">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1300</int>
+                <string name="title">Zvuk</string>
+                <string name="viewFrame">271 48 241 94 </string>
+                <array count="6" name="subviews">
+                  <object class="IBCarbonStaticText" id="952">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1301</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Formát:</string>
+                    <string name="viewFrame">6 22 60 16 </string>
+                    <string name="bounds">70 277 86 337 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="953">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1302</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Formát aktuálního zvuku</string>
+                    <string name="viewFrame">70 22 165 16 </string>
+                    <string name="bounds">70 341 86 506 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="954">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1305</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Typ:</string>
+                    <string name="viewFrame">6 70 60 16 </string>
+                    <string name="bounds">118 277 134 337 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="955">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1306</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Typ aktuálního zvuku</string>
+                    <string name="viewFrame">70 70 165 16 </string>
+                    <string name="bounds">118 341 134 506 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="961">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1303</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Kanály:</string>
+                    <string name="viewFrame">6 46 60 16 </string>
+                    <string name="bounds">94 277 110 337 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="962">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1304</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Počet kanálů v aktuálním zvuku</string>
+                    <string name="viewFrame">70 46 165 16 </string>
+                    <string name="bounds">94 341 110 506 </string>
+                  </object>
+                </array>
+                <string name="bounds">48 271 142 512 </string>
+              </object>
+              <object class="IBCarbonGroupBox" id="959">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1400</int>
+                <string name="title">Média</string>
+                <string name="viewFrame">15 148 497 108 </string>
+                <array count="6" name="subviews">
+                  <object class="IBCarbonStaticText" id="928">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1402</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Typ rozlišení aktuálního videa</string>
+                    <string name="viewFrame">106 22 260 16 </string>
+                    <string name="bounds">170 121 186 381 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="931">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1401</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Formát:</string>
+                    <string name="viewFrame">4 22 80 16 </string>
+                    <string name="bounds">170 19 186 99 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="942">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1406</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Cesta k médiu</string>
+                    <string name="viewFrame">106 70 382 30 </string>
+                    <string name="bounds">218 121 248 503 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="943">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1405</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Cesta k médiu:</string>
+                    <string name="viewFrame">4 70 86 16 </string>
+                    <string name="bounds">218 19 234 105 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="944">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1404</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Typ použitého média</string>
+                    <string name="viewFrame">106 46 260 16 </string>
+                    <string name="bounds">194 121 210 381 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="945">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1403</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Typ média:</string>
+                    <string name="viewFrame">4 46 80 16 </string>
+                    <string name="bounds">194 19 210 99 </string>
+                  </object>
+                </array>
+                <string name="bounds">148 15 256 512 </string>
+              </object>
+              <object class="IBCarbonGroupBox" id="960">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1500</int>
+                <string name="title">Nastavení</string>
+                <string name="viewFrame">15 260 464 48 </string>
+                <array count="3" name="subviews">
+                  <object class="IBCarbonStaticText" id="938">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1502</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">Název souboru s nastavením</string>
+                    <string name="viewFrame">106 24 272 16 </string>
+                    <string name="bounds">284 121 300 393 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="939">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1501</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">Soubor nastavení:</string>
+                    <string name="viewFrame">5 24 96 16 </string>
+                    <string name="bounds">284 20 300 116 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="940">
+                    <ostype name="controlSignature">cfbs</ostype>
+                    <int name="controlID">1503</int>
+                    <ostype name="command">DShw</ostype>
+                    <string name="helpTagText">Ukáže umístění souboru nastavení ve Finderu</string>
+                    <string name="title">Zobrazit</string>
+                    <string name="viewFrame">386 22 70 20 </string>
+                    <string name="bounds">282 401 302 471 </string>
+                  </object>
+                </array>
+                <string name="bounds">260 15 308 479 </string>
+              </object>
+              <object class="IBCarbonRoundButton" id="963">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1600</int>
+                <ostype name="command">DIHp</ostype>
+                <string name="viewFrame">489 281 25 25 </string>
+                <string name="bounds">281 489 306 514 </string>
+                <int name="contentType">132</int>
+                <int name="iconCreator">1835098995</int>
+                <int name="iconType">1751477360</int>
+              </object>
+            </array>
+            <string name="bounds">0 0 318 527 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 318 527 </string>
+      </object>
+      <string name="windowRect">379 850 697 1377 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="935"/>
+    <reference idRef="960"/>
+    <reference idRef="939"/>
+    <reference idRef="934"/>
+    <reference idRef="942"/>
+    <reference idRef="888"/>
+    <reference idRef="928"/>
+    <reference idRef="959"/>
+    <reference idRef="958"/>
+    <reference idRef="963"/>
+    <reference idRef="887"/>
+    <reference idRef="943"/>
+    <reference idRef="957"/>
+    <reference idRef="923"/>
+    <reference idRef="929"/>
+    <reference idRef="927"/>
+    <reference idRef="944"/>
+    <reference idRef="953"/>
+    <reference idRef="945"/>
+    <reference idRef="940"/>
+    <reference idRef="931"/>
+    <reference idRef="922"/>
+    <reference idRef="954"/>
+    <reference idRef="962"/>
+    <reference idRef="961"/>
+    <reference idRef="925"/>
+    <reference idRef="952"/>
+    <reference idRef="938"/>
+    <reference idRef="932"/>
+    <reference idRef="955"/>
+  </array>
+  <array count="31" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="957"/>
+    <reference idRef="888"/>
+    <reference idRef="960"/>
+    <reference idRef="957"/>
+    <reference idRef="959"/>
+    <reference idRef="887"/>
+    <reference idRef="959"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="886"/>
+    <reference idRef="959"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="957"/>
+    <reference idRef="957"/>
+    <reference idRef="959"/>
+    <reference idRef="958"/>
+    <reference idRef="959"/>
+    <reference idRef="960"/>
+    <reference idRef="959"/>
+    <reference idRef="888"/>
+    <reference idRef="958"/>
+    <reference idRef="958"/>
+    <reference idRef="958"/>
+    <reference idRef="957"/>
+    <reference idRef="958"/>
+    <reference idRef="960"/>
+    <reference idRef="957"/>
+    <reference idRef="958"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DiscInfoPanel</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">964</unsigned_int>
+</object>

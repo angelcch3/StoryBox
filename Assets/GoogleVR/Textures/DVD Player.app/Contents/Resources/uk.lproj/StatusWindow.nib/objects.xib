@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="5" name="allObjects">
+    <object class="IBCarbonWindow" id="886">
+      <string name="windowRect">116 469 144 669 </string>
+      <string name="title">Стан</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="888">
+        <string name="bounds">0 0 28 200 </string>
+        <string name="viewFrame">0 0 200 28 </string>
+        <array count="3" name="subviews">
+          <object class="IBCarbonHIView" id="893">
+            <string name="bounds">0 0 28 200 </string>
+            <string name="viewFrame">0 0 200 28 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <string name="classID">com.apple.DVDPlayer.bckv</string>
+          </object>
+          <object class="IBCarbonHIView" id="894">
+            <string name="bounds">1 1 27 171 </string>
+            <string name="viewFrame">1 1 170 26 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <string name="classID">com.apple.DVDPlayer.thtx</string>
+          </object>
+          <object class="IBCarbonHIView" id="895">
+            <string name="bounds">6 177 22 193 </string>
+            <string name="viewFrame">177 6 16 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="classID">com.apple.DVDPlayer.StIm</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="themeBrush">-1</int>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <boolean name="doesNotCycle">TRUE</boolean>
+    </object>
+    <reference idRef="888"/>
+    <reference idRef="893"/>
+    <reference idRef="894"/>
+    <reference idRef="895"/>
+  </array>
+  <array count="5" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+  </array>
+  <dictionary count="5" name="nameTable">
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+    <string>StatusWindow</string>
+    <reference idRef="886"/>
+    <string>View1</string>
+    <reference idRef="893"/>
+    <string>View11</string>
+    <reference idRef="894"/>
+    <string>View111</string>
+    <reference idRef="895"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">896</unsigned_int>
+</object>

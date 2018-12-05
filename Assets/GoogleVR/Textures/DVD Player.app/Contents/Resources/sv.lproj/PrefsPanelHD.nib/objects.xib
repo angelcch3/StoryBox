@@ -1,0 +1,152 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonStaticText" id="944">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6100</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="title">Förvald videostorlek</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">30 29 153 16 </string>
+      <string name="bounds">199 30 215 183 </string>
+    </object>
+    <object class="IBCarbonHIView" id="942">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6000</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.HdPn</string>
+      <string name="viewFrame">0 0 480 244 </string>
+      <array count="7" name="subviews">
+        <reference idRef="944"/>
+        <object class="IBCarbonSeparator" id="943">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6101</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="viewFrame">167 41 283 1 </string>
+          <string name="bounds">202 167 203 450 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="945">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6102</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="title">För SD:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 73 175 16 </string>
+          <string name="bounds">155 30 171 205 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="947">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6103</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Faktisk videostorlek</string>
+            </array>
+            <array count="1">
+              <string>Skivans förval</string>
+            </array>
+          </array>
+          <string name="viewFrame">211 72 202 42 </string>
+          <string name="bounds">130 211 172 413 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="946">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6104</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="title">För HD:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">30 145 175 16 </string>
+          <string name="bounds">83 30 99 205 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="948">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6105</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <int name="numRows">3</int>
+          <array count="3" name="radioTitles">
+            <array count="1">
+              <string>Faktisk videostorlek</string>
+            </array>
+            <array count="1">
+              <string>Höjd 720</string>
+            </array>
+            <array count="1">
+              <string>Höjd 1080</string>
+            </array>
+          </array>
+          <string name="viewFrame">211 144 202 61 </string>
+          <string name="bounds">39 211 100 413 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="954">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6200</int>
+          <ostype name="command">HDHp</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="viewFrame">439 206 21 18 </string>
+          <string name="bounds">20 439 38 460 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+      </array>
+      <string name="bounds">0 0 244 480 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="viewFrame">0 0 480 244 </string>
+      <array count="1" name="subviews">
+        <reference idRef="942"/>
+      </array>
+      <string name="bounds">0 0 244 480 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Fönster</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">591 290 835 770 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="946"/>
+    <reference idRef="945"/>
+    <reference idRef="954"/>
+    <reference idRef="948"/>
+    <reference idRef="943"/>
+    <reference idRef="947"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="942"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelHD</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">964</unsigned_int>
+</object>

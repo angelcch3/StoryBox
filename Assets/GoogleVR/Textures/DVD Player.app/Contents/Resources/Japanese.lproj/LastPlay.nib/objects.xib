@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="20" name="allObjects">
+    <object class="IBCarbonStaticText" id="201">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">7</int>
+      <string name="title">再生開始位置を選択してください。</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">195 47 291 23 </string>
+      <string name="bounds">47 195 70 486 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="190">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="title">DVDプレーヤーの環境設定でデフォルトの動作を設定してください。</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">110 142 350 17 </string>
+      <string name="bounds">142 110 159 460 </string>
+    </object>
+    <object class="IBCarbonButton" id="200">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">DefB</ostype>
+      <string name="helpTagText">デフォルトのブックマークの位置から再生を開始します</string>
+      <string name="title">デフォルトのブックマーク</string>
+      <string name="viewFrame">138 94 184 20 </string>
+      <string name="bounds">94 138 114 322 </string>
+    </object>
+    <object class="IBCarbonButton" id="183">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">DefB</ostype>
+      <string name="helpTagText">デフォルトのブックマークの位置から再生を開始します</string>
+      <string name="title">デフォルトのブックマーク</string>
+      <string name="viewFrame">138 94 184 20 </string>
+      <string name="bounds">94 138 114 322 </string>
+    </object>
+    <object class="IBCarbonButton" id="197">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">LstB</ostype>
+      <string name="helpTagText">前回停止した位置から続けます</string>
+      <int name="buttonType">1</int>
+      <string name="title">前回停止した位置</string>
+      <string name="viewFrame">330 94 132 20 </string>
+      <string name="bounds">94 330 114 462 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="181">
+      <string name="viewFrame">0 0 571 172 </string>
+      <array count="8" name="subviews">
+        <reference idRef="183"/>
+        <object class="IBCarbonStaticText" id="184">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <string name="title">これは以前に視聴したことのあるディスクです。</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 26 286 20 </string>
+          <string name="bounds">26 195 46 481 </string>
+        </object>
+        <object class="IBCarbonButton" id="185">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">BegB</ostype>
+          <string name="helpTagText">ディスクの先頭から再生を開始します</string>
+          <string name="title">ディスクの先頭</string>
+          <string name="viewFrame">9 94 119 20 </string>
+          <string name="bounds">94 9 114 128 </string>
+        </object>
+        <object class="IBCarbonButton" id="186">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">LstB</ostype>
+          <string name="helpTagText">前回停止した位置から続けます</string>
+          <int name="buttonType">1</int>
+          <string name="title">前回停止した位置</string>
+          <string name="viewFrame">332 94 132 20 </string>
+          <string name="bounds">94 332 114 464 </string>
+        </object>
+        <object class="IBCarbonIcon" id="189">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">123 21 48 48 </string>
+          <string name="bounds">21 123 69 171 </string>
+        </object>
+        <reference idRef="190"/>
+        <object class="IBCarbonStaticText" id="191">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <string name="title">再生開始位置を選択してください。</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 47 231 23 </string>
+          <string name="bounds">47 195 70 426 </string>
+        </object>
+        <object class="IBCarbonButton" id="192">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <ostype name="command">not!</ostype>
+          <string name="helpTagText">再生をキャンセルします</string>
+          <int name="buttonType">2</int>
+          <string name="title">キャンセル</string>
+          <string name="viewFrame">472 94 93 20 </string>
+          <string name="bounds">94 472 114 565 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 172 571 </string>
+    </object>
+    <object class="IBCarbonButton" id="198">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">再生をキャンセルします</string>
+      <int name="buttonType">2</int>
+      <string name="title">キャンセル</string>
+      <string name="viewFrame">470 94 93 20 </string>
+      <string name="bounds">94 470 114 563 </string>
+    </object>
+    <reference idRef="189"/>
+    <object class="IBCarbonWindow" id="193">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">再生位置</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="194">
+        <string name="viewFrame">0 0 571 172 </string>
+        <array count="8" name="subviews">
+          <reference idRef="200"/>
+          <object class="IBCarbonStaticText" id="195">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <string name="title">これは以前に視聴したことのあるディスクです。</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">195 26 291 20 </string>
+            <string name="bounds">26 195 46 486 </string>
+          </object>
+          <object class="IBCarbonButton" id="196">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">BegB</ostype>
+            <string name="helpTagText">ディスクの先頭から再生を開始します</string>
+            <string name="title">ディスクの先頭</string>
+            <string name="viewFrame">9 94 119 20 </string>
+            <string name="bounds">94 9 114 128 </string>
+          </object>
+          <reference idRef="197"/>
+          <object class="IBCarbonIcon" id="199">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">0</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">123 21 48 48 </string>
+            <string name="bounds">21 123 69 171 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="202">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+            <int name="controlSize">1</int>
+            <string name="title">DVDプレーヤーの環境設定でデフォルトの動作を設定してください。</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">108 142 354 25 </string>
+            <string name="bounds">142 108 167 462 </string>
+          </object>
+          <reference idRef="201"/>
+          <reference idRef="198"/>
+        </array>
+        <string name="bounds">0 0 172 571 </string>
+      </object>
+      <string name="windowRect">72 789 244 1360 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="194"/>
+    <reference idRef="191"/>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">再生位置</string>
+      <reference name="rootControl" idRef="181"/>
+      <string name="windowRect">52 769 224 1340 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="192"/>
+    <reference idRef="195"/>
+    <reference idRef="185"/>
+    <reference idRef="184"/>
+    <reference idRef="186"/>
+    <reference idRef="199"/>
+    <reference idRef="196"/>
+    <reference idRef="202"/>
+  </array>
+  <array count="20" name="allParents">
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="180"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="193"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LastPlayDialog</string>
+    <reference idRef="193"/>
+    <string>LastPlaySheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">203</unsigned_int>
+</object>

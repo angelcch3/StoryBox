@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "716758062079",
+    "firebase_url": "https://storybox-hackmit.firebaseio.com",
+    "project_id": "storybox-hackmit",
+    "storage_bucket": "storybox-hackmit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716758062079:android:2d1ffeaede83c4dc",
+        "android_client_info": {
+          "package_name": "com.hackMIT2018.StoryBoxVR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716758062079-uki8u6vorduainf2q4ng2uf287l7ec2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx1BM9W4NGGsYt3u0_TldkvKh0rMa9gR8"
+        },
+        {
+          "current_key": "AIzaSyCx1BM9W4NGGsYt3u0_TldkvKh0rMa9gR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

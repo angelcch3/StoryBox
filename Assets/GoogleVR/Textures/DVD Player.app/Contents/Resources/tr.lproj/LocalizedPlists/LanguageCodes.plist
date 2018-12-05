@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Diskin Saptanmışını Kullan</string>
+	<key>00  </key>
+	<string>Bilinmeyen</string>
+	<key>aa  </key>
+	<string>Afarca</string>
+	<key>ab  </key>
+	<string>Abazca</string>
+	<key>ae  </key>
+	<string>Avestçe</string>
+	<key>af  </key>
+	<string>Afrikaanca</string>
+	<key>am  </key>
+	<string>Amharca</string>
+	<key>ar  </key>
+	<string>Arapça</string>
+	<key>as  </key>
+	<string>Assamca</string>
+	<key>ay  </key>
+	<string>Aymara</string>
+	<key>az  </key>
+	<string>Azerice</string>
+	<key>ba  </key>
+	<string>Başkırtça</string>
+	<key>be  </key>
+	<string>Beyaz Rusça</string>
+	<key>bg  </key>
+	<string>Bulgarca</string>
+	<key>bh  </key>
+	<string>Bihari</string>
+	<key>bi  </key>
+	<string>Bislama</string>
+	<key>bn  </key>
+	<string>Bengalce</string>
+	<key>bo  </key>
+	<string>Tibetçe</string>
+	<key>br  </key>
+	<string>Bretonca</string>
+	<key>bs  </key>
+	<string>Boşnakça</string>
+	<key>ca  </key>
+	<string>Katalanca</string>
+	<key>ce  </key>
+	<string>Çeçence</string>
+	<key>ch  </key>
+	<string>Chamorro</string>
+	<key>co  </key>
+	<string>Korsikaca</string>
+	<key>cs  </key>
+	<string>Çekçe</string>
+	<key>cu  </key>
+	<string>Kilise Slavcası</string>
+	<key>cv  </key>
+	<string>Çuvaşça</string>
+	<key>cy  </key>
+	<string>Galce</string>
+	<key>da  </key>
+	<string>Danca</string>
+	<key>de  </key>
+	<string>Almanca</string>
+	<key>dz  </key>
+	<string>Belucice</string>
+	<key>el  </key>
+	<string>Yunanca</string>
+	<key>en  </key>
+	<string>İngilizce</string>
+	<key>eo  </key>
+	<string>Esperanto</string>
+	<key>es  </key>
+	<string>İspanyolca</string>
+	<key>et  </key>
+	<string>Estonca</string>
+	<key>eu  </key>
+	<string>Baskça</string>
+	<key>fa  </key>
+	<string>Farsça</string>
+	<key>fi  </key>
+	<string>Fince</string>
+	<key>fj  </key>
+	<string>Fiji Dili</string>
+	<key>fo  </key>
+	<string>Faroe Dili</string>
+	<key>fr  </key>
+	<string>Fransızca</string>
+	<key>fy  </key>
+	<string>Frizce</string>
+	<key>ga  </key>
+	<string>İrlandaca</string>
+	<key>gd  </key>
+	<string>İskoçça</string>
+	<key>gl  </key>
+	<string>Galiçyaca</string>
+	<key>gn  </key>
+	<string>Guarani Dili</string>
+	<key>gu  </key>
+	<string>Güceratça</string>
+	<key>gv  </key>
+	<string>Manksça</string>
+	<key>ha  </key>
+	<string>Hausa</string>
+	<key>hi  </key>
+	<string>Hintçe</string>
+	<key>ho  </key>
+	<string>Hiri Motu</string>
+	<key>hr  </key>
+	<string>Hırvatça</string>
+	<key>hu  </key>
+	<string>Macarca</string>
+	<key>hy  </key>
+	<string>Ermenice</string>
+	<key>hz  </key>
+	<string>Hereroca</string>
+	<key>ia  </key>
+	<string>İnterlingua</string>
+	<key>ie  </key>
+	<string>İnterlingue</string>
+	<key>ik  </key>
+	<string>İnyupikçe</string>
+	<key>in  </key>
+	<string>Endonezce</string>
+	<key>is  </key>
+	<string>İzlandaca</string>
+	<key>it  </key>
+	<string>İtalyanca</string>
+	<key>iu  </key>
+	<string>İnuktitut</string>
+	<key>iw  </key>
+	<string>İbranice</string>
+	<key>ja  </key>
+	<string>Japonca</string>
+	<key>ji  </key>
+	<string>Yidiş</string>
+	<key>jw  </key>
+	<string>Cava Dili</string>
+	<key>ka  </key>
+	<string>Gürcüce</string>
+	<key>ki  </key>
+	<string>Kikuyu</string>
+	<key>kj  </key>
+	<string>Kuanyama</string>
+	<key>kk  </key>
+	<string>Kazakça</string>
+	<key>kl  </key>
+	<string>Grönlandca</string>
+	<key>km  </key>
+	<string>Kamboçya Dili</string>
+	<key>kn  </key>
+	<string>Kannada Dili</string>
+	<key>ko  </key>
+	<string>Korece</string>
+	<key>ks  </key>
+	<string>Keşmirce</string>
+	<key>ku  </key>
+	<string>Kürtçe</string>
+	<key>kv  </key>
+	<string>Komice</string>
+	<key>kw  </key>
+	<string>Kernevekçe</string>
+	<key>ky  </key>
+	<string>Kırgızça</string>
+	<key>la  </key>
+	<string>Latince</string>
+	<key>lb  </key>
+	<string>Lüksemburgca</string>
+	<key>ln  </key>
+	<string>Lingala</string>
+	<key>lo  </key>
+	<string>Laoca</string>
+	<key>lt  </key>
+	<string>Litvanyaca</string>
+	<key>lv  </key>
+	<string>Letonca</string>
+	<key>mg  </key>
+	<string>Malgaşça</string>
+	<key>mh  </key>
+	<string>Marshall Adaları Dili</string>
+	<key>mi  </key>
+	<string>Maori Dili</string>
+	<key>mk  </key>
+	<string>Makedonca</string>
+	<key>ml  </key>
+	<string>Malayalam</string>
+	<key>mn  </key>
+	<string>Moğolca</string>
+	<key>mo  </key>
+	<string>Moldovaca</string>
+	<key>mr  </key>
+	<string>Marathi</string>
+	<key>ms  </key>
+	<string>Malayca</string>
+	<key>mt  </key>
+	<string>Maltaca</string>
+	<key>my  </key>
+	<string>Burmaca</string>
+	<key>na  </key>
+	<string>Nauru</string>
+	<key>nd  </key>
+	<string>Kuzey Ndebele</string>
+	<key>ne  </key>
+	<string>Nepalce</string>
+	<key>ng  </key>
+	<string>Ndonga</string>
+	<key>nl  </key>
+	<string>Hollandaca</string>
+	<key>no  </key>
+	<string>Norveççe</string>
+	<key>nr  </key>
+	<string>Güney Ndebele</string>
+	<key>nv  </key>
+	<string>Navaho Dili</string>
+	<key>ny  </key>
+	<string>Çevaca</string>
+	<key>oc  </key>
+	<string>Oksitanca</string>
+	<key>om  </key>
+	<string>Oromo</string>
+	<key>or  </key>
+	<string>Oriya Dili</string>
+	<key>os  </key>
+	<string>Osetçe</string>
+	<key>pa  </key>
+	<string>Pencapça</string>
+	<key>pi  </key>
+	<string>Pali</string>
+	<key>pl  </key>
+	<string>Lehçe</string>
+	<key>ps  </key>
+	<string>Peştuca</string>
+	<key>pt  </key>
+	<string>Portekizce</string>
+	<key>qu  </key>
+	<string>Keçuvaca</string>
+	<key>rm  </key>
+	<string>Reto Romanca</string>
+	<key>rn  </key>
+	<string>Rundice</string>
+	<key>ro  </key>
+	<string>Romence</string>
+	<key>ru  </key>
+	<string>Rusça</string>
+	<key>rw  </key>
+	<string>Ruandaca</string>
+	<key>sa  </key>
+	<string>Sanskritçe</string>
+	<key>sc  </key>
+	<string>Sarduca</string>
+	<key>sd  </key>
+	<string>Sindhi</string>
+	<key>se  </key>
+	<string>Kuzey Sami</string>
+	<key>sg  </key>
+	<string>Sango</string>
+	<key>sh  </key>
+	<string>Sırp-Hırvatça</string>
+	<key>si  </key>
+	<string>Seylanca</string>
+	<key>sk  </key>
+	<string>Slovakça</string>
+	<key>sl  </key>
+	<string>Slovence</string>
+	<key>sm  </key>
+	<string>Samoa Dili</string>
+	<key>sn  </key>
+	<string>Shona</string>
+	<key>so  </key>
+	<string>Somalice</string>
+	<key>sq  </key>
+	<string>Arnavutça</string>
+	<key>sr  </key>
+	<string>Sırpça</string>
+	<key>ss  </key>
+	<string>Siwati Dili</string>
+	<key>st  </key>
+	<string>Güney Sotho Dili</string>
+	<key>su  </key>
+	<string>Sunda Dili</string>
+	<key>sv  </key>
+	<string>İsveççe</string>
+	<key>sw  </key>
+	<string>Svahili</string>
+	<key>ta  </key>
+	<string>Tamilce</string>
+	<key>te  </key>
+	<string>Teluguca</string>
+	<key>tg  </key>
+	<string>Tacikçe</string>
+	<key>th  </key>
+	<string>Tayca</string>
+	<key>ti  </key>
+	<string>Tigrinya Dili</string>
+	<key>tk  </key>
+	<string>Türkmence</string>
+	<key>tl  </key>
+	<string>Tagalogca</string>
+	<key>tn  </key>
+	<string>Setsvana</string>
+	<key>to  </key>
+	<string>Tonga</string>
+	<key>tr  </key>
+	<string>Türkçe</string>
+	<key>ts  </key>
+	<string>Tsonga Dili</string>
+	<key>tt  </key>
+	<string>Tatarca</string>
+	<key>tw  </key>
+	<string>Tvi</string>
+	<key>ty  </key>
+	<string>Tahitice</string>
+	<key>ug  </key>
+	<string>Uygurca</string>
+	<key>uk  </key>
+	<string>Ukraynaca</string>
+	<key>ur  </key>
+	<string>Urduca</string>
+	<key>uz  </key>
+	<string>Özbekçe</string>
+	<key>vi  </key>
+	<string>Vietnamca</string>
+	<key>vo  </key>
+	<string>Volapük</string>
+	<key>wo  </key>
+	<string>Volofca</string>
+	<key>xh  </key>
+	<string>Zosa</string>
+	<key>yo  </key>
+	<string>Yoruba</string>
+	<key>za  </key>
+	<string>Zhuang</string>
+	<key>zh  </key>
+	<string>Çince</string>
+	<key>zu  </key>
+	<string>Zuluca</string>
+</dict>
+</plist>

@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonStaticText" id="929">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5102</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="fontStyle">-2</int>
+      <int name="controlSize">1</int>
+      <string name="title">Αν πατήσετε παρατεταμένα το πλήκτρο Option στην αρχή της αναπαραγωγής ενός δίσκου, το DVD Player θα σας ρωτήσει σχετικά με το σημείο έναρξης της αναπαραγωγής.</string>
+      <string name="viewFrame">294 108 280 65 </string>
+      <string name="bounds">108 294 173 574 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="925">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5200</int>
+      <string name="title">Πάντα χρήση ρυθμίσεων δίσκου για:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">30 178 256 16 </string>
+      <string name="bounds">178 30 194 286 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="926">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5201</int>
+      <string name="helpTagText">Χρήση τελευταίων ρυθμίσεων ισοσταθμιστή που χρησιμοποιήθηκαν με αυτόν τον δίσκο</string>
+      <string name="title">Ισοσταθμιστή ήχου</string>
+      <string name="viewFrame">292 178 153 18 </string>
+      <string name="bounds">178 292 196 445 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Παράθυρο</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 602 244 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="922">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5000</int>
+            <string name="classID">com.apple.DVDPlayer.PrvP</string>
+            <string name="viewFrame">0 0 602 244 </string>
+            <array count="7" name="subviews">
+              <object class="IBCarbonStaticText" id="927">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5100</int>
+                <string name="title">Έναρξη αναπαραγωγής δίσκων από:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">30 20 256 16 </string>
+                <string name="bounds">20 30 36 286 </string>
+              </object>
+              <object class="IBCarbonRadioGroup" id="928">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5101</int>
+                <int name="numRows">4</int>
+                <int name="intercellHeight">4</int>
+                <array count="4" name="radioTitles">
+                  <array count="1">
+                    <string>Αρχή</string>
+                  </array>
+                  <array count="1">
+                    <string>Τελευταία θέση αναπαραγωγής</string>
+                  </array>
+                  <array count="1">
+                    <string>Προεπιλεγμένο σελιδοδείκτη</string>
+                  </array>
+                  <array count="1">
+                    <string>Να γίνεται πάντα ερώτηση</string>
+                  </array>
+                </array>
+                <string name="viewFrame">294 20 228 84 </string>
+                <string name="bounds">20 294 104 522 </string>
+              </object>
+              <reference idRef="929"/>
+              <reference idRef="925"/>
+              <reference idRef="926"/>
+              <object class="IBCarbonCheckBox" id="924">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5202</int>
+                <string name="helpTagText">Χρήση τελευταίων ρυθμίσεων χρώματος βίντεο που χρησιμοποιήθηκαν με αυτόν τον δίσκο</string>
+                <string name="title">Χρώμα βίντεο</string>
+                <string name="viewFrame">292 201 110 18 </string>
+                <string name="bounds">201 292 219 402 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5203</int>
+                <string name="helpTagText">Χρήση των τελευταίων ρυθμίσεων ζουμ που χρησιμοποιήθηκαν με αυτόν τον δίσκο</string>
+                <string name="title">Ζουμ βίντεο</string>
+                <string name="viewFrame">292 223 97 18 </string>
+                <string name="bounds">223 292 241 389 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 244 602 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 244 602 </string>
+      </object>
+      <string name="windowRect">44 362 288 964 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="928"/>
+    <reference idRef="923"/>
+    <reference idRef="924"/>
+    <reference idRef="927"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

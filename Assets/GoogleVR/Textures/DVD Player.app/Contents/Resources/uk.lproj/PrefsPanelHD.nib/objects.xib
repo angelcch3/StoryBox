@@ -1,0 +1,134 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonRoundButton" id="954">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6200</int>
+      <ostype name="command">HDHp</ostype>
+      <string name="viewFrame">497 203 25 25 </string>
+      <string name="bounds">203 497 228 522 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonRadioGroup" id="948">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6105</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>реальний розмір</string>
+        </array>
+        <array count="1">
+          <string>720 пікселів заввишки</string>
+        </array>
+        <array count="1">
+          <string>1080 пікселів заввишки</string>
+        </array>
+      </array>
+      <string name="viewFrame">241 144 202 61 </string>
+      <string name="bounds">144 241 205 443 </string>
+    </object>
+    <object class="IBCarbonSeparator" id="943">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6101</int>
+      <string name="viewFrame">241 41 239 1 </string>
+      <string name="bounds">41 241 42 480 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Вікно</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 540 244 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="942">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6000</int>
+            <string name="classID">com.apple.DVDPlayer.HdPn</string>
+            <string name="viewFrame">0 0 540 244 </string>
+            <array count="7" name="subviews">
+              <object class="IBCarbonStaticText" id="944">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">6100</int>
+                <string name="title">Стандартний розмір відео</string>
+                <int name="justification">-2</int>
+                <string name="viewFrame">60 29 175 16 </string>
+                <string name="bounds">29 60 45 235 </string>
+              </object>
+              <reference idRef="943"/>
+              <object class="IBCarbonStaticText" id="945">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">6102</int>
+                <string name="title">Для Standard Definition:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">60 73 175 16 </string>
+                <string name="bounds">73 60 89 235 </string>
+              </object>
+              <object class="IBCarbonRadioGroup" id="947">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">6103</int>
+                <array count="2" name="radioTitles">
+                  <array count="1">
+                    <string>реальний розмір</string>
+                  </array>
+                  <array count="1">
+                    <string>основна на диску</string>
+                  </array>
+                </array>
+                <string name="viewFrame">241 72 202 42 </string>
+                <string name="bounds">72 241 114 443 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="946">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">6104</int>
+                <string name="title">Для High Definition:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">60 145 175 16 </string>
+                <string name="bounds">145 60 161 235 </string>
+              </object>
+              <reference idRef="948"/>
+              <reference idRef="954"/>
+            </array>
+            <string name="bounds">0 0 244 540 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 244 540 </string>
+      </object>
+      <string name="windowRect">591 290 835 830 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="887"/>
+    <reference idRef="945"/>
+    <reference idRef="944"/>
+    <reference idRef="947"/>
+    <reference idRef="942"/>
+    <reference idRef="946"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="887"/>
+    <reference idRef="942"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelHD</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">955</unsigned_int>
+</object>

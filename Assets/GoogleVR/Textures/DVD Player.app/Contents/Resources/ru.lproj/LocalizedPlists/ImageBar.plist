@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Allow in Window Menu</key>
+		<false/>
+		<key>Alternate Window Title</key>
+		<string>Строка изображений</string>
+		<key>Process Activation Click</key>
+		<true/>
+		<key>Fore Color</key>
+		<dict>
+			<key>red</key>
+			<real>1</real>
+			<key>green</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>alpha</key>
+			<real>1</real>
+		</dict>
+	</dict>
+	<key>0</key>
+	<dict>
+		<key>Background Color Inset</key>
+		<dict>
+			<key>left</key>
+			<real>0</real>
+			<key>top</key>
+			<real>0</real>
+			<key>right</key>
+			<real>0</real>
+			<key>bottom</key>
+			<real>30</real>
+		</dict>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>Comment</key>
+		<string>Chapter Btn</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Is Toggle Button</key>
+		<true/>
+		<key>Image Dir</key>
+		<string>Art</string>
+		<key>Off Normal File</key>
+		<string>IB-ChapterBtn_OffNormal.tiff</string>
+		<key>Off Pressed File</key>
+		<string>IB-ChapterBtn_OffPressed.tiff</string>
+		<key>On Normal File</key>
+		<string>IB-ChapterBtn_OnNormal.tiff</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>Comment</key>
+		<string>Bookmark Btn</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Is Toggle Button</key>
+		<true/>
+		<key>Image Dir</key>
+		<string>Art</string>
+		<key>Off Normal File</key>
+		<string>IB-BookmarkBtn_OffNormal.tiff</string>
+		<key>Off Pressed File</key>
+		<string>IB-BookmarkBtn_OffPressed.tiff</string>
+		<key>On Normal File</key>
+		<string>IB-BookmarkBtn_OnNormal.tiff</string>
+	</dict>
+	<key>100</key>
+	<dict>
+		<key>Comment</key>
+		<string>List View</string>
+		<key>Default Image Size To View Size</key>
+		<true/>
+		<key>Is Horizontal List</key>
+		<true/>
+		<key>Item Width Inset</key>
+		<integer>10</integer>
+		<key>Item Height Inset</key>
+		<integer>0</integer>
+		<key>Keep List Sorted</key>
+		<true/>
+		<key>Items Are Removable</key>
+		<false/>
+		<key>Track Mouse Visiting</key>
+		<true/>
+	</dict>
+	<key>101</key>
+	<dict>
+		<key>Comment</key>
+		<string>Scroll Bar View</string>
+		<key>Use Port Color</key>
+		<true/>
+		<key>Proportional Thumb</key>
+		<true/>
+		<key>Scroll Bar Value Changed Msg</key>
+		<integer>20100</integer>
+		<key>Arrow Value</key>
+		<integer>25</integer>
+		<key>Page Value</key>
+		<integer>-1</integer>
+		<key>Image Dir</key>
+		<string>Art</string>
+		<key>Min Arrow Normal File</key>
+		<string>IB-LeftArrow_OffNormal.tiff</string>
+		<key>Min Arrow Pressed File</key>
+		<string>IB-LeftArrow_OffPressed.tiff</string>
+		<key>Min Grouped Arrow Normal File</key>
+		<string>IB-LeftGroupedArrow_OffNormal.tiff</string>
+		<key>Min Grouped Arrow Pressed File</key>
+		<string>IB-RightArrow_OffPressed.tiff</string>
+		<key>Min Arrow Glyph File</key>
+		<string>IB-LeftArrowGlyph.tiff</string>
+		<key>Max Arrow Normal File</key>
+		<string>IB-RightArrow_OffNormal.tiff</string>
+		<key>Max Arrow Pressed File</key>
+		<string>IB-RightArrow_OffPressed.tiff</string>
+		<key>Max Arrow Glyph File</key>
+		<string>IB-RightArrowGlyph.tiff</string>
+		<key>Thumb Beg File</key>
+		<string>IB-ScrollBarThumb_OffNormal_Left.tiff</string>
+		<key>Thumb Center File</key>
+		<string>IB-ScrollBarThumb_OffNormal_Center.tiff</string>
+		<key>Thumb End File</key>
+		<string>IB-ScrollBarThumb_OffNormal_Right.tiff</string>
+	</dict>
+	<key>102</key>
+	<dict>
+		<key>Comment</key>
+		<string>Item Name View</string>
+		<key>Use Port Color</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

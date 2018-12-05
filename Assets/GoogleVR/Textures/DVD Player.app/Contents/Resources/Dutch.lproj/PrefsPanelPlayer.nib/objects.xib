@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 500 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">Bij openen Dvd-speler:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">7 13 175 16 </string>
+          <string name="bounds">13 7 29 182 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">Schakel de schermvullende weergave in als een geldige schijf wordt herkend</string>
+          <string name="title">Schakel over naar schermvullende weergave</string>
+          <string name="viewFrame">188 13 298 18 </string>
+          <string name="bounds">13 188 31 486 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">Start het afspelen als een geldige schijf wordt herkend</string>
+          <string name="title">Speel schijf af</string>
+          <string name="viewFrame">188 35 187 16 </string>
+          <string name="bounds">35 188 51 375 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">Bij plaatsen schijf:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">8 111 175 16 </string>
+          <string name="bounds">111 8 127 183 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">Start het afspelen als Dvd-speler al actief is en een geldige schijf wordt geplaatst</string>
+          <string name="title">Speel schijf af</string>
+          <string name="viewFrame">188 111 187 16 </string>
+          <string name="bounds">111 188 127 375 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">Bij uitgeschakeld geluid:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">8 215 175 16 </string>
+          <string name="bounds">215 8 231 183 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">Schakel de weergave van optionele bijschriften voor spraak en geluiden in als het geluid van Dvd-speler is uitgeschakeld</string>
+          <string name="title">Toon bijschriften voor spraak en geluiden</string>
+          <string name="viewFrame">189 215 297 18 </string>
+          <string name="bounds">215 189 233 486 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">Bij minimaliseren weergavevenster:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">19 252 223 19 </string>
+          <string name="bounds">252 19 271 242 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1501</int>
+          <string name="helpTagText">Onderbreek het afspelen als het weergavevenster in het Dock wordt geminimaliseerd</string>
+          <string name="title">Onderbreek afspelen</string>
+          <string name="viewFrame">247 252 161 16 </string>
+          <string name="bounds">252 247 268 408 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">De batterij gaat in dit geval langer mee. Scannen van de schijf kan langzamer verlopen als de eenheid uit de sluimerstand moet worden gehaald.</string>
+          <string name="viewFrame">213 169 273 45 </string>
+          <string name="bounds">169 213 214 486 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">Bij gebruik van batterij:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">8 148 175 16 </string>
+          <string name="bounds">148 8 164 183 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">Zet dvd-eenheid in sluimerstand</string>
+          <string name="viewFrame">188 141 262 31 </string>
+          <string name="bounds">141 188 172 450 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">Als Dvd-speler inactief is:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">2 73 181 16 </string>
+          <string name="bounds">73 2 89 183 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">Onderbreek het afspelen tijdelijk wanneer de speler inactief is</string>
+          <string name="title">Onderbreek afspelen</string>
+          <string name="viewFrame">188 73 187 16 </string>
+          <string name="bounds">73 188 89 375 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 500 </string>
+    </object>
+    <reference idRef="933"/>
+    <reference idRef="935"/>
+    <reference idRef="925"/>
+    <reference idRef="932"/>
+    <reference idRef="934"/>
+    <reference idRef="937"/>
+    <reference idRef="929"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 500 296 </string>
+      <array count="1" name="subviews">
+        <reference idRef="922"/>
+      </array>
+      <string name="bounds">0 0 296 500 </string>
+    </object>
+    <reference idRef="928"/>
+    <reference idRef="924"/>
+    <reference idRef="938"/>
+    <reference idRef="926"/>
+    <reference idRef="939"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Venster</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 618 340 1118 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="923"/>
+    <reference idRef="927"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

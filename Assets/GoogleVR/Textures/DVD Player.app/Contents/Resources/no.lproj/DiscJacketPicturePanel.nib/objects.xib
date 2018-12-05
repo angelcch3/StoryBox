@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonImageWell" id="935">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2001</int>
+      <int name="contentType">0</int>
+      <boolean name="dropTarget">TRUE</boolean>
+      <string name="viewFrame">15 23 301 252 </string>
+      <string name="bounds">23 15 275 316 </string>
+    </object>
+    <object class="IBCarbonButton" id="936">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2005</int>
+      <ostype name="command">ClJk</ostype>
+      <string name="helpTagText">Fjern bilde når avspillingen stoppes</string>
+      <string name="title">Fjern</string>
+      <string name="viewFrame">331 211 80 20 </string>
+      <string name="bounds">211 331 231 411 </string>
+    </object>
+    <object class="IBCarbonButton" id="933">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2003</int>
+      <ostype name="command">CurF</ostype>
+      <string name="helpTagText">Vis nåværende bilde når avspillingen stoppes</string>
+      <string name="title">Nåværende bilde</string>
+      <string name="viewFrame">331 115 134 20 </string>
+      <string name="bounds">115 331 135 465 </string>
+    </object>
+    <object class="IBCarbonButton" id="934">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2004</int>
+      <ostype name="command">ChJk</ostype>
+      <string name="helpTagText">Velg bilde som skal vises når avspillingen stoppes</string>
+      <string name="title">Velg…</string>
+      <string name="viewFrame">331 163 90 20 </string>
+      <string name="bounds">163 331 183 421 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="931">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlSize">1</int>
+      <string name="title">Bildet som skal vises når mediet er stoppet</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">15 6 300 13 </string>
+      <string name="bounds">6 15 19 315 </string>
+    </object>
+    <object class="IBCarbonCustom" id="888">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2000</int>
+      <string name="classID">com.apple.DVDPlayer.DJkP</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">0 0 527 290 </string>
+      <array count="6" name="subviews">
+        <reference idRef="931"/>
+        <object class="IBCarbonButton" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2002</int>
+          <ostype name="command">DsJk</ostype>
+          <string name="helpTagText">Vis bilde fra platen når avspillingen stoppes</string>
+          <string name="title">Omslagsbilde for platen</string>
+          <string name="viewFrame">331 67 176 20 </string>
+          <string name="bounds">67 331 87 507 </string>
+        </object>
+        <reference idRef="933"/>
+        <reference idRef="934"/>
+        <reference idRef="935"/>
+        <reference idRef="936"/>
+      </array>
+      <string name="bounds">0 0 290 527 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="886">
+      <string name="viewFrame">0 0 527 290 </string>
+      <array count="1" name="subviews">
+        <reference idRef="888"/>
+      </array>
+      <string name="bounds">0 0 290 527 </string>
+    </object>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Vindu</string>
+      <reference name="rootControl" idRef="886"/>
+      <string name="windowRect">651 602 941 1129 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="932"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="888"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DiscJacketPicturePanel</string>
+    <reference idRef="887"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">937</unsigned_int>
+</object>

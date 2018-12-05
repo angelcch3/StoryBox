@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Disc</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>光盘设置</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>disc</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>DiscItemDisc.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>DscI</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2102</key>
+	<dict>
+		<key>Comment</key>
+		<string>Audio Language Popup</string>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>音频默认语言</string>
+		<!-- Localize end -->
+	</dict>
+	<key>2103</key>
+	<dict>
+		<key>Comment</key>
+		<string>Subtitle Language Popup</string>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>字幕默认语言</string>
+		<!-- Localize end -->
+	</dict>
+	<key>2104</key>
+	<dict>
+		<key>Comment</key>
+		<string>DVD Menu Language Popup</string>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>DVD 菜单默认语言</string>
+		<!-- Localize end -->
+	</dict>
+	<key>2302</key>
+	<dict>
+		<key>Comment</key>
+		<string>Audio Language Popup</string>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>音频输出</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

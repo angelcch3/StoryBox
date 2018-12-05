@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonHIView" id="241">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.hivw</string>
+      <string name="viewFrame">0 0 315 19 </string>
+      <array count="3" name="subviews">
+        <object class="IBCarbonHIView" id="242">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">CPlS</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.dcls</string>
+          <string name="viewFrame">3 3 13 13 </string>
+          <string name="bounds">149 3 162 16 </string>
+        </object>
+        <object class="IBCarbonHIView" id="243">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.dtxt</string>
+          <string name="viewFrame">82 0 150 17 </string>
+          <string name="bounds">148 82 165 232 </string>
+        </object>
+        <object class="IBCarbonHIView" id="246">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <string name="helpTagText">选择面板</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.dswt</string>
+          <string name="viewFrame">299 3 13 13 </string>
+          <string name="bounds">149 299 162 312 </string>
+        </object>
+      </array>
+      <string name="bounds">146 0 165 315 </string>
+    </object>
+    <reference idRef="243"/>
+    <object class="IBCarbonRootControl" id="167">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="viewFrame">0 0 315 165 </string>
+      <array count="2" name="subviews">
+        <reference idRef="241"/>
+        <object class="IBCarbonHIView" id="245">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.pnlc</string>
+          <string name="viewFrame">0 19 315 146 </string>
+          <string name="bounds">0 0 146 315 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 165 315 </string>
+    </object>
+    <reference idRef="242"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">播放程序设置</string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">203 289 368 604 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="245"/>
+    <reference idRef="246"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="241"/>
+    <reference idRef="166"/>
+    <reference idRef="241"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="241"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PlayerSettingsDashboard</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">253</unsigned_int>
+</object>

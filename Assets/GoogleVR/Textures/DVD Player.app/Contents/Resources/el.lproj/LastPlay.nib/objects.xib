@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="20" name="allObjects">
+    <object class="IBCarbonButton" id="185">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">BegB</ostype>
+      <string name="helpTagText">Έναρξης αναπαραγωγής από την αρχή του δίσκου</string>
+      <string name="title">Αρχή δίσκου</string>
+      <string name="viewFrame">15 94 139 20 </string>
+      <string name="bounds">94 15 114 154 </string>
+    </object>
+    <object class="IBCarbonIcon" id="189">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">0</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">180 21 48 48 </string>
+      <string name="bounds">21 180 69 228 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="195">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <string name="title">Αυτός ο δίσκος έχει προβληθεί στο παρελθόν.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">252 26 309 20 </string>
+      <string name="bounds">26 252 46 561 </string>
+    </object>
+    <object class="IBCarbonButton" id="197">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">LstB</ostype>
+      <string name="helpTagText">Συνέχεια από το σημείο όπου έγινε η τελευταία αναπαραγωγή του δίσκου</string>
+      <int name="buttonType">1</int>
+      <string name="title">Σημείο τελευταίας αναπαραγωγής</string>
+      <string name="viewFrame">402 94 252 20 </string>
+      <string name="bounds">94 402 114 654 </string>
+    </object>
+    <object class="IBCarbonButton" id="198">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">Ακύρωση αναπαραγωγής</string>
+      <int name="buttonType">2</int>
+      <string name="title">Ακύρωση</string>
+      <string name="viewFrame">667 94 85 20 </string>
+      <string name="bounds">94 667 114 752 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="202">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="title">Ρυθμίστε την προεπιλεγμένη ενέργεια στις Προτιμήσεις για το DVD Player.</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">177 142 413 16 </string>
+      <string name="bounds">142 177 158 590 </string>
+    </object>
+    <object class="IBCarbonWindow" id="193">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Τοποθεσία αναπαραγωγής</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="194">
+        <string name="viewFrame">0 0 767 172 </string>
+        <array count="8" name="subviews">
+          <object class="IBCarbonButton" id="200">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">DefB</ostype>
+            <string name="helpTagText">Έναρξη αναπαραγωγής από την τοποθεσία προεπιλεγμένου σελιδοδείκτη</string>
+            <string name="title">Προεπιλεγμένος σελιδοδείκτης</string>
+            <string name="viewFrame">166 94 224 20 </string>
+            <string name="bounds">94 166 114 390 </string>
+          </object>
+          <reference idRef="195"/>
+          <object class="IBCarbonButton" id="196">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">BegB</ostype>
+            <string name="helpTagText">Έναρξης αναπαραγωγής από την αρχή του δίσκου</string>
+            <string name="title">Αρχή δίσκου</string>
+            <string name="viewFrame">15 94 139 20 </string>
+            <string name="bounds">94 15 114 154 </string>
+          </object>
+          <reference idRef="197"/>
+          <object class="IBCarbonIcon" id="199">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">0</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">180 21 48 48 </string>
+            <string name="bounds">21 180 69 228 </string>
+          </object>
+          <reference idRef="202"/>
+          <object class="IBCarbonStaticText" id="201">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">Επιλέξτε από πού θα αρχίσει η αναπαραγωγή.</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">252 47 309 23 </string>
+            <string name="bounds">47 252 70 561 </string>
+          </object>
+          <reference idRef="198"/>
+        </array>
+        <string name="bounds">0 0 172 767 </string>
+      </object>
+      <string name="windowRect">72 789 244 1556 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="190">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="title">Ρυθμίστε την προεπιλεγμένη ενέργεια στις Προτιμήσεις για το DVD Player.</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">178 142 411 16 </string>
+      <string name="bounds">142 178 158 589 </string>
+    </object>
+    <reference idRef="199"/>
+    <object class="IBCarbonStaticText" id="184">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <string name="title">Αυτός ο δίσκος έχει προβληθεί στο παρελθόν.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">252 26 316 20 </string>
+      <string name="bounds">26 252 46 568 </string>
+    </object>
+    <object class="IBCarbonButton" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">Ακύρωση αναπαραγωγής</string>
+      <int name="buttonType">2</int>
+      <string name="title">Ακύρωση</string>
+      <string name="viewFrame">666 94 85 20 </string>
+      <string name="bounds">94 666 114 751 </string>
+    </object>
+    <reference idRef="196"/>
+    <object class="IBCarbonButton" id="183">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">DefB</ostype>
+      <string name="helpTagText">Έναρξη αναπαραγωγής από την τοποθεσία προεπιλεγμένου σελιδοδείκτη</string>
+      <string name="title">Προεπιλεγμένος σελιδοδείκτης</string>
+      <string name="viewFrame">166 94 224 20 </string>
+      <string name="bounds">94 166 114 390 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="191">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">7</int>
+      <string name="title">Επιλέξτε από πού θα αρχίσει η αναπαραγωγή.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">252 47 316 23 </string>
+      <string name="bounds">47 252 70 568 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="181">
+      <string name="viewFrame">0 0 767 172 </string>
+      <array count="8" name="subviews">
+        <reference idRef="183"/>
+        <reference idRef="184"/>
+        <reference idRef="185"/>
+        <object class="IBCarbonButton" id="186">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">LstB</ostype>
+          <string name="helpTagText">Συνέχεια από το σημείο όπου έγινε η τελευταία αναπαραγωγή του δίσκου</string>
+          <int name="buttonType">1</int>
+          <string name="title">Σημείο τελευταίας αναπαραγωγής</string>
+          <string name="viewFrame">399 94 254 20 </string>
+          <string name="bounds">94 399 114 653 </string>
+        </object>
+        <reference idRef="189"/>
+        <reference idRef="190"/>
+        <reference idRef="191"/>
+        <reference idRef="192"/>
+      </array>
+      <string name="bounds">0 0 172 767 </string>
+    </object>
+    <reference idRef="200"/>
+    <reference idRef="194"/>
+    <reference idRef="201"/>
+    <reference idRef="186"/>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Τοποθεσία αναπαραγωγής</string>
+      <reference name="rootControl" idRef="181"/>
+      <string name="windowRect">52 769 224 1536 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="20" name="allParents">
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="180"/>
+    <reference idRef="194"/>
+    <reference idRef="193"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LastPlayDialog</string>
+    <reference idRef="193"/>
+    <string>LastPlaySheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">203</unsigned_int>
+</object>

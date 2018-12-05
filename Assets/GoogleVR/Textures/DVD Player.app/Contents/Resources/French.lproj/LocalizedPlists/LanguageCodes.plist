@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Utiliser les réglages par défaut du disque</string>
+	<key>00  </key>
+	<string>Inconnu</string>
+	<key>aa  </key>
+	<string>afar</string>
+	<key>ab  </key>
+	<string>abkhaze</string>
+	<key>ae  </key>
+	<string>avestique</string>
+	<key>af  </key>
+	<string>afrikaans</string>
+	<key>am  </key>
+	<string>amharic</string>
+	<key>ar  </key>
+	<string>arabe</string>
+	<key>as  </key>
+	<string>assamais</string>
+	<key>ay  </key>
+	<string>aymara</string>
+	<key>az  </key>
+	<string>azéri</string>
+	<key>ba  </key>
+	<string>bachkir</string>
+	<key>be  </key>
+	<string>biélorusse</string>
+	<key>bg  </key>
+	<string>bulgare</string>
+	<key>bh  </key>
+	<string>bihari</string>
+	<key>bi  </key>
+	<string>bichelamar</string>
+	<key>bn  </key>
+	<string>bengalais</string>
+	<key>bo  </key>
+	<string>tibétain</string>
+	<key>br  </key>
+	<string>breton</string>
+	<key>bs  </key>
+	<string>bosniaque</string>
+	<key>ca  </key>
+	<string>catalan</string>
+	<key>ce  </key>
+	<string>tchéchène</string>
+	<key>ch  </key>
+	<string>chamorro</string>
+	<key>co  </key>
+	<string>corse</string>
+	<key>cs  </key>
+	<string>tchèque</string>
+	<key>cu  </key>
+	<string>slavon d’église</string>
+	<key>cv  </key>
+	<string>tchouvache</string>
+	<key>cy  </key>
+	<string>gallois</string>
+	<key>da  </key>
+	<string>danois</string>
+	<key>de  </key>
+	<string>allemand</string>
+	<key>dz  </key>
+	<string>dzongkha</string>
+	<key>el  </key>
+	<string>grec</string>
+	<key>en  </key>
+	<string>anglais</string>
+	<key>eo  </key>
+	<string>esperanto</string>
+	<key>es  </key>
+	<string>espagnol</string>
+	<key>et  </key>
+	<string>estonien</string>
+	<key>eu  </key>
+	<string>basque</string>
+	<key>fa  </key>
+	<string>perse</string>
+	<key>fi  </key>
+	<string>finnois</string>
+	<key>fj  </key>
+	<string>fidjien</string>
+	<key>fo  </key>
+	<string>Féroïen</string>
+	<key>fr  </key>
+	<string>français</string>
+	<key>fy  </key>
+	<string>frison</string>
+	<key>ga  </key>
+	<string>irlandais</string>
+	<key>gd  </key>
+	<string>gaélique écossais</string>
+	<key>gl  </key>
+	<string>galicien</string>
+	<key>gn  </key>
+	<string>guarani</string>
+	<key>gu  </key>
+	<string>goudjarati</string>
+	<key>gv  </key>
+	<string>manx</string>
+	<key>ha  </key>
+	<string>haoussa</string>
+	<key>hi  </key>
+	<string>hindi</string>
+	<key>ho  </key>
+	<string>hiri motu</string>
+	<key>hr  </key>
+	<string>croate</string>
+	<key>hu  </key>
+	<string>hongrois</string>
+	<key>hy  </key>
+	<string>arménien</string>
+	<key>hz  </key>
+	<string>herero</string>
+	<key>ia  </key>
+	<string>interlingua</string>
+	<key>ie  </key>
+	<string>interlingue</string>
+	<key>ik  </key>
+	<string>Inupiaq</string>
+	<key>in  </key>
+	<string>indonésien</string>
+	<key>is  </key>
+	<string>islandais</string>
+	<key>it  </key>
+	<string>italien</string>
+	<key>iu  </key>
+	<string>inuktitut</string>
+	<key>iw  </key>
+	<string>hébreu</string>
+	<key>ja  </key>
+	<string>japonais</string>
+	<key>ji  </key>
+	<string>yiddish</string>
+	<key>jw  </key>
+	<string>javanais</string>
+	<key>ka  </key>
+	<string>géorgien</string>
+	<key>ki  </key>
+	<string>kikuyu</string>
+	<key>kj  </key>
+	<string>kuanyama</string>
+	<key>kk  </key>
+	<string>kazakh</string>
+	<key>kl  </key>
+	<string>groenlandais</string>
+	<key>km  </key>
+	<string>cambodgien</string>
+	<key>kn  </key>
+	<string>kannada</string>
+	<key>ko  </key>
+	<string>coréen</string>
+	<key>ks  </key>
+	<string>kashmiri</string>
+	<key>ku  </key>
+	<string>kurde</string>
+	<key>kv  </key>
+	<string>komi</string>
+	<key>kw  </key>
+	<string>cornique</string>
+	<key>ky  </key>
+	<string>kirghize</string>
+	<key>la  </key>
+	<string>latin</string>
+	<key>lb  </key>
+	<string>luxembourgeois</string>
+	<key>ln  </key>
+	<string>lingala</string>
+	<key>lo  </key>
+	<string>laotien</string>
+	<key>lt  </key>
+	<string>lituanien</string>
+	<key>lv  </key>
+	<string>letton</string>
+	<key>mg  </key>
+	<string>malgache</string>
+	<key>mh  </key>
+	<string>marshallais</string>
+	<key>mi  </key>
+	<string>maori</string>
+	<key>mk  </key>
+	<string>macédonien</string>
+	<key>ml  </key>
+	<string>malayalam</string>
+	<key>mn  </key>
+	<string>mongol</string>
+	<key>mo  </key>
+	<string>moldave</string>
+	<key>mr  </key>
+	<string>marathi</string>
+	<key>ms  </key>
+	<string>malais</string>
+	<key>mt  </key>
+	<string>maltais</string>
+	<key>my  </key>
+	<string>birman</string>
+	<key>na  </key>
+	<string>nauruan</string>
+	<key>nd  </key>
+	<string>sindebele</string>
+	<key>ne  </key>
+	<string>népalais</string>
+	<key>ng  </key>
+	<string>ndonga</string>
+	<key>nl  </key>
+	<string>néerlandais</string>
+	<key>no  </key>
+	<string>norvégien</string>
+	<key>nr  </key>
+	<string>ndébélé du Sud</string>
+	<key>nv  </key>
+	<string>navajo</string>
+	<key>ny  </key>
+	<string>chichewa</string>
+	<key>oc  </key>
+	<string>occitan</string>
+	<key>om  </key>
+	<string>oromo</string>
+	<key>or  </key>
+	<string>oriya</string>
+	<key>os  </key>
+	<string>ossète</string>
+	<key>pa  </key>
+	<string>pendjabi</string>
+	<key>pi  </key>
+	<string>pali</string>
+	<key>pl  </key>
+	<string>polonais</string>
+	<key>ps  </key>
+	<string>pachto</string>
+	<key>pt  </key>
+	<string>portugais</string>
+	<key>qu  </key>
+	<string>quechua</string>
+	<key>rm  </key>
+	<string>rhétoroman</string>
+	<key>rn  </key>
+	<string>kirundi</string>
+	<key>ro  </key>
+	<string>roumain</string>
+	<key>ru  </key>
+	<string>russe</string>
+	<key>rw  </key>
+	<string>kinyarwanda</string>
+	<key>sa  </key>
+	<string>sanscrit</string>
+	<key>sc  </key>
+	<string>sarde</string>
+	<key>sd  </key>
+	<string>sindhi</string>
+	<key>se  </key>
+	<string>sami du Nord</string>
+	<key>sg  </key>
+	<string>sango</string>
+	<key>sh  </key>
+	<string>serbo-croate</string>
+	<key>si  </key>
+	<string>singhalais</string>
+	<key>sk  </key>
+	<string>slovaque</string>
+	<key>sl  </key>
+	<string>slovène</string>
+	<key>sm  </key>
+	<string>samoan</string>
+	<key>sn  </key>
+	<string>shona</string>
+	<key>so  </key>
+	<string>somali</string>
+	<key>sq  </key>
+	<string>albanais</string>
+	<key>sr  </key>
+	<string>serbe</string>
+	<key>ss  </key>
+	<string>siswati</string>
+	<key>st  </key>
+	<string>sesotho</string>
+	<key>su  </key>
+	<string>soundanais</string>
+	<key>sv  </key>
+	<string>suédois</string>
+	<key>sw  </key>
+	<string>swahili</string>
+	<key>ta  </key>
+	<string>tamoul</string>
+	<key>te  </key>
+	<string>télougou</string>
+	<key>tg  </key>
+	<string>tadjik</string>
+	<key>th  </key>
+	<string>thaï</string>
+	<key>ti  </key>
+	<string>tigrigna</string>
+	<key>tk  </key>
+	<string>turkmène</string>
+	<key>tl  </key>
+	<string>tagalog</string>
+	<key>tn  </key>
+	<string>setswana</string>
+	<key>to  </key>
+	<string>tongan</string>
+	<key>tr  </key>
+	<string>turc</string>
+	<key>ts  </key>
+	<string>tsonga</string>
+	<key>tt  </key>
+	<string>tatar</string>
+	<key>tw  </key>
+	<string>twi</string>
+	<key>ty  </key>
+	<string>tahitien</string>
+	<key>ug  </key>
+	<string>ouïgour</string>
+	<key>uk  </key>
+	<string>ukrainien</string>
+	<key>ur  </key>
+	<string>ourdou</string>
+	<key>uz  </key>
+	<string>ouzbek</string>
+	<key>vi  </key>
+	<string>vietnamien</string>
+	<key>vo  </key>
+	<string>volapük</string>
+	<key>wo  </key>
+	<string>wolof</string>
+	<key>xh  </key>
+	<string>xhosa</string>
+	<key>yo  </key>
+	<string>yoruba</string>
+	<key>za  </key>
+	<string>zhuang</string>
+	<key>zh  </key>
+	<string>chinois</string>
+	<key>zu  </key>
+	<string>zoulou</string>
+</dict>
+</plist>

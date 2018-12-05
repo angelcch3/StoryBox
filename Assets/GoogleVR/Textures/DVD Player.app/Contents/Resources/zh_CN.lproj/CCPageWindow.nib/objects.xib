@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="5" name="allObjects">
+    <object class="IBCarbonCustom" id="891">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.CCPB</string>
+      <string name="viewFrame">2 2 390 220 </string>
+      <string name="bounds">2 2 222 392 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="viewFrame">0 0 394 224 </string>
+      <array count="3" name="subviews">
+        <reference idRef="891"/>
+        <object class="IBCarbonTextView" id="901">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <boolean name="noSelection">TRUE</boolean>
+          <boolean name="outputInUnicode">TRUE</boolean>
+          <boolean name="noDragProcs">TRUE</boolean>
+          <boolean name="wrap">TRUE</boolean>
+          <boolean name="noCaretWhenInactive">TRUE</boolean>
+          <boolean name="noSelectionWhenInactive">TRUE</boolean>
+          <boolean name="disableDragAndDrop">TRUE</boolean>
+          <boolean name="fontSubstitution">TRUE</boolean>
+          <string name="viewFrame">4 4 386 216 </string>
+          <string name="bounds">4 4 220 390 </string>
+        </object>
+        <object class="IBCarbonCustom" id="892">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.grwb</string>
+          <boolean name="allowsSubviews">TRUE</boolean>
+          <string name="viewFrame">367 197 24 24 </string>
+          <string name="bounds">3 367 27 391 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 224 394 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="metal">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">隐藏式字幕</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">154 142 378 536 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="901"/>
+    <reference idRef="892"/>
+  </array>
+  <array count="5" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CCPageWindow</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">906</unsigned_int>
+</object>

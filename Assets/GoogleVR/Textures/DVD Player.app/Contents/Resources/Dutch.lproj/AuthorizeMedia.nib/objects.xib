@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonStaticText" id="930">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <int name="fontStyle">4</int>
+      <string name="title">Mag &apos;&lt;0&gt;&apos; worden afgespeeld?</string>
+      <string name="viewFrame">76 15 474 38 </string>
+      <string name="bounds">15 76 53 550 </string>
+    </object>
+    <object class="IBCarbonWindow" id="914">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Identiteitscontrole</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="915">
+        <string name="viewFrame">0 0 570 142 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonButton" id="926">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">Allw</ostype>
+            <string name="helpTagText">Sta afspelen van deze media alleen deze ene keer toe terwijl ouderlijk toezicht is ingeschakeld</string>
+            <int name="buttonType">1</int>
+            <string name="title">Speel eenmaal af</string>
+            <string name="viewFrame">415 102 135 20 </string>
+            <string name="bounds">102 415 122 550 </string>
+          </object>
+          <object class="IBCarbonButton" id="927">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Annuleer</string>
+            <string name="viewFrame">318 102 85 20 </string>
+            <string name="bounds">102 318 122 403 </string>
+          </object>
+          <object class="IBCarbonButton" id="928">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">AAlw</ostype>
+            <string name="helpTagText">Sta afspelen van de media altijd toe wanneer ouderlijk toezicht is ingeschakeld</string>
+            <string name="title">Sta altijd toe</string>
+            <string name="viewFrame">76 101 110 20 </string>
+            <string name="bounds">101 76 121 186 </string>
+          </object>
+          <object class="IBCarbonIcon" id="929">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">0</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">20 15 48 48 </string>
+            <string name="bounds">15 20 63 68 </string>
+          </object>
+          <reference idRef="930"/>
+          <object class="IBCarbonStaticText" id="931">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">Ouderlijk toezicht is ingeschakeld. Als je deze media wilt afspelen, wordt je gevraagd de naam en het wachtwoord van een beheerder in te voeren.</string>
+            <string name="viewFrame">76 54 474 28 </string>
+            <string name="bounds">54 76 82 550 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="934">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">AMHp</ostype>
+            <string name="viewFrame">18 100 25 25 </string>
+            <string name="bounds">100 18 125 43 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+        </array>
+        <string name="bounds">0 0 142 570 </string>
+      </object>
+      <string name="windowRect">219 579 361 1149 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="927"/>
+    <object class="IBCarbonButton" id="924">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">AAlw</ostype>
+      <string name="helpTagText">Sta afspelen van de media altijd toe wanneer ouderlijk toezicht is ingeschakeld</string>
+      <string name="title">Sta altijd toe</string>
+      <string name="viewFrame">76 102 110 20 </string>
+      <string name="bounds">102 76 122 186 </string>
+    </object>
+    <reference idRef="915"/>
+    <object class="IBCarbonButton" id="908">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">Allw</ostype>
+      <string name="helpTagText">Sta afspelen van deze media alleen deze ene keer toe terwijl ouderlijk toezicht is ingeschakeld</string>
+      <int name="buttonType">1</int>
+      <string name="title">Speel eenmaal af</string>
+      <string name="viewFrame">415 102 135 20 </string>
+      <string name="bounds">102 415 122 550 </string>
+    </object>
+    <reference idRef="934"/>
+    <object class="IBCarbonIcon" id="925">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">0</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 15 48 48 </string>
+      <string name="bounds">15 20 63 68 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="899">
+      <string name="viewFrame">0 0 570 142 </string>
+      <array count="7" name="subviews">
+        <reference idRef="908"/>
+        <object class="IBCarbonButton" id="905">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Annuleer</string>
+          <string name="viewFrame">318 102 85 20 </string>
+          <string name="bounds">102 318 122 403 </string>
+        </object>
+        <reference idRef="924"/>
+        <reference idRef="925"/>
+        <object class="IBCarbonStaticText" id="903">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="fontStyle">4</int>
+          <string name="title">Mag &apos;&lt;0&gt;&apos; worden afgespeeld?</string>
+          <string name="viewFrame">76 15 474 38 </string>
+          <string name="bounds">15 76 53 550 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="911">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <int name="fontStyle">-2</int>
+          <string name="title">Ouderlijk toezicht is ingeschakeld. Als je deze media wilt afspelen, wordt je gevraagd de naam en het wachtwoord van een beheerder in te voeren.</string>
+          <string name="viewFrame">76 54 474 28 </string>
+          <string name="bounds">54 76 82 550 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <ostype name="command">AMHp</ostype>
+          <string name="viewFrame">18 100 25 25 </string>
+          <string name="bounds">100 18 125 43 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+      </array>
+      <string name="bounds">0 0 142 570 </string>
+    </object>
+    <reference idRef="931"/>
+    <object class="IBCarbonWindow" id="898">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Identiteitscontrole</string>
+      <reference name="rootControl" idRef="899"/>
+      <string name="windowRect">218 64 360 634 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="905"/>
+    <reference idRef="911"/>
+    <reference idRef="903"/>
+    <reference idRef="929"/>
+    <reference idRef="928"/>
+    <reference idRef="926"/>
+    <reference idRef="935"/>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="915"/>
+    <reference idRef="1"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="914"/>
+    <reference idRef="899"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="898"/>
+    <reference idRef="915"/>
+    <reference idRef="1"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>AuthorizeMediaDialog</string>
+    <reference idRef="898"/>
+    <string>AuthorizeMediaSheet</string>
+    <reference idRef="914"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">936</unsigned_int>
+</object>

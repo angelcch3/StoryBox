@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Save Position</key>
+		<false/>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>3</integer>
+				<key>Class ID</key>
+				<string>icsv</string>
+			</dict>
+		</array>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Image</string>
+		<key>Reference ID</key>
+		<string>LsPl</string>
+		<key>File</key>
+		<string>DVD.icns</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Диск DVD</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonStaticText" id="942">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2300</int>
+      <string name="title">Ses</string>
+      <string name="viewFrame">38 190 25 16 </string>
+      <string name="bounds">190 38 206 63 </string>
+    </object>
+    <object class="IBCarbonMenu" id="934">
+      <string name="title">Açılır Menü:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="935">
+          <string name="title">Sistem Sesi Çıkışı</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonStaticText" id="957">
+      <ostype name="controlSignature">cfbs</ostype>
+      <string name="title">DVD Menüsü:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">64 106 103 16 </string>
+      <string name="bounds">106 64 122 167 </string>
+    </object>
+    <object class="IBCarbonMenu" id="949">
+      <string name="title">Açılır Menü:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="950">
+          <string name="title">Yer Tutucu</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonSeparator" id="943">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2101</int>
+      <string name="viewFrame">64 21 394 4 </string>
+      <string name="bounds">21 64 25 458 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="948">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2102</int>
+      <string name="helpTagText">Diskte varsa kullanılacak yeğlenen seslendirme dilini seç</string>
+      <reference name="menu" idRef="949"/>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">172 40 215 20 </string>
+      <string name="bounds">40 172 60 387 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="886">
+      <string name="viewFrame">0 0 500 300 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="931">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2000</int>
+          <string name="classID">com.apple.DVDPlayer.DscP</string>
+          <string name="viewFrame">0 0 500 300 </string>
+          <array count="17" name="subviews">
+            <object class="IBCarbonStaticText" id="941">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2100</int>
+              <string name="title">Dil</string>
+              <int name="justification">-2</int>
+              <string name="viewFrame">38 11 22 16 </string>
+              <string name="bounds">11 38 27 60 </string>
+            </object>
+            <reference idRef="943"/>
+            <reference idRef="948"/>
+            <object class="IBCarbonPopupButton" id="938">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2103</int>
+              <string name="helpTagText">Diskte varsa kullanılacak yeğlenen altyazı dilini seç</string>
+              <object name="menu" class="IBCarbonMenu" id="939">
+                <string name="title">Açılır Menü:</string>
+                <array count="1" name="items">
+                  <object class="IBCarbonMenuItem" id="940">
+                    <string name="title">Yer Tutucu</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                  </object>
+                </array>
+              </object>
+              <int name="titleJustification">0</int>
+              <string name="viewFrame">172 72 215 20 </string>
+              <string name="bounds">72 172 92 387 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="945">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2104</int>
+              <string name="helpTagText">Diskte varsa kullanılacak yeğlenen dvd menüsü dilini seç</string>
+              <object name="menu" class="IBCarbonMenu" id="946">
+                <string name="title">Açılır Menü:</string>
+                <array count="1" name="items">
+                  <object class="IBCarbonMenuItem" id="947">
+                    <string name="title">Yer Tutucu</string>
+                    <boolean name="checked">TRUE</boolean>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                  </object>
+                </array>
+              </object>
+              <int name="titleJustification">0</int>
+              <string name="viewFrame">172 104 215 20 </string>
+              <string name="bounds">104 172 124 387 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="937">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2200</int>
+              <string name="title">İnternet:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">64 149 103 16 </string>
+              <string name="bounds">149 64 165 167 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="932">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2201</int>
+              <string name="helpTagText">DVD@ccess web bağlantısıyla karşılaşıldığında web tarayıcının otomatik olarak çalışmasını etkinleştir</string>
+              <string name="title">DVD@ccess web bağlantılarını etkinleştir</string>
+              <string name="viewFrame">171 148 291 20 </string>
+              <string name="bounds">148 171 168 462 </string>
+            </object>
+            <reference idRef="942"/>
+            <object class="IBCarbonSeparator" id="951">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2301</int>
+              <string name="viewFrame">67 200 391 4 </string>
+              <string name="bounds">200 67 204 458 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="933">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2302</int>
+              <string name="helpTagText">Ses çıkışı için hangi aygıtın kullanılacağını seç</string>
+              <reference name="menu" idRef="934"/>
+              <int name="titleJustification">-2</int>
+              <string name="viewFrame">172 219 215 20 </string>
+              <string name="bounds">219 172 239 387 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="944">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2303</int>
+              <string name="helpTagText">İşaretliyken ses daha yüksektir ama hoparlörlere hasar verebilir</string>
+              <string name="title">Dolby DRC’yi etkisizleştir</string>
+              <string name="viewFrame">107 247 295 20 </string>
+              <string name="bounds">247 107 267 402 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="936">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2304</int>
+              <int name="controlSize">1</int>
+              <string name="title">Çıkışı değiştirmek için oynatımı durdurun.</string>
+              <string name="foreColor">0 0 0 </string>
+              <string name="viewFrame">160 270 244 14 </string>
+              <string name="bounds">270 160 284 404 </string>
+            </object>
+            <object class="IBCarbonRoundButton" id="953">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">2400</int>
+              <ostype name="command">DSHp</ostype>
+              <string name="viewFrame">457 258 25 25 </string>
+              <string name="bounds">258 457 283 482 </string>
+              <int name="contentType">132</int>
+              <int name="iconCreator">1835098995</int>
+              <int name="iconType">1751477360</int>
+            </object>
+            <object class="IBCarbonStaticText" id="955">
+              <ostype name="controlSignature">cfbs</ostype>
+              <string name="title">Ses:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">107 42 60 16 </string>
+              <string name="bounds">42 107 58 167 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="956">
+              <ostype name="controlSignature">cfbs</ostype>
+              <string name="title">Altyazı:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">107 74 60 16 </string>
+              <string name="bounds">74 107 90 167 </string>
+            </object>
+            <reference idRef="957"/>
+            <object class="IBCarbonStaticText" id="958">
+              <ostype name="controlSignature">cfbs</ostype>
+              <string name="title">Ses çıkışı:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">77 221 90 16 </string>
+              <string name="bounds">221 77 237 167 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 300 500 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 300 500 </string>
+    </object>
+    <reference idRef="932"/>
+    <reference idRef="940"/>
+    <reference idRef="953"/>
+    <reference idRef="947"/>
+    <reference idRef="931"/>
+    <reference idRef="933"/>
+    <reference idRef="938"/>
+    <reference idRef="946"/>
+    <reference idRef="950"/>
+    <reference idRef="955"/>
+    <reference idRef="956"/>
+    <reference idRef="951"/>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Pencere</string>
+      <reference name="rootControl" idRef="886"/>
+      <string name="windowRect">337 506 637 1006 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="945"/>
+    <reference idRef="937"/>
+    <reference idRef="939"/>
+    <reference idRef="935"/>
+    <reference idRef="941"/>
+    <reference idRef="958"/>
+    <reference idRef="936"/>
+    <reference idRef="944"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="931"/>
+    <reference idRef="933"/>
+    <reference idRef="931"/>
+    <reference idRef="948"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="887"/>
+    <reference idRef="931"/>
+    <reference idRef="939"/>
+    <reference idRef="931"/>
+    <reference idRef="946"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="945"/>
+    <reference idRef="949"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="1"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="938"/>
+    <reference idRef="934"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelDisc</string>
+    <reference idRef="887"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">959</unsigned_int>
+</object>

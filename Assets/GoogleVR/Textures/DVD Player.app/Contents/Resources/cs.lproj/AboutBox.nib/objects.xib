@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="8" name="allObjects">
+    <object class="IBCarbonCustom" id="890">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <string name="classID">com.apple.DVDPlayer.verv</string>
+      <string name="viewFrame">24 101 252 32 </string>
+      <string name="bounds">101 24 133 276 </string>
+    </object>
+    <object class="IBCarbonIcon" id="894">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">538976288</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">118 8 64 64 </string>
+      <string name="bounds">8 118 72 182 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 300 346 </string>
+        <array count="6" name="subviews">
+          <object class="IBCarbonCustom" id="889">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <string name="classID">com.apple.DVDPlayer.thtx</string>
+            <string name="viewFrame">24 161 252 155 </string>
+            <string name="bounds">161 24 316 276 </string>
+          </object>
+          <reference idRef="890"/>
+          <object class="IBCarbonCustom" id="892">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <string name="classID">com.apple.DVDPlayer.imgv</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">121 316 58 21 </string>
+            <string name="bounds">316 121 337 179 </string>
+          </object>
+          <reference idRef="894"/>
+          <object class="IBCarbonCustom" id="896">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="classID">com.apple.DVDPlayer.thtx</string>
+            <string name="viewFrame">24 78 252 19 </string>
+            <string name="bounds">78 24 97 276 </string>
+          </object>
+          <object class="IBCarbonCustom" id="897">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <string name="classID">com.apple.DVDPlayer.PlyV</string>
+            <string name="viewFrame">24 137 252 16 </string>
+            <string name="bounds">137 24 153 276 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 346 300 </string>
+      </object>
+      <string name="windowRect">46 152 392 452 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="889"/>
+    <reference idRef="897"/>
+    <reference idRef="892"/>
+    <reference idRef="896"/>
+    <reference idRef="887"/>
+  </array>
+  <array count="8" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>AboutBox</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">898</unsigned_int>
+</object>

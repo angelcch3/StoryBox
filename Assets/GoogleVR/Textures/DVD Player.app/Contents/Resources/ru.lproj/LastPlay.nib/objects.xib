@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="20" name="allObjects">
+    <object class="IBCarbonStaticText" id="184">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <string name="title">Вы уже просматривали этот диск.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">195 22 334 20 </string>
+      <string name="bounds">22 195 42 529 </string>
+    </object>
+    <object class="IBCarbonButton" id="183">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">DefB</ostype>
+      <string name="helpTagText">Начать показ из положения закладки по умолчанию</string>
+      <string name="title">Закладка по умолчанию</string>
+      <string name="viewFrame">146 90 175 20 </string>
+      <string name="bounds">90 146 110 321 </string>
+    </object>
+    <object class="IBCarbonButton" id="197">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">LstB</ostype>
+      <string name="helpTagText">Продолжить показ с последней позиции</string>
+      <int name="buttonType">1</int>
+      <string name="title">Последняя позиция</string>
+      <string name="viewFrame">347 94 156 20 </string>
+      <string name="bounds">94 347 114 503 </string>
+    </object>
+    <object class="IBCarbonButton" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">Отменить воспроизведение</string>
+      <int name="buttonType">2</int>
+      <string name="title">Отменить</string>
+      <string name="viewFrame">501 90 91 20 </string>
+      <string name="bounds">90 501 110 592 </string>
+    </object>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Начало просмотра</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="viewFrame">0 0 612 168 </string>
+        <array count="8" name="subviews">
+          <reference idRef="183"/>
+          <reference idRef="184"/>
+          <object class="IBCarbonButton" id="185">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">BegB</ostype>
+            <string name="helpTagText">Начать показ с начала диска</string>
+            <string name="title">Начало диска</string>
+            <string name="viewFrame">15 90 119 20 </string>
+            <string name="bounds">90 15 110 134 </string>
+          </object>
+          <object class="IBCarbonButton" id="186">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">LstB</ostype>
+            <string name="helpTagText">Продолжить показ с последней позиции</string>
+            <int name="buttonType">1</int>
+            <string name="title">Последняя позиция</string>
+            <string name="viewFrame">333 90 156 20 </string>
+            <string name="bounds">90 333 110 489 </string>
+          </object>
+          <object class="IBCarbonIcon" id="189">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">0</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">123 17 48 48 </string>
+            <string name="bounds">17 123 65 171 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="190">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+            <int name="controlSize">1</int>
+            <string name="title">Установите действие по умолчанию в настройках DVD-плеера.</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">86 138 440 16 </string>
+            <string name="bounds">138 86 154 526 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="191">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">Выберите место, с которого Вы хотите начать просмотр.</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">195 43 397 32 </string>
+            <string name="bounds">43 195 75 592 </string>
+          </object>
+          <reference idRef="192"/>
+        </array>
+        <string name="bounds">0 0 168 612 </string>
+      </object>
+      <string name="windowRect">296 638 464 1250 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="191"/>
+    <object class="IBCarbonStaticText" id="201">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">7</int>
+      <string name="title">Выберите место, с которого Вы хотите начать просмотр.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">195 47 397 32 </string>
+      <string name="bounds">47 195 79 592 </string>
+    </object>
+    <reference idRef="190"/>
+    <object class="IBCarbonStaticText" id="195">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <string name="title">Вы уже просматривали этот диск.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">195 26 231 20 </string>
+      <string name="bounds">26 195 46 426 </string>
+    </object>
+    <object class="IBCarbonWindow" id="193">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Начало просмотра</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="194">
+        <string name="viewFrame">0 0 612 168 </string>
+        <array count="8" name="subviews">
+          <object class="IBCarbonButton" id="200">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">DefB</ostype>
+            <string name="helpTagText">Начать показ из положения закладки по умолчанию</string>
+            <string name="title">Закладка по умолчанию</string>
+            <string name="viewFrame">164 94 175 20 </string>
+            <string name="bounds">94 164 114 339 </string>
+          </object>
+          <reference idRef="195"/>
+          <object class="IBCarbonButton" id="196">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">BegB</ostype>
+            <string name="helpTagText">Начать показ с начала диска</string>
+            <string name="title">Начало диска</string>
+            <string name="viewFrame">15 94 140 20 </string>
+            <string name="bounds">94 15 114 155 </string>
+          </object>
+          <reference idRef="197"/>
+          <object class="IBCarbonIcon" id="199">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">0</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">123 21 48 48 </string>
+            <string name="bounds">21 123 69 171 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="202">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+            <int name="controlSize">1</int>
+            <string name="title">Установите действие по умолчанию в настройках DVD-плеера.</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">102 139 421 16 </string>
+            <string name="bounds">139 102 155 523 </string>
+          </object>
+          <reference idRef="201"/>
+          <object class="IBCarbonButton" id="198">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <ostype name="command">not!</ostype>
+            <string name="helpTagText">Отменить воспроизведение</string>
+            <int name="buttonType">2</int>
+            <string name="title">Отменить</string>
+            <string name="viewFrame">512 94 91 20 </string>
+            <string name="bounds">94 512 114 603 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 168 612 </string>
+      </object>
+      <string name="windowRect">359 488 527 1100 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="186"/>
+    <reference idRef="185"/>
+    <reference idRef="199"/>
+    <reference idRef="196"/>
+    <reference idRef="198"/>
+    <reference idRef="181"/>
+    <reference idRef="202"/>
+    <reference idRef="194"/>
+    <reference idRef="200"/>
+    <reference idRef="189"/>
+  </array>
+  <array count="20" name="allParents">
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="180"/>
+    <reference idRef="194"/>
+    <reference idRef="193"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LastPlayDialog</string>
+    <reference idRef="193"/>
+    <string>LastPlaySheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">203</unsigned_int>
+</object>

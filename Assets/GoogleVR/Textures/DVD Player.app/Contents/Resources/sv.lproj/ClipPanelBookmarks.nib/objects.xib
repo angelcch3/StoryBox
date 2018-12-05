@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonRootControl" id="886">
+      <string name="bounds">0 0 348 250 </string>
+      <string name="viewFrame">0 0 250 348 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="931">
+          <string name="bounds">0 0 348 250 </string>
+          <string name="viewFrame">0 0 250 348 </string>
+          <array count="4" name="subviews">
+            <object class="IBCarbonHIView" id="933">
+              <string name="bounds">0 0 312 250 </string>
+              <string name="viewFrame">0 0 250 312 </string>
+              <array count="1" name="subviews">
+                <object class="IBCarbonHIView" id="952">
+                  <string name="bounds">0 0 312 234 </string>
+                  <string name="viewFrame">0 0 234 312 </string>
+                  <ostype name="controlSignature">cfbs</ostype>
+                  <int name="controlID">1002</int>
+                  <string name="classID">com.apple.DVDPlayer.BkmL</string>
+                </object>
+              </array>
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1001</int>
+              <string name="classID">com.apple.DVDPlayer.scrv</string>
+            </object>
+            <object class="IBCarbonHIView" id="937">
+              <string name="bounds">318 8 340 37 </string>
+              <string name="viewFrame">8 318 29 22 </string>
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1003</int>
+              <ostype name="command">ABkm</ostype>
+              <string name="helpTagText">Lägg till bokmärke</string>
+              <string name="classID">com.apple.DVDPlayer.imgb</string>
+            </object>
+            <object class="IBCarbonHIView" id="938">
+              <string name="bounds">318 37 340 65 </string>
+              <string name="viewFrame">37 318 28 22 </string>
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1005</int>
+              <ostype name="command">RmBk</ostype>
+              <string name="helpTagText">Ta bort markerat bokmärke</string>
+              <string name="classID">com.apple.DVDPlayer.imgb</string>
+            </object>
+            <object class="IBCarbonBevelButton" id="941">
+              <string name="bounds">318 73 340 104 </string>
+              <string name="viewFrame">73 318 31 22 </string>
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1006</int>
+              <int name="contentType">0</int>
+              <int name="menuPlacement">4</int>
+              <int name="menuBehavior">8192</int>
+              <object name="menu" class="IBCarbonMenu" id="942">
+                <string name="title">BevelMenu</string>
+                <array count="10" name="items">
+                  <object class="IBCarbonMenuItem" id="948">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Visa miniatyrer</string>
+                    <ostype name="command">SBkT</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="949">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Skapa saknade miniatyrer</string>
+                    <ostype name="command">GBkT</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="953">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Ta bort miniatyrbilder</string>
+                    <ostype name="command">RBTh</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="950">
+                    <boolean name="separator">TRUE</boolean>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="943">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Byt namn</string>
+                    <ostype name="command">RnBk</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="954">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Använd aktuell bildruta som miniatyrbild</string>
+                    <ostype name="command">CFBT</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="944">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Radera</string>
+                    <ostype name="command">RmBk</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="955">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Radera alla bokmärken</string>
+                    <ostype name="command">RABk</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="951">
+                    <boolean name="separator">TRUE</boolean>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="947">
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="title">Gör till förval</string>
+                    <ostype name="command">DfBk</ostype>
+                  </object>
+                </array>
+              </object>
+              <int name="selectedItem">7</int>
+            </object>
+          </array>
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1000</int>
+          <string name="classID">com.apple.DVDPlayer.BkPn</string>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonWindow" id="887">
+      <string name="windowRect">122 580 470 830 </string>
+      <string name="title">Fönster</string>
+      <reference name="rootControl" idRef="886"/>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+    </object>
+    <reference idRef="931"/>
+    <reference idRef="933"/>
+    <reference idRef="937"/>
+    <reference idRef="938"/>
+    <reference idRef="941"/>
+    <reference idRef="942"/>
+    <reference idRef="943"/>
+    <reference idRef="944"/>
+    <reference idRef="947"/>
+    <reference idRef="948"/>
+    <reference idRef="949"/>
+    <reference idRef="950"/>
+    <reference idRef="951"/>
+    <reference idRef="952"/>
+    <reference idRef="953"/>
+    <reference idRef="954"/>
+    <reference idRef="955"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="941"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="933"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+  </array>
+  <dictionary count="6" name="nameTable">
+    <string>ClipPanelBookmarks</string>
+    <reference idRef="887"/>
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+    <string>NSCustomView</string>
+    <reference idRef="941"/>
+    <string>View1</string>
+    <reference idRef="937"/>
+    <string>View11</string>
+    <reference idRef="933"/>
+    <string>View12</string>
+    <reference idRef="938"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">956</unsigned_int>
+</object>

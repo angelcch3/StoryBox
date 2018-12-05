@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> 디스크 기본값 사용</string>
+	<key>00  </key>
+	<string>알 수 없음</string>
+	<key>aa  </key>
+	<string>아파르어</string>
+	<key>ab  </key>
+	<string>압하스어</string>
+	<key>ae  </key>
+	<string>아베스타어</string>
+	<key>af  </key>
+	<string>아프리칸스어</string>
+	<key>am  </key>
+	<string>암하라어</string>
+	<key>ar  </key>
+	<string>아랍어</string>
+	<key>as  </key>
+	<string>아삼어</string>
+	<key>ay  </key>
+	<string>아이마라어</string>
+	<key>az  </key>
+	<string>아제르바이잔어</string>
+	<key>ba  </key>
+	<string>바슈키르어</string>
+	<key>be  </key>
+	<string>벨로러시아어</string>
+	<key>bg  </key>
+	<string>불가리아어</string>
+	<key>bh  </key>
+	<string>비하르어</string>
+	<key>bi  </key>
+	<string>비슬라마어</string>
+	<key>bn  </key>
+	<string>벵골어</string>
+	<key>bo  </key>
+	<string>티벳어</string>
+	<key>br  </key>
+	<string>브르타뉴어</string>
+	<key>bs  </key>
+	<string>보스니아어</string>
+	<key>ca  </key>
+	<string>카탈로니아어</string>
+	<key>ce  </key>
+	<string>체첸어</string>
+	<key>ch  </key>
+	<string>차모로어</string>
+	<key>co  </key>
+	<string>코르시카어</string>
+	<key>cs  </key>
+	<string>체코어</string>
+	<key>cu  </key>
+	<string>교회 슬라브어</string>
+	<key>cv  </key>
+	<string>추바슈어</string>
+	<key>cy  </key>
+	<string>웨일스어</string>
+	<key>da  </key>
+	<string>덴마크어</string>
+	<key>de  </key>
+	<string>독일어</string>
+	<key>dz  </key>
+	<string>부탄어</string>
+	<key>el  </key>
+	<string>그리스어</string>
+	<key>en  </key>
+	<string>영어</string>
+	<key>eo  </key>
+	<string>에스페란토어</string>
+	<key>es  </key>
+	<string>스페인어</string>
+	<key>et  </key>
+	<string>에스토니아어</string>
+	<key>eu  </key>
+	<string>바스크어</string>
+	<key>fa  </key>
+	<string>페르시아어</string>
+	<key>fi  </key>
+	<string>핀란드어</string>
+	<key>fj  </key>
+	<string>피지</string>
+	<key>fo  </key>
+	<string>페로어</string>
+	<key>fr  </key>
+	<string>프랑스어</string>
+	<key>fy  </key>
+	<string>프리지아어</string>
+	<key>ga  </key>
+	<string>아일랜드어</string>
+	<key>gd  </key>
+	<string>스코틀랜드 게일어</string>
+	<key>gl  </key>
+	<string>갈리시아어</string>
+	<key>gn  </key>
+	<string>과라니어</string>
+	<key>gu  </key>
+	<string>구자라트어</string>
+	<key>gv  </key>
+	<string>맹크스어</string>
+	<key>ha  </key>
+	<string>하우사어</string>
+	<key>hi  </key>
+	<string>힌디어</string>
+	<key>ho  </key>
+	<string>히리 모투어</string>
+	<key>hr  </key>
+	<string>크로아티아어</string>
+	<key>hu  </key>
+	<string>헝가리어</string>
+	<key>hy  </key>
+	<string>아르메니아어</string>
+	<key>hz  </key>
+	<string>헤레로어</string>
+	<key>ia  </key>
+	<string>인터링구아</string>
+	<key>ie  </key>
+	<string>인테르링구에</string>
+	<key>ik  </key>
+	<string>이누피아크어</string>
+	<key>in  </key>
+	<string>인도네시아어</string>
+	<key>is  </key>
+	<string>아이슬란드어</string>
+	<key>it  </key>
+	<string>이탈리아어</string>
+	<key>iu  </key>
+	<string>이누이트어</string>
+	<key>iw  </key>
+	<string>히브리어</string>
+	<key>ja  </key>
+	<string>일본어</string>
+	<key>ji  </key>
+	<string>이디시어</string>
+	<key>jw  </key>
+	<string>자바어</string>
+	<key>ka  </key>
+	<string>조지아어</string>
+	<key>ki  </key>
+	<string>키쿠유어</string>
+	<key>kj  </key>
+	<string>콰냐마어</string>
+	<key>kk  </key>
+	<string>카자흐어</string>
+	<key>kl  </key>
+	<string>그린란드어</string>
+	<key>km  </key>
+	<string>캄보디아어</string>
+	<key>kn  </key>
+	<string>칸나다어</string>
+	<key>ko  </key>
+	<string>한국어</string>
+	<key>ks  </key>
+	<string>카슈미르어</string>
+	<key>ku  </key>
+	<string>쿠르드어</string>
+	<key>kv  </key>
+	<string>코미어</string>
+	<key>kw  </key>
+	<string>콘월어</string>
+	<key>ky  </key>
+	<string>키르기즈어</string>
+	<key>la  </key>
+	<string>라틴어</string>
+	<key>lb  </key>
+	<string>룩셈부르크어</string>
+	<key>ln  </key>
+	<string>링갈라어</string>
+	<key>lo  </key>
+	<string>라오어</string>
+	<key>lt  </key>
+	<string>리투아니아어</string>
+	<key>lv  </key>
+	<string>라트비아어</string>
+	<key>mg  </key>
+	<string>말라가시어</string>
+	<key>mh  </key>
+	<string>마샬어</string>
+	<key>mi  </key>
+	<string>마오리어</string>
+	<key>mk  </key>
+	<string>마케도니아어</string>
+	<key>ml  </key>
+	<string>말라얄람어</string>
+	<key>mn  </key>
+	<string>몽고어</string>
+	<key>mo  </key>
+	<string>몰도바어</string>
+	<key>mr  </key>
+	<string>마라타어</string>
+	<key>ms  </key>
+	<string>말레이어</string>
+	<key>mt  </key>
+	<string>몰타어</string>
+	<key>my  </key>
+	<string>버마어</string>
+	<key>na  </key>
+	<string>나우루어</string>
+	<key>nd  </key>
+	<string>언데벨라어, 북부</string>
+	<key>ne  </key>
+	<string>네팔어</string>
+	<key>ng  </key>
+	<string>은동가어</string>
+	<key>nl  </key>
+	<string>네덜란드어</string>
+	<key>no  </key>
+	<string>노르웨이어</string>
+	<key>nr  </key>
+	<string>언데벨라어, 남부</string>
+	<key>nv  </key>
+	<string>나바호어</string>
+	<key>ny  </key>
+	<string>체와어</string>
+	<key>oc  </key>
+	<string>오크어</string>
+	<key>om  </key>
+	<string>오로모어</string>
+	<key>or  </key>
+	<string>오리야어</string>
+	<key>os  </key>
+	<string>오세트어</string>
+	<key>pa  </key>
+	<string>펀잡어</string>
+	<key>pi  </key>
+	<string>팔리어</string>
+	<key>pl  </key>
+	<string>폴란드어</string>
+	<key>ps  </key>
+	<string>파슈토어</string>
+	<key>pt  </key>
+	<string>포르투갈어</string>
+	<key>qu  </key>
+	<string>케추아어</string>
+	<key>rm  </key>
+	<string>로망슈어</string>
+	<key>rn  </key>
+	<string>키룬디어</string>
+	<key>ro  </key>
+	<string>루마니아어</string>
+	<key>ru  </key>
+	<string>러시아어</string>
+	<key>rw  </key>
+	<string>키냐르완다어</string>
+	<key>sa  </key>
+	<string>산스크리트어</string>
+	<key>sc  </key>
+	<string>사르데냐어</string>
+	<key>sd  </key>
+	<string>신드어</string>
+	<key>se  </key>
+	<string>북부 사미어</string>
+	<key>sg  </key>
+	<string>산고어</string>
+	<key>sh  </key>
+	<string>세르보크로아티아어</string>
+	<key>si  </key>
+	<string>상할라어</string>
+	<key>sk  </key>
+	<string>슬로바키아어</string>
+	<key>sl  </key>
+	<string>슬로베니아어</string>
+	<key>sm  </key>
+	<string>사모아어</string>
+	<key>sn  </key>
+	<string>쇼나어</string>
+	<key>so  </key>
+	<string>소말리어</string>
+	<key>sq  </key>
+	<string>알바니아어</string>
+	<key>sr  </key>
+	<string>세르비아어</string>
+	<key>ss  </key>
+	<string>시스와티어</string>
+	<key>st  </key>
+	<string>세소토어</string>
+	<key>su  </key>
+	<string>수단어</string>
+	<key>sv  </key>
+	<string>스웨덴어</string>
+	<key>sw  </key>
+	<string>스와힐리어</string>
+	<key>ta  </key>
+	<string>타밀어</string>
+	<key>te  </key>
+	<string>텔루구어</string>
+	<key>tg  </key>
+	<string>타지크어</string>
+	<key>th  </key>
+	<string>태국어</string>
+	<key>ti  </key>
+	<string>티그리냐어</string>
+	<key>tk  </key>
+	<string>투르크멘어</string>
+	<key>tl  </key>
+	<string>타갈로그어</string>
+	<key>tn  </key>
+	<string>츠와나어</string>
+	<key>to  </key>
+	<string>통가어</string>
+	<key>tr  </key>
+	<string>터키어</string>
+	<key>ts  </key>
+	<string>총가어</string>
+	<key>tt  </key>
+	<string>타타르어</string>
+	<key>tw  </key>
+	<string>트위어</string>
+	<key>ty  </key>
+	<string>타히티어</string>
+	<key>ug  </key>
+	<string>위구르어</string>
+	<key>uk  </key>
+	<string>우크라이나어</string>
+	<key>ur  </key>
+	<string>우르두어</string>
+	<key>uz  </key>
+	<string>우즈베키스탄어</string>
+	<key>vi  </key>
+	<string>베트남어</string>
+	<key>vo  </key>
+	<string>볼라퓌크어</string>
+	<key>wo  </key>
+	<string>월로프어</string>
+	<key>xh  </key>
+	<string>코사어</string>
+	<key>yo  </key>
+	<string>요루바어</string>
+	<key>za  </key>
+	<string>주앙어</string>
+	<key>zh  </key>
+	<string>중국어</string>
+	<key>zu  </key>
+	<string>줄루어</string>
+</dict>
+</plist>

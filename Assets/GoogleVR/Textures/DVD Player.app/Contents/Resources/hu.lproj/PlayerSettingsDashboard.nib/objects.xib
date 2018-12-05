@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonHIView" id="242">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">CPlS</ostype>
+      <string name="classID">com.apple.DVDPlayer.dcls</string>
+      <string name="viewFrame">3 3 13 13 </string>
+      <string name="bounds">3 3 16 16 </string>
+    </object>
+    <object class="IBCarbonHIView" id="241">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <string name="classID">com.apple.DVDPlayer.hivw</string>
+      <string name="viewFrame">0 0 325 19 </string>
+      <array count="3" name="subviews">
+        <reference idRef="242"/>
+        <object class="IBCarbonHIView" id="243">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <string name="classID">com.apple.DVDPlayer.dtxt</string>
+          <string name="viewFrame">87 0 150 17 </string>
+          <string name="bounds">0 87 17 237 </string>
+        </object>
+        <object class="IBCarbonHIView" id="246">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <string name="helpTagText">Panel kijelölése</string>
+          <string name="classID">com.apple.DVDPlayer.dswt</string>
+          <string name="viewFrame">309 3 13 13 </string>
+          <string name="bounds">3 309 16 322 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 19 325 </string>
+    </object>
+    <reference idRef="243"/>
+    <object class="IBCarbonRootControl" id="167">
+      <string name="viewFrame">0 0 325 165 </string>
+      <array count="2" name="subviews">
+        <reference idRef="241"/>
+        <object class="IBCarbonHIView" id="245">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <string name="classID">com.apple.DVDPlayer.pnlc</string>
+          <string name="viewFrame">0 19 325 146 </string>
+          <string name="bounds">19 0 165 325 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 165 325 </string>
+    </object>
+    <reference idRef="245"/>
+    <reference idRef="246"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Lejátszó beállításai</string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">203 289 368 614 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="241"/>
+    <reference idRef="167"/>
+    <reference idRef="241"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="241"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PlayerSettingsDashboard</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">247</unsigned_int>
+</object>

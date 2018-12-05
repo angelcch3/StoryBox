@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 480 242 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5000</int>
+          <string name="classID">com.apple.DVDPlayer.PrvP</string>
+          <string name="viewFrame">0 0 480 244 </string>
+          <array count="7" name="subviews">
+            <object class="IBCarbonStaticText" id="927">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5100</int>
+              <string name="title">डिस्क यहाँ से चलाना शुरू करें :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">60 20 188 19 </string>
+              <string name="bounds">20 60 39 248 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="928">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5101</int>
+              <int name="numRows">4</int>
+              <int name="intercellHeight">4</int>
+              <array count="4" name="radioTitles">
+                <array count="1">
+                  <string>आरंभ</string>
+                </array>
+                <array count="1">
+                  <string>चलाई गई अंतिम स्थिति</string>
+                </array>
+                <array count="1">
+                  <string>पूर्वनिर्धारित बुकमार्क</string>
+                </array>
+                <array count="1">
+                  <string>हमेशा पूछें</string>
+                </array>
+              </array>
+              <string name="viewFrame">256 20 204 88 </string>
+              <string name="bounds">20 256 108 460 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="929">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5102</int>
+              <boolean name="enabled">FALSE</boolean>
+              <int name="fontStyle">-2</int>
+              <int name="controlSize">1</int>
+              <string name="title">डिस्क चलनी शुरू होने पर ऑप्शन कुंजी दबाए रखने पर DVD प्लेयर द्वारा आरंभ बिंदु निर्धारित करने का विकल्प दर्शाया जाएगा।</string>
+              <string name="viewFrame">259 107 201 48 </string>
+              <string name="bounds">107 259 155 460 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5200</int>
+              <string name="title">इसके लिए डिस्क सेटिंग्ज़ का हमेशा उपयोग करें :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">6 165 242 19 </string>
+              <string name="bounds">165 6 184 248 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5201</int>
+              <string name="helpTagText">इस डिस्क के साथ उपयोग की गई अंतिम ईक्वलाइज़र सेटिंग्ज़ का उपयोग करें</string>
+              <string name="title">ऑडियो ईक्वलाइज़र</string>
+              <string name="viewFrame">256 165 218 19 </string>
+              <string name="bounds">165 256 184 474 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="924">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5202</int>
+              <string name="helpTagText">इस डिस्क के साथ उपयोग की गई अंतिम वीडियो रंग सेटिंग्ज़ का उपयोग करें</string>
+              <string name="title">वीडियो रंग</string>
+              <string name="viewFrame">256 188 218 19 </string>
+              <string name="bounds">188 256 207 474 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="923">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5203</int>
+              <string name="helpTagText">इस डिस्क के साथ उपयोग की गई अंतिम ज़ूम सेटिंग्ज़ का उपयोग करें</string>
+              <string name="title">वीडियो ज़ूम</string>
+              <string name="viewFrame">256 210 218 19 </string>
+              <string name="bounds">210 256 229 474 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 244 480 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 242 480 </string>
+    </object>
+    <reference idRef="922"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">विंडो</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 362 286 842 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="928"/>
+    <reference idRef="924"/>
+    <reference idRef="929"/>
+    <reference idRef="927"/>
+    <reference idRef="925"/>
+    <reference idRef="923"/>
+    <reference idRef="926"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

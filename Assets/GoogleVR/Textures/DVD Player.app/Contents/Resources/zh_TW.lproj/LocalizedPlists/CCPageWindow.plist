@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>CC View</string>
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>儷黑 Pro</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>-2</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Background View</string>
+		<key>Color</key>
+		<dict>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+		<key>Draw Metal Border</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Grow box</string>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Use Port Color</key>
+		<true/>
+	</dict>
+	<key>Window</key>
+	<dict>
+		<key>Save Position</key>
+		<true/>
+		<key>Save Size</key>
+		<true/>
+		<key>Allow in Window Menu</key>
+		<true/>
+		<key>Fade Support</key>
+		<true/>
+		<key>Window Resize Limits</key>
+		<dict>
+			<key>top</key>
+			<integer>18</integer>
+			<key>left</key>
+			<integer>60</integer>
+			<key>bottom</key>
+			<integer>-1</integer>
+			<key>right</key>
+			<integer>-1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

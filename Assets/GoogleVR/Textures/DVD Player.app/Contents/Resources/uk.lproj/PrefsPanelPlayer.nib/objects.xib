@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonStaticText" id="932">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1500</int>
+      <string name="title">Коли вікно плеєра згорнуто:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">27 252 210 16 </string>
+      <string name="bounds">252 27 268 237 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="928">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1300</int>
+      <string name="title">Коли вимкнено звук:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">27 215 210 16 </string>
+      <string name="bounds">215 27 231 237 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Вікно</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 540 296 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="922">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1000</int>
+            <string name="classID">com.apple.DVDPlayer.PlyP</string>
+            <string name="viewFrame">0 0 550 297 </string>
+            <array count="14" name="subviews">
+              <object class="IBCarbonStaticText" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1100</int>
+                <string name="title">Коли відкривається DVD-плеєр:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">27 13 210 16 </string>
+                <string name="bounds">13 27 29 237 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="924">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1101</int>
+                <string name="helpTagText">Масштабувати на повний екран, коли розпізнано коректний диск</string>
+                <string name="title">вмикати повноекранний режим</string>
+                <string name="viewFrame">243 12 227 18 </string>
+                <string name="bounds">12 243 30 470 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="925">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1102</int>
+                <string name="helpTagText">Починати відтворення, коли розпізнано коректний диск</string>
+                <string name="title">починати відтворення диска</string>
+                <string name="viewFrame">243 35 257 18 </string>
+                <string name="bounds">35 243 53 500 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="926">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1200</int>
+                <string name="title">Коли вставлено диск:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">27 111 210 16 </string>
+                <string name="bounds">111 27 127 237 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="927">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1201</int>
+                <string name="helpTagText">Починати відтворення, коли коректний диск вставлено після запуску DVD-плеєра</string>
+                <string name="title">починати відтворення диска</string>
+                <string name="viewFrame">243 110 257 18 </string>
+                <string name="bounds">110 243 128 500 </string>
+              </object>
+              <reference idRef="928"/>
+              <object class="IBCarbonCheckBox" id="929">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1301</int>
+                <string name="helpTagText">Вмикати супровідний текст, коли в DVD-плеєрі вимикається звук</string>
+                <string name="title">показувати супровідний текст</string>
+                <string name="viewFrame">243 214 218 18 </string>
+                <string name="bounds">214 243 232 461 </string>
+              </object>
+              <reference idRef="932"/>
+              <object class="IBCarbonCheckBox" id="933">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1501</int>
+                <string name="helpTagText">Призупиняти відтворення, коли вікно плеєра згортається в Dock</string>
+                <string name="title">призупиняти відтворення</string>
+                <string name="viewFrame">243 252 193 18 </string>
+                <string name="bounds">252 243 270 436 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="939">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1702</int>
+                <boolean name="enabled">FALSE</boolean>
+                <int name="fontStyle">-2</int>
+                <int name="controlSize">1</int>
+                <string name="title">Це допоможе зберегти заряд акумулятора. Під час запуску дисковода читання дисків може уповільнюватися.</string>
+                <string name="viewFrame">245 169 267 39 </string>
+                <string name="bounds">169 245 208 512 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="937">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1700</int>
+                <string name="title">Під час живлення від акумулятора:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">6 148 231 16 </string>
+                <string name="bounds">148 6 164 237 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="938">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1701</int>
+                <int name="initialState">2</int>
+                <string name="title">переводити дисковод у режим сну</string>
+                <string name="viewFrame">243 148 277 18 </string>
+                <string name="bounds">148 243 166 520 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="934">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1150</int>
+                <string name="title">Коли DVD-плеєр неактивний:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">27 73 210 16 </string>
+                <string name="bounds">73 27 89 237 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="935">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">1151</int>
+                <string name="helpTagText">Тимчасово призупиняти відтворення, коли плеєр неактивний</string>
+                <string name="title">призупиняти відтворення</string>
+                <string name="viewFrame">243 72 193 18 </string>
+                <string name="bounds">72 243 90 436 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 297 550 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 296 540 </string>
+      </object>
+      <string name="windowRect">92 838 388 1378 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="938"/>
+    <reference idRef="935"/>
+    <reference idRef="887"/>
+    <reference idRef="929"/>
+    <reference idRef="923"/>
+    <reference idRef="926"/>
+    <reference idRef="937"/>
+    <reference idRef="922"/>
+    <reference idRef="939"/>
+    <reference idRef="924"/>
+    <reference idRef="927"/>
+    <reference idRef="933"/>
+    <reference idRef="934"/>
+    <reference idRef="925"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

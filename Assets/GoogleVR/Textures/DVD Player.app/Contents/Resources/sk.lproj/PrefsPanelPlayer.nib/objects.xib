@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonCheckBox" id="935">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1151</int>
+      <string name="helpTagText">Dočasne prerušiť prehrávanie, ak je prehrávač nečinný</string>
+      <string name="title">Pozastaviť prehrávanie</string>
+      <string name="viewFrame">215 68 163 18 </string>
+      <string name="bounds">68 215 86 378 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 535 295 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1000</int>
+          <string name="classID">com.apple.DVDPlayer.PlyP</string>
+          <string name="viewFrame">0 0 530 297 </string>
+          <array count="14" name="subviews">
+            <object class="IBCarbonStaticText" id="923">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1100</int>
+              <string name="title">Po otvorení DVD Playera:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">34 13 175 16 </string>
+              <string name="bounds">13 34 29 209 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="924">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1101</int>
+              <string name="helpTagText">Zobraziť na celej obrazovke, ak bude rozpoznaný platný disk</string>
+              <string name="title">Zobraziť na celej obrazovke</string>
+              <string name="viewFrame">215 13 195 18 </string>
+              <string name="bounds">13 215 31 410 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1102</int>
+              <string name="helpTagText">Spustiť prehrávanie, ak bude rozpoznaný platný disk</string>
+              <string name="title">Spustiť prehrávanie disku</string>
+              <string name="viewFrame">215 35 181 18 </string>
+              <string name="bounds">35 215 53 396 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1200</int>
+              <string name="title">Po vložení disku:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">34 106 175 16 </string>
+              <string name="bounds">106 34 122 209 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="927">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1201</int>
+              <string name="helpTagText">Spustiť prehrávanie, ak je vložený platný disk a DVD Player je spustený</string>
+              <string name="title">Spustiť prehrávanie disku</string>
+              <string name="viewFrame">215 106 181 18 </string>
+              <string name="bounds">106 215 124 396 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="928">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1300</int>
+              <string name="title">Po stíšení:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">34 223 175 16 </string>
+              <string name="bounds">223 34 239 209 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="929">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1301</int>
+              <string name="helpTagText">Zapnúť skryté titulky, kým je zvuk DVD Playera stíšený</string>
+              <string name="title">Zobraziť skryté titulky</string>
+              <string name="viewFrame">215 223 160 18 </string>
+              <string name="bounds">223 215 241 375 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="932">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1500</int>
+              <string name="title">Po minimalizácii:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">66 252 143 16 </string>
+              <string name="bounds">252 66 268 209 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="933">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1501</int>
+              <string name="helpTagText">Pozastaviť prehrávanie, keď je prehliadač minimalizovaný do Docku</string>
+              <string name="title">Pozastaviť prehrávanie</string>
+              <string name="viewFrame">215 252 163 18 </string>
+              <string name="bounds">252 215 270 378 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="939">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1702</int>
+              <boolean name="enabled">FALSE</boolean>
+              <int name="fontStyle">-2</int>
+              <int name="controlSize">1</int>
+              <string name="title">Táto možnosť šetrí batériu. Kým sa jednotka neobnoví z režimu spánku, posúvanie disku môže byť pomalšie.</string>
+              <string name="viewFrame">217 177 267 39 </string>
+              <string name="bounds">177 217 216 484 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="937">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1700</int>
+              <string name="title">Pri napájaní z batérie:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">28 151 181 16 </string>
+              <string name="bounds">151 28 167 209 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="938">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1701</int>
+              <int name="initialState">2</int>
+              <string name="title">Prepnúť DVD jednotku do režimu spánku</string>
+              <string name="viewFrame">215 149 296 18 </string>
+              <string name="bounds">149 215 167 511 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="934">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1150</int>
+              <string name="title">Ak je DVD Player nečinný:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">28 68 181 16 </string>
+              <string name="bounds">68 28 84 209 </string>
+            </object>
+            <reference idRef="935"/>
+          </array>
+          <string name="bounds">0 0 297 530 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 295 535 </string>
+    </object>
+    <reference idRef="937"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">92 838 387 1373 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="939"/>
+    <reference idRef="932"/>
+    <reference idRef="934"/>
+    <reference idRef="922"/>
+    <reference idRef="924"/>
+    <reference idRef="933"/>
+    <reference idRef="923"/>
+    <reference idRef="938"/>
+    <reference idRef="929"/>
+    <reference idRef="925"/>
+    <reference idRef="928"/>
+    <reference idRef="927"/>
+    <reference idRef="926"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> ใช้ค่าเริ่มต้นของดิสก์</string>
+	<key>00  </key>
+	<string>ไม่รู้จัก</string>
+	<key>aa  </key>
+	<string>ภาษาอะฟาร์</string>
+	<key>ab  </key>
+	<string>ภาษาอับฮาเซีย</string>
+	<key>ae  </key>
+	<string>ภาษาอเวสตะ</string>
+	<key>af  </key>
+	<string>ภาษาแอฟริคานส์</string>
+	<key>am  </key>
+	<string>ภาษาอัมฮารา</string>
+	<key>ar  </key>
+	<string>ภาษาอาหรับ</string>
+	<key>as  </key>
+	<string>ภาษาอัสสมี</string>
+	<key>ay  </key>
+	<string>ภาษาไอย์มารา</string>
+	<key>az  </key>
+	<string>ภาษาอาร์เซอร์ไบจาน</string>
+	<key>ba  </key>
+	<string>ภาษาบัชคีร์</string>
+	<key>be  </key>
+	<string>ภาษาเบลารุส</string>
+	<key>bg  </key>
+	<string>ภาษาบัลแกเรีย</string>
+	<key>bh  </key>
+	<string>ภาษาพิหาร</string>
+	<key>bi  </key>
+	<string>ภาษาบิสลามา</string>
+	<key>bn  </key>
+	<string>ภาษาเบงกาลี</string>
+	<key>bo  </key>
+	<string>ภาษาทิเบต</string>
+	<key>br  </key>
+	<string>ภาษาเบรตัน</string>
+	<key>bs  </key>
+	<string>ภาษาบอสเนีย</string>
+	<key>ca  </key>
+	<string>ภาษาคาตาลัน</string>
+	<key>ce  </key>
+	<string>ภาษาเชเชน</string>
+	<key>ch  </key>
+	<string>ภาษาชามอร์โร</string>
+	<key>co  </key>
+	<string>ภาษาคอร์ซิกา</string>
+	<key>cs  </key>
+	<string>ภาษาเช็ก</string>
+	<key>cu  </key>
+	<string>ภาษาโบสถ์สลาโวนิกโบราณ</string>
+	<key>cv  </key>
+	<string>ภาษาชูวัช</string>
+	<key>cy  </key>
+	<string>ภาษาเวลส์</string>
+	<key>da  </key>
+	<string>ภาษาเดนมาร์ก</string>
+	<key>de  </key>
+	<string>ภาษาเยอรมัน</string>
+	<key>dz  </key>
+	<string>ภาษาซองคา</string>
+	<key>el  </key>
+	<string>ภาษากรีก</string>
+	<key>en  </key>
+	<string>ภาษาอังกฤษ</string>
+	<key>eo  </key>
+	<string>ภาษาเอสเปรันโต</string>
+	<key>es  </key>
+	<string>ภาษาสเปน</string>
+	<key>et  </key>
+	<string>ภาษาเอสโตเนีย</string>
+	<key>eu  </key>
+	<string>ภาษาบาสก์</string>
+	<key>fa  </key>
+	<string>ภาษาเปอร์เซีย</string>
+	<key>fi  </key>
+	<string>ภาษาฟินแลนด์</string>
+	<key>fj  </key>
+	<string>ภาษาฟิจิ</string>
+	<key>fo  </key>
+	<string>ภาษาแฟโร</string>
+	<key>fr  </key>
+	<string>ภาษาฝรั่งเศส</string>
+	<key>fy  </key>
+	<string>ภาษาฟรีเซียน</string>
+	<key>ga  </key>
+	<string>ภาษาไอริช</string>
+	<key>gd  </key>
+	<string>ภาษาสก็อตส์เกลิก</string>
+	<key>gl  </key>
+	<string>ภาษากาลิเซีย</string>
+	<key>gn  </key>
+	<string>ภาษากวารานี</string>
+	<key>gu  </key>
+	<string>ภาษาคุชราตี</string>
+	<key>gv  </key>
+	<string>ภาษาแมนซ์</string>
+	<key>ha  </key>
+	<string>ภาษาเฮาซา</string>
+	<key>hi  </key>
+	<string>ภาษาฮินดี</string>
+	<key>ho  </key>
+	<string>ภาษาฮิริโมตุ</string>
+	<key>hr  </key>
+	<string>ภาษาโครเอเชีย</string>
+	<key>hu  </key>
+	<string>ภาษาฮังการี</string>
+	<key>hy  </key>
+	<string>ภาษาอาร์เมเนีย</string>
+	<key>hz  </key>
+	<string>ภาษาเฮเรโร</string>
+	<key>ia  </key>
+	<string>ภาษาอินเตอร์ลิงกวา</string>
+	<key>ie  </key>
+	<string>ภาษาอินเทอร์ลิงก์</string>
+	<key>ik  </key>
+	<string>ภาษาไอนูเปียก</string>
+	<key>in  </key>
+	<string>ภาษาอินโดนีเซีย</string>
+	<key>is  </key>
+	<string>ภาษาไอซ์แลนด์</string>
+	<key>it  </key>
+	<string>ภาษาอิตาลี</string>
+	<key>iu  </key>
+	<string>ภาษาอินุกติตุต</string>
+	<key>iw  </key>
+	<string>ภาษาฮีบรู</string>
+	<key>ja  </key>
+	<string>ภาษาญี่ปุ่น</string>
+	<key>ji  </key>
+	<string>ภาษายิดดิช</string>
+	<key>jw  </key>
+	<string>ภาษาชวา</string>
+	<key>ka  </key>
+	<string>ภาษาจอร์เจีย</string>
+	<key>ki  </key>
+	<string>ภาษากิคูยู</string>
+	<key>kj  </key>
+	<string>ภาษาควนยามา</string>
+	<key>kk  </key>
+	<string>ภาษาคาซัค</string>
+	<key>kl  </key>
+	<string>ภาษากรีนแลนด์</string>
+	<key>km  </key>
+	<string>ภาษาเขมร</string>
+	<key>kn  </key>
+	<string>ภาษากัณณาท</string>
+	<key>ko  </key>
+	<string>ภาษาเกาหลี</string>
+	<key>ks  </key>
+	<string>ภาษากัศมีรี</string>
+	<key>ku  </key>
+	<string>ภาษาเคิร์ด</string>
+	<key>kv  </key>
+	<string>ภาษาโคมิ</string>
+	<key>kw  </key>
+	<string>ภาษาคอร์นิช</string>
+	<key>ky  </key>
+	<string>ภาษาคีร์กีซ</string>
+	<key>la  </key>
+	<string>ภาษาละติน</string>
+	<key>lb  </key>
+	<string>ภาษาลักเซมเบิร์ก</string>
+	<key>ln  </key>
+	<string>ภาษาลิงกาลา</string>
+	<key>lo  </key>
+	<string>ภาษาลาว</string>
+	<key>lt  </key>
+	<string>ภาษาลิทัวเนีย</string>
+	<key>lv  </key>
+	<string>ภาษาลัตเวีย</string>
+	<key>mg  </key>
+	<string>ภาษามาลากาซี</string>
+	<key>mh  </key>
+	<string>ภาษามาร์แชลล์</string>
+	<key>mi  </key>
+	<string>ภาษาเมารี</string>
+	<key>mk  </key>
+	<string>ภาษามาซิโดเนีย</string>
+	<key>ml  </key>
+	<string>ภาษามะละยาลัม</string>
+	<key>mn  </key>
+	<string>ภาษามองโกเลีย</string>
+	<key>mo  </key>
+	<string>ภาษามอลโดวา</string>
+	<key>mr  </key>
+	<string>ภาษามาราฐี</string>
+	<key>ms  </key>
+	<string>ภาษามาเลย์</string>
+	<key>mt  </key>
+	<string>ภาษามอลตา</string>
+	<key>my  </key>
+	<string>ภาษาพม่า</string>
+	<key>na  </key>
+	<string>ภาษานาอูรู</string>
+	<key>nd  </key>
+	<string>ภาษานเดเบเลเหนือ</string>
+	<key>ne  </key>
+	<string>ภาษาเนปาลี</string>
+	<key>ng  </key>
+	<string>ภาษาดอนกา</string>
+	<key>nl  </key>
+	<string>ภาษาดัตช์</string>
+	<key>no  </key>
+	<string>ภาษานอร์เวย์</string>
+	<key>nr  </key>
+	<string>ภาษานเดเบเลใต้</string>
+	<key>nv  </key>
+	<string>ภาษานาวาโฮ</string>
+	<key>ny  </key>
+	<string>ภาษาชิเชวา</string>
+	<key>oc  </key>
+	<string>ภาษาอ็อกซิตัน</string>
+	<key>om  </key>
+	<string>ภาษาโอโรโม</string>
+	<key>or  </key>
+	<string>ภาษาโอริยา</string>
+	<key>os  </key>
+	<string>ภาษาออสเซติก</string>
+	<key>pa  </key>
+	<string>ภาษาปัญจาบี</string>
+	<key>pi  </key>
+	<string>ภาษาบาลี</string>
+	<key>pl  </key>
+	<string>ภาษาโปแลนด์</string>
+	<key>ps  </key>
+	<string>ภาษาพาชตู</string>
+	<key>pt  </key>
+	<string>ภาษาโปรตุเกส</string>
+	<key>qu  </key>
+	<string>ภาษาเกชัว</string>
+	<key>rm  </key>
+	<string>ภาษาเรห์โต-โรมานซ์</string>
+	<key>rn  </key>
+	<string>ภาษาคิรุนดี</string>
+	<key>ro  </key>
+	<string>ภาษาโรมาเนีย</string>
+	<key>ru  </key>
+	<string>ภาษารัสเซีย</string>
+	<key>rw  </key>
+	<string>ภาษาคินยาร์วันดา</string>
+	<key>sa  </key>
+	<string>ภาษาสันสกฤต</string>
+	<key>sc  </key>
+	<string>ภาษาซาร์ดิเนีย</string>
+	<key>sd  </key>
+	<string>ภาษาสินธี</string>
+	<key>se  </key>
+	<string>ภาษาซามิเหนือ</string>
+	<key>sg  </key>
+	<string>ภาษาซานโก</string>
+	<key>sh  </key>
+	<string>ภาษาเซอร์เบีย-โครเอเชีย</string>
+	<key>si  </key>
+	<string>ภาษาสิงหล</string>
+	<key>sk  </key>
+	<string>ภาษาสโลวัก</string>
+	<key>sl  </key>
+	<string>ภาษาสโลวีเนีย</string>
+	<key>sm  </key>
+	<string>ภาษาซามัว</string>
+	<key>sn  </key>
+	<string>ภาษาโชนา</string>
+	<key>so  </key>
+	<string>ภาษาโซมาลี</string>
+	<key>sq  </key>
+	<string>ภาษาแอลเบเนีย</string>
+	<key>sr  </key>
+	<string>ภาษาเซอร์เบีย</string>
+	<key>ss  </key>
+	<string>ภาษาสวาซิแลนด์</string>
+	<key>st  </key>
+	<string>ภาษาเซโซโท</string>
+	<key>su  </key>
+	<string>ภาษาซุนดา</string>
+	<key>sv  </key>
+	<string>ภาษาสวีเดน</string>
+	<key>sw  </key>
+	<string>ภาษาสวาฮีลี</string>
+	<key>ta  </key>
+	<string>ภาษาทมิฬ</string>
+	<key>te  </key>
+	<string>ภาษาเตลุคู</string>
+	<key>tg  </key>
+	<string>ภาษาทาจิก</string>
+	<key>th  </key>
+	<string>ภาษาไทย</string>
+	<key>ti  </key>
+	<string>ภาษาทิกรินยา</string>
+	<key>tk  </key>
+	<string>ภาษาเติร์กเมน</string>
+	<key>tl  </key>
+	<string>ภาษาตากาล็อก</string>
+	<key>tn  </key>
+	<string>ภาษาซวานา</string>
+	<key>to  </key>
+	<string>ภาษาทองกา</string>
+	<key>tr  </key>
+	<string>ภาษาตุรกี</string>
+	<key>ts  </key>
+	<string>ภาษาซองกา</string>
+	<key>tt  </key>
+	<string>ภาษาตาตาร์</string>
+	<key>tw  </key>
+	<string>ภาษาทวิ</string>
+	<key>ty  </key>
+	<string>ภาษาตาฮีตี</string>
+	<key>ug  </key>
+	<string>ภาษาไอเกอร์</string>
+	<key>uk  </key>
+	<string>ภาษายูเครน</string>
+	<key>ur  </key>
+	<string>ภาษาอูรดู</string>
+	<key>uz  </key>
+	<string>ภาษาอุซเบก</string>
+	<key>vi  </key>
+	<string>ภาษาเวียดนาม</string>
+	<key>vo  </key>
+	<string>ภาษาโวลาพุก</string>
+	<key>wo  </key>
+	<string>ภาษาโวลอฟ</string>
+	<key>xh  </key>
+	<string>ภาษาคอซา</string>
+	<key>yo  </key>
+	<string>ภาษาโยรูบา</string>
+	<key>za  </key>
+	<string>ภาษาจ้วง</string>
+	<key>zh  </key>
+	<string>ภาษาจีน</string>
+	<key>zu  </key>
+	<string>ภาษาซูลู</string>
+</dict>
+</plist>

@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonStaticText" id="942">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3003</int>
+      <int name="controlSize">1</int>
+      <string name="title">Ländercode des Laufwerks:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">280 8 157 20 </string>
+      <string name="bounds">30 280 50 437 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="940">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3001</int>
+      <int name="controlSize">1</int>
+      <string name="title">Ländercode der DVD:</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">80 8 118 21 </string>
+      <string name="bounds">30 80 51 198 </string>
+    </object>
+    <object class="IBCarbonHIView" id="938">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3000</int>
+      <string name="classID">com.apple.DVDPlayer.DRgP</string>
+      <string name="viewFrame">0 22 544 231 </string>
+      <array count="8" name="subviews">
+        <reference idRef="940"/>
+        <object class="IBCarbonStaticText" id="941">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3002</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Ländercodes, die auf dieser DVD verfügbar sind</string>
+          <string name="viewFrame">197 8 76 16 </string>
+          <string name="bounds">30 197 46 273 </string>
+        </object>
+        <reference idRef="942"/>
+        <object class="IBCarbonStaticText" id="943">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3004</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Ländercode, der für das Laufwerk eingestellt ist</string>
+          <string name="viewFrame">445 8 13 16 </string>
+          <string name="bounds">30 445 46 458 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="944">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3005</int>
+          <int name="controlSize">1</int>
+          <string name="title">Verbleibende Änderungen des Ländercodes:</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">103 207 241 26 </string>
+          <string name="bounds">229 103 255 344 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="945">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3006</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Verbleibende Anzahl zum Ändern des Ländercodes des Laufwerks</string>
+          <string name="viewFrame">345 207 13 16 </string>
+          <string name="bounds">229 345 245 358 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="946">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3007</int>
+          <ostype name="command">RgnH</ostype>
+          <string name="viewFrame">418 203 25 25 </string>
+          <string name="bounds">225 418 250 443 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonHIView" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3008</int>
+          <string name="classID">com.apple.DVDPlayer.imgv</string>
+          <string name="viewFrame">103 32 338 167 </string>
+          <string name="bounds">54 103 221 441 </string>
+        </object>
+      </array>
+      <string name="bounds">22 0 253 544 </string>
+    </object>
+    <reference idRef="941"/>
+    <reference idRef="945"/>
+    <reference idRef="946"/>
+    <reference idRef="939"/>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 544 253 </string>
+      <array count="1" name="subviews">
+        <reference idRef="938"/>
+      </array>
+      <string name="bounds">0 0 253 544 </string>
+    </object>
+    <reference idRef="943"/>
+    <reference idRef="944"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Fenster</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">207 207 460 751 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="887"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="886"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DiscRegionsPanel</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">947</unsigned_int>
+</object>

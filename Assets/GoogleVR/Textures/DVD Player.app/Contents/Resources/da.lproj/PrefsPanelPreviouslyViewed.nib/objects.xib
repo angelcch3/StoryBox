@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 480 244 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5000</int>
+          <string name="classID">com.apple.DVDPlayer.PrvP</string>
+          <string name="viewFrame">0 0 480 244 </string>
+          <array count="7" name="subviews">
+            <object class="IBCarbonStaticText" id="927">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5100</int>
+              <string name="title">Start afspilning af diske fra:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">20 20 190 16 </string>
+              <string name="bounds">20 20 36 210 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="928">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5101</int>
+              <int name="numRows">4</int>
+              <int name="intercellHeight">4</int>
+              <array count="4" name="radioTitles">
+                <array count="1">
+                  <string>Start</string>
+                </array>
+                <array count="1">
+                  <string>Sidste afspilningssted</string>
+                </array>
+                <array count="1">
+                  <string>Standardbogmærke</string>
+                </array>
+                <array count="1">
+                  <string>Spørg altid</string>
+                </array>
+              </array>
+              <string name="viewFrame">216 19 200 87 </string>
+              <string name="bounds">19 216 106 416 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="929">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5102</int>
+              <boolean name="enabled">FALSE</boolean>
+              <int name="fontStyle">-2</int>
+              <int name="controlSize">1</int>
+              <string name="title">Hvis du holder Alternativtasten nede, når en disk begynder at afspilles, vil Dvd-afspiller spørge, hvor afspilningen skal starte fra.</string>
+              <string name="viewFrame">219 107 241 50 </string>
+              <string name="bounds">107 219 157 460 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5200</int>
+              <string name="title">Brug altid diskindstillinger til:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">20 166 190 16 </string>
+              <string name="bounds">166 20 182 210 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5201</int>
+              <string name="helpTagText">Anvend de sidste equalizerindstillinger brugt med denne disk</string>
+              <string name="title">Lydequalizer</string>
+              <string name="viewFrame">216 165 150 18 </string>
+              <string name="bounds">165 216 183 366 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="924">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5202</int>
+              <string name="helpTagText">Anvend de sidste videofarveindstillinger brugt med denne disk</string>
+              <string name="title">Videofarve</string>
+              <string name="viewFrame">216 188 150 16 </string>
+              <string name="bounds">188 216 204 366 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="923">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5203</int>
+              <string name="helpTagText">Anvend de sidste zoomindstillinger brugt med denne disk</string>
+              <string name="title">Videozoom</string>
+              <string name="viewFrame">216 210 150 16 </string>
+              <string name="bounds">210 216 226 366 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 244 480 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 244 480 </string>
+    </object>
+    <reference idRef="924"/>
+    <reference idRef="928"/>
+    <reference idRef="927"/>
+    <reference idRef="922"/>
+    <reference idRef="929"/>
+    <reference idRef="923"/>
+    <reference idRef="925"/>
+    <reference idRef="926"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Vindue</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 362 288 842 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

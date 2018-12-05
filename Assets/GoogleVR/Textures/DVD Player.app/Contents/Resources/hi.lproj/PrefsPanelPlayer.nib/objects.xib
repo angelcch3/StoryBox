@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonCheckBox" id="929">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1301</int>
+      <string name="helpTagText">DVD प्लेयर की ध्वनि म्यूट करने पर क्लोज़्ड कैप्शनिंग चालू करें</string>
+      <string name="title">क्लोज़्ड कैप्शनिंग दिखाएँ</string>
+      <string name="viewFrame">218 215 203 19 </string>
+      <string name="bounds">215 218 234 421 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="939">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1702</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="fontStyle">-2</int>
+      <int name="controlSize">1</int>
+      <string name="title">इससे बैटरी का चार्ज बचाया जा सकता है। हो सकता है कि ड्राइव के सक्रिय होने पर डिस्क की स्कैनिंग धीमी हो।</string>
+      <string name="viewFrame">219 169 236 32 </string>
+      <string name="bounds">169 219 201 455 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="935">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1151</int>
+      <string name="helpTagText">प्लेयर निष्क्रिय रहने पर प्लेबैक अस्थाई रूप से विरामित करें</string>
+      <string name="title">प्लेबैक विरामित करें</string>
+      <string name="viewFrame">217 73 204 19 </string>
+      <string name="bounds">73 217 92 421 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 480 295 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1000</int>
+          <string name="classID">com.apple.DVDPlayer.PlyP</string>
+          <string name="viewFrame">0 0 480 297 </string>
+          <array count="14" name="subviews">
+            <object class="IBCarbonStaticText" id="923">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1100</int>
+              <string name="title">DVD प्लेयर खुलने पर :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">36 13 175 19 </string>
+              <string name="bounds">13 36 32 211 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="924">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1101</int>
+              <string name="helpTagText">यदि मान्य डिस्क की पहचान होती है, तो फ़ुल स्क्रीन पर सेट करें</string>
+              <string name="title">फ़ुल स्‍क्रीन मोड में प्रवेश करें</string>
+              <string name="viewFrame">217 13 204 19 </string>
+              <string name="bounds">13 217 32 421 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1102</int>
+              <string name="helpTagText">यदि मान्य डिस्क की पहचान होती है, तो प्लेबैक शुरू करें</string>
+              <string name="title">डिस्क चलाना शुरू करें</string>
+              <string name="viewFrame">217 35 204 19 </string>
+              <string name="bounds">35 217 54 421 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1200</int>
+              <string name="title">डिस्क डालने पर :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">36 111 175 19 </string>
+              <string name="bounds">111 36 130 211 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="927">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1201</int>
+              <string name="helpTagText">DVD प्लेयर पहले से ही चालू रहने पर यदि मान्य डिस्क डाली जाती है, तो प्लेबैक चालू करें</string>
+              <string name="title">डिस्क चलाना शुरू करें</string>
+              <string name="viewFrame">217 111 205 19 </string>
+              <string name="bounds">111 217 130 422 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="928">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1300</int>
+              <string name="title">म्यूट करने पर :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">37 215 174 19 </string>
+              <string name="bounds">215 37 234 211 </string>
+            </object>
+            <reference idRef="929"/>
+            <object class="IBCarbonStaticText" id="932">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1500</int>
+              <string name="title">व्यूअर मिनिमाइज़ करने पर :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">31 252 180 19 </string>
+              <string name="bounds">252 31 271 211 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="933">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1501</int>
+              <string name="helpTagText">व्यूअर Dock में मिनिमाइज़ किया हुआ रहने पर प्लेबैक विरामित करें</string>
+              <string name="title">प्लेबैक विरामित करें</string>
+              <string name="viewFrame">218 252 204 19 </string>
+              <string name="bounds">252 218 271 422 </string>
+            </object>
+            <reference idRef="939"/>
+            <object class="IBCarbonStaticText" id="937">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1700</int>
+              <string name="title">बैटरी का उपयोग करते हुए चलाते समय :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">13 148 198 19 </string>
+              <string name="bounds">148 13 167 211 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="938">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1701</int>
+              <int name="initialState">2</int>
+              <string name="title">DVD ड्राइव को स्लीप मोड में डालें</string>
+              <string name="viewFrame">217 141 224 31 </string>
+              <string name="bounds">141 217 172 441 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="934">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1150</int>
+              <string name="title">DVD प्लेयर निष्क्रिय रहने पर :</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">30 73 181 19 </string>
+              <string name="bounds">73 30 92 211 </string>
+            </object>
+            <reference idRef="935"/>
+          </array>
+          <string name="bounds">0 0 297 480 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 295 480 </string>
+    </object>
+    <reference idRef="927"/>
+    <reference idRef="926"/>
+    <reference idRef="922"/>
+    <reference idRef="925"/>
+    <reference idRef="928"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">विंडो</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">92 838 387 1318 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="933"/>
+    <reference idRef="938"/>
+    <reference idRef="932"/>
+    <reference idRef="923"/>
+    <reference idRef="924"/>
+    <reference idRef="934"/>
+    <reference idRef="937"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

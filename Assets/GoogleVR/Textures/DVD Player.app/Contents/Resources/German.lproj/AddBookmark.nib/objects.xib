@@ -1,0 +1,236 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="22" name="allObjects">
+    <object class="IBCarbonWindow" id="886">
+      <string name="windowRect">407 180 579 560 </string>
+      <string name="title">Lesezeichen hinzufügen</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="bounds">0 0 172 380 </string>
+        <string name="viewFrame">0 0 380 172 </string>
+        <array count="9" name="subviews">
+          <object class="IBCarbonStaticText" id="889">
+            <string name="bounds">23 10 39 97 </string>
+            <string name="viewFrame">10 23 87 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Lesezeichen:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="890">
+            <string name="bounds">50 22 66 97 </string>
+            <string name="viewFrame">22 50 75 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Titel:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="891">
+            <string name="bounds">74 22 90 97 </string>
+            <string name="viewFrame">22 74 75 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">Zeit:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="892">
+            <string name="bounds">75 105 91 205 </string>
+            <string name="viewFrame">105 75 100 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+          </object>
+          <object class="IBCarbonStaticText" id="893">
+            <string name="bounds">50 106 66 205 </string>
+            <string name="viewFrame">106 50 99 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+          </object>
+          <object class="IBCarbonEditText" id="894">
+            <string name="bounds">23 108 39 357 </string>
+            <string name="viewFrame">108 23 249 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonButton" id="895">
+            <string name="bounds">132 264 152 360 </string>
+            <string name="viewFrame">264 132 96 20 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <string name="title">Hinzufügen</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="896">
+            <string name="bounds">132 155 152 252 </string>
+            <string name="viewFrame">155 132 97 20 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="title">Abbrechen</string>
+            <ostype name="command">not!</ostype>
+          </object>
+          <object class="IBCarbonCheckBox" id="897">
+            <string name="bounds">98 106 112 360 </string>
+            <string name="viewFrame">106 98 254 14 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">9</int>
+            <string name="title">Lesezeichen als Standard verwenden</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <boolean name="doesNotCycle">TRUE</boolean>
+    </object>
+    <reference idRef="887"/>
+    <reference idRef="889"/>
+    <reference idRef="890"/>
+    <reference idRef="891"/>
+    <reference idRef="892"/>
+    <reference idRef="893"/>
+    <reference idRef="894"/>
+    <reference idRef="895"/>
+    <reference idRef="896"/>
+    <reference idRef="897"/>
+    <object class="IBCarbonWindow" id="898">
+      <string name="windowRect">407 180 577 557 </string>
+      <string name="title">Lesezeichen hinzufügen</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="899">
+        <string name="bounds">0 0 170 377 </string>
+        <string name="viewFrame">0 0 377 170 </string>
+        <array count="9" name="subviews">
+          <object class="IBCarbonStaticText" id="903">
+            <string name="bounds">23 10 39 97 </string>
+            <string name="viewFrame">10 23 87 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Lesezeichen:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="906">
+            <string name="bounds">50 22 66 97 </string>
+            <string name="viewFrame">22 50 75 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Titel:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="900">
+            <string name="bounds">74 22 90 97 </string>
+            <string name="viewFrame">22 74 75 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">Zeit:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="902">
+            <string name="bounds">75 105 91 205 </string>
+            <string name="viewFrame">105 75 100 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+          </object>
+          <object class="IBCarbonStaticText" id="904">
+            <string name="bounds">50 106 66 205 </string>
+            <string name="viewFrame">106 50 99 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+          </object>
+          <object class="IBCarbonEditText" id="901">
+            <string name="bounds">23 108 39 354 </string>
+            <string name="viewFrame">108 23 246 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonButton" id="908">
+            <string name="bounds">130 255 150 357 </string>
+            <string name="viewFrame">255 130 102 20 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <string name="title">Hinzufügen</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="905">
+            <string name="bounds">130 141 150 243 </string>
+            <string name="viewFrame">141 130 102 20 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="title">Abbrechen</string>
+            <ostype name="command">not!</ostype>
+          </object>
+          <object class="IBCarbonCheckBox" id="907">
+            <string name="bounds">98 106 116 357 </string>
+            <string name="viewFrame">106 98 251 18 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">9</int>
+            <string name="title">Lesezeichen als Standard verwenden</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <boolean name="doesNotCycle">TRUE</boolean>
+    </object>
+    <reference idRef="899"/>
+    <reference idRef="900"/>
+    <reference idRef="901"/>
+    <reference idRef="902"/>
+    <reference idRef="903"/>
+    <reference idRef="904"/>
+    <reference idRef="905"/>
+    <reference idRef="906"/>
+    <reference idRef="907"/>
+    <reference idRef="908"/>
+  </array>
+  <array count="22" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="898"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>AddBookmarkDialog</string>
+    <reference idRef="898"/>
+    <string>AddBookmarkSheet</string>
+    <reference idRef="886"/>
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">909</unsigned_int>
+</object>

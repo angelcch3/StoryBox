@@ -1,0 +1,224 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonHIView" id="183">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">20 88 238 32 </string>
+      <string name="bounds">232 20 264 258 </string>
+    </object>
+    <object class="IBCarbonHIView" id="182">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">20 50 238 32 </string>
+      <string name="bounds">270 20 302 258 </string>
+    </object>
+    <object class="IBCarbonHIView" id="193">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">14</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">260 266 220 32 </string>
+      <string name="bounds">54 260 86 480 </string>
+    </object>
+    <object class="IBCarbonHIView" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">12</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">260 216 220 37 </string>
+      <string name="bounds">99 260 136 480 </string>
+    </object>
+    <object class="IBCarbonHIView" id="185">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">9</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">20 167 238 32 </string>
+      <string name="bounds">153 20 185 258 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="167">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="viewFrame">0 0 495 352 </string>
+      <array count="16" name="subviews">
+        <object class="IBCarbonHIView" id="181">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">20 12 238 32 </string>
+          <string name="bounds">308 20 340 258 </string>
+        </object>
+        <reference idRef="182"/>
+        <reference idRef="183"/>
+        <object class="IBCarbonHIView" id="184">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">20 127 238 32 </string>
+          <string name="bounds">193 20 225 258 </string>
+        </object>
+        <reference idRef="185"/>
+        <object class="IBCarbonHIView" id="186">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">11</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">20 205 238 56 </string>
+          <string name="bounds">91 20 147 258 </string>
+        </object>
+        <object class="IBCarbonHIView" id="187">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">259 14 221 32 </string>
+          <string name="bounds">306 259 338 480 </string>
+        </object>
+        <object class="IBCarbonHIView" id="188">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">259 52 221 32 </string>
+          <string name="bounds">268 259 300 480 </string>
+        </object>
+        <object class="IBCarbonHIView" id="189">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">259 90 221 32 </string>
+          <string name="bounds">230 259 262 480 </string>
+        </object>
+        <object class="IBCarbonHIView" id="190">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">260 129 220 32 </string>
+          <string name="bounds">191 260 223 480 </string>
+        </object>
+        <object class="IBCarbonHIView" id="191">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">10</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">260 169 220 32 </string>
+          <string name="bounds">151 260 183 480 </string>
+        </object>
+        <reference idRef="192"/>
+        <reference idRef="193"/>
+        <object class="IBCarbonHIView" id="194">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">13</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">20 267 238 32 </string>
+          <string name="bounds">53 20 85 258 </string>
+        </object>
+        <object class="IBCarbonHIView" id="195">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">16</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">260 306 220 32 </string>
+          <string name="bounds">14 260 46 480 </string>
+        </object>
+        <object class="IBCarbonHIView" id="196">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">15</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+          </object>
+          <string name="classID">com.apple.DVDPlayer.thtx</string>
+          <string name="viewFrame">20 306 238 32 </string>
+          <string name="bounds">14 20 46 258 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 352 495 </string>
+    </object>
+    <reference idRef="190"/>
+    <reference idRef="196"/>
+    <reference idRef="191"/>
+    <reference idRef="189"/>
+    <reference idRef="186"/>
+    <reference idRef="187"/>
+    <reference idRef="194"/>
+    <reference idRef="195"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="hasShadow">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">5</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Vindue</string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">141 373 493 868 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="188"/>
+    <reference idRef="184"/>
+    <reference idRef="181"/>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SupportedFeaturesWindow</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">214</unsigned_int>
+</object>

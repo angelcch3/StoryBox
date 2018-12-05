@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Save Position</key>
+		<true/>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>4</integer>
+				<key>Class ID</key>
+				<string>icsv</string>
+			</dict>
+		</array>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Image</string>
+		<key>Reference ID</key>
+		<string>Auth</string>
+		<key>File</key>
+		<string>AppIcon.icns</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>программа</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>программа</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

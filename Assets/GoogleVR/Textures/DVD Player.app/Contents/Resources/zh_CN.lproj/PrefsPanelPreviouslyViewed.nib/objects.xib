@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonCheckBox" id="923">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5203</int>
+      <string name="helpTagText">使用此光盘所使用的最近缩放设置</string>
+      <string name="title">视频缩放</string>
+      <string name="viewFrame">216 210 72 16 </string>
+      <string name="bounds">210 216 226 288 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="929">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5102</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="fontStyle">-2</int>
+      <int name="controlSize">1</int>
+      <string name="title">光盘开始播放时，按住 Option 键将强制“DVD 播放程序”询问从何处开始播放。</string>
+      <string name="viewFrame">219 107 231 43 </string>
+      <string name="bounds">107 219 150 450 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="927">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5100</int>
+      <string name="title">光盘开始播放位置：</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">20 20 190 16 </string>
+      <string name="bounds">20 20 36 210 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="924">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5202</int>
+      <string name="helpTagText">使用此光盘所使用的最近视频颜色设置</string>
+      <string name="title">视频颜色</string>
+      <string name="viewFrame">216 188 72 16 </string>
+      <string name="bounds">188 216 204 288 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="928">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5101</int>
+      <int name="numRows">4</int>
+      <int name="intercellHeight">4</int>
+      <array count="4" name="radioTitles">
+        <array count="1">
+          <string>开始</string>
+        </array>
+        <array count="1">
+          <string>上一次播放的位置</string>
+        </array>
+        <array count="1">
+          <string>默认书签</string>
+        </array>
+        <array count="1">
+          <string>始终询问</string>
+        </array>
+      </array>
+      <string name="viewFrame">216 20 126 87 </string>
+      <string name="bounds">20 216 107 342 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 480 244 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="922">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5000</int>
+          <string name="classID">com.apple.DVDPlayer.PrvP</string>
+          <string name="viewFrame">0 0 480 244 </string>
+          <array count="7" name="subviews">
+            <reference idRef="927"/>
+            <reference idRef="928"/>
+            <reference idRef="929"/>
+            <object class="IBCarbonStaticText" id="925">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5200</int>
+              <string name="title">始终将光盘设置用于：</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">20 165 190 16 </string>
+              <string name="bounds">165 20 181 210 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="926">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">5201</int>
+              <string name="helpTagText">使用此光盘所使用的最近均衡器设置</string>
+              <string name="title">音频均衡器</string>
+              <string name="viewFrame">216 165 85 18 </string>
+              <string name="bounds">165 216 183 301 </string>
+            </object>
+            <reference idRef="924"/>
+            <reference idRef="923"/>
+          </array>
+          <string name="bounds">0 0 244 480 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 244 480 </string>
+    </object>
+    <reference idRef="922"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">窗口</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">44 362 288 842 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="925"/>
+    <reference idRef="926"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

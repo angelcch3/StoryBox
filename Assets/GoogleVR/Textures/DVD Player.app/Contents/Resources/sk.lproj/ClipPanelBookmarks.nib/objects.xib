@@ -1,0 +1,174 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonMenu" id="942">
+      <string name="title">BevelMenu</string>
+      <array count="10" name="items">
+        <object class="IBCarbonMenuItem" id="948">
+          <string name="title">Zobraziť miniatúry</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">SBkT</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="949">
+          <string name="title">Vytvoriť chýbajúce miniatúry</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">GBkT</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="953">
+          <string name="title">Odstrániť miniatúry</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">RBTh</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="950">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="943">
+          <string name="title">Premenovať</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">RnBk</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="954">
+          <string name="title">Použiť aktuálnu snímku pre miniatúry</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">CFBT</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="944">
+          <string name="title">Vymazať</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">RmBk</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="955">
+          <string name="title">Vymazať všetky záložky</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">RABk</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="951">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="947">
+          <string name="title">Nastaviť ako predvolenú</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">DfBk</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="943"/>
+    <object class="IBCarbonHIView" id="938">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1005</int>
+      <ostype name="command">RmBk</ostype>
+      <string name="helpTagText">Odstrániť vybranú záložku</string>
+      <string name="classID">com.apple.DVDPlayer.imgb</string>
+      <string name="viewFrame">37 318 28 22 </string>
+      <string name="bounds">318 37 340 65 </string>
+    </object>
+    <reference idRef="944"/>
+    <object class="IBCarbonHIView" id="931">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.BkPn</string>
+      <string name="viewFrame">0 0 250 348 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonHIView" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1001</int>
+          <string name="classID">com.apple.DVDPlayer.scrv</string>
+          <string name="viewFrame">0 0 250 312 </string>
+          <array count="1" name="subviews">
+            <object class="IBCarbonHIView" id="952">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">1002</int>
+              <string name="classID">com.apple.DVDPlayer.BkmL</string>
+              <string name="viewFrame">0 0 234 312 </string>
+              <string name="bounds">0 0 312 234 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 312 250 </string>
+        </object>
+        <object class="IBCarbonHIView" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1003</int>
+          <ostype name="command">ABkm</ostype>
+          <string name="helpTagText">Pridať záložku</string>
+          <string name="classID">com.apple.DVDPlayer.imgb</string>
+          <string name="viewFrame">8 318 29 22 </string>
+          <string name="bounds">318 8 340 37 </string>
+        </object>
+        <reference idRef="938"/>
+        <object class="IBCarbonBevelButton" id="941">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1006</int>
+          <int name="contentType">0</int>
+          <int name="menuBehavior">8192</int>
+          <int name="menuPlacement">4</int>
+          <int name="selectedItem">7</int>
+          <reference name="menu" idRef="942"/>
+          <string name="viewFrame">73 318 31 22 </string>
+          <string name="bounds">318 73 340 104 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 348 250 </string>
+    </object>
+    <reference idRef="937"/>
+    <reference idRef="941"/>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Okno</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="886">
+        <string name="viewFrame">0 0 250 348 </string>
+        <array count="1" name="subviews">
+          <reference idRef="931"/>
+        </array>
+        <string name="bounds">0 0 348 250 </string>
+      </object>
+      <string name="windowRect">122 580 470 830 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="886"/>
+    <reference idRef="952"/>
+    <reference idRef="933"/>
+    <reference idRef="947"/>
+    <reference idRef="948"/>
+    <reference idRef="949"/>
+    <reference idRef="951"/>
+    <reference idRef="953"/>
+    <reference idRef="954"/>
+    <reference idRef="955"/>
+    <reference idRef="950"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="941"/>
+    <reference idRef="942"/>
+    <reference idRef="931"/>
+    <reference idRef="942"/>
+    <reference idRef="886"/>
+    <reference idRef="931"/>
+    <reference idRef="931"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="933"/>
+    <reference idRef="931"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ClipPanelBookmarks</string>
+    <reference idRef="887"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">956</unsigned_int>
+</object>

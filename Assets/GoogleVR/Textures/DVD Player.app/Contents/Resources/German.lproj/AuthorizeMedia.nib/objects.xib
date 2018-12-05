@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonWindow" id="914">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Autorisierung</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="915">
+        <string name="viewFrame">0 0 476 178 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonButton" id="926">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">Allw</ostype>
+            <string name="helpTagText">Dieses Medium darf nur dieses eine Mal wiedergegeben werden, während die Kindersicherung aktiviert ist</string>
+            <int name="buttonType">1</int>
+            <string name="title">Einmal wiedergeben</string>
+            <string name="viewFrame">301 138 155 20 </string>
+            <string name="bounds">138 301 158 456 </string>
+          </object>
+          <object class="IBCarbonButton" id="927">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Abbrechen</string>
+            <string name="viewFrame">193 138 96 20 </string>
+            <string name="bounds">138 193 158 289 </string>
+          </object>
+          <object class="IBCarbonButton" id="928">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">AAlw</ostype>
+            <string name="helpTagText">Wiedergabe des Mediums immer erlauben, wenn die Kindersicherung aktiviert ist</string>
+            <string name="title">Immer erlauben</string>
+            <string name="viewFrame">53 138 128 20 </string>
+            <string name="bounds">138 53 158 181 </string>
+          </object>
+          <object class="IBCarbonIcon" id="929">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">0</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">20 15 48 48 </string>
+            <string name="bounds">15 20 63 68 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="930">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <int name="fontStyle">4</int>
+            <string name="title">Wiedergabe von „&lt;0&gt;“ erlauben?</string>
+            <string name="viewFrame">76 15 372 38 </string>
+            <string name="bounds">15 76 53 448 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="931">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">Die Kindersicherung ist aktiviert. Zur Wiedergabe musst du einen Administratornamen und das passende Passwort eingeben.</string>
+            <string name="viewFrame">76 54 372 39 </string>
+            <string name="bounds">54 76 93 448 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="934">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">AMHp</ostype>
+            <string name="viewFrame">18 137 25 25 </string>
+            <string name="bounds">137 18 162 43 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+        </array>
+        <string name="bounds">0 0 178 476 </string>
+      </object>
+      <string name="windowRect">489 71 667 547 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="911">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <int name="fontStyle">-2</int>
+      <string name="title">Die Kindersicherung ist aktiviert. Zur Wiedergabe musst du einen Administratornamen und das passende Passwort eingeben.</string>
+      <string name="viewFrame">76 54 374 39 </string>
+      <string name="bounds">54 76 93 450 </string>
+    </object>
+    <object class="IBCarbonIcon" id="925">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">0</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 15 48 48 </string>
+      <string name="bounds">15 20 63 68 </string>
+    </object>
+    <reference idRef="934"/>
+    <object class="IBCarbonWindow" id="898">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Autorisierung</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="899">
+        <string name="viewFrame">0 0 476 179 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonButton" id="908">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">Allw</ostype>
+            <string name="helpTagText">Dieses Medium darf nur dieses eine Mal wiedergegeben werden, während die Kindersicherung aktiviert ist</string>
+            <int name="buttonType">1</int>
+            <string name="title">Einmal wiedergeben</string>
+            <string name="viewFrame">301 139 155 20 </string>
+            <string name="bounds">139 301 159 456 </string>
+          </object>
+          <object class="IBCarbonButton" id="905">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Abbrechen</string>
+            <string name="viewFrame">193 139 96 20 </string>
+            <string name="bounds">139 193 159 289 </string>
+          </object>
+          <object class="IBCarbonButton" id="924">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">AAlw</ostype>
+            <string name="helpTagText">Wiedergabe des Mediums immer erlauben, wenn die Kindersicherung aktiviert ist</string>
+            <string name="title">Immer erlauben</string>
+            <string name="viewFrame">53 139 128 20 </string>
+            <string name="bounds">139 53 159 181 </string>
+          </object>
+          <reference idRef="925"/>
+          <object class="IBCarbonStaticText" id="903">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <int name="fontStyle">4</int>
+            <string name="title">Wiedergabe von „&lt;0&gt;“ erlauben?</string>
+            <string name="viewFrame">76 15 374 38 </string>
+            <string name="bounds">15 76 53 450 </string>
+          </object>
+          <reference idRef="911"/>
+          <object class="IBCarbonRoundButton" id="935">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">AMHp</ostype>
+            <string name="viewFrame">18 137 25 25 </string>
+            <string name="bounds">137 18 162 43 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+        </array>
+        <string name="bounds">0 0 179 476 </string>
+      </object>
+      <string name="windowRect">218 64 397 540 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="926"/>
+    <reference idRef="903"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="924"/>
+    <reference idRef="931"/>
+    <reference idRef="929"/>
+    <reference idRef="930"/>
+    <reference idRef="928"/>
+    <reference idRef="927"/>
+    <reference idRef="908"/>
+    <reference idRef="935"/>
+    <reference idRef="905"/>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="915"/>
+    <reference idRef="1"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="914"/>
+    <reference idRef="898"/>
+    <reference idRef="899"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>AuthorizeMediaDialog</string>
+    <reference idRef="898"/>
+    <string>AuthorizeMediaSheet</string>
+    <reference idRef="914"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">936</unsigned_int>
+</object>

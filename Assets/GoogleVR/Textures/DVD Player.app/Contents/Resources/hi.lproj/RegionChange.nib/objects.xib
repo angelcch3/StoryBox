@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonMenu" id="893">
+      <string name="title">पॉपअप :</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="899">
+          <string name="title">आइटम १</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="897">
+          <string name="title">आइटम २</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="898">
+          <string name="title">आइटम ३</string>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonButton" id="896">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">1</int>
+      <string name="title">रद्द करें</string>
+      <string name="viewFrame">288 339 70 20 </string>
+      <string name="bounds">339 288 359 358 </string>
+    </object>
+    <object class="IBCarbonHIView" id="902">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">10</int>
+      <string name="classID">com.apple.DVDPlayer.imgv</string>
+      <string name="viewFrame">107 108 338 167 </string>
+      <string name="bounds">108 107 275 445 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="911">
+      <int name="fontStyle">4</int>
+      <string name="title">आपको अपने DVD ड्राइव के लिए क्षेत्र चुनना होगा।</string>
+      <string name="viewFrame">107 15 413 19 </string>
+      <string name="bounds">15 107 34 520 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="901">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">HlpB</ostype>
+      <string name="viewFrame">509 338 25 25 </string>
+      <string name="bounds">338 509 363 534 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonRoundButton" id="891">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">LckB</ostype>
+      <string name="viewFrame">20 339 20 20 </string>
+      <string name="bounds">339 20 359 40 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="912">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <int name="fontStyle">-2</int>
+      <string name="title">&lt;Explanation text replaced here at runtime&gt;</string>
+      <string name="viewFrame">110 39 410 61 </string>
+      <string name="bounds">39 110 100 520 </string>
+    </object>
+    <reference idRef="898"/>
+    <reference idRef="899"/>
+    <object class="IBCarbonIcon" id="910">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">11</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">538976288</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 15 64 64 </string>
+      <string name="bounds">15 20 79 84 </string>
+    </object>
+    <object class="IBCarbonCustom" id="890">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <string name="classID">com.apple.DVDPlayer.thtx</string>
+      <string name="viewFrame">175 311 200 16 </string>
+      <string name="bounds">311 175 327 375 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">ड्राइव क्षेत्र</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 551 377 </string>
+        <array count="12" name="subviews">
+          <reference idRef="890"/>
+          <reference idRef="891"/>
+          <object class="IBCarbonButton" id="894">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <string name="title">ड्राइव क्षेत्र सेट करें</string>
+            <string name="viewFrame">370 339 130 20 </string>
+            <string name="bounds">339 370 359 500 </string>
+          </object>
+          <object class="IBCarbonCustom" id="895">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="classID">com.apple.DVDPlayer.thtx</string>
+            <string name="viewFrame">48 341 223 15 </string>
+            <string name="bounds">341 48 356 271 </string>
+          </object>
+          <reference idRef="896"/>
+          <object class="IBCarbonPopupButton" id="900">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="selectedItem">-2147483648</int>
+            <reference name="menu" idRef="893"/>
+            <string name="title">ड्राइव क्षेत्र बदलकर यह करें :</string>
+            <int name="titleJustification">-2</int>
+            <string name="viewFrame">156 307 227 20 </string>
+            <string name="bounds">307 156 327 383 </string>
+          </object>
+          <reference idRef="901"/>
+          <reference idRef="902"/>
+          <reference idRef="910"/>
+          <reference idRef="911"/>
+          <reference idRef="912"/>
+          <object class="IBCarbonStaticText" id="913">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <string name="title">ड्राइव का वर्तमान क्षेत्र :   &lt;0&gt;</string>
+            <string name="viewFrame">183 283 225 19 </string>
+            <string name="bounds">283 183 302 408 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 377 551 </string>
+      </object>
+      <string name="windowRect">44 768 421 1319 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="894"/>
+    <reference idRef="913"/>
+    <reference idRef="897"/>
+    <reference idRef="900"/>
+    <reference idRef="887"/>
+    <reference idRef="895"/>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="900"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+    <reference idRef="893"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="1"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RegionChange</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">916</unsigned_int>
+</object>

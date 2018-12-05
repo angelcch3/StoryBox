@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonStaticText" id="911">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6</int>
+      <int name="fontStyle">-2</int>
+      <string name="title">Nadzór rodzicielski jest włączony. Aby odtwarzać zawartość tego nośnika, musisz wprowadzić nazwę i hasło administratora.</string>
+      <string name="viewFrame">76 59 404 33 </string>
+      <string name="bounds">59 76 92 480 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="899">
+      <string name="viewFrame">0 0 500 142 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonButton" id="908">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">Allw</ostype>
+          <string name="helpTagText">Pozwala raz zgodzić się na odtwarzanie tego nośnika, gdy jest włączony nadzór rodzicielski.</string>
+          <int name="buttonType">1</int>
+          <string name="title">Tylko raz</string>
+          <string name="viewFrame">390 102 90 20 </string>
+          <string name="bounds">102 390 122 480 </string>
+        </object>
+        <object class="IBCarbonButton" id="905">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Anuluj</string>
+          <string name="viewFrame">289 102 89 20 </string>
+          <string name="bounds">102 289 122 378 </string>
+        </object>
+        <object class="IBCarbonButton" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <ostype name="command">AAlw</ostype>
+          <string name="helpTagText">Pozwala zawsze zgadzać się na odtwarzanie tego nośnika, gdy jest włączony nadzór rodzicielski.</string>
+          <string name="title">Zawsze pozwalaj</string>
+          <string name="viewFrame">53 102 135 20 </string>
+          <string name="bounds">102 53 122 188 </string>
+        </object>
+        <object class="IBCarbonIcon" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">20 15 48 48 </string>
+          <string name="bounds">15 20 63 68 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="903">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="fontStyle">4</int>
+          <string name="title">Czy pozwolić na odtwarzanie nośnika „&lt;0&gt;”?</string>
+          <string name="viewFrame">76 15 404 38 </string>
+          <string name="bounds">15 76 53 480 </string>
+        </object>
+        <reference idRef="911"/>
+        <object class="IBCarbonRoundButton" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <ostype name="command">AMHp</ostype>
+          <string name="viewFrame">18 100 25 25 </string>
+          <string name="bounds">100 18 125 43 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+      </array>
+      <string name="bounds">0 0 142 500 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="915">
+      <string name="viewFrame">0 0 500 142 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonButton" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">Allw</ostype>
+          <string name="helpTagText">Pozwala raz zgodzić się na odtwarzanie tego nośnika, gdy jest włączony nadzór rodzicielski.</string>
+          <int name="buttonType">1</int>
+          <string name="title">Tylko raz</string>
+          <string name="viewFrame">390 102 90 20 </string>
+          <string name="bounds">102 390 122 480 </string>
+        </object>
+        <object class="IBCarbonButton" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Anuluj</string>
+          <string name="viewFrame">289 102 89 20 </string>
+          <string name="bounds">102 289 122 378 </string>
+        </object>
+        <object class="IBCarbonButton" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <ostype name="command">AAlw</ostype>
+          <string name="helpTagText">Pozwala zawsze zgadzać się na odtwarzanie tego nośnika, gdy jest włączony nadzór rodzicielski.</string>
+          <string name="title">Zawsze pozwalaj</string>
+          <string name="viewFrame">53 101 135 20 </string>
+          <string name="bounds">101 53 121 188 </string>
+        </object>
+        <object class="IBCarbonIcon" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">20 15 48 48 </string>
+          <string name="bounds">15 20 63 68 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="930">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="fontStyle">4</int>
+          <string name="title">Czy pozwolić na odtwarzanie nośnika „&lt;0&gt;”?</string>
+          <string name="viewFrame">76 15 404 38 </string>
+          <string name="bounds">15 76 53 480 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="931">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <int name="fontStyle">-2</int>
+          <string name="title">Nadzór rodzicielski jest włączony. Aby odtwarzać zawartość tego nośnika, musisz wprowadzić nazwę i hasło administratora.</string>
+          <string name="viewFrame">76 54 404 28 </string>
+          <string name="bounds">54 76 82 480 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <ostype name="command">AMHp</ostype>
+          <string name="viewFrame">18 100 25 25 </string>
+          <string name="bounds">100 18 125 43 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+      </array>
+      <string name="bounds">0 0 142 500 </string>
+    </object>
+    <reference idRef="931"/>
+    <reference idRef="926"/>
+    <reference idRef="927"/>
+    <reference idRef="935"/>
+    <reference idRef="905"/>
+    <reference idRef="928"/>
+    <reference idRef="929"/>
+    <reference idRef="908"/>
+    <reference idRef="934"/>
+    <reference idRef="930"/>
+    <reference idRef="924"/>
+    <reference idRef="925"/>
+    <object class="IBCarbonWindow" id="914">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Autoryzacja</string>
+      <reference name="rootControl" idRef="915"/>
+      <string name="windowRect">219 579 361 1079 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="903"/>
+    <object class="IBCarbonWindow" id="898">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Autoryzacja</string>
+      <reference name="rootControl" idRef="899"/>
+      <string name="windowRect">218 64 360 564 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="899"/>
+    <reference idRef="898"/>
+    <reference idRef="914"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="915"/>
+    <reference idRef="915"/>
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="1"/>
+    <reference idRef="899"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>AuthorizeMediaDialog</string>
+    <reference idRef="898"/>
+    <string>AuthorizeMediaSheet</string>
+    <reference idRef="914"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">936</unsigned_int>
+</object>

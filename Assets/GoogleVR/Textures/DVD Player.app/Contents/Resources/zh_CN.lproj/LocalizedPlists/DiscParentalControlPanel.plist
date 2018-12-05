@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>4000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>家长控制</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>parentalcontrol</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>DiscParentalControl.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>DPCn</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>4006</key>
+	<dict>
+		<key>Comment</key>
+		<string>Lock Button</string>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>锁定</string>
+		<!-- Localize end -->
+	</dict>
+	<key>4007</key>
+	<dict>
+		<key>Comment</key>
+		<string>Lock Text</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+	</dict>
+	<key>4008</key>
+	<dict>
+		<key>Comment</key>
+		<string>Help Button</string>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>帮助</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

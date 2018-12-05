@@ -1,0 +1,600 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="57" name="allObjects">
+    <object class="IBCarbonCustom" id="946">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">33</int>
+      <string name="classID">com.apple.DVDPlayer.imgv</string>
+      <string name="viewFrame">120 12 2 19 </string>
+      <string name="bounds">12 120 31 122 </string>
+    </object>
+    <object class="IBCarbonCustom" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">16</int>
+      <ostype name="command">CTgP</ostype>
+      <string name="helpTagText">Пуск/Пауза</string>
+      <string name="classID">com.apple.DVDPlayer.PlyB</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">106 47 25 26 </string>
+      <string name="bounds">47 106 73 131 </string>
+    </object>
+    <object class="IBCarbonCustom" id="952">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">41</int>
+      <string name="helpTagText">Звук отключен</string>
+      <string name="classID">com.apple.DVDPlayer.imgv</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">175 32 7 8 </string>
+      <string name="bounds">32 175 40 182 </string>
+    </object>
+    <object class="IBCarbonCustom" id="949">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">29</int>
+      <string name="classID">com.apple.DVDPlayer.LLng</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">82 30 95 9 </string>
+      <string name="bounds">30 82 39 177 </string>
+    </object>
+    <object class="IBCarbonCustom" id="913">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">12</int>
+      <ostype name="command">NvLf</ostype>
+      <string name="helpTagText">Меню навигации: влево</string>
+      <string name="classID">com.apple.DVDPlayer.imgb</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">8 17 23 47 </string>
+      <string name="bounds">17 8 64 31 </string>
+    </object>
+    <object class="IBCarbonCustom" id="953">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">52</int>
+      <ostype name="command">TDrw</ostype>
+      <string name="classID">com.apple.DVDPlayer.imgv</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">338 32 10 16 </string>
+      <string name="bounds">32 338 48 348 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="905">
+      <string name="title">-</string>
+      <boolean name="checked">TRUE</boolean>
+    </object>
+    <object class="IBCarbonCustom" id="945">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">28</int>
+      <ostype name="command">ChpC</ostype>
+      <string name="helpTagText">Переключение между истекшим и оставшимся временем текущей главы и номерами глав</string>
+      <string name="classID">com.apple.DVDPlayer.imgb</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">130 33 31 8 </string>
+      <string name="bounds">33 130 41 161 </string>
+    </object>
+    <object class="IBCarbonCustom" id="928">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">23</int>
+      <ostype name="command">VolS</ostype>
+      <string name="helpTagText">Громкость</string>
+      <string name="classID">com.apple.DVDPlayer.DVol</string>
+      <int name="maximum">255</int>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">236 8 12 63 </string>
+      <string name="bounds">8 236 71 248 </string>
+    </object>
+    <object class="IBCarbonMenu" id="895">
+      <string name="title">BevelMenu</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="898">
+          <string name="title">1/2 скорости</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="894">
+          <string name="title">1/4 скорости</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="897">
+          <string name="title">1/8 скорости</string>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonCustom" id="942">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">31</int>
+      <string name="classID">com.apple.DVDPlayer.LDgt</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">97 12 10 19 </string>
+      <string name="bounds">12 97 31 107 </string>
+    </object>
+    <object class="IBCarbonCustom" id="944">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">27</int>
+      <ostype name="command">TtlC</ostype>
+      <string name="helpTagText">Переключение между истекшим и оставшимся временем текущего заголовка и номером заголовка</string>
+      <string name="classID">com.apple.DVDPlayer.imgb</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">107 33 21 8 </string>
+      <string name="bounds">33 107 41 128 </string>
+    </object>
+    <object class="IBCarbonCustom" id="915">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">10</int>
+      <ostype name="command">NvUp</ostype>
+      <string name="helpTagText">Меню навигации: вверх</string>
+      <string name="classID">com.apple.DVDPlayer.imgb</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">17 8 46 23 </string>
+      <string name="bounds">8 17 31 63 </string>
+    </object>
+    <object class="IBCarbonMenu" id="901">
+      <string name="title">BevelMenu</string>
+      <array count="2" name="items">
+        <object class="IBCarbonMenuItem" id="902">
+          <string name="title">Перейти в меню DVD «Субтитры»</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="899">
+          <string name="title">-</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonCustom" id="943">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">30</int>
+      <string name="classID">com.apple.DVDPlayer.LDgt</string>
+      <boolean name="allowsSubviews">TRUE</boolean>
+      <string name="viewFrame">86 12 10 19 </string>
+      <string name="bounds">12 86 31 96 </string>
+    </object>
+    <object class="IBCarbonBevelButton" id="896">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">CSlw</ostype>
+      <string name="helpTagText">Замедленное воспроизведение</string>
+      <int name="contentType">0</int>
+      <int name="menuBehavior">16384</int>
+      <int name="menuPlacement">4</int>
+      <boolean name="rounded">TRUE</boolean>
+      <reference name="menu" idRef="895"/>
+      <string name="viewFrame">262 8 31 19 </string>
+      <string name="bounds">8 262 27 293 </string>
+    </object>
+    <object class="IBCarbonWindow" id="887">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="metal">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="helpTagText">Цикличный показ заголовков</string>
+      <string name="title">Hor Controller</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="886">
+        <string name="viewFrame">0 0 348 80 </string>
+        <array count="42" name="subviews">
+          <object class="IBCarbonCustom" id="932">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">25</int>
+            <string name="classID">com.apple.DVDPlayer.LCDD</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">81 6 106 39 </string>
+            <string name="bounds">6 81 45 187 </string>
+          </object>
+          <object class="IBCarbonCustom" id="927">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">26</int>
+            <string name="classID">com.apple.DVDPlayer.imgv</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">82 7 104 37 </string>
+            <string name="bounds">7 82 44 186 </string>
+          </object>
+          <object class="IBCarbonCustom" id="951">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">40</int>
+            <ostype name="command">TimC</ostype>
+            <string name="classID">com.apple.DVDPlayer.LTmB</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">85 9 88 23 </string>
+            <string name="bounds">9 85 32 173 </string>
+          </object>
+          <object class="IBCarbonCustom" id="918">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">11</int>
+            <ostype name="command">NvDn</ostype>
+            <string name="helpTagText">Меню навигации: вниз</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">17 50 46 23 </string>
+            <string name="bounds">50 17 73 63 </string>
+          </object>
+          <object class="IBCarbonCustom" id="893">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <string name="classID">com.apple.DVDPlayer.cntv</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">256 0 82 78 </string>
+            <string name="bounds">0 256 78 338 </string>
+          </object>
+          <reference idRef="896"/>
+          <object class="IBCarbonBevelButton" id="900">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <ostype name="command">CSbt</ostype>
+            <string name="helpTagText">Субтитры/Скрытые субтитры</string>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">16384</int>
+            <int name="menuPlacement">4</int>
+            <int name="selectedItem">2</int>
+            <boolean name="rounded">TRUE</boolean>
+            <reference name="menu" idRef="901"/>
+            <string name="viewFrame">301 8 31 19 </string>
+            <string name="bounds">8 301 27 332 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="906">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <ostype name="command">CAud</ostype>
+            <string name="helpTagText">Аудио</string>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">16384</int>
+            <int name="menuPlacement">4</int>
+            <int name="selectedItem">2</int>
+            <boolean name="rounded">TRUE</boolean>
+            <object name="menu" class="IBCarbonMenu" id="904">
+              <string name="title">BevelMenu</string>
+              <array count="2" name="items">
+                <object class="IBCarbonMenuItem" id="903">
+                  <string name="title">Перейти в меню DVD «Аудио»</string>
+                </object>
+                <reference idRef="905"/>
+              </array>
+            </object>
+            <string name="viewFrame">301 30 31 19 </string>
+            <string name="bounds">30 301 49 332 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="907">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">CAng</ostype>
+            <string name="helpTagText">Ракурс</string>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">16384</int>
+            <int name="menuPlacement">4</int>
+            <boolean name="rounded">TRUE</boolean>
+            <object name="menu" class="IBCarbonMenu" id="908">
+              <string name="title">BevelMenu</string>
+              <array count="2" name="items">
+                <object class="IBCarbonMenuItem" id="909">
+                  <string name="title">Перейти в меню DVD «Ракурс»</string>
+                  <boolean name="checked">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="910">
+                  <string name="title">-</string>
+                </object>
+              </array>
+            </object>
+            <string name="viewFrame">301 52 31 19 </string>
+            <string name="bounds">52 301 71 332 </string>
+          </object>
+          <object class="IBCarbonCustom" id="911">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">CNxF</ostype>
+            <string name="helpTagText">Покадровый просмотр</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">262 30 31 19 </string>
+            <string name="bounds">30 262 49 293 </string>
+          </object>
+          <object class="IBCarbonCustom" id="912">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <ostype name="command">CRtn</ostype>
+            <string name="helpTagText">Возврат</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">262 52 31 19 </string>
+            <string name="bounds">52 262 71 293 </string>
+          </object>
+          <reference idRef="913"/>
+          <object class="IBCarbonCustom" id="916">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">13</int>
+            <ostype name="command">NvRt</ostype>
+            <string name="helpTagText">Меню навигации: вправо</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">49 17 23 47 </string>
+            <string name="bounds">17 49 64 72 </string>
+          </object>
+          <object class="IBCarbonCustom" id="919">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">17</int>
+            <ostype name="command">CStp</ostype>
+            <string name="helpTagText">Стоп</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">135 47 25 26 </string>
+            <string name="bounds">47 135 73 160 </string>
+          </object>
+          <object class="IBCarbonCustom" id="920">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">15</int>
+            <ostype name="command">CPrv</ostype>
+            <string name="helpTagText">Предыдущая глава (удерживать для прокручивания назад)</string>
+            <string name="classID">com.apple.DVDPlayer.ScnB</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">81 49 21 22 </string>
+            <string name="bounds">49 81 71 102 </string>
+          </object>
+          <object class="IBCarbonCustom" id="921">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">18</int>
+            <ostype name="command">CNxt</ostype>
+            <string name="helpTagText">Следующая глава (удерживать для прокручивания вперед)</string>
+            <string name="classID">com.apple.DVDPlayer.ScnB</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">164 49 21 22 </string>
+            <string name="bounds">49 164 71 185 </string>
+          </object>
+          <reference idRef="922"/>
+          <object class="IBCarbonCustom" id="923">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">22</int>
+            <ostype name="command">CDMn</ostype>
+            <string name="helpTagText">Перейти в меню DVD/вернуться к заголовку</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">194 7 34 19 </string>
+            <string name="bounds">7 194 26 228 </string>
+          </object>
+          <object class="IBCarbonCustom" id="924">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">20</int>
+            <ostype name="command">FCls</ostype>
+            <string name="helpTagText">Закрыть медиафайл</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">194 53 34 19 </string>
+            <string name="bounds">53 194 72 228 </string>
+          </object>
+          <object class="IBCarbonCustom" id="925">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">19</int>
+            <ostype name="command">CEjc</ostype>
+            <string name="helpTagText">Извлечь диск</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">194 53 34 19 </string>
+            <string name="bounds">53 194 72 228 </string>
+          </object>
+          <object class="IBCarbonCustom" id="926">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">21</int>
+            <ostype name="command">CTit</ostype>
+            <string name="helpTagText">Перейти в главное меню</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">194 30 34 19 </string>
+            <string name="bounds">30 194 49 228 </string>
+          </object>
+          <reference idRef="915"/>
+          <object class="IBCarbonCustom" id="917">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">14</int>
+            <ostype name="command">NvEn</ostype>
+            <string name="helpTagText">Выбор меню DVD</string>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">25 25 30 30 </string>
+            <string name="bounds">25 25 55 55 </string>
+          </object>
+          <reference idRef="928"/>
+          <object class="IBCarbonCustom" id="934">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">38</int>
+            <string name="classID">com.apple.DVDPlayer.LDgt</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">160 12 10 19 </string>
+            <string name="bounds">12 160 31 170 </string>
+          </object>
+          <object class="IBCarbonCustom" id="936">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">37</int>
+            <string name="classID">com.apple.DVDPlayer.LDgt</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">149 12 10 19 </string>
+            <string name="bounds">12 149 31 159 </string>
+          </object>
+          <object class="IBCarbonCustom" id="938">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">35</int>
+            <string name="classID">com.apple.DVDPlayer.LDgt</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">134 12 10 19 </string>
+            <string name="bounds">12 134 31 144 </string>
+          </object>
+          <object class="IBCarbonCustom" id="939">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">34</int>
+            <string name="classID">com.apple.DVDPlayer.LDgt</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">123 12 10 19 </string>
+            <string name="bounds">12 123 31 133 </string>
+          </object>
+          <object class="IBCarbonCustom" id="941">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">32</int>
+            <string name="classID">com.apple.DVDPlayer.LDgt</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">108 12 10 19 </string>
+            <string name="bounds">12 108 31 118 </string>
+          </object>
+          <reference idRef="942"/>
+          <reference idRef="943"/>
+          <reference idRef="946"/>
+          <object class="IBCarbonCustom" id="947">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">36</int>
+            <string name="classID">com.apple.DVDPlayer.imgv</string>
+            <string name="viewFrame">146 12 2 19 </string>
+            <string name="bounds">12 146 31 148 </string>
+          </object>
+          <object class="IBCarbonCustom" id="948">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">39</int>
+            <ostype name="command">DspC</ostype>
+            <string name="classID">com.apple.DVDPlayer.LDpT</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">174 12 8 19 </string>
+            <string name="bounds">12 174 31 182 </string>
+          </object>
+          <reference idRef="949"/>
+          <reference idRef="944"/>
+          <reference idRef="945"/>
+          <object class="IBCarbonCustom" id="950">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">24</int>
+            <string name="classID">com.apple.DVDPlayer.DrwH</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">338 0 10 80 </string>
+            <string name="bounds">0 338 80 348 </string>
+          </object>
+          <reference idRef="952"/>
+          <reference idRef="953"/>
+          <object class="IBCarbonCustom" id="954">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">42</int>
+            <string name="helpTagText">Таймер включен</string>
+            <string name="classID">com.apple.DVDPlayer.imgv</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">166 32 7 8 </string>
+            <string name="bounds">32 166 40 173 </string>
+          </object>
+          <object class="IBCarbonCustom" id="956">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">100</int>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">BPop</ostype>
+            <string name="classID">com.apple.DVDPlayer.imgb</string>
+            <boolean name="allowsSubviews">TRUE</boolean>
+            <string name="viewFrame">194 30 34 19 </string>
+            <string name="bounds">30 194 49 228 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 80 348 </string>
+      </object>
+      <string name="windowRect">496 799 576 1147 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="902"/>
+    <reference idRef="941"/>
+    <reference idRef="926"/>
+    <reference idRef="904"/>
+    <reference idRef="951"/>
+    <reference idRef="893"/>
+    <reference idRef="912"/>
+    <reference idRef="909"/>
+    <reference idRef="947"/>
+    <reference idRef="939"/>
+    <reference idRef="907"/>
+    <reference idRef="886"/>
+    <reference idRef="938"/>
+    <reference idRef="899"/>
+    <reference idRef="920"/>
+    <reference idRef="936"/>
+    <reference idRef="932"/>
+    <reference idRef="954"/>
+    <reference idRef="927"/>
+    <reference idRef="956"/>
+    <reference idRef="898"/>
+    <reference idRef="903"/>
+    <reference idRef="918"/>
+    <reference idRef="950"/>
+    <reference idRef="934"/>
+    <reference idRef="916"/>
+    <reference idRef="910"/>
+    <reference idRef="948"/>
+    <reference idRef="925"/>
+    <reference idRef="923"/>
+    <reference idRef="906"/>
+    <reference idRef="900"/>
+    <reference idRef="919"/>
+    <reference idRef="917"/>
+    <reference idRef="911"/>
+    <reference idRef="908"/>
+    <reference idRef="897"/>
+    <reference idRef="921"/>
+    <reference idRef="894"/>
+    <reference idRef="924"/>
+  </array>
+  <array count="57" name="allParents">
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="904"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="896"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="900"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+    <reference idRef="901"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="906"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="908"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="901"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="895"/>
+    <reference idRef="904"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="908"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="907"/>
+    <reference idRef="895"/>
+    <reference idRef="886"/>
+    <reference idRef="895"/>
+    <reference idRef="886"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DVDHorController</string>
+    <reference idRef="887"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">957</unsigned_int>
+</object>

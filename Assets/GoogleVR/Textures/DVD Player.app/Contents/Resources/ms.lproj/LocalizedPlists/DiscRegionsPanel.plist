@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>Rantau</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>regions</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>DiscItemRegions.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>DRgn</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3007</key>
+	<dict>
+		<key>Comment</key>
+		<string>Help Button</string>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>bantuan</string>
+		<!-- Localize end -->
+	</dict>
+	<key>3008</key>
+	<dict>
+		<key>Comment</key>
+		<string>Image</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>File</key>
+		<string>DiscRegionsMap.tiff</string>
+		<key>Scale Image</key>
+		<false/>
+		<key>Preserve Aspect Ratio</key>
+		<true/>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>rantau DVD</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

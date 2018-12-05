@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Cửa sổ</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 580 244 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="922">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5000</int>
+            <string name="classID">com.apple.DVDPlayer.PrvP</string>
+            <string name="viewFrame">0 0 580 244 </string>
+            <array count="7" name="subviews">
+              <object class="IBCarbonStaticText" id="927">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5100</int>
+                <string name="title">Bắt đầu phát đĩa từ:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">30 20 190 16 </string>
+                <string name="bounds">20 30 36 220 </string>
+              </object>
+              <object class="IBCarbonRadioGroup" id="928">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5101</int>
+                <int name="numRows">4</int>
+                <int name="intercellHeight">4</int>
+                <array count="4" name="radioTitles">
+                  <array count="1">
+                    <string>Bắt đầu</string>
+                  </array>
+                  <array count="1">
+                    <string>Vị trí phát sau cùng</string>
+                  </array>
+                  <array count="1">
+                    <string>Dấu trang mặc định</string>
+                  </array>
+                  <array count="1">
+                    <string>Luôn hỏi</string>
+                  </array>
+                </array>
+                <string name="viewFrame">226 20 200 87 </string>
+                <string name="bounds">20 226 107 426 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="929">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5102</int>
+                <boolean name="enabled">FALSE</boolean>
+                <int name="fontStyle">-2</int>
+                <int name="controlSize">1</int>
+                <string name="title">Giữ phím Option khi đĩa bắt đầu phát sẽ khiến Trình phát DVD phải hỏi xem bắt đầu phát từ đâu.</string>
+                <string name="viewFrame">229 107 320 43 </string>
+                <string name="bounds">107 229 150 549 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="925">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5200</int>
+                <string name="title">Luôn sử dụng cài đặt đĩa cho:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">30 165 190 16 </string>
+                <string name="bounds">165 30 181 220 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="926">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5201</int>
+                <string name="helpTagText">Sử dụng cài đặt bộ chỉnh âm cuối cùng được sử dụng với đĩa này</string>
+                <string name="title">Bộ chỉnh Âm thanh</string>
+                <string name="viewFrame">226 165 150 18 </string>
+                <string name="bounds">165 226 183 376 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="924">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5202</int>
+                <string name="helpTagText">Sử dụng cài đặt màu video cuối cùng được sử dụng với đĩa này</string>
+                <string name="title">Màu Video</string>
+                <string name="viewFrame">226 188 150 16 </string>
+                <string name="bounds">188 226 204 376 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="923">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">5203</int>
+                <string name="helpTagText">Sử dụng cài đặt thu phóng cuối cùng được sử dụng với đĩa này</string>
+                <string name="title">Thu phóng Video</string>
+                <string name="viewFrame">226 210 150 16 </string>
+                <string name="bounds">210 226 226 376 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 244 580 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 244 580 </string>
+      </object>
+      <string name="windowRect">44 362 288 942 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="929"/>
+    <reference idRef="928"/>
+    <reference idRef="925"/>
+    <reference idRef="924"/>
+    <reference idRef="922"/>
+    <reference idRef="927"/>
+    <reference idRef="926"/>
+    <reference idRef="887"/>
+    <reference idRef="923"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPreviouslyViewed</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">930</unsigned_int>
+</object>

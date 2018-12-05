@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>CC Text View</string>
+		<!-- Localize begin -->
+		<key>Font Name</key>
+		<string>Lucida Grande</string>
+		<!-- Localize end -->
+		<key>Font Justification</key>
+		<integer>-2</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Color View</string>
+		<key>Color</key>
+		<dict>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Radius</key>
+		<real>8.0</real>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>Window</key>
+	<dict>
+		<key>Remove Title Bar</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

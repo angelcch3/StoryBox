@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<!-- Localize begin -->
+		<key>Alternate Window Title</key>
+		<string>Clipfenster</string>
+		<!-- Localize end -->
+		<key>Allow in Window Menu</key>
+		<false/>
+		<key>Refresh On Activate Change</key>
+		<true/>
+		<key>Process Activation Click</key>
+		<true/>
+		<key>Save Position</key>
+		<true/>
+		<key>Save Size</key>
+		<true/>
+		<key>Save Last Panel</key>
+		<true/>
+		<key>Fade Support</key>
+		<true/>
+		<key>Fade Panels</key>
+		<true/>
+		<key>Fade FPS</key>
+		<integer>60</integer>
+		<key>Fade Alpha Step</key>
+		<real>0.33</real>
+		<key>Panel Metrics</key>
+		<dict>
+			<key>top</key>
+			<integer>22</integer>
+			<key>left</key>
+			<integer>0</integer>
+			<key>bottom</key>
+			<integer>0</integer>
+			<key>right</key>
+			<integer>0</integer>
+		</dict>
+		<key>Panels</key>
+		<array>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>ClipPanelBookmarks</string>
+				<key>Panel Nib Name</key>
+				<string>ClipPanelBookmarks</string>
+				<key>Panel ID</key>
+				<integer>1000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>ClipPanelVideoClips</string>
+				<key>Panel Nib Name</key>
+				<string>ClipPanelVideoClips</string>
+				<key>Panel ID</key>
+				<integer>2000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>ClipPanelChapters</string>
+				<key>Panel Nib Name</key>
+				<string>ClipPanelChapters</string>
+				<key>Panel ID</key>
+				<integer>3000</integer>
+			</dict>
+		</array>
+		<key>Window Resize Limits</key>
+		<dict>
+			<key>bottom</key>
+			<integer>-1</integer>
+			<key>left</key>
+			<integer>138</integer>
+			<key>right</key>
+			<integer>314</integer>
+			<key>top</key>
+			<integer>-1</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Clipfenster</string>
+		<!-- Localize end -->
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>Header Hilight 1</string>
+		<key>Color</key>
+		<dict>
+			<key>alpha</key>
+			<real>1.0</real>
+			<key>red</key>
+			<real>0.4</real>
+			<key>green</key>
+			<real>0.4</real>
+			<key>blue</key>
+			<real>0.4</real>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Header Hilight 2</string>
+		<key>Color</key>
+		<dict>
+			<key>alpha</key>
+			<real>1.0</real>
+			<key>red</key>
+			<real>0.82</real>
+			<key>green</key>
+			<real>0.82</real>
+			<key>blue</key>
+			<real>0.82</real>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel Popup Menu</string>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Text Drop Shadow</key>
+		<true/>
+		<key>Track Mouse Visiting</key>
+		<true/>
+		<key>Normal Glyph Color</key>
+		<dict>
+			<key>red</key>
+			<real>0.42</real>
+			<key>green</key>
+			<real>0.42</real>
+			<key>blue</key>
+			<real>0.42</real>
+			<key>alpha</key>
+			<real>1.0</real>
+		</dict>
+		<key>Disabled Glyph Color</key>
+		<dict>
+			<key>red</key>
+			<real>0.5</real>
+			<key>green</key>
+			<real>0.5</real>
+			<key>blue</key>
+			<real>0.5</real>
+			<key>alpha</key>
+			<real>1.0</real>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Cliptyp</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Cliptyp</string>
+		<!-- Localize end -->
+	</dict>
+</dict>
+</plist>

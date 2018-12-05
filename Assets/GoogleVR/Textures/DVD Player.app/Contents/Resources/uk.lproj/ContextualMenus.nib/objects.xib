@@ -1,0 +1,259 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="29" name="allObjects">
+    <object class="IBCarbonMenuItem" id="889">
+      <string name="title">Половинний розмір</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">VHlf</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1015">
+      <string name="title">Згенерувати відсутні мініатюри</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">IBGT</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1033">
+      <string name="title">Увімкнути</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">TgCC</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="898">
+      <string name="title">Вимкнути звук</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">CMut</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="890">
+      <string name="title">Справжній розмір</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">VNrm</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="900">
+      <string name="title">Закладки</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">CBSb</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+      <object name="submenu" class="IBCarbonMenu" id="901">
+        <string name="title">Закладки</string>
+        <boolean name="autoDisable">TRUE</boolean>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="915">
+      <string name="title">Додати закладку…</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <int name="keyEquivalentModifier">0</int>
+      <ostype name="command">ABkm</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1022">
+      <string name="title">Використати поточний кадр як обкладинку диска</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">CFJP</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenuItem" id="887">
+      <string name="title">Допасувати до розмірів екрана</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">VMax</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenu" id="1000">
+      <string name="title">Формат DVD</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <array count="2" name="items">
+        <object class="IBCarbonMenuItem" id="1001">
+          <string name="title">Standard Definition</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">SDef</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <object class="IBCarbonMenuItem" id="1002">
+          <string name="title">High Definition</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">HDef</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="891">
+      <boolean name="separator">TRUE</boolean>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <reference idRef="1002"/>
+    <object class="IBCarbonMenuItem" id="893">
+      <string name="title">Фільм</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">CTSb</ostype>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+      <object name="submenu" class="IBCarbonMenu" id="894">
+        <string name="title">Фільм</string>
+        <boolean name="autoDisable">TRUE</boolean>
+      </object>
+    </object>
+    <object class="IBCarbonMenu" id="896">
+      <string name="title">Епізод</string>
+      <boolean name="autoDisable">TRUE</boolean>
+    </object>
+    <reference idRef="1001"/>
+    <object class="IBCarbonMenuItem" id="1030">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText"></string>
+      <string name="extendedHelpTagText"></string>
+    </object>
+    <object class="IBCarbonMenu" id="888">
+      <string name="title">Меню</string>
+      <array count="19" name="items">
+        <reference idRef="889"/>
+        <reference idRef="890"/>
+        <object class="IBCarbonMenuItem" id="1025">
+          <string name="title">Подвійний розмір</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">VDbl</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="887"/>
+        <object class="IBCarbonMenuItem" id="886">
+          <string name="title">Повноекранний режим</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">VPrs</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="891"/>
+        <object class="IBCarbonMenuItem" id="899">
+          <string name="title">DVD-меню</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CDMn</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <object class="IBCarbonMenuItem" id="998">
+          <string name="title">Початок диска</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">DBeg</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="893"/>
+        <object class="IBCarbonMenuItem" id="895">
+          <string name="title">Епізод</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CCSb</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+          <reference name="submenu" idRef="896"/>
+        </object>
+        <reference idRef="900"/>
+        <object class="IBCarbonMenuItem" id="999">
+          <string name="title">Формат DVD</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">FrmC</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+          <reference name="submenu" idRef="1000"/>
+        </object>
+        <reference idRef="1030"/>
+        <reference idRef="915"/>
+        <object class="IBCarbonMenuItem" id="910">
+          <boolean name="separator">TRUE</boolean>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="1022"/>
+        <object class="IBCarbonMenuItem" id="1020">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+        <reference idRef="898"/>
+        <reference idRef="1033"/>
+      </array>
+    </object>
+    <reference idRef="901"/>
+    <reference idRef="899"/>
+    <reference idRef="998"/>
+    <reference idRef="910"/>
+    <object class="IBCarbonMenu" id="1014">
+      <string name="title">Меню</string>
+      <array count="2" name="items">
+        <reference idRef="1015"/>
+        <object class="IBCarbonMenuItem" id="1017">
+          <string name="title">Видалити мініатюри</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">IBRT</ostype>
+          <string name="helpTagText"></string>
+          <string name="extendedHelpTagText"></string>
+        </object>
+      </array>
+    </object>
+    <reference idRef="886"/>
+    <reference idRef="1017"/>
+    <reference idRef="999"/>
+    <reference idRef="1020"/>
+    <reference idRef="894"/>
+    <reference idRef="1025"/>
+    <reference idRef="895"/>
+  </array>
+  <array count="29" name="allParents">
+    <reference idRef="888"/>
+    <reference idRef="1014"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="999"/>
+    <reference idRef="888"/>
+    <reference idRef="1000"/>
+    <reference idRef="888"/>
+    <reference idRef="895"/>
+    <reference idRef="1000"/>
+    <reference idRef="888"/>
+    <reference idRef="1"/>
+    <reference idRef="900"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="1"/>
+    <reference idRef="888"/>
+    <reference idRef="1014"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+    <reference idRef="893"/>
+    <reference idRef="888"/>
+    <reference idRef="888"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ImageBarListContextualMenu</string>
+    <reference idRef="1014"/>
+    <string>VidContextualMenu</string>
+    <reference idRef="888"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1040</unsigned_int>
+</object>

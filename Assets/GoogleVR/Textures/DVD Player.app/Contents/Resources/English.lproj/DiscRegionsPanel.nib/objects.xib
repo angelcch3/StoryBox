@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonStaticText" id="943">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3004</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">The region code the drive is set to</string>
+      <string name="viewFrame">344 8 13 16 </string>
+      <string name="bounds">8 344 24 357 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="941">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3002</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">The regions available on this disc</string>
+      <string name="viewFrame">89 8 87 16 </string>
+      <string name="bounds">8 89 24 176 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="945">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3006</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">The number of times remaining to change the drive region</string>
+      <string name="viewFrame">200 207 13 16 </string>
+      <string name="bounds">207 200 223 213 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="946">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3007</int>
+      <ostype name="command">RgnH</ostype>
+      <string name="viewFrame">335 203 25 25 </string>
+      <string name="bounds">203 335 228 360 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Window</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 378 231 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonHIView" id="938">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3000</int>
+            <string name="classID">com.apple.DVDPlayer.DRgP</string>
+            <string name="viewFrame">0 0 378 231 </string>
+            <array count="8" name="subviews">
+              <object class="IBCarbonStaticText" id="940">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">3001</int>
+                <int name="controlSize">1</int>
+                <string name="title">Disc Region:</string>
+                <int name="justification">-2</int>
+                <string name="viewFrame">20 8 66 16 </string>
+                <string name="bounds">8 20 24 86 </string>
+              </object>
+              <reference idRef="941"/>
+              <object class="IBCarbonStaticText" id="942">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">3003</int>
+                <int name="controlSize">1</int>
+                <string name="title">Drive Region:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">266 8 75 16 </string>
+                <string name="bounds">8 266 24 341 </string>
+              </object>
+              <reference idRef="943"/>
+              <object class="IBCarbonStaticText" id="944">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">3005</int>
+                <int name="controlSize">1</int>
+                <string name="title">Drive Region changes remaining:</string>
+                <int name="justification">-2</int>
+                <string name="viewFrame">20 207 175 16 </string>
+                <string name="bounds">207 20 223 195 </string>
+              </object>
+              <reference idRef="945"/>
+              <reference idRef="946"/>
+              <object class="IBCarbonHIView" id="939">
+                <ostype name="controlSignature">cfbs</ostype>
+                <int name="controlID">3008</int>
+                <string name="classID">com.apple.DVDPlayer.imgv</string>
+                <string name="viewFrame">20 32 338 167 </string>
+                <string name="bounds">32 20 199 358 </string>
+              </object>
+            </array>
+            <string name="bounds">0 0 231 378 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 231 378 </string>
+      </object>
+      <string name="windowRect">349 815 580 1193 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="944"/>
+    <reference idRef="938"/>
+    <reference idRef="942"/>
+    <reference idRef="939"/>
+    <reference idRef="940"/>
+    <reference idRef="887"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="1"/>
+    <reference idRef="938"/>
+    <reference idRef="887"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="938"/>
+    <reference idRef="886"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DiscRegionsPanel</string>
+    <reference idRef="886"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">947</unsigned_int>
+</object>

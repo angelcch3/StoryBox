@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Save Position</key>
+		<true/>
+		<key>Has Toolbar</key>
+		<true/>
+		<key>Fade Panels</key>
+		<true/>
+		<key>Save Last Panel</key>
+		<true/>
+		<key>Panels</key>
+		<array>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>DiscInfoPanel</string>
+				<key>Panel Nib Name</key>
+				<string>DiscInfoPanel</string>
+				<key>Panel ID</key>
+				<integer>1000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>DiscJacketPicturePanel</string>
+				<key>Panel Nib Name</key>
+				<string>DiscJacketPicturePanel</string>
+				<key>Panel ID</key>
+				<integer>2000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>DiscRegionsPanel</string>
+				<key>Panel Nib Name</key>
+				<string>DiscRegionsPanel</string>
+				<key>Panel ID</key>
+				<integer>3000</integer>
+			</dict>
+			<dict>
+				<key>Panel Nib File</key>
+				<string>DiscParentalControlPanel</string>
+				<key>Panel Nib Name</key>
+				<string>DiscParentalControlPanel</string>
+				<key>Panel ID</key>
+				<integer>4000</integer>
+			</dict>
+		</array>
+		<key>Panel Metrics</key>
+		<dict>
+			<key>top</key>
+			<integer>0</integer>
+			<key>left</key>
+			<integer>0</integer>
+			<key>bottom</key>
+			<integer>60</integer>
+			<key>right</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>OK Btn</string>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Cancel Btn</string>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Bottom Divider</string>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

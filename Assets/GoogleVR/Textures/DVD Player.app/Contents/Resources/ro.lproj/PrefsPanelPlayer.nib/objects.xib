@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 580 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">La deschiderea DVD Player:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">74 21 182 18 </string>
+          <string name="bounds">21 74 39 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">Configurează la afișare pe tot ecranul dacă este recunoscut un disc valid</string>
+          <string name="title">Intră în modul de afișare pe tot ecranul</string>
+          <string name="viewFrame">262 20 275 18 </string>
+          <string name="bounds">20 262 38 537 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">Începe redarea la recunoașterea unui disc valid</string>
+          <string name="title">Începe redarea discului</string>
+          <string name="viewFrame">262 42 180 18 </string>
+          <string name="bounds">42 262 60 442 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">Când este introdus un disc:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">75 111 181 18 </string>
+          <string name="bounds">111 75 129 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="927">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1201</int>
+          <string name="helpTagText">Începe redarea la introducerea unui disc valid dacă DVD Player rulează deja</string>
+          <string name="title">Începe redarea discului</string>
+          <string name="viewFrame">262 110 180 18 </string>
+          <string name="bounds">110 262 128 442 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">Când modul mut este activat:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">38 230 218 18 </string>
+          <string name="bounds">230 38 248 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">Activează subtitrarea complexă când este activat modul mut în DVD Player</string>
+          <string name="title">Afișează subtitrarea complexă</string>
+          <string name="viewFrame">262 229 309 18 </string>
+          <string name="bounds">229 262 247 571 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">Când vizualizatorul este minimizat:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">15 252 241 17 </string>
+          <string name="bounds">252 15 269 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="933">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1501</int>
+          <string name="helpTagText">Suspendă redarea atunci când vizualizatorul este minimizat în Dock</string>
+          <string name="title">Suspendă redarea</string>
+          <string name="viewFrame">262 252 134 18 </string>
+          <string name="bounds">252 262 270 396 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="939">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1702</int>
+          <boolean name="enabled">FALSE</boolean>
+          <int name="fontStyle">-2</int>
+          <int name="controlSize">1</int>
+          <string name="title">Aceasta conservă încărcarea bateriei. Derularea discului poate fi mai lentă până la trezirea unității DVD.</string>
+          <string name="viewFrame">264 170 296 43 </string>
+          <string name="bounds">170 264 213 560 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="937">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1700</int>
+          <string name="title">La redare utilizând bateria:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">75 145 181 18 </string>
+          <string name="bounds">145 75 163 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">Treci unitatea DVD în adormire</string>
+          <string name="viewFrame">262 144 228 18 </string>
+          <string name="bounds">144 262 162 490 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">Când DVD Player este inactiv:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">68 77 188 18 </string>
+          <string name="bounds">77 68 95 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">Suspendă temporar redarea atunci când playerul este inactiv</string>
+          <string name="title">Suspendă redarea</string>
+          <string name="viewFrame">262 76 135 18 </string>
+          <string name="bounds">76 262 94 397 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 580 </string>
+    </object>
+    <reference idRef="933"/>
+    <reference idRef="934"/>
+    <reference idRef="937"/>
+    <reference idRef="935"/>
+    <reference idRef="939"/>
+    <reference idRef="932"/>
+    <reference idRef="928"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Fereastră</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 580 295 </string>
+        <array count="1" name="subviews">
+          <reference idRef="922"/>
+        </array>
+        <string name="bounds">0 0 295 580 </string>
+      </object>
+      <string name="windowRect">92 838 387 1418 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="938"/>
+    <reference idRef="927"/>
+    <reference idRef="926"/>
+    <reference idRef="924"/>
+    <reference idRef="923"/>
+    <reference idRef="929"/>
+    <reference idRef="925"/>
+    <reference idRef="887"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

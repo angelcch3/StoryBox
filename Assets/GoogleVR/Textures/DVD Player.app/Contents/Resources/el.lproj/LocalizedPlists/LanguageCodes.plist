@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Χρήση προεπιλογής δίσκου</string>
+	<key>00  </key>
+	<string>Άγνωστη</string>
+	<key>aa  </key>
+	<string>Αφάρ</string>
+	<key>ab  </key>
+	<string>Αμπχαζικά</string>
+	<key>ae  </key>
+	<string>Αβεστανικά</string>
+	<key>af  </key>
+	<string>Αφρικάανς</string>
+	<key>am  </key>
+	<string>Αμχαρικά</string>
+	<key>ar  </key>
+	<string>Αραβικά</string>
+	<key>as  </key>
+	<string>Ασαμικά</string>
+	<key>ay  </key>
+	<string>Αμαρικά</string>
+	<key>az  </key>
+	<string>Αζερμπαϊτζανικά</string>
+	<key>ba  </key>
+	<string>Μπασκίρ</string>
+	<key>be  </key>
+	<string>Λευκορωσικά</string>
+	<key>bg  </key>
+	<string>Βουλγαρικά</string>
+	<key>bh  </key>
+	<string>Μπιχάρι</string>
+	<key>bi  </key>
+	<string>Μπισλάμα</string>
+	<key>bn  </key>
+	<string>Βεγγαλικά</string>
+	<key>bo  </key>
+	<string>Θιβετιανά</string>
+	<key>br  </key>
+	<string>Βρετονικά</string>
+	<key>bs  </key>
+	<string>Βοσνιακά</string>
+	<key>ca  </key>
+	<string>Καταλανικά</string>
+	<key>ce  </key>
+	<string>Τσέτσνιαν</string>
+	<key>ch  </key>
+	<string>Καμόρρο</string>
+	<key>co  </key>
+	<string>Κορσικανικά</string>
+	<key>cs  </key>
+	<string>Τσεχικά</string>
+	<key>cu  </key>
+	<string>Εκκλησιαστικά Σλαβικά</string>
+	<key>cv  </key>
+	<string>Χουβάς</string>
+	<key>cy  </key>
+	<string>Ουαλλικά</string>
+	<key>da  </key>
+	<string>Δανικά</string>
+	<key>de  </key>
+	<string>Γερμανικά</string>
+	<key>dz  </key>
+	<string>Μπουτανικά</string>
+	<key>el  </key>
+	<string>Ελληνικά</string>
+	<key>en  </key>
+	<string>Αγγλικά</string>
+	<key>eo  </key>
+	<string>Εσπεράντο</string>
+	<key>es  </key>
+	<string>Ισπανικά</string>
+	<key>et  </key>
+	<string>Εσθονικά</string>
+	<key>eu  </key>
+	<string>Βασκικά</string>
+	<key>fa  </key>
+	<string>Φαρσί</string>
+	<key>fi  </key>
+	<string>Φινλανδικά</string>
+	<key>fj  </key>
+	<string>Φίτζι</string>
+	<key>fo  </key>
+	<string>Φεροϊκά</string>
+	<key>fr  </key>
+	<string>Γαλλικά</string>
+	<key>fy  </key>
+	<string>Φριζιακά</string>
+	<key>ga  </key>
+	<string>Ιρλανδικά</string>
+	<key>gd  </key>
+	<string>Κελτικά Σκοτίας</string>
+	<key>gl  </key>
+	<string>Γαλικιακά</string>
+	<key>gn  </key>
+	<string>Γκουαρανί</string>
+	<key>gu  </key>
+	<string>Γκουτζαρατικά</string>
+	<key>gv  </key>
+	<string>Μανξ</string>
+	<key>ha  </key>
+	<string>Χάουζα</string>
+	<key>hi  </key>
+	<string>Χίντι</string>
+	<key>ho  </key>
+	<string>Χίρι Μότου</string>
+	<key>hr  </key>
+	<string>Κροατικά</string>
+	<key>hu  </key>
+	<string>Ουγγρικά</string>
+	<key>hy  </key>
+	<string>Αρμενικά</string>
+	<key>hz  </key>
+	<string>Χερέρο</string>
+	<key>ia  </key>
+	<string>Ιντερλίνγκουα</string>
+	<key>ie  </key>
+	<string>Ιντερλίνγκε</string>
+	<key>ik  </key>
+	<string>Ινούπιακ</string>
+	<key>in  </key>
+	<string>Ινδονησιακά</string>
+	<key>is  </key>
+	<string>Ισλανδικά</string>
+	<key>it  </key>
+	<string>Ιταλικά</string>
+	<key>iu  </key>
+	<string>Ινουκτιτούτ</string>
+	<key>iw  </key>
+	<string>Εβραϊκά</string>
+	<key>ja  </key>
+	<string>Ιαπωνικά</string>
+	<key>ji  </key>
+	<string>Γίντις</string>
+	<key>jw  </key>
+	<string>Ιαβανικά</string>
+	<key>ka  </key>
+	<string>Γεωργιανά</string>
+	<key>ki  </key>
+	<string>Κικούγιου</string>
+	<key>kj  </key>
+	<string>Κουανιγιάμα</string>
+	<key>kk  </key>
+	<string>Καζακικά</string>
+	<key>kl  </key>
+	<string>Γροιλανδικά</string>
+	<key>km  </key>
+	<string>Καμποτζιανά</string>
+	<key>kn  </key>
+	<string>Κανάντα</string>
+	<key>ko  </key>
+	<string>Κορεατικά</string>
+	<key>ks  </key>
+	<string>Κασμιρικά</string>
+	<key>ku  </key>
+	<string>Κουρδικά</string>
+	<key>kv  </key>
+	<string>Κόμι</string>
+	<key>kw  </key>
+	<string>Κόρνις</string>
+	<key>ky  </key>
+	<string>Κιργισιακά</string>
+	<key>la  </key>
+	<string>Λατινικά</string>
+	<key>lb  </key>
+	<string>Λουξεμβουργικά</string>
+	<key>ln  </key>
+	<string>Λινγκάλα</string>
+	<key>lo  </key>
+	<string>Λαοϊκά</string>
+	<key>lt  </key>
+	<string>Λιθουανικά</string>
+	<key>lv  </key>
+	<string>Λετονικά</string>
+	<key>mg  </key>
+	<string>Μαλαγιακά</string>
+	<key>mh  </key>
+	<string>Μάρσαλ</string>
+	<key>mi  </key>
+	<string>Μαορί</string>
+	<key>mk  </key>
+	<string>Σλαβομακεδονικά</string>
+	<key>ml  </key>
+	<string>Μαλαγιαλαμικά</string>
+	<key>mn  </key>
+	<string>Μογγολικά</string>
+	<key>mo  </key>
+	<string>Μολδαβικά</string>
+	<key>mr  </key>
+	<string>Μαραθί</string>
+	<key>ms  </key>
+	<string>Μαλαϊκά</string>
+	<key>mt  </key>
+	<string>Μαλτεζικά</string>
+	<key>my  </key>
+	<string>Μπουρμεζικά</string>
+	<key>na  </key>
+	<string>Ναούρου</string>
+	<key>nd  </key>
+	<string>Ντεμπέλε, Βόρεια</string>
+	<key>ne  </key>
+	<string>Νεπαλικά</string>
+	<key>ng  </key>
+	<string>Ντόνγκα</string>
+	<key>nl  </key>
+	<string>Ολλανδικά</string>
+	<key>no  </key>
+	<string>Νορβηγικά</string>
+	<key>nr  </key>
+	<string>Ντεμπέλε, Νότια</string>
+	<key>nv  </key>
+	<string>Ναβάχο</string>
+	<key>ny  </key>
+	<string>Τσιτσέβα</string>
+	<key>oc  </key>
+	<string>Οκιτανικά</string>
+	<key>om  </key>
+	<string>Ορόμο</string>
+	<key>or  </key>
+	<string>Οριγικά</string>
+	<key>os  </key>
+	<string>Οσετιανά</string>
+	<key>pa  </key>
+	<string>Παντζαμπικά</string>
+	<key>pi  </key>
+	<string>Πάλι</string>
+	<key>pl  </key>
+	<string>Πολωνικά</string>
+	<key>ps  </key>
+	<string>Πάστο</string>
+	<key>pt  </key>
+	<string>Πορτογαλικά</string>
+	<key>qu  </key>
+	<string>Κέτσουα</string>
+	<key>rm  </key>
+	<string>Ρετορωμανικά</string>
+	<key>rn  </key>
+	<string>Κιρούντι</string>
+	<key>ro  </key>
+	<string>Ρουμανικά</string>
+	<key>ru  </key>
+	<string>Ρωσικά</string>
+	<key>rw  </key>
+	<string>Κινιαρουάντα</string>
+	<key>sa  </key>
+	<string>Σανσκριτικά</string>
+	<key>sc  </key>
+	<string>Σαρδινικά</string>
+	<key>sd  </key>
+	<string>Σίντι</string>
+	<key>se  </key>
+	<string>Βόρεια Σάμι</string>
+	<key>sg  </key>
+	<string>Σάνγκο</string>
+	<key>sh  </key>
+	<string>Σερβοκροατικά</string>
+	<key>si  </key>
+	<string>Σινχαλικά</string>
+	<key>sk  </key>
+	<string>Σλοβακικά</string>
+	<key>sl  </key>
+	<string>Σλοβενικά</string>
+	<key>sm  </key>
+	<string>Σαμοανικά</string>
+	<key>sn  </key>
+	<string>Σόνα</string>
+	<key>so  </key>
+	<string>Σομαλικά</string>
+	<key>sq  </key>
+	<string>Αλβανικά</string>
+	<key>sr  </key>
+	<string>Σερβικά</string>
+	<key>ss  </key>
+	<string>Σισουάτι</string>
+	<key>st  </key>
+	<string>Σεσότο</string>
+	<key>su  </key>
+	<string>Σουδανικά</string>
+	<key>sv  </key>
+	<string>Σουηδικά</string>
+	<key>sw  </key>
+	<string>Σουαχίλι</string>
+	<key>ta  </key>
+	<string>Ταμαλικά</string>
+	<key>te  </key>
+	<string>Τελουγκουικά</string>
+	<key>tg  </key>
+	<string>Τατζικιστανικά</string>
+	<key>th  </key>
+	<string>Ταϊλανδικά</string>
+	<key>ti  </key>
+	<string>Τιγκρινικά</string>
+	<key>tk  </key>
+	<string>Τουρκμενικά</string>
+	<key>tl  </key>
+	<string>Ταγκαλόγκ</string>
+	<key>tn  </key>
+	<string>Σετσουάνα</string>
+	<key>to  </key>
+	<string>Τόνγκα</string>
+	<key>tr  </key>
+	<string>Τουρκικά</string>
+	<key>ts  </key>
+	<string>Τσόνγκα</string>
+	<key>tt  </key>
+	<string>Ταταρικά</string>
+	<key>tw  </key>
+	<string>Τουί</string>
+	<key>ty  </key>
+	<string>Ταϊτιανά</string>
+	<key>ug  </key>
+	<string>Ουιγκούρ</string>
+	<key>uk  </key>
+	<string>Ουκρανικά</string>
+	<key>ur  </key>
+	<string>Ουρντού</string>
+	<key>uz  </key>
+	<string>Ουζμπεκικά</string>
+	<key>vi  </key>
+	<string>Βιετναμικά</string>
+	<key>vo  </key>
+	<string>Βολαπούκ</string>
+	<key>wo  </key>
+	<string>Βολόφ</string>
+	<key>xh  </key>
+	<string>Κόσα</string>
+	<key>yo  </key>
+	<string>Γιορούμπα</string>
+	<key>za  </key>
+	<string>Ζουάνγκ</string>
+	<key>zh  </key>
+	<string>Κινεζικά</string>
+	<key>zu  </key>
+	<string>Ζουλού</string>
+</dict>
+</plist>

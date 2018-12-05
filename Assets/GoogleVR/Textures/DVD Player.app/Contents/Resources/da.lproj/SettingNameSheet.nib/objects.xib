@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonStaticText" id="889">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="title">Navn:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">20 23 46 16 </string>
+      <string name="bounds">63 20 79 66 </string>
+    </object>
+    <object class="IBCarbonButton" id="896">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <int name="buttonType">2</int>
+      <string name="title">Annuller</string>
+      <string name="viewFrame">168 62 74 20 </string>
+      <string name="bounds">20 168 40 242 </string>
+    </object>
+    <object class="IBCarbonButton" id="895">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">254 62 74 20 </string>
+      <string name="bounds">20 254 40 328 </string>
+    </object>
+    <object class="IBCarbonEditText" id="894">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">75 23 250 16 </string>
+      <string name="bounds">63 75 79 325 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="898">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="title">Brug til alle diske</string>
+      <string name="viewFrame">20 65 129 14 </string>
+      <string name="bounds">23 20 37 149 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+      </object>
+      <string name="viewFrame">0 0 348 102 </string>
+      <array count="5" name="subviews">
+        <reference idRef="889"/>
+        <reference idRef="894"/>
+        <reference idRef="895"/>
+        <reference idRef="896"/>
+        <reference idRef="898"/>
+      </array>
+      <string name="bounds">0 0 102 348 </string>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Indstiller navn</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">367 541 469 889 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SettingNameSheet</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">905</unsigned_int>
+</object>

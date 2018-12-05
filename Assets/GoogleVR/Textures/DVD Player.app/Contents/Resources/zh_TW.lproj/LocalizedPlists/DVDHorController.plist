@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Allow in Window Menu</key>
+		<false/>
+		<key>Save Position</key>
+		<true/>
+		<key>Save Size</key>
+		<true/>
+		<key>Window Title</key>
+		<string>Controller</string>
+		<key>Alternate Window Title</key>
+		<string>控制器</string>
+		<key>Remove Title Bar</key>
+		<true/>
+		<key>Fade Support</key>
+		<true/>
+		<key>Open Horizontally</key>
+		<true/>
+		<key>Partial Drawer Limit</key>
+		<integer>54</integer>
+		<key>Window Resize Limits</key>
+		<dict>
+			<key>bottom</key>
+			<integer>80</integer>
+			<key>left</key>
+			<integer>266</integer>
+			<key>right</key>
+			<integer>348</integer>
+			<key>top</key>
+			<integer>80</integer>
+		</dict>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>2</integer>
+				<key>Class ID</key>
+				<string>SlwB</string>
+			</dict>
+			<dict>
+				<key>View ID</key>
+				<integer>5</integer>
+				<key>Class ID</key>
+				<string>SubB</string>
+			</dict>
+			<dict>
+				<key>View ID</key>
+				<integer>6</integer>
+				<key>Class ID</key>
+				<string>AudB</string>
+			</dict>
+			<dict>
+				<key>View ID</key>
+				<integer>7</integer>
+				<key>Class ID</key>
+				<string>AngB</string>
+			</dict>
+		</array>
+	</dict>
+	<key>0</key>
+	<dict>
+		<key>Comment</key>
+		<string>Root</string>
+		<key>Open Horizontally</key>
+		<true/>
+		<key>Window Image</key>
+		<string>DVDHorControllerBackground.tiff</string>
+		<key>Drawer Image</key>
+		<string>DVDHorDrawerBackground.tiff</string>
+		<key>Handle Image</key>
+		<string>DVDHorHandleBackground.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>Drawer Container View</string>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Slow Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDSlowOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDSlowOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDSlowOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDSlowOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Menu Delay</key>
+		<integer>60</integer>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Title</key>
+		<string>慢動作</string>
+		<key>Accessibility Description</key>
+		<string>慢動作</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Step Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDStepOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDStepOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDStepOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDStepOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Description</key>
+		<string>逐格播放</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Return Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDReturnOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDReturnOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDReturnOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDReturnOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Description</key>
+		<string>return</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Comment</key>
+		<string>Subtitle Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDSubtitleOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDSubtitleOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDSubtitleOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDSubtitleOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Menu Delay</key>
+		<integer>60</integer>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Supports Press Action</key>
+		<false/>
+		<key>Accessibility Title</key>
+		<string>字幕</string>
+		<key>Accessibility Description</key>
+		<string>副標題</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Comment</key>
+		<string>Audio Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDAudioOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDAudioOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDAudioOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDAudioOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Menu Delay</key>
+		<integer>60</integer>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Supports Press Action</key>
+		<false/>
+		<key>Accessibility Title</key>
+		<string>音訊串流</string>
+		<key>Accessibility Description</key>
+		<string>音訊串流</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>Comment</key>
+		<string>Angle Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDAngleOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDAngleOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDAngleOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDAngleOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Menu Delay</key>
+		<integer>60</integer>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Supports Press Action</key>
+		<false/>
+		<key>Accessibility Title</key>
+		<string>視角</string>
+		<key>Accessibility Description</key>
+		<string>角度</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>Comment</key>
+		<string>Nav Up Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDUpOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDUpOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDUpOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDUpOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>向上導覽</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>Comment</key>
+		<string>Nav Down Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDDownOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDDownOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDDownOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDDownOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>向下導覽</string>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>Comment</key>
+		<string>Nav Left Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDLeftOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDLeftOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDLeftOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDLeftOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>向左導覽</string>
+	</dict>
+	<key>13</key>
+	<dict>
+		<key>Comment</key>
+		<string>Nav Right Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDRightOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDRightOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDRightOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDRightOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>向右導覽</string>
+	</dict>
+	<key>14</key>
+	<dict>
+		<key>Comment</key>
+		<string>Nav Enter Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDEnterOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDEnterOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDEnterOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDEnterOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>導覽進入</string>
+	</dict>
+	<key>15</key>
+	<dict>
+		<key>Comment</key>
+		<string>Rewind / Previous Chapter btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDRewindOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDRewindOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDRewindOnAqua.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDRewindOnAqua.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Scan Forward</key>
+		<false/>
+		<key>Min Press Ticks</key>
+		<integer>60</integer>
+		<key>Accessibility Description</key>
+		<string>倒轉/上一章節</string>
+	</dict>
+	<key>16</key>
+	<dict>
+		<key>Comment</key>
+		<string>Play / Pause btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDPlayOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDPlayOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDPlayOnAqua.tiff</string>
+		<key>Pause Off File</key>
+		<string>DVDPauseOff.tiff</string>
+		<key>Pause On Aqua File</key>
+		<string>DVDPauseOnAqua.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>播放/暫停</string>
+	</dict>
+	<key>17</key>
+	<dict>
+		<key>Comment</key>
+		<string>Stop btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDStopOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDStopOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDStopOnAqua.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>停止</string>
+	</dict>
+	<key>18</key>
+	<dict>
+		<key>Comment</key>
+		<string>Fast Forward / Next Chapter btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDFFwdOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDFFwdOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDFFwdOnAqua.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Scan Forward</key>
+		<true/>
+		<key>Min Press Ticks</key>
+		<integer>60</integer>
+		<key>Accessibility Description</key>
+		<string>快轉/下一章節</string>
+	</dict>
+	<key>19</key>
+	<dict>
+		<key>Comment</key>
+		<string>Eject Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDEjectOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDEjectOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDEjectOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDEjectOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>退出</string>
+	</dict>
+	<key>20</key>
+	<dict>
+		<key>Comment</key>
+		<string>Close btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDCloseOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDCloseOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDCloseOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDCloseOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>關閉媒體檔案</string>
+	</dict>
+	<key>21</key>
+	<dict>
+		<key>Comment</key>
+		<string>Title btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDTitleOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDTitleOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDTitleOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDTitleOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>標題選單</string>
+	</dict>
+	<key>22</key>
+	<dict>
+		<key>Comment</key>
+		<string>Menu btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDMenuOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDMenuOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDMenuOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDMenuOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>DVD 選單</string>
+	</dict>
+	<key>23</key>
+	<dict>
+		<key>Comment</key>
+		<string>Volume Slider</string>
+		<key>Horizontal Slider</key>
+		<false/>
+		<key>Tracking Inset</key>
+		<integer>6</integer>
+		<key>Knob Off File</key>
+		<string>DVDVolKnobOff.tiff</string>
+		<key>Knob On Aqua File</key>
+		<string>DVDVolKnobOnAqua.tiff</string>
+		<key>Knob On Graphite File</key>
+		<string>DVDVolKnobOnAqua.tiff</string>
+		<key>Track File</key>
+		<string>DVDHorVolTrack.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>DVD 音量</string>
+	</dict>
+	<key>24</key>
+	<dict>
+		<key>Comment</key>
+		<string>Grow View</string>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Supports Press Action</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>抽屜控點</string>
+	</dict>
+	<key>25</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Display</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>26</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Background</string>
+		<key>File</key>
+		<string>DVDLCDBackground.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>27</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Title Button</string>
+		<key>***Hit Mask File</key>
+		<string>DVDLCDTitleOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDLCDTitleOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDLCDTitleOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>標題時間顯示器</string>
+	</dict>
+	<key>28</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Chapter Button</string>
+		<key>***Hit Mask File</key>
+		<string>DVDLCDChapterOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDLCDChapterOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDLCDChapterOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>章節時間顯示器</string>
+	</dict>
+	<key>29</key>
+	<dict>
+		<key>Comment</key>
+		<string>Language Code View</string>
+		<key>Theme Font ID</key>
+		<integer>200</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Font Name</key>
+		<string>儷黑 Pro</string>
+		<key>Font Size</key>
+		<integer>8</integer>
+		<key>Font Style</key>
+		<integer>1</integer>
+		<key>Font Color</key>
+		<dict>
+			<key>red</key>
+			<integer>15616</integer>
+			<key>green</key>
+			<integer>15872</integer>
+			<key>blue</key>
+			<integer>13824</integer>
+		</dict>
+		<key>Text</key>
+		<string/>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>30</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Direction Digit</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>31</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Digit 1</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>32</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Digit 2</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>33</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Separator Digit 1</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>File</key>
+		<string>DVDLCDDigitSep.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>34</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Digit 3</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>35</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Digit 4</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>36</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Separator Digit 2</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>File</key>
+		<string>DVDLCDDigitSep.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>37</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Digit 5</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>38</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Digit 6</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>39</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Display Type Image</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Normal Display File</key>
+		<string>DVDLCDDisplayTypeNormal.tiff</string>
+		<key>Angle Display File</key>
+		<string>DVDLCDDisplayTypeAngle.tiff</string>
+		<key>Audio Display File</key>
+		<string>DVDLCDDisplayTypeAudio.tiff</string>
+		<key>Subtitle Display File</key>
+		<string>DVDLCDDisplayTypeSubtitle.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>40</key>
+	<dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>41</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Mute Icon</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>File</key>
+		<string>DVDLCDMute.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>靜音圖像</string>
+	</dict>
+	<key>42</key>
+	<dict>
+		<key>Comment</key>
+		<string>LCD Timer Icon</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>File</key>
+		<string>DVDLCDTimer.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>計時器圖像</string>
+	</dict>
+	<key>52</key>
+	<dict>
+		<key>Comment</key>
+		<string>Drawer Open Btn</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>File</key>
+		<string>DVDHorDrawerOpenOff.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Center X</key>
+		<true/>
+		<key>Center Y</key>
+		<true/>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>100</key>
+	<dict>
+		<key>Comment</key>
+		<string>Popup Menu Btn</string>
+		<key>Hit Mask File</key>
+		<string>DVDPopupOff.tiff</string>
+		<key>Off File</key>
+		<string>DVDPopupOff.tiff</string>
+		<key>On Aqua File</key>
+		<string>DVDPopupOn.tiff</string>
+		<key>On Graphite File</key>
+		<string>DVDPopupOn.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Accessibility Description</key>
+		<string>彈出式選單</string>
+	</dict>
+</dict>
+</plist>

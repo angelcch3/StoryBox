@@ -1,0 +1,958 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="132" name="allObjects">
+    <object class="IBCarbonMenuItem" id="1197">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="1169">
+      <string name="title">Γωνία</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">AnSb</ostype>
+      <object name="submenu" class="IBCarbonMenu" id="1170">
+        <string name="title">Γωνία</string>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="1187">
+      <string name="title">Διπλάσιο μέγεθος</string>
+      <string name="keyEquivalent">2</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">VDbl</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1215">
+      <string name="title">Ενεργοποίηση γονικού ελέγχου</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">PCnT</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="975">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="927">
+      <string name="title">Ελαχιστοποίηση</string>
+      <string name="keyEquivalent">m</string>
+      <boolean name="dynamic">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">mini</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1199">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="1077">
+      <string name="title">Ορισμός χρονοδιακόπτη…</string>
+      <string name="keyEquivalent">t</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">TmrS</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="933">
+      <string name="title">Εξαγωγή DVD</string>
+      <string name="keyEquivalent">e</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">CEjc</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1143">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="1220">
+      <string name="title">Καλύτερη ποιότητα</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">BtDQ</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="900">
+      <string name="title">Αναίρεση</string>
+      <string name="keyEquivalent">z</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">undo</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="966">
+      <string name="title">  Ταχύτητα x2</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">SR02</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="893">
+      <string name="title">DVD Player</string>
+      <object name="submenu" class="IBCarbonMenu" id="919">
+        <string name="name">_NSAppleMenu</string>
+        <string name="title">DVD Player</string>
+        <array count="2" name="items">
+          <object class="IBCarbonMenuItem" id="899">
+            <string name="title">Πληροφορίες για το DVD Player</string>
+            <boolean name="autoDisable">TRUE</boolean>
+            <int name="keyEquivalentModifier">0</int>
+            <ostype name="command">abou</ostype>
+          </object>
+          <object class="IBCarbonMenuItem" id="940">
+            <boolean name="separator">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="965">
+      <string name="title">Είσοδος σε πλήρη οθόνη</string>
+      <string name="keyEquivalent">f</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <int name="keyEquivalentModifier">1310720</int>
+      <ostype name="command">VPrs</ostype>
+    </object>
+    <object class="IBCarbonMenu" id="1189">
+      <string name="title">Ταχύτητα αργής κίνησης</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="1191">
+          <string name="title">Ταχύτητα 1/2</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">SM12</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1192">
+          <string name="title">Ταχύτητα 1/4</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">SM14</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1193">
+          <string name="title">Ταχύτητα 1/8</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">SM18</ostype>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="1016">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+    </object>
+    <reference idRef="1192"/>
+    <object class="IBCarbonMenuItem" id="1001">
+      <string name="title">Τίτλος</string>
+      <ostype name="command">TSub</ostype>
+      <object name="submenu" class="IBCarbonMenu" id="1002">
+        <string name="title">Τίτλος</string>
+        <boolean name="autoDisable">TRUE</boolean>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="1156">
+      <string name="title">Άνοιγμα πρόσφατου</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">RSub</ostype>
+      <object name="submenu" class="IBCarbonMenu" id="1157">
+        <string name="title">Άνοιγμα πρόσφατου</string>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="920">
+      <string name="title">Πρόγραμμα προβολής</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">WSHV</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1162">
+      <string name="title">Κεφάλαια</string>
+      <string name="keyEquivalent">b</string>
+      <boolean name="includeInCmdKeyMatching">TRUE</boolean>
+      <ostype name="command">SChP</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1146">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="912">
+      <string name="title">Επικόλληση</string>
+      <string name="keyEquivalent">v</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">past</ostype>
+    </object>
+    <object class="IBCarbonMenu" id="964">
+      <string name="title">Ταχύτητα σάρωσης</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <array count="5" name="items">
+        <reference idRef="966"/>
+        <object class="IBCarbonMenuItem" id="972">
+          <string name="title">  Ταχύτητα x4</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">SR04</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="891">
+          <string name="title">  Ταχύτητα x8</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">SR08</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="918">
+          <string name="title">Ταχύτητα x16</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">SR16</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="976">
+          <string name="title">Ταχύτητα x32</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">SR32</ostype>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="936">
+      <string name="title">Προσαρμογή στην οθόνη</string>
+      <string name="keyEquivalent">3</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">VMax</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="908">
+      <string name="title">Ταχύτητα σάρωσης</string>
+      <reference name="submenu" idRef="964"/>
+    </object>
+    <object class="IBCarbonMenu" id="1179">
+      <string name="title">Υπότιτλοι</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="961">
+      <string name="title">Σίγαση</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">CMut</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1006">
+      <string name="title">Κεφάλαιο</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">CSub</ostype>
+      <object name="submenu" class="IBCarbonMenu" id="1007">
+        <string name="title">Κεφάλαιο</string>
+        <boolean name="autoDisable">TRUE</boolean>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="911">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="924">
+      <string name="title">Ελαχιστοποίηση όλων</string>
+      <string name="keyEquivalent">m</string>
+      <boolean name="dynamic">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">mina</ostype>
+    </object>
+    <object class="IBCarbonMenu" id="886">
+      <string name="title">Χειριστήρια</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <array count="21" name="items">
+        <object class="IBCarbonMenuItem" id="889">
+          <string name="title">Αναπαραγωγή </string>
+          <string name="keyEquivalent"> </string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">CTgP</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="890">
+          <string name="title">Διακοπή</string>
+          <string name="keyEquivalent">.</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CStp</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1194">
+          <string name="title">Αργή κίνηση</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">PlSM</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="969">
+          <string name="title">Σάρωση προς τα εμπρός</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CFFw</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="948">
+          <string name="title">Σάρωση προς τα πίσω</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CRew</ostype>
+        </object>
+        <reference idRef="908"/>
+        <object class="IBCarbonMenuItem" id="1188">
+          <string name="title">Ταχύτητα αργής κίνησης</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <reference name="submenu" idRef="1189"/>
+        </object>
+        <object class="IBCarbonMenuItem" id="1071">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="959">
+          <string name="title">Αύξηση έντασης ήχου</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CVUp</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="973">
+          <string name="title">Μείωση έντασης ήχου</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CVDn</ostype>
+        </object>
+        <reference idRef="961"/>
+        <reference idRef="975"/>
+        <object class="IBCarbonMenuItem" id="1076">
+          <string name="title">Χρονοδιακόπτης</string>
+          <object name="submenu" class="IBCarbonMenu" id="1074">
+            <string name="title">Χρονοδιακόπτης</string>
+            <boolean name="autoDisable">TRUE</boolean>
+            <array count="5" name="items">
+              <reference idRef="1077"/>
+              <object class="IBCarbonMenuItem" id="1075">
+                <string name="title">Εμφάνιση χρονοδιακόπτη</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <int name="keyEquivalentModifier">0</int>
+                <ostype name="command">TmrD</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="1081">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="autoDisable">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1080">
+                <string name="title">Παύση χρονοδιακόπτη</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <ostype name="command">TmrP</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="1078">
+                <string name="title">Ακύρωση χρονοδιακόπτη</string>
+                <string name="keyEquivalent">.</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <int name="keyEquivalentModifier">1572864</int>
+                <ostype name="command">TmrC</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <reference idRef="911"/>
+        <object class="IBCarbonMenuItem" id="1136">
+          <string name="title">Νέος σελιδοδείκτης…</string>
+          <string name="keyEquivalent">=</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">ABkm</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1165">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1164">
+          <string name="title">Χρήση τρέχοντος καρέ ως φωτογραφίας θήκης</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">CFJP</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1117">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="904">
+          <string name="title">Άνοιγμα συρταριού χειριστηρίων</string>
+          <string name="keyEquivalent">]</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">TDrw</ostype>
+        </object>
+        <reference idRef="1016"/>
+        <reference idRef="933"/>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="1144">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="968">
+      <string name="title">Μεταφορά όλων σε πρώτο πλάνο</string>
+      <boolean name="dynamic">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">bfrt</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="902">
+      <string name="title">Πραγματικό μέγεθος</string>
+      <string name="keyEquivalent">1</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <ostype name="command">VNrm</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="1023">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="autoDisable">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenu" id="903">
+      <string name="name">_NSWindowsMenu</string>
+      <string name="title">Παράθυρο</string>
+      <array count="17" name="items">
+        <object class="IBCarbonMenuItem" id="1149">
+          <string name="title">Κλείσιμο</string>
+          <string name="keyEquivalent">w</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">ClsW</ostype>
+        </object>
+        <reference idRef="927"/>
+        <reference idRef="924"/>
+        <object class="IBCarbonMenuItem" id="1064">
+          <string name="title">Ζουμ</string>
+          <boolean name="dynamic">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">zoom</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="949">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="979">
+          <string name="title">Εμφάνιση χειριστηρίων</string>
+          <string name="keyEquivalent">c</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">1572864</int>
+          <ostype name="command">WSHC</ostype>
+        </object>
+        <reference idRef="1144"/>
+        <reference idRef="920"/>
+        <object class="IBCarbonMenuItem" id="1141">
+          <string name="title">Σελιδοδείκτες</string>
+          <string name="keyEquivalent">b</string>
+          <boolean name="includeInCmdKeyMatching">TRUE</boolean>
+          <ostype name="command">SBkP</ostype>
+        </object>
+        <reference idRef="1162"/>
+        <reference idRef="1146"/>
+        <object class="IBCarbonMenuItem" id="1145">
+          <string name="title">Ζουμ βίντεο</string>
+          <string name="keyEquivalent">k</string>
+          <boolean name="includeInCmdKeyMatching">TRUE</boolean>
+          <ostype name="command">SZmP</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1147">
+          <string name="title">Χρώμα βίντεο</string>
+          <string name="keyEquivalent">k</string>
+          <boolean name="includeInCmdKeyMatching">TRUE</boolean>
+          <ostype name="command">SClP</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1148">
+          <string name="title">Ισοσταθμιστής ήχου</string>
+          <string name="keyEquivalent">k</string>
+          <boolean name="includeInCmdKeyMatching">TRUE</boolean>
+          <ostype name="command">SEQP</ostype>
+        </object>
+        <reference idRef="1143"/>
+        <reference idRef="968"/>
+        <object class="IBCarbonMenuItem" id="901">
+          <string name="title">Τακτοποίηση μπροστά</string>
+          <boolean name="dynamic">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">1572864</int>
+          <ostype name="command">frnt</ostype>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenu" id="944">
+      <string name="title">Αρχείο</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <array count="5" name="items">
+        <object class="IBCarbonMenuItem" id="984">
+          <string name="title">Άνοιγμα μέσου DVD…</string>
+          <string name="keyEquivalent">o</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">open</ostype>
+        </object>
+        <reference idRef="1156"/>
+        <object class="IBCarbonMenuItem" id="956">
+          <string name="title">Κλείσιμο αρχείου μέσου</string>
+          <string name="keyEquivalent">W</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">1179648</int>
+          <ostype name="command">FCls</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="970">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1135">
+          <string name="title">Λήψη πληροφοριών δίσκου</string>
+          <string name="keyEquivalent">i</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">DInf</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="973"/>
+    <object class="IBCarbonMenu" id="1173">
+      <string name="title">Ήχος</string>
+    </object>
+    <reference idRef="1165"/>
+    <reference idRef="1135"/>
+    <object class="IBCarbonMenu" id="998">
+      <string name="title">Μετάβαση</string>
+      <array count="15" name="items">
+        <object class="IBCarbonMenuItem" id="1000">
+          <string name="title">Μενού DVD</string>
+          <string name="keyEquivalent">d</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">CDMn</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1027">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1024">
+          <string name="title">Αρχή δίσκου</string>
+          <string name="keyEquivalent">D</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">1179648</int>
+          <ostype name="command">DBeg</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1025">
+          <string name="title">Σημείο τελευταίας αναπαραγωγής</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">1179648</int>
+          <ostype name="command">LstP</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1026">
+          <string name="title">Προεπιλεγμένος σελιδοδείκτης</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">1179648</int>
+          <ostype name="command">DefB</ostype>
+        </object>
+        <reference idRef="1023"/>
+        <reference idRef="1001"/>
+        <reference idRef="1006"/>
+        <object class="IBCarbonMenuItem" id="1012">
+          <string name="title">Σελιδοδείκτες</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">BSub</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="1013">
+            <string name="title">Σελιδοδείκτες</string>
+            <boolean name="autoDisable">TRUE</boolean>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="1005">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1004">
+          <string name="title">Προηγούμενο κεφάλαιο</string>
+          <string name="keyEquivalent"></string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">CPrv</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1003">
+          <string name="title">Επόμενο κεφάλαιο</string>
+          <string name="keyEquivalent"></string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">CNxt</ostype>
+        </object>
+        <reference idRef="1197"/>
+        <object class="IBCarbonMenuItem" id="1196">
+          <string name="title">Μετάβαση προς τα πίσω κατά x δευτερόλεπτα</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">262144</int>
+          <ostype name="command">SkpB</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1198">
+          <string name="title">Μετάβαση προς τα μπροστά κατά 5 δευτερόλεπτα</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">262144</int>
+          <ostype name="command">SkpA</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="901"/>
+    <reference idRef="918"/>
+    <reference idRef="984"/>
+    <object class="IBCarbonMenuItem" id="925">
+      <string name="title">Αρχείο</string>
+      <reference name="submenu" idRef="944"/>
+    </object>
+    <reference idRef="1003"/>
+    <reference idRef="1145"/>
+    <object class="IBCarbonMenu" id="947">
+      <string name="title">Προβολή</string>
+      <boolean name="autoDisable">TRUE</boolean>
+      <array count="11" name="items">
+        <object class="IBCarbonMenuItem" id="921">
+          <string name="title">Μισό μέγεθος</string>
+          <string name="keyEquivalent">0</string>
+          <boolean name="autoDisable">TRUE</boolean>
+          <ostype name="command">VHlf</ostype>
+        </object>
+        <reference idRef="902"/>
+        <reference idRef="1187"/>
+        <reference idRef="936"/>
+        <object class="IBCarbonMenuItem" id="951">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+        </object>
+        <reference idRef="965"/>
+        <object class="IBCarbonMenuItem" id="1226">
+          <string name="title">Είσοδος σε πλήρη οθόνη</string>
+          <string name="keyEquivalent">f</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="autoDisable">TRUE</boolean>
+          <boolean name="includeInCmdKeyMatching">TRUE</boolean>
+          <ostype name="command">VPrs</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1154">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1155">
+          <string name="title">Απόπλεξη</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">VDlc</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="1216">
+          <string name="title">Απόπλεξη</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">DlcS</ostype>
+          <object name="submenu" class="IBCarbonMenu" id="1217">
+            <string name="title">Απόπλεξη</string>
+            <array count="5" name="items">
+              <object class="IBCarbonMenuItem" id="1218">
+                <string name="title">Ενεργοποίηση απόπλεξης</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">EDlc</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="1219">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1222">
+                <string name="title">Βέλτιστη ποιότητα</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">OpDQ</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="1221">
+                <string name="title">Καλή ποιότητα</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">GdDQ</ostype>
+              </object>
+              <reference idRef="1220"/>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="1211">
+          <string name="title">Πρόγραμμα προβολής σε πρώτο πλάνο</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">VAOA</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="1170"/>
+    <reference idRef="970"/>
+    <reference idRef="1000"/>
+    <reference idRef="959"/>
+    <object class="IBCarbonMenu" id="954">
+      <string name="name">_NSMainMenu</string>
+      <string name="title">DVD Player</string>
+      <array count="8" name="items">
+        <reference idRef="893"/>
+        <reference idRef="925"/>
+        <object class="IBCarbonMenuItem" id="953">
+          <string name="title">Επεξεργασία</string>
+          <object name="submenu" class="IBCarbonMenu" id="923">
+            <string name="title">Επεξεργασία</string>
+            <boolean name="autoDisable">TRUE</boolean>
+            <array count="8" name="items">
+              <reference idRef="900"/>
+              <object class="IBCarbonMenuItem" id="971">
+                <string name="title">Επανάληψη</string>
+                <string name="keyEquivalent">Z</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <ostype name="command">redo</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="977">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="autoDisable">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="974">
+                <string name="title">Αποκοπή</string>
+                <string name="keyEquivalent">x</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <ostype name="command">cut </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="962">
+                <string name="title">Αντιγραφή</string>
+                <string name="keyEquivalent">c</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <ostype name="command">copy</ostype>
+              </object>
+              <reference idRef="912"/>
+              <object class="IBCarbonMenuItem" id="888">
+                <string name="title">Εκκαθάριση</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <ostype name="command">clea</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="945">
+                <string name="title">Επιλογή όλων</string>
+                <string name="keyEquivalent">a</string>
+                <boolean name="autoDisable">TRUE</boolean>
+                <ostype name="command">sall</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="913">
+          <string name="title">Χειριστήρια</string>
+          <reference name="submenu" idRef="886"/>
+        </object>
+        <object class="IBCarbonMenuItem" id="1166">
+          <string name="title">Δυνατότητες</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <object name="submenu" class="IBCarbonMenu" id="1167">
+            <string name="title">Δυνατότητες</string>
+            <array count="7" name="items">
+              <reference idRef="1169"/>
+              <object class="IBCarbonMenuItem" id="1172">
+                <string name="title">Ήχος</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">AuSb</ostype>
+                <reference name="submenu" idRef="1173"/>
+              </object>
+              <object class="IBCarbonMenuItem" id="1178">
+                <string name="title">Υπότιτλοι</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">SbSb</ostype>
+                <reference name="submenu" idRef="1179"/>
+              </object>
+              <object class="IBCarbonMenuItem" id="1186">
+                <string name="title">Ενεργοποίηση</string>
+                <string name="keyEquivalent">t</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <int name="keyEquivalentModifier">1572864</int>
+                <ostype name="command">TgCC</ostype>
+              </object>
+              <reference idRef="1199"/>
+              <reference idRef="1215"/>
+              <object class="IBCarbonMenuItem" id="1214">
+                <string name="title">Κατάργηση εξουσιοδότησης μέσου</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">DAth</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="997">
+          <string name="title">Μετάβαση</string>
+          <reference name="submenu" idRef="998"/>
+        </object>
+        <object class="IBCarbonMenuItem" id="922">
+          <string name="title">Προβολή</string>
+          <reference name="submenu" idRef="947"/>
+        </object>
+        <object class="IBCarbonMenuItem" id="986">
+          <string name="title">Παράθυρο</string>
+          <reference name="submenu" idRef="903"/>
+        </object>
+      </array>
+    </object>
+    <reference idRef="1002"/>
+    <reference idRef="1012"/>
+    <reference idRef="940"/>
+    <reference idRef="969"/>
+    <reference idRef="1071"/>
+    <reference idRef="904"/>
+    <reference idRef="1218"/>
+    <reference idRef="1078"/>
+    <reference idRef="1024"/>
+    <reference idRef="976"/>
+    <reference idRef="922"/>
+    <reference idRef="1221"/>
+    <reference idRef="1226"/>
+    <reference idRef="1026"/>
+    <reference idRef="979"/>
+    <reference idRef="1147"/>
+    <reference idRef="949"/>
+    <reference idRef="974"/>
+    <reference idRef="1188"/>
+    <reference idRef="997"/>
+    <reference idRef="1075"/>
+    <reference idRef="1007"/>
+    <reference idRef="1157"/>
+    <reference idRef="1004"/>
+    <reference idRef="1166"/>
+    <reference idRef="986"/>
+    <reference idRef="1219"/>
+    <reference idRef="1211"/>
+    <reference idRef="889"/>
+    <reference idRef="1191"/>
+    <reference idRef="890"/>
+    <reference idRef="1167"/>
+    <reference idRef="1193"/>
+    <reference idRef="953"/>
+    <reference idRef="948"/>
+    <reference idRef="1141"/>
+    <reference idRef="1164"/>
+    <reference idRef="1148"/>
+    <reference idRef="888"/>
+    <reference idRef="1217"/>
+    <reference idRef="899"/>
+    <reference idRef="1117"/>
+    <reference idRef="1186"/>
+    <reference idRef="1172"/>
+    <reference idRef="951"/>
+    <reference idRef="1216"/>
+    <reference idRef="1194"/>
+    <reference idRef="956"/>
+    <reference idRef="977"/>
+    <reference idRef="1064"/>
+    <reference idRef="1214"/>
+    <reference idRef="1013"/>
+    <reference idRef="1178"/>
+    <reference idRef="1154"/>
+    <reference idRef="1155"/>
+    <reference idRef="1149"/>
+    <reference idRef="891"/>
+    <reference idRef="1198"/>
+    <reference idRef="971"/>
+    <reference idRef="945"/>
+    <reference idRef="921"/>
+    <reference idRef="919"/>
+    <reference idRef="1080"/>
+    <reference idRef="1136"/>
+    <reference idRef="1025"/>
+    <reference idRef="1196"/>
+    <reference idRef="1005"/>
+    <reference idRef="1074"/>
+    <reference idRef="1076"/>
+    <reference idRef="913"/>
+    <reference idRef="923"/>
+    <reference idRef="1222"/>
+    <reference idRef="972"/>
+    <reference idRef="1081"/>
+    <reference idRef="962"/>
+    <reference idRef="1027"/>
+  </array>
+  <array count="132" name="allParents">
+    <reference idRef="998"/>
+    <reference idRef="1167"/>
+    <reference idRef="947"/>
+    <reference idRef="1167"/>
+    <reference idRef="886"/>
+    <reference idRef="903"/>
+    <reference idRef="1167"/>
+    <reference idRef="1074"/>
+    <reference idRef="886"/>
+    <reference idRef="903"/>
+    <reference idRef="1217"/>
+    <reference idRef="923"/>
+    <reference idRef="964"/>
+    <reference idRef="954"/>
+    <reference idRef="947"/>
+    <reference idRef="1188"/>
+    <reference idRef="886"/>
+    <reference idRef="1189"/>
+    <reference idRef="998"/>
+    <reference idRef="944"/>
+    <reference idRef="903"/>
+    <reference idRef="903"/>
+    <reference idRef="903"/>
+    <reference idRef="923"/>
+    <reference idRef="908"/>
+    <reference idRef="947"/>
+    <reference idRef="886"/>
+    <reference idRef="1178"/>
+    <reference idRef="886"/>
+    <reference idRef="998"/>
+    <reference idRef="886"/>
+    <reference idRef="903"/>
+    <reference idRef="913"/>
+    <reference idRef="903"/>
+    <reference idRef="903"/>
+    <reference idRef="947"/>
+    <reference idRef="998"/>
+    <reference idRef="986"/>
+    <reference idRef="925"/>
+    <reference idRef="886"/>
+    <reference idRef="1172"/>
+    <reference idRef="886"/>
+    <reference idRef="944"/>
+    <reference idRef="997"/>
+    <reference idRef="903"/>
+    <reference idRef="964"/>
+    <reference idRef="944"/>
+    <reference idRef="954"/>
+    <reference idRef="998"/>
+    <reference idRef="903"/>
+    <reference idRef="922"/>
+    <reference idRef="1169"/>
+    <reference idRef="944"/>
+    <reference idRef="998"/>
+    <reference idRef="886"/>
+    <reference idRef="1"/>
+    <reference idRef="1001"/>
+    <reference idRef="998"/>
+    <reference idRef="919"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="886"/>
+    <reference idRef="1217"/>
+    <reference idRef="1074"/>
+    <reference idRef="998"/>
+    <reference idRef="964"/>
+    <reference idRef="954"/>
+    <reference idRef="1217"/>
+    <reference idRef="947"/>
+    <reference idRef="998"/>
+    <reference idRef="903"/>
+    <reference idRef="903"/>
+    <reference idRef="903"/>
+    <reference idRef="923"/>
+    <reference idRef="886"/>
+    <reference idRef="954"/>
+    <reference idRef="1074"/>
+    <reference idRef="1006"/>
+    <reference idRef="1156"/>
+    <reference idRef="998"/>
+    <reference idRef="954"/>
+    <reference idRef="954"/>
+    <reference idRef="1217"/>
+    <reference idRef="947"/>
+    <reference idRef="886"/>
+    <reference idRef="1189"/>
+    <reference idRef="886"/>
+    <reference idRef="1166"/>
+    <reference idRef="1189"/>
+    <reference idRef="954"/>
+    <reference idRef="886"/>
+    <reference idRef="903"/>
+    <reference idRef="886"/>
+    <reference idRef="903"/>
+    <reference idRef="923"/>
+    <reference idRef="1216"/>
+    <reference idRef="919"/>
+    <reference idRef="886"/>
+    <reference idRef="1167"/>
+    <reference idRef="1167"/>
+    <reference idRef="947"/>
+    <reference idRef="947"/>
+    <reference idRef="886"/>
+    <reference idRef="944"/>
+    <reference idRef="923"/>
+    <reference idRef="903"/>
+    <reference idRef="1167"/>
+    <reference idRef="1012"/>
+    <reference idRef="1167"/>
+    <reference idRef="947"/>
+    <reference idRef="947"/>
+    <reference idRef="903"/>
+    <reference idRef="964"/>
+    <reference idRef="998"/>
+    <reference idRef="923"/>
+    <reference idRef="923"/>
+    <reference idRef="947"/>
+    <reference idRef="893"/>
+    <reference idRef="1074"/>
+    <reference idRef="886"/>
+    <reference idRef="998"/>
+    <reference idRef="998"/>
+    <reference idRef="998"/>
+    <reference idRef="1076"/>
+    <reference idRef="886"/>
+    <reference idRef="954"/>
+    <reference idRef="953"/>
+    <reference idRef="1217"/>
+    <reference idRef="964"/>
+    <reference idRef="1074"/>
+    <reference idRef="923"/>
+    <reference idRef="998"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>MenuBar</string>
+    <reference idRef="954"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1227</unsigned_int>
+</object>

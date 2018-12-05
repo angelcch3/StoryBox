@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Equalizer</key>
+	<dict>
+		<key>Presets</key>
+		<array>
+			<dict>
+				<key>Band Hz Vals</key>
+				<array>
+					<integer>3</integer>
+					<integer>5</integer>
+					<integer>6</integer>
+					<integer>4</integer>
+					<integer>0</integer>
+					<integer>3</integer>
+					<integer>4</integer>
+					<integer>4</integer>
+					<integer>2</integer>
+					<integer>1</integer>
+				</array>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>1536425680</integer>
+				<key>Max Hz</key>
+				<integer>20000</integer>
+				<key>Min Hz</key>
+				<integer>20</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Zesílení basů a hlasu</string>
+				<!-- Localize end -->
+				<key>Num Bands</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>Band Hz Vals</key>
+				<array>
+					<integer>8</integer>
+					<integer>7</integer>
+					<integer>6</integer>
+					<integer>5</integer>
+					<integer>3</integer>
+					<integer>0</integer>
+					<integer>0</integer>
+					<integer>0</integer>
+					<integer>0</integer>
+					<integer>0</integer>
+				</array>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>799177677</integer>
+				<key>Max Hz</key>
+				<integer>20000</integer>
+				<key>Min Hz</key>
+				<integer>20</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Zesílení basů</string>
+				<!-- Localize end -->
+				<key>Num Bands</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>Band Hz Vals</key>
+				<array>
+					<integer>2</integer>
+					<integer>-2</integer>
+					<integer>-2</integer>
+					<integer>1</integer>
+					<integer>3</integer>
+					<integer>3</integer>
+					<integer>2</integer>
+					<integer>1</integer>
+					<integer>0</integer>
+					<integer>-2</integer>
+				</array>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>551470208</integer>
+				<key>Max Hz</key>
+				<integer>20000</integer>
+				<key>Min Hz</key>
+				<integer>20</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Zesílení hlasu</string>
+				<!-- Localize end -->
+				<key>Num Bands</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>Band Hz Vals</key>
+				<array>
+					<integer>6</integer>
+					<integer>5</integer>
+					<integer>4</integer>
+					<integer>3</integer>
+					<integer>1</integer>
+					<integer>0</integer>
+					<integer>-2</integer>
+					<integer>-3</integer>
+					<integer>-5</integer>
+					<integer>-7</integer>
+				</array>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>1380424938</integer>
+				<key>Max Hz</key>
+				<integer>20000</integer>
+				<key>Min Hz</key>
+				<integer>20</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Malé reproduktory</string>
+				<!-- Localize end -->
+				<key>Num Bands</key>
+				<integer>10</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Video Color</key>
+	<dict>
+		<key>Presets</key>
+		<array>
+			<dict>
+				<key>Brightness</key>
+				<real>0.032000001519918442</real>
+				<key>Built In</key>
+				<true/>
+				<key>Color</key>
+				<real>1.0640000104904175</real>
+				<key>Contrast</key>
+				<real>1.0720000267028809</real>
+				<key>Deinterlacing</key>
+				<true/>
+				<key>ID</key>
+				<integer>7910175251</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Jasnější</string>
+				<!-- Localize end -->
+				<key>Tint</key>
+				<real>0.054000001400709152</real>
+			</dict>
+			<dict>
+				<key>Brightness</key>
+				<real>-0.013000000268220901</real>
+				<key>Built In</key>
+				<true/>
+				<key>Color</key>
+				<real>1.034000039100647</real>
+				<key>Contrast</key>
+				<real>1.0069999694824219</real>
+				<key>Deinterlacing</key>
+				<true/>
+				<key>ID</key>
+				<integer>7467381294</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Tmavší</string>
+				<!-- Localize end -->
+				<key>Tint</key>
+				<real>-0.0080000003799796104</real>
+			</dict>
+			<dict>
+				<key>Brightness</key>
+				<real>0.032000001519918442</real>
+				<key>Built In</key>
+				<true/>
+				<key>Color</key>
+				<real>1.3530000448226929</real>
+				<key>Contrast</key>
+				<real>1.0820000171661377</real>
+				<key>Deinterlacing</key>
+				<true/>
+				<key>ID</key>
+				<integer>8087491934</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Bohatší</string>
+				<!-- Localize end -->
+				<key>Tint</key>
+				<real>0.023000000044703484</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Video Zoom</key>
+	<dict>
+		<key>Presets</key>
+		<array>
+			<dict>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>3510238368</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Standardní monitor - širokoúhlý film</string>
+				<!-- Localize end -->
+				<key>Preserve Aspect Ratio</key>
+				<true/>
+				<key>Zoom Sides</key>
+				<dict>
+					<key>bottom</key>
+					<real>0.78200000524520874</real>
+					<key>left</key>
+					<real>0.21799999475479126</real>
+					<key>right</key>
+					<real>0.78200000524520874</real>
+					<key>top</key>
+					<real>0.21799999475479126</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>1935646238</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Širokoúhlý monitor - film na celé obrazovce</string>
+				<!-- Localize end -->
+				<key>Preserve Aspect Ratio</key>
+				<true/>
+				<key>Zoom Sides</key>
+				<dict>
+					<key>bottom</key>
+					<real>0.91100001335144043</real>
+					<key>left</key>
+					<real>0.089000001549720764</real>
+					<key>right</key>
+					<real>0.91100001335144043</real>
+					<key>top</key>
+					<real>0.089000001549720764</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>Built In</key>
+				<true/>
+				<key>ID</key>
+				<integer>2169132553</integer>
+				<!-- Localize begin -->
+				<key>Name</key>
+				<string>Širokoúhlý monitor - širokoúhlý film</string>
+				<!-- Localize end -->
+				<key>Preserve Aspect Ratio</key>
+				<true/>
+				<key>Zoom Sides</key>
+				<dict>
+					<key>bottom</key>
+					<real>0.83499997854232788</real>
+					<key>left</key>
+					<real>0.16500000655651093</real>
+					<key>right</key>
+					<real>0.83499997854232788</real>
+					<key>top</key>
+					<real>0.16500000655651093</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

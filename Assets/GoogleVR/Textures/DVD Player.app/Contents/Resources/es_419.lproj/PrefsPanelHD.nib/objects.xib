@@ -1,0 +1,134 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="948">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">6105</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Tamaño de video real</string>
+        </array>
+        <array count="1">
+          <string>720 líneas</string>
+        </array>
+        <array count="1">
+          <string>1080 líneas</string>
+        </array>
+      </array>
+      <string name="viewFrame">244 144 202 61 </string>
+      <string name="bounds">144 244 205 446 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="887">
+      <string name="viewFrame">0 0 680 244 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonHIView" id="942">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6000</int>
+          <string name="classID">com.apple.DVDPlayer.HdPn</string>
+          <string name="viewFrame">0 0 680 244 </string>
+          <array count="7" name="subviews">
+            <object class="IBCarbonStaticText" id="944">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6100</int>
+              <string name="title">Tamaño por omisión de video</string>
+              <int name="justification">-2</int>
+              <string name="viewFrame">63 29 200 16 </string>
+              <string name="bounds">29 63 45 263 </string>
+            </object>
+            <object class="IBCarbonSeparator" id="943">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6101</int>
+              <string name="viewFrame">258 41 352 1 </string>
+              <string name="bounds">41 258 42 610 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="945">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6102</int>
+              <string name="title">Para definición estándar:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">63 73 175 16 </string>
+              <string name="bounds">73 63 89 238 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="947">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6103</int>
+              <array count="2" name="radioTitles">
+                <array count="1">
+                  <string>Tamaño de video real</string>
+                </array>
+                <array count="1">
+                  <string>Tamaño por omisión de disco</string>
+                </array>
+              </array>
+              <string name="viewFrame">244 72 213 42 </string>
+              <string name="bounds">72 244 114 457 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="946">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6104</int>
+              <string name="title">Para alta definición:</string>
+              <int name="justification">-1</int>
+              <string name="viewFrame">63 145 175 16 </string>
+              <string name="bounds">145 63 161 238 </string>
+            </object>
+            <reference idRef="948"/>
+            <object class="IBCarbonRoundButton" id="954">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6200</int>
+              <ostype name="command">HDHp</ostype>
+              <string name="viewFrame">637 203 25 25 </string>
+              <string name="bounds">203 637 228 662 </string>
+              <int name="contentType">132</int>
+              <int name="iconCreator">1835098995</int>
+              <int name="iconType">1751477360</int>
+            </object>
+          </array>
+          <string name="bounds">0 0 244 680 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 244 680 </string>
+    </object>
+    <reference idRef="945"/>
+    <reference idRef="942"/>
+    <reference idRef="947"/>
+    <reference idRef="946"/>
+    <reference idRef="954"/>
+    <reference idRef="943"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Ventana</string>
+      <reference name="rootControl" idRef="887"/>
+      <string name="windowRect">591 290 835 970 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="944"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="942"/>
+    <reference idRef="886"/>
+    <reference idRef="942"/>
+    <reference idRef="887"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="942"/>
+    <reference idRef="1"/>
+    <reference idRef="942"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelHD</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">964</unsigned_int>
+</object>

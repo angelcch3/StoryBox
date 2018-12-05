@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<!-- Localize begin -->
+		<key>Alternate Window Title</key>
+		<string>Visor</string>
+		<!-- Localize end -->
+		<key>Save Position</key>
+		<true/>
+		<key>Allow in Window Menu</key>
+		<false/>
+		<key>Refresh On Activate Change</key>
+		<true/>
+		<key>Window Resize Limits</key>
+		<dict>
+			<key>left</key>
+			<integer>-1</integer>
+			<key>top</key>
+			<integer>175</integer>
+			<key>right</key>
+			<integer>-1</integer>
+			<key>bottom</key>
+			<integer>-1</integer>
+		</dict>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>Video View</string>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>visor del DVD</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Visor del DVD</string>
+		<!-- Localize end -->
+		<key>Track Mouse Visiting</key>
+		<true/>
+		<key>Back Color</key>
+		<dict>
+			<key>blue</key>
+			<real>0.0</real>
+			<key>green</key>
+			<real>0.0</real>
+			<key>red</key>
+			<real>0.0</real>
+			<key>alpha</key>
+			<real>1.0</real>
+		</dict>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>Jacket Picture View</string>
+		<key>Delay Ticks</key>
+		<integer>180</integer>
+		<key>Fade Length Ticks</key>
+		<integer>60</integer>
+		<key>Frames Per Second</key>
+		<integer>30</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Preserve Aspect Ratio</key>
+		<true/>
+		<key>Center X</key>
+		<true/>
+		<key>Center Y</key>
+		<true/>
+		<key>Left Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Top Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>imagen de la portada</string>
+		<!-- Localize end -->
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Logo View</string>
+		<key>File</key>
+		<string>Logo.tiff</string>
+		<key>Sub Dir</key>
+		<string>LocalizedArt</string>
+		<key>Delay Ticks</key>
+		<integer>180</integer>
+		<key>Fade Length Ticks</key>
+		<integer>60</integer>
+		<key>Frames Per Second</key>
+		<integer>30</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>logotipo de Reproductor de DVD</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Logotipo de Reproductor de DVD</string>
+		<!-- Localize end -->
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>Comment</key>
+		<string>Grow Box</string>
+		<key>Track Mouse Visiting</key>
+		<true/>
+		<key>Right Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bottom Binding Info</key>
+		<dict>
+			<key>Offset</key>
+			<integer>-1</integer>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>20</key>
+	<dict>
+		<key>Comment</key>
+		<string>Time Slider Group View</string>
+		<key>Track Mouse Visiting</key>
+		<true/>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>21</key>
+	<dict>
+		<key>Comment</key>
+		<string>Time Slider</string>
+		<key>Horizontal Slider</key>
+		<true/>
+		<key>Tracking Inset</key>
+		<integer>6</integer>
+		<key>Scale Track Image</key>
+		<true/>
+		<key>Knob Off File</key>
+		<string>Vwr-TimeSlider_knob.tiff</string>
+		<key>Track Begin File</key>
+		<string>Vwr-TimeSlider_trackBegin.tiff</string>
+		<key>Track Center File</key>
+		<string>Vwr-TimeSlider_trackCenter.tiff</string>
+		<key>Track End File</key>
+		<string>Vwr-TimeSlider_trackEnd.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Regulador de duración</string>
+		<!-- Localize end -->
+		<key>Clip Range Color</key>
+		<dict>
+			<key>blue</key>
+			<real>0.0</real>
+			<key>green</key>
+			<real>0.0</real>
+			<key>red</key>
+			<real>0.0</real>
+			<key>alpha</key>
+			<real>0.25</real>
+		</dict>
+	</dict>
+	<key>22</key>
+	<dict>
+		<key>Comment</key>
+		<string>Elapsed Time</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-1</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>23</key>
+	<dict>
+		<key>Comment</key>
+		<string>Remaining Time</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>-2</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

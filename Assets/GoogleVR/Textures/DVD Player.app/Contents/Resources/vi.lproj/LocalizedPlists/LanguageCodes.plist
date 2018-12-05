@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Sử dụng Mặc định của Đĩa</string>
+	<key>00  </key>
+	<string>Không xác định</string>
+	<key>aa  </key>
+	<string>Tiếng Afar</string>
+	<key>ab  </key>
+	<string>Tiếng Abkhazia</string>
+	<key>ae  </key>
+	<string>Tiếng Avestan</string>
+	<key>af  </key>
+	<string>Tiếng Afrikaan</string>
+	<key>am  </key>
+	<string>Tiếng Amharic</string>
+	<key>ar  </key>
+	<string>Tiếng Ả Rập</string>
+	<key>as  </key>
+	<string>Tiếng Assam</string>
+	<key>ay  </key>
+	<string>Tiếng Aymara</string>
+	<key>az  </key>
+	<string>Tiếng Azerbaijan</string>
+	<key>ba  </key>
+	<string>Tiếng Bashkir</string>
+	<key>be  </key>
+	<string>Tiếng Byelorussia</string>
+	<key>bg  </key>
+	<string>Tiếng Bulgaria</string>
+	<key>bh  </key>
+	<string>Tiếng Bihari</string>
+	<key>bi  </key>
+	<string>Tiếng Bislama</string>
+	<key>bn  </key>
+	<string>Tiếng Bengali</string>
+	<key>bo  </key>
+	<string>Tiếng Tây Tạng</string>
+	<key>br  </key>
+	<string>Tiếng Breton</string>
+	<key>bs  </key>
+	<string>Tiếng Bosnia</string>
+	<key>ca  </key>
+	<string>Tiếng Catalan</string>
+	<key>ce  </key>
+	<string>Tiếng Chechen</string>
+	<key>ch  </key>
+	<string>Tiếng Chamorro</string>
+	<key>co  </key>
+	<string>Tiếng Corsica</string>
+	<key>cs  </key>
+	<string>Tiếng Séc</string>
+	<key>cu  </key>
+	<string>Tiếng Slavơ Nhà thờ</string>
+	<key>cv  </key>
+	<string>Tiếng Chuvash</string>
+	<key>cy  </key>
+	<string>Tiếng Wales</string>
+	<key>da  </key>
+	<string>Tiếng Đan Mạch</string>
+	<key>de  </key>
+	<string>Tiếng Đức</string>
+	<key>dz  </key>
+	<string>Tiếng Bhutan</string>
+	<key>el  </key>
+	<string>Tiếng Hy Lạp</string>
+	<key>en  </key>
+	<string>Tiếng Anh</string>
+	<key>eo  </key>
+	<string>Quốc tế ngữ</string>
+	<key>es  </key>
+	<string>Tiếng Tây Ban Nha</string>
+	<key>et  </key>
+	<string>Tiếng Estonia</string>
+	<key>eu  </key>
+	<string>Tiếng Basque</string>
+	<key>fa  </key>
+	<string>Tiếng Ba Tư</string>
+	<key>fi  </key>
+	<string>Tiếng Phần Lan</string>
+	<key>fj  </key>
+	<string>Tiếng Fiji</string>
+	<key>fo  </key>
+	<string>Tiếng Faroe</string>
+	<key>fr  </key>
+	<string>Tiếng Pháp</string>
+	<key>fy  </key>
+	<string>Tiếng Frisia</string>
+	<key>ga  </key>
+	<string>Tiếng Ireland</string>
+	<key>gd  </key>
+	<string>Tiếng Gaelic Scotland</string>
+	<key>gl  </key>
+	<string>Tiếng Galicia</string>
+	<key>gn  </key>
+	<string>Tiếng Guarani</string>
+	<key>gu  </key>
+	<string>Tiếng Gujarati</string>
+	<key>gv  </key>
+	<string>Tiếng Manx</string>
+	<key>ha  </key>
+	<string>Tiếng Hausa</string>
+	<key>hi  </key>
+	<string>Tiếng Hindi</string>
+	<key>ho  </key>
+	<string>Tiếng Hiri Motu</string>
+	<key>hr  </key>
+	<string>Tiếng Croatia</string>
+	<key>hu  </key>
+	<string>Tiếng Hungaria</string>
+	<key>hy  </key>
+	<string>Tiếng Armenia</string>
+	<key>hz  </key>
+	<string>Tiếng Herero</string>
+	<key>ia  </key>
+	<string>Interlingua</string>
+	<key>ie  </key>
+	<string>Interlingue</string>
+	<key>ik  </key>
+	<string>Tiếng Inupiaq</string>
+	<key>in  </key>
+	<string>Tiếng Indonesia</string>
+	<key>is  </key>
+	<string>Tiếng Iceland</string>
+	<key>it  </key>
+	<string>Tiếng Ý</string>
+	<key>iu  </key>
+	<string>Tiếng Inuktitut</string>
+	<key>iw  </key>
+	<string>Tiếng Do Thái</string>
+	<key>ja  </key>
+	<string>Tiếng Nhật</string>
+	<key>ji  </key>
+	<string>Tiếng Yiddish</string>
+	<key>jw  </key>
+	<string>Tiếng Java</string>
+	<key>ka  </key>
+	<string>Tiếng Georgia</string>
+	<key>ki  </key>
+	<string>Tiếng Kikuyu</string>
+	<key>kj  </key>
+	<string>Tiếng Kuanyama</string>
+	<key>kk  </key>
+	<string>Tiếng Kazakhstan</string>
+	<key>kl  </key>
+	<string>Tiếng Greenland</string>
+	<key>km  </key>
+	<string>Tiếng Campuchia</string>
+	<key>kn  </key>
+	<string>Tiếng Canada</string>
+	<key>ko  </key>
+	<string>Tiếng Hàn</string>
+	<key>ks  </key>
+	<string>Tiếng Kashmir</string>
+	<key>ku  </key>
+	<string>Tiếng Kurd</string>
+	<key>kv  </key>
+	<string>Tiếng Komi</string>
+	<key>kw  </key>
+	<string>Tiếng Cornwall</string>
+	<key>ky  </key>
+	<string>Tiếng Kyrgyzstan</string>
+	<key>la  </key>
+	<string>Tiếng La tinh</string>
+	<key>lb  </key>
+	<string>Tiếng Letzeburgesch</string>
+	<key>ln  </key>
+	<string>Tiếng Lingala</string>
+	<key>lo  </key>
+	<string>Tiếng Lào</string>
+	<key>lt  </key>
+	<string>Tiếng Lít-va</string>
+	<key>lv  </key>
+	<string>Tiếng Latvia</string>
+	<key>mg  </key>
+	<string>Tiếng Malagasy</string>
+	<key>mh  </key>
+	<string>Tiếng Marshall</string>
+	<key>mi  </key>
+	<string>Tiếng Maori</string>
+	<key>mk  </key>
+	<string>Tiếng Macedonia</string>
+	<key>ml  </key>
+	<string>Tiếng Malayalam</string>
+	<key>mn  </key>
+	<string>Tiếng Mông Cổ</string>
+	<key>mo  </key>
+	<string>Tiếng Moldavia</string>
+	<key>mr  </key>
+	<string>Tiếng Marathi</string>
+	<key>ms  </key>
+	<string>Tiếng Malaysia</string>
+	<key>mt  </key>
+	<string>Tiếng Malta</string>
+	<key>my  </key>
+	<string>Tiếng Miến Điện</string>
+	<key>na  </key>
+	<string>Tiếng Nauru</string>
+	<key>nd  </key>
+	<string>Tiếng Bắc Ndebele</string>
+	<key>ne  </key>
+	<string>Tiếng Nepal</string>
+	<key>ng  </key>
+	<string>Tiếng Ndonga</string>
+	<key>nl  </key>
+	<string>Tiếng Hà Lan</string>
+	<key>no  </key>
+	<string>Tiếng Na Uy</string>
+	<key>nr  </key>
+	<string>Tiếng Nam Ndebele</string>
+	<key>nv  </key>
+	<string>Tiếng Navajo</string>
+	<key>ny  </key>
+	<string>Tiếng Chichewa</string>
+	<key>oc  </key>
+	<string>Tiếng Occitan</string>
+	<key>om  </key>
+	<string>Tiếng Oromo</string>
+	<key>or  </key>
+	<string>Tiếng Oriya</string>
+	<key>os  </key>
+	<string>Tiếng Ossetia</string>
+	<key>pa  </key>
+	<string>Tiếng Punjab</string>
+	<key>pi  </key>
+	<string>Tiếng Pali</string>
+	<key>pl  </key>
+	<string>Tiếng Ba Lan</string>
+	<key>ps  </key>
+	<string>Tiếng Pashto</string>
+	<key>pt  </key>
+	<string>Tiếng Bồ Đào Nha</string>
+	<key>qu  </key>
+	<string>Tiếng Quechua</string>
+	<key>rm  </key>
+	<string>Tiếng Rhaeto-Romance</string>
+	<key>rn  </key>
+	<string>Tiếng Kirundi</string>
+	<key>ro  </key>
+	<string>Tiếng Rumani</string>
+	<key>ru  </key>
+	<string>Tiếng Nga</string>
+	<key>rw  </key>
+	<string>Tiếng Kinyarwanda</string>
+	<key>sa  </key>
+	<string>Tiếng Phạn</string>
+	<key>sc  </key>
+	<string>Tiếng Sardinia</string>
+	<key>sd  </key>
+	<string>Tiếng Sindhi</string>
+	<key>se  </key>
+	<string>Tiếng Bắc Sami</string>
+	<key>sg  </key>
+	<string>Tiếng Sango</string>
+	<key>sh  </key>
+	<string>Tiếng Serbia Croatia</string>
+	<key>si  </key>
+	<string>Tiếng Singhala</string>
+	<key>sk  </key>
+	<string>Tiếng Slovakia</string>
+	<key>sl  </key>
+	<string>Tiếng Slovenia</string>
+	<key>sm  </key>
+	<string>Tiếng Samoa</string>
+	<key>sn  </key>
+	<string>Tiếng Shona</string>
+	<key>so  </key>
+	<string>Tiếng Somali</string>
+	<key>sq  </key>
+	<string>Tiếng Albania</string>
+	<key>sr  </key>
+	<string>Tiếng Serbia</string>
+	<key>ss  </key>
+	<string>Tiếng Siswati</string>
+	<key>st  </key>
+	<string>Tiếng Sesotho</string>
+	<key>su  </key>
+	<string>Tiếng Sudan</string>
+	<key>sv  </key>
+	<string>Tiếng Thụy Điển</string>
+	<key>sw  </key>
+	<string>Tiếng Swahili</string>
+	<key>ta  </key>
+	<string>Tiếng Tamil</string>
+	<key>te  </key>
+	<string>Tiếng Telugu</string>
+	<key>tg  </key>
+	<string>Tiếng Tajik</string>
+	<key>th  </key>
+	<string>Tiếng Thái</string>
+	<key>ti  </key>
+	<string>Tiếng Tigrinya</string>
+	<key>tk  </key>
+	<string>Tiếng Turk</string>
+	<key>tl  </key>
+	<string>Tiếng Tagalog</string>
+	<key>tn  </key>
+	<string>Tiếng Setswana</string>
+	<key>to  </key>
+	<string>Tiếng Tonga</string>
+	<key>tr  </key>
+	<string>Tiếng Thổ Nhĩ Kỳ</string>
+	<key>ts  </key>
+	<string>Tiếng Tsonga</string>
+	<key>tt  </key>
+	<string>Tiếng Tatar</string>
+	<key>tw  </key>
+	<string>Tiếng Twi</string>
+	<key>ty  </key>
+	<string>Tiếng Tahiti</string>
+	<key>ug  </key>
+	<string>Tiếng Duy Ngô Nhĩ</string>
+	<key>uk  </key>
+	<string>Tiếng Ukraina</string>
+	<key>ur  </key>
+	<string>Tiếng Urdu</string>
+	<key>uz  </key>
+	<string>Tiếng Uzbekistan</string>
+	<key>vi  </key>
+	<string>Tiếng Việt</string>
+	<key>vo  </key>
+	<string>Tiếng Volapuk</string>
+	<key>wo  </key>
+	<string>Tiếng Wolof</string>
+	<key>xh  </key>
+	<string>Tiếng Xhosa</string>
+	<key>yo  </key>
+	<string>Tiếng Yoruba</string>
+	<key>za  </key>
+	<string>Tiếng Choang</string>
+	<key>zh  </key>
+	<string>Tiếng Trung</string>
+	<key>zu  </key>
+	<string>Tiếng Zulu</string>
+</dict>
+</plist>

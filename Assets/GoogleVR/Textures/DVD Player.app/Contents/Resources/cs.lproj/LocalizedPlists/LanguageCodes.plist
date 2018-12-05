@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> Výchozí nastavení disku</string>
+	<key>00  </key>
+	<string>Není známo</string>
+	<key>aa  </key>
+	<string>Afarština</string>
+	<key>ab  </key>
+	<string>Abcházština</string>
+	<key>ae  </key>
+	<string>Avestánština</string>
+	<key>af  </key>
+	<string>Afrikánština</string>
+	<key>am  </key>
+	<string>Amharština</string>
+	<key>ar  </key>
+	<string>Arabština</string>
+	<key>as  </key>
+	<string>Ásámština</string>
+	<key>ay  </key>
+	<string>Ajmarština</string>
+	<key>az  </key>
+	<string>Ázerbájdžánština</string>
+	<key>ba  </key>
+	<string>Baškirština</string>
+	<key>be  </key>
+	<string>Běloruština</string>
+	<key>bg  </key>
+	<string>Bulharština</string>
+	<key>bh  </key>
+	<string>Bihárština</string>
+	<key>bi  </key>
+	<string>Bislamština</string>
+	<key>bn  </key>
+	<string>Bengálština</string>
+	<key>bo  </key>
+	<string>Tibetština</string>
+	<key>br  </key>
+	<string>Bretonština</string>
+	<key>bs  </key>
+	<string>Bosenština</string>
+	<key>ca  </key>
+	<string>Katalánština</string>
+	<key>ce  </key>
+	<string>Čečenština</string>
+	<key>ch  </key>
+	<string>Čamoro</string>
+	<key>co  </key>
+	<string>Korsičtina</string>
+	<key>cs  </key>
+	<string>Čeština</string>
+	<key>cu  </key>
+	<string>Staroslověnština</string>
+	<key>cv  </key>
+	<string>Čuvaština</string>
+	<key>cy  </key>
+	<string>Velština</string>
+	<key>da  </key>
+	<string>Dánština</string>
+	<key>de  </key>
+	<string>Němčina</string>
+	<key>dz  </key>
+	<string>Bhútánština</string>
+	<key>el  </key>
+	<string>Řečtina</string>
+	<key>en  </key>
+	<string>Angličtina</string>
+	<key>eo  </key>
+	<string>Esperanto</string>
+	<key>es  </key>
+	<string>Španělština</string>
+	<key>et  </key>
+	<string>Estonština</string>
+	<key>eu  </key>
+	<string>Baskičtina</string>
+	<key>fa  </key>
+	<string>Perština</string>
+	<key>fi  </key>
+	<string>Finština</string>
+	<key>fj  </key>
+	<string>Fidži</string>
+	<key>fo  </key>
+	<string>Faerština</string>
+	<key>fr  </key>
+	<string>Francouzština</string>
+	<key>fy  </key>
+	<string>Fríština</string>
+	<key>ga  </key>
+	<string>Irština</string>
+	<key>gd  </key>
+	<string>Skotská gaelština</string>
+	<key>gl  </key>
+	<string>Galicijština</string>
+	<key>gn  </key>
+	<string>Guaranština</string>
+	<key>gu  </key>
+	<string>Gudžarátština</string>
+	<key>gv  </key>
+	<string>Manština</string>
+	<key>ha  </key>
+	<string>Hauština</string>
+	<key>hi  </key>
+	<string>Hindština</string>
+	<key>ho  </key>
+	<string>Hiri motu</string>
+	<key>hr  </key>
+	<string>Chorvatština</string>
+	<key>hu  </key>
+	<string>Maďarština</string>
+	<key>hy  </key>
+	<string>Arménština</string>
+	<key>hz  </key>
+	<string>Hererština</string>
+	<key>ia  </key>
+	<string>Interlingua</string>
+	<key>ie  </key>
+	<string>Interlingue</string>
+	<key>ik  </key>
+	<string>Inupiakština</string>
+	<key>in  </key>
+	<string>Indonéština</string>
+	<key>is  </key>
+	<string>Islandština</string>
+	<key>it  </key>
+	<string>Italština</string>
+	<key>iu  </key>
+	<string>Inuktitutština</string>
+	<key>iw  </key>
+	<string>Hebrejština</string>
+	<key>ja  </key>
+	<string>Japonština</string>
+	<key>ji  </key>
+	<string>Jidiš</string>
+	<key>jw  </key>
+	<string>Javánština</string>
+	<key>ka  </key>
+	<string>Gruzínština</string>
+	<key>ki  </key>
+	<string>Kikujština</string>
+	<key>kj  </key>
+	<string>Kuaňamština</string>
+	<key>kk  </key>
+	<string>Kazaština</string>
+	<key>kl  </key>
+	<string>Grónština</string>
+	<key>km  </key>
+	<string>Kambodžština</string>
+	<key>kn  </key>
+	<string>Kannadština</string>
+	<key>ko  </key>
+	<string>Korejština</string>
+	<key>ks  </key>
+	<string>Kašmírština</string>
+	<key>ku  </key>
+	<string>Kurdština</string>
+	<key>kv  </key>
+	<string>Komijština</string>
+	<key>kw  </key>
+	<string>Kornština</string>
+	<key>ky  </key>
+	<string>Kyrgyzština</string>
+	<key>la  </key>
+	<string>Latinka</string>
+	<key>lb  </key>
+	<string>Letzeburgesch</string>
+	<key>ln  </key>
+	<string>Lingalština</string>
+	<key>lo  </key>
+	<string>Laoština</string>
+	<key>lt  </key>
+	<string>Litevština</string>
+	<key>lv  </key>
+	<string>Lotyština</string>
+	<key>mg  </key>
+	<string>Malgaština</string>
+	<key>mh  </key>
+	<string>Marshall</string>
+	<key>mi  </key>
+	<string>Maorština</string>
+	<key>mk  </key>
+	<string>Makedonština</string>
+	<key>ml  </key>
+	<string>Malajálamština</string>
+	<key>mn  </key>
+	<string>Mongolština</string>
+	<key>mo  </key>
+	<string>Moldavština</string>
+	<key>mr  </key>
+	<string>Maráthština</string>
+	<key>ms  </key>
+	<string>Malajština</string>
+	<key>mt  </key>
+	<string>Maltština</string>
+	<key>my  </key>
+	<string>Barmština</string>
+	<key>na  </key>
+	<string>Nauru</string>
+	<key>nd  </key>
+	<string>Ndebele, North</string>
+	<key>ne  </key>
+	<string>Nepálština</string>
+	<key>ng  </key>
+	<string>Ndondština</string>
+	<key>nl  </key>
+	<string>Nizozemština</string>
+	<key>no  </key>
+	<string>Norština</string>
+	<key>nr  </key>
+	<string>Ndebele, South</string>
+	<key>nv  </key>
+	<string>Navažština</string>
+	<key>ny  </key>
+	<string>Čičeva</string>
+	<key>oc  </key>
+	<string>Okcitánština</string>
+	<key>om  </key>
+	<string>Oromština</string>
+	<key>or  </key>
+	<string>Urijština</string>
+	<key>os  </key>
+	<string>Osetština</string>
+	<key>pa  </key>
+	<string>Paňdžábština</string>
+	<key>pi  </key>
+	<string>Pálí</string>
+	<key>pl  </key>
+	<string>Polština</string>
+	<key>ps  </key>
+	<string>Paštština</string>
+	<key>pt  </key>
+	<string>Portugalština</string>
+	<key>qu  </key>
+	<string>Kečuánština</string>
+	<key>rm  </key>
+	<string>Rétorománština</string>
+	<key>rn  </key>
+	<string>Kirundština</string>
+	<key>ro  </key>
+	<string>Rumunština</string>
+	<key>ru  </key>
+	<string>Ruština</string>
+	<key>rw  </key>
+	<string>Kiňarwandština</string>
+	<key>sa  </key>
+	<string>Sanskrt</string>
+	<key>sc  </key>
+	<string>Sardština</string>
+	<key>sd  </key>
+	<string>Sindhština</string>
+	<key>se  </key>
+	<string>Sámština (severní)</string>
+	<key>sg  </key>
+	<string>Sangoština</string>
+	<key>sh  </key>
+	<string>Srbochorvatština</string>
+	<key>si  </key>
+	<string>Sinhálština</string>
+	<key>sk  </key>
+	<string>Slovenština</string>
+	<key>sl  </key>
+	<string>Slovinština</string>
+	<key>sm  </key>
+	<string>Samojština</string>
+	<key>sn  </key>
+	<string>Šonština</string>
+	<key>so  </key>
+	<string>Somálština</string>
+	<key>sq  </key>
+	<string>Albánština</string>
+	<key>sr  </key>
+	<string>Srbština</string>
+	<key>ss  </key>
+	<string>Siswatština</string>
+	<key>st  </key>
+	<string>Sotština</string>
+	<key>su  </key>
+	<string>Sundština</string>
+	<key>sv  </key>
+	<string>Švédština</string>
+	<key>sw  </key>
+	<string>Svahilština</string>
+	<key>ta  </key>
+	<string>Tamilština</string>
+	<key>te  </key>
+	<string>Telugština</string>
+	<key>tg  </key>
+	<string>Tádžitština</string>
+	<key>th  </key>
+	<string>Thajština</string>
+	<key>ti  </key>
+	<string>Tigrinijština</string>
+	<key>tk  </key>
+	<string>Turkmenština</string>
+	<key>tl  </key>
+	<string>Tagalština</string>
+	<key>tn  </key>
+	<string>Setswanština</string>
+	<key>to  </key>
+	<string>Tonga</string>
+	<key>tr  </key>
+	<string>Turečtina</string>
+	<key>ts  </key>
+	<string>Tsonga</string>
+	<key>tt  </key>
+	<string>Tatarština</string>
+	<key>tw  </key>
+	<string>Twi</string>
+	<key>ty  </key>
+	<string>Tahitština</string>
+	<key>ug  </key>
+	<string>Ujgurština</string>
+	<key>uk  </key>
+	<string>Ukrajinština</string>
+	<key>ur  </key>
+	<string>Urdština</string>
+	<key>uz  </key>
+	<string>Uzbečtina</string>
+	<key>vi  </key>
+	<string>Vietnamština</string>
+	<key>vo  </key>
+	<string>Volapük</string>
+	<key>wo  </key>
+	<string>Wolofština</string>
+	<key>xh  </key>
+	<string>Xhoština</string>
+	<key>yo  </key>
+	<string>Jorubština</string>
+	<key>za  </key>
+	<string>Čuangština</string>
+	<key>zh  </key>
+	<string>Čínština</string>
+	<key>zu  </key>
+	<string>Zuluština</string>
+</dict>
+</plist>

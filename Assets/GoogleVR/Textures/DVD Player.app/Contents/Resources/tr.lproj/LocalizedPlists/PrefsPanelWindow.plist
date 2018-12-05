@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>4000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>Pencereler</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>window</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>PreferenceItemWindow.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>WndI</string>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>4203</integer>
+				<key>Class ID</key>
+				<string>cswv</string>
+			</dict>
+			<dict>
+				<key>View ID</key>
+				<integer>4205</integer>
+				<key>Class ID</key>
+				<string>cswv</string>
+			</dict>
+			<dict>
+				<key>View ID</key>
+				<integer>4206</integer>
+				<key>Class ID</key>
+				<string>bsld</string>
+			</dict>
+			<dict>
+				<key>View ID</key>
+				<integer>4212</integer>
+				<key>Class ID</key>
+				<string>ined</string>
+			</dict>
+		</array>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>4203</key>
+	<dict>
+		<key>Comment</key>
+		<string>CC Text Color Swatch</string>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Gizli Altyazılı Metin Rengi</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Gizli altyazılı metin rengi kutusu</string>
+		<!-- Localize end -->
+	</dict>
+	<key>4205</key>
+	<dict>
+		<key>Comment</key>
+		<string>CC Background Color Swatch</string>
+		<!-- Localize begin -->
+		<key>Accessibility Title</key>
+		<string>Gizli Altyazılı Arka Plan Rengi</string>
+		<!-- Localize end -->
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Gizli altyazılı arka plan rengi kutusu</string>
+		<!-- Localize end -->
+	</dict>
+	<key>4206</key>
+	<dict>
+		<key>Comment</key>
+		<string>CC transparency slider</string>
+		<key>Broadcast Message</key>
+		<integer>15004</integer>
+	</dict>
+	<key>4210</key>
+	<dict>
+		<key>Comment</key>
+		<string>CC Font Popup</string>
+		<!-- Localize begin -->
+		<key>Accessibility Description</key>
+		<string>Gizli altyazı fontu</string>
+		<!-- Localize end -->
+	</dict>
+	<key>4212</key>
+	<dict>
+		<key>Comment</key>
+		<string>Edit text</string>
+		<key>Allow Negative</key>
+		<false/>
+		<key>Max Digits</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

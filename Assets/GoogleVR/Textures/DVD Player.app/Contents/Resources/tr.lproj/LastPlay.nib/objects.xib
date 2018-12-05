@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="20" name="allObjects">
+    <object class="IBCarbonButton" id="196">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">BegB</ostype>
+      <string name="helpTagText">Diskin başından oynatmaya başla</string>
+      <string name="title">Diskin Başından</string>
+      <string name="viewFrame">15 94 138 20 </string>
+      <string name="bounds">94 15 114 153 </string>
+    </object>
+    <object class="IBCarbonButton" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">Oynatımdan vazgeç</string>
+      <int name="buttonType">2</int>
+      <string name="title">Vazgeç</string>
+      <string name="viewFrame">551 94 74 20 </string>
+      <string name="bounds">94 551 114 625 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="202">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="title">Saptanmış eylemi DVD Oynatıcı tercihlerinde ayarlayın.</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">160 142 320 16 </string>
+      <string name="bounds">142 160 158 480 </string>
+    </object>
+    <object class="IBCarbonIcon" id="199">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">0</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">123 21 48 48 </string>
+      <string name="bounds">21 123 69 171 </string>
+    </object>
+    <object class="IBCarbonButton" id="183">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">DefB</ostype>
+      <string name="helpTagText">Saptanmış yer işareti konumundan oynatmaya başla</string>
+      <string name="title">Saptanmış Yer İşaretinden</string>
+      <string name="viewFrame">164 94 189 20 </string>
+      <string name="bounds">94 164 114 353 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="191">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">7</int>
+      <string name="title">Oynatımın nereden başlatılacağını seçin.</string>
+      <int name="justification">-2</int>
+      <string name="viewFrame">195 47 425 39 </string>
+      <string name="bounds">47 195 86 620 </string>
+    </object>
+    <object class="IBCarbonWindow" id="193">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Oynatma Yeri</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="194">
+        <string name="viewFrame">0 0 640 172 </string>
+        <array count="8" name="subviews">
+          <object class="IBCarbonButton" id="200">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">DefB</ostype>
+            <string name="helpTagText">Saptanmış yer işareti konumundan oynatmaya başla</string>
+            <string name="title">Saptanmış Yer İşaretinden</string>
+            <string name="viewFrame">167 94 187 20 </string>
+            <string name="bounds">94 167 114 354 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="195">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <string name="title">Bu, daha önce görüntülenmiş bir disk.</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">195 26 430 20 </string>
+            <string name="bounds">26 195 46 625 </string>
+          </object>
+          <reference idRef="196"/>
+          <object class="IBCarbonButton" id="197">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">LstB</ostype>
+            <string name="helpTagText">Diskin son oynatıldığı yerden sürdür</string>
+            <int name="buttonType">1</int>
+            <string name="title">Kaldığı Yerden</string>
+            <string name="viewFrame">368 94 169 20 </string>
+            <string name="bounds">94 368 114 537 </string>
+          </object>
+          <reference idRef="199"/>
+          <reference idRef="202"/>
+          <object class="IBCarbonStaticText" id="201">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">Oynatımın nereden başlatılacağını seçin.</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">195 47 430 39 </string>
+            <string name="bounds">47 195 86 625 </string>
+          </object>
+          <object class="IBCarbonButton" id="198">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <ostype name="command">not!</ostype>
+            <string name="helpTagText">Oynatımdan vazgeç</string>
+            <int name="buttonType">2</int>
+            <string name="title">Vazgeç</string>
+            <string name="viewFrame">551 94 74 20 </string>
+            <string name="bounds">94 551 114 625 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 172 640 </string>
+      </object>
+      <string name="windowRect">72 789 244 1429 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="197"/>
+    <object class="IBCarbonButton" id="186">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">LstB</ostype>
+      <string name="helpTagText">Diskin son oynatıldığı yerden sürdür</string>
+      <int name="buttonType">1</int>
+      <string name="title">Kaldığı Yerden</string>
+      <string name="viewFrame">366 94 172 20 </string>
+      <string name="bounds">94 366 114 538 </string>
+    </object>
+    <reference idRef="201"/>
+    <reference idRef="194"/>
+    <object class="IBCarbonRootControl" id="181">
+      <string name="viewFrame">0 0 640 172 </string>
+      <array count="8" name="subviews">
+        <reference idRef="183"/>
+        <object class="IBCarbonStaticText" id="184">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Bu, daha önce görüntülenmiş bir disk.</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 26 425 20 </string>
+          <string name="bounds">26 195 46 620 </string>
+        </object>
+        <object class="IBCarbonButton" id="185">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">BegB</ostype>
+          <string name="helpTagText">Diskin başından oynatmaya başla</string>
+          <string name="title">Diskin Başından</string>
+          <string name="viewFrame">15 94 136 20 </string>
+          <string name="bounds">94 15 114 151 </string>
+        </object>
+        <reference idRef="186"/>
+        <object class="IBCarbonIcon" id="189">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">123 21 48 48 </string>
+          <string name="bounds">21 123 69 171 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="190">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <int name="controlSize">1</int>
+          <string name="title">Saptanmış eylemi DVD Oynatıcı tercihlerinde ayarlayın.</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">160 142 320 16 </string>
+          <string name="bounds">142 160 158 480 </string>
+        </object>
+        <reference idRef="191"/>
+        <reference idRef="192"/>
+      </array>
+      <string name="bounds">0 0 172 640 </string>
+    </object>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Oynatma Yeri</string>
+      <reference name="rootControl" idRef="181"/>
+      <string name="windowRect">52 769 224 1409 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="195"/>
+    <reference idRef="200"/>
+    <reference idRef="190"/>
+    <reference idRef="189"/>
+    <reference idRef="185"/>
+    <reference idRef="184"/>
+    <reference idRef="198"/>
+  </array>
+  <array count="20" name="allParents">
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="193"/>
+    <reference idRef="180"/>
+    <reference idRef="1"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LastPlayDialog</string>
+    <reference idRef="193"/>
+    <string>LastPlaySheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">203</unsigned_int>
+</object>

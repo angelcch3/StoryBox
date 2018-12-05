@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>11</integer>
+				<key>Class ID</key>
+				<string>icsv</string>
+			</dict>
+		</array>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>New Drive Region Text</string>
+		<key>Theme Font ID</key>
+		<integer>0</integer>
+		<key>Font Justification</key>
+		<integer>-2</integer>
+		<key>Wrap Text</key>
+		<true/>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>New Drive Setting Popup</string>
+		<key>Accessibility Description</key>
+		<string>definição de unidade nova</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>Comment</key>
+		<string>Lock Text</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>0</integer>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>Comment</key>
+		<string>Lock Button</string>
+		<key>Accessibility Title</key>
+		<string>proteger</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>Comment</key>
+		<string>Help Button</string>
+		<key>Accessibility Title</key>
+		<string>ajuda</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>Comment</key>
+		<string>Image</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>File</key>
+		<string>DiscRegionsMap.tiff</string>
+		<key>Scale Image</key>
+		<false/>
+		<key>Preserve Aspect Ratio</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>Regiões de DVD</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Logo</string>
+		<key>Reference ID</key>
+		<string>AppI</string>
+		<key>File</key>
+		<string>app.icns</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>ícone da aplicação</string>
+		<key>Accessibility Title</key>
+		<string>Ícone da aplicação</string>
+	</dict>
+</dict>
+</plist>

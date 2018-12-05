@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>**  </key>
+	<string> डिस्क पूर्वनिर्धारित का उपयोग करें</string>
+	<key>00  </key>
+	<string>अज्ञात</string>
+	<key>aa  </key>
+	<string>अफ़ार</string>
+	<key>ab  </key>
+	<string>अबख़ाज़ियन</string>
+	<key>ae  </key>
+	<string>अवेस्तन</string>
+	<key>af  </key>
+	<string>अफ़्रीकांस</string>
+	<key>am  </key>
+	<string>अम्हारी</string>
+	<key>ar  </key>
+	<string>अरबी</string>
+	<key>as  </key>
+	<string>असमी</string>
+	<key>ay  </key>
+	<string>आयमारा</string>
+	<key>az  </key>
+	<string>अज़रबैजानी</string>
+	<key>ba  </key>
+	<string>बशकीर</string>
+	<key>be  </key>
+	<string>बेलारूसी</string>
+	<key>bg  </key>
+	<string>बुल्गारियाई</string>
+	<key>bh  </key>
+	<string>बिहारी</string>
+	<key>bi  </key>
+	<string>बिसलामा</string>
+	<key>bn  </key>
+	<string>बंगाली</string>
+	<key>bo  </key>
+	<string>तिब्बती</string>
+	<key>br  </key>
+	<string>ब्रेटॉन</string>
+	<key>bs  </key>
+	<string>बोस्नियाई</string>
+	<key>ca  </key>
+	<string>कातलान</string>
+	<key>ce  </key>
+	<string>चेचेन</string>
+	<key>ch  </key>
+	<string>चामोरो</string>
+	<key>co  </key>
+	<string>कॉर्सिकन</string>
+	<key>cs  </key>
+	<string>चेक</string>
+	<key>cu  </key>
+	<string>चर्च स्लैविक</string>
+	<key>cv  </key>
+	<string>चूवाश</string>
+	<key>cy  </key>
+	<string>वेल्श</string>
+	<key>da  </key>
+	<string>डैनिश</string>
+	<key>de  </key>
+	<string>जर्मन</string>
+	<key>dz  </key>
+	<string>भूटानी</string>
+	<key>el  </key>
+	<string>यूनानी</string>
+	<key>en  </key>
+	<string>अंग्रेज़ी</string>
+	<key>eo  </key>
+	<string>एस्पेरैंटो</string>
+	<key>es  </key>
+	<string>स्पेनिश</string>
+	<key>et  </key>
+	<string>एस्टोनियाई</string>
+	<key>eu  </key>
+	<string>बास्क</string>
+	<key>fa  </key>
+	<string>फ़ारसी</string>
+	<key>fi  </key>
+	<string>फ़िनिश</string>
+	<key>fj  </key>
+	<string>फ़िजी</string>
+	<key>fo  </key>
+	<string>फ़ैरोईस</string>
+	<key>fr  </key>
+	<string>फ़्रेंच</string>
+	<key>fy  </key>
+	<string>फ़्रिशियन</string>
+	<key>ga  </key>
+	<string>आइरिश</string>
+	<key>gd  </key>
+	<string>स्कॉट्स गैलिक</string>
+	<key>gl  </key>
+	<string>गैलिशियन</string>
+	<key>gn  </key>
+	<string>गौरानी</string>
+	<key>gu  </key>
+	<string>गुजराती</string>
+	<key>gv  </key>
+	<string>मैंक्स</string>
+	<key>ha  </key>
+	<string>हौसा</string>
+	<key>hi  </key>
+	<string>हिंदी</string>
+	<key>ho  </key>
+	<string>हिरी मोतू</string>
+	<key>hr  </key>
+	<string>क्रोएशियाई</string>
+	<key>hu  </key>
+	<string>हंगेरियन</string>
+	<key>hy  </key>
+	<string>आर्मेनियाई</string>
+	<key>hz  </key>
+	<string>हेरेरो</string>
+	<key>ia  </key>
+	<string>इंटरलिंगुआ</string>
+	<key>ie  </key>
+	<string>इंटरलिंग</string>
+	<key>ik  </key>
+	<string>इनुपियाक</string>
+	<key>in  </key>
+	<string>इंडोनेशियाई</string>
+	<key>is  </key>
+	<string>आइसलैंडिक</string>
+	<key>it  </key>
+	<string>इतालवी</string>
+	<key>iu  </key>
+	<string>इनुक्टिटुट</string>
+	<key>iw  </key>
+	<string>हिब्रू</string>
+	<key>ja  </key>
+	<string>जापानी</string>
+	<key>ji  </key>
+	<string>यिड्डिश</string>
+	<key>jw  </key>
+	<string>जावानीस</string>
+	<key>ka  </key>
+	<string>जॉर्जियन</string>
+	<key>ki  </key>
+	<string>किकुयु</string>
+	<key>kj  </key>
+	<string>कौनयामा</string>
+	<key>kk  </key>
+	<string>कज़ाख</string>
+	<key>kl  </key>
+	<string>ग्रीनलैंडिक</string>
+	<key>km  </key>
+	<string>कंबोडियाई</string>
+	<key>kn  </key>
+	<string>कन्नड़</string>
+	<key>ko  </key>
+	<string>कोरियाई</string>
+	<key>ks  </key>
+	<string>कश्मीरी</string>
+	<key>ku  </key>
+	<string>कुर्दिश</string>
+	<key>kv  </key>
+	<string>कोमी</string>
+	<key>kw  </key>
+	<string>कॉर्निश</string>
+	<key>ky  </key>
+	<string>किर्ग़ीज़</string>
+	<key>la  </key>
+	<string>लैटिन</string>
+	<key>lb  </key>
+	<string>लेट्ज़बर्गेश</string>
+	<key>ln  </key>
+	<string>लिंगाला</string>
+	<key>lo  </key>
+	<string>लाओ</string>
+	<key>lt  </key>
+	<string>लिथुआनियाई</string>
+	<key>lv  </key>
+	<string>लातवियाई</string>
+	<key>mg  </key>
+	<string>मैलगैसी</string>
+	<key>mh  </key>
+	<string>मार्शल</string>
+	<key>mi  </key>
+	<string>माओरी</string>
+	<key>mk  </key>
+	<string>मैसेडोनियाई</string>
+	<key>ml  </key>
+	<string>मलयालम</string>
+	<key>mn  </key>
+	<string>मंगोलियाई</string>
+	<key>mo  </key>
+	<string>मोल्दावियाई</string>
+	<key>mr  </key>
+	<string>मराठी</string>
+	<key>ms  </key>
+	<string>मलय</string>
+	<key>mt  </key>
+	<string>माल्टीज़</string>
+	<key>my  </key>
+	<string>बर्मीज़</string>
+	<key>na  </key>
+	<string>नाउरू</string>
+	<key>nd  </key>
+	<string>न्डेबेला, उत्तर</string>
+	<key>ne  </key>
+	<string>नेपाली</string>
+	<key>ng  </key>
+	<string>एनडोंगा</string>
+	<key>nl  </key>
+	<string>डच</string>
+	<key>no  </key>
+	<string>नॉर्वेजियाई</string>
+	<key>nr  </key>
+	<string>न्डेबेला, दक्षिण</string>
+	<key>nv  </key>
+	<string>नावाहो</string>
+	<key>ny  </key>
+	<string>चिचेवा</string>
+	<key>oc  </key>
+	<string>ऑक्सिटैन</string>
+	<key>om  </key>
+	<string>ओरोमो</string>
+	<key>or  </key>
+	<string>उड़िया</string>
+	<key>os  </key>
+	<string>ऑसेशियन</string>
+	<key>pa  </key>
+	<string>पंजाबी</string>
+	<key>pi  </key>
+	<string>पाली</string>
+	<key>pl  </key>
+	<string>पोलिश</string>
+	<key>ps  </key>
+	<string>पश्तो</string>
+	<key>pt  </key>
+	<string>पुर्तगाली</string>
+	<key>qu  </key>
+	<string>केचुआ</string>
+	<key>rm  </key>
+	<string>रैटो-रोमांस</string>
+	<key>rn  </key>
+	<string>किरूंदी</string>
+	<key>ro  </key>
+	<string>रोमानियाई</string>
+	<key>ru  </key>
+	<string>रूसी</string>
+	<key>rw  </key>
+	<string>किन्यारवांदा</string>
+	<key>sa  </key>
+	<string>संस्कृत</string>
+	<key>sc  </key>
+	<string>सार्डिनियन</string>
+	<key>sd  </key>
+	<string>सिंधी</string>
+	<key>se  </key>
+	<string>उत्तरी सामी</string>
+	<key>sg  </key>
+	<string>सैंगो</string>
+	<key>sh  </key>
+	<string>सर्बो-क्रोएशियाई</string>
+	<key>si  </key>
+	<string>सिंहली</string>
+	<key>sk  </key>
+	<string>स्लोवाक</string>
+	<key>sl  </key>
+	<string>स्लोवेनियाई</string>
+	<key>sm  </key>
+	<string>समोअन</string>
+	<key>sn  </key>
+	<string>शोना</string>
+	<key>so  </key>
+	<string>सोमाली</string>
+	<key>sq  </key>
+	<string>अल्बानियाई</string>
+	<key>sr  </key>
+	<string>सर्बियाई</string>
+	<key>ss  </key>
+	<string>सिस्वाती</string>
+	<key>st  </key>
+	<string>सेसोथो</string>
+	<key>su  </key>
+	<string>सूडानी</string>
+	<key>sv  </key>
+	<string>स्वीडिश</string>
+	<key>sw  </key>
+	<string>स्वाहिली</string>
+	<key>ta  </key>
+	<string>तमिल</string>
+	<key>te  </key>
+	<string>तेलुगू</string>
+	<key>tg  </key>
+	<string>ताजिक</string>
+	<key>th  </key>
+	<string>थाई</string>
+	<key>ti  </key>
+	<string>तिग्रीन्या</string>
+	<key>tk  </key>
+	<string>तुर्कमेन</string>
+	<key>tl  </key>
+	<string>टैगलॉग</string>
+	<key>tn  </key>
+	<string>सेत्सवाना</string>
+	<key>to  </key>
+	<string>टोंगा</string>
+	<key>tr  </key>
+	<string>तुर्की</string>
+	<key>ts  </key>
+	<string>सोंगा</string>
+	<key>tt  </key>
+	<string>तातार</string>
+	<key>tw  </key>
+	<string>त्वि</string>
+	<key>ty  </key>
+	<string>ताहितियन</string>
+	<key>ug  </key>
+	<string>विघुर</string>
+	<key>uk  </key>
+	<string>यूक्रेनियाई</string>
+	<key>ur  </key>
+	<string>उर्दू</string>
+	<key>uz  </key>
+	<string>उज़्बेक</string>
+	<key>vi  </key>
+	<string>वियतनामी</string>
+	<key>vo  </key>
+	<string>वोलापुक</string>
+	<key>wo  </key>
+	<string>वोलोफ़</string>
+	<key>xh  </key>
+	<string>ख़ोसा</string>
+	<key>yo  </key>
+	<string>योरूबा</string>
+	<key>za  </key>
+	<string>ज़ुआंग</string>
+	<key>zh  </key>
+	<string>चीनी</string>
+	<key>zu  </key>
+	<string>ज़ुलू</string>
+</dict>
+</plist>

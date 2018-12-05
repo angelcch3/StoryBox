@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonWindow" id="886">
+      <string name="windowRect">367 541 469 959 </string>
+      <string name="title">Naam van instelling</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="bounds">0 0 102 418 </string>
+        <string name="viewFrame">0 0 418 102 </string>
+        <array count="5" name="subviews">
+          <object class="IBCarbonStaticText" id="889">
+            <string name="bounds">23 20 39 66 </string>
+            <string name="viewFrame">20 23 46 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Naam:</string>
+            <int name="justification">-1</int>
+          </object>
+          <object class="IBCarbonEditText" id="894">
+            <string name="bounds">23 75 39 395 </string>
+            <string name="viewFrame">75 23 320 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonButton" id="895">
+            <string name="bounds">62 314 82 399 </string>
+            <string name="viewFrame">314 62 85 20 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">1</int>
+            <string name="title">OK</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="896">
+            <string name="bounds">62 217 82 302 </string>
+            <string name="viewFrame">217 62 85 20 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <string name="title">Annuleer</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonCheckBox" id="898">
+            <string name="bounds">64 20 80 214 </string>
+            <string name="viewFrame">20 64 194 16 </string>
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Gebruik voor alle schijven</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <boolean name="doesNotCycle">TRUE</boolean>
+    </object>
+    <reference idRef="887"/>
+    <reference idRef="889"/>
+    <reference idRef="894"/>
+    <reference idRef="895"/>
+    <reference idRef="896"/>
+    <reference idRef="898"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+    <string>SettingNameSheet</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">900</unsigned_int>
+</object>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Window</key>
+	<dict>
+		<key>Alternate Window Title</key>
+		<string>Hộp Giới thiệu</string>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>1</integer>
+				<key>Class ID</key>
+				<string>icsv</string>
+			</dict>
+		</array>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Logo</string>
+		<key>Reference ID</key>
+		<string>AppI</string>
+		<key>File</key>
+		<string>app.icns</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>biểu tượng ứng dụng</string>
+		<key>Accessibility Title</key>
+		<string>Biểu tượng Ứng dụng</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Name</string>
+		<key>Theme Font ID</key>
+		<integer>4</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Text</key>
+		<string>Trình phát DVD</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Comment</key>
+		<string>App Version</string>
+		<key>Font Color</key>
+		<dict>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Theme Font ID</key>
+		<integer>0</integer>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Comment</key>
+		<string>Credits</string>
+		<key>Text</key>
+		<string>Bản quyền © 2001-2014 Apple Inc. 
+Mọi quyền được bảo lưu.
+		
+Được sản xuất theo giấy phép từ Dolby Laboratories. "Dolby", "Pro-Logic" và biểu tượng chữ D đôi là các nhãn hiệu của Dolby Laboratories.
+
+Tài liệu Bí mật Chưa xuất bản. 
+Bản quyền 1992-1997 Dolby Laboratories.
+Mọi quyền được bảo lưu.
+		</string>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+		<key>Transparent To Clicks</key>
+		<true/>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Comment</key>
+		<string>Dolby Logo</string>
+		<key>File</key>
+		<string>Dolby.tiff</string>
+		<key>Sub Dir</key>
+		<string>Art</string>
+		<key>Transparent To Clicks</key>
+		<true/>
+		<key>Accessibility Description</key>
+		<string>Logo Dolby</string>
+		<key>Accessibility Title</key>
+		<string>Logo Dolby</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Comment</key>
+		<string>Playback Version</string>
+		<key>Font Color</key>
+		<dict>
+			<key>blue</key>
+			<integer>0</integer>
+			<key>green</key>
+			<integer>0</integer>
+			<key>red</key>
+			<integer>0</integer>
+		</dict>
+		<key>Theme Font ID</key>
+		<integer>1</integer>
+		<key>Font Justification</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

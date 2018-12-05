@@ -1,0 +1,174 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonRootControl" id="181">
+      <string name="viewFrame">0 0 360 128 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonStaticText" id="184">
+          <ostype name="controlSignature">cfb3</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Mediet innehåller flera videotyper.</string>
+          <string name="viewFrame">83 24 257 20 </string>
+          <string name="bounds">24 83 44 340 </string>
+        </object>
+        <object class="IBCarbonButton" id="185">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">PrSD</ostype>
+          <string name="helpTagText">Spela upp SD-mediet</string>
+          <string name="title">SD</string>
+          <string name="viewFrame">20 88 140 20 </string>
+          <string name="bounds">88 20 108 160 </string>
+        </object>
+        <object class="IBCarbonButton" id="186">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">PrHD</ostype>
+          <string name="helpTagText">Spela upp HD-mediet</string>
+          <string name="title">HD</string>
+          <string name="viewFrame">200 88 140 20 </string>
+          <string name="bounds">88 200 108 340 </string>
+        </object>
+        <object class="IBCarbonIcon" id="189">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">20 20 48 48 </string>
+          <string name="bounds">20 20 68 68 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="191">
+          <ostype name="controlSignature">cfb3</ostype>
+          <int name="controlID">5</int>
+          <string name="title">Välj den videotyp som ska spelas upp.</string>
+          <string name="viewFrame">83 45 257 23 </string>
+          <string name="bounds">45 83 68 340 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 128 360 </string>
+    </object>
+    <reference idRef="191"/>
+    <object class="IBCarbonRootControl" id="194">
+      <string name="viewFrame">0 0 360 128 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonStaticText" id="199">
+          <ostype name="controlSignature">cfb3</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Mediet innehåller flera videotyper.</string>
+          <string name="viewFrame">83 24 257 20 </string>
+          <string name="bounds">24 83 44 340 </string>
+        </object>
+        <object class="IBCarbonButton" id="200">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">PrSD</ostype>
+          <string name="helpTagText">Spela upp SD-mediet</string>
+          <string name="title">SD</string>
+          <string name="viewFrame">20 88 140 20 </string>
+          <string name="bounds">88 20 108 160 </string>
+        </object>
+        <object class="IBCarbonButton" id="195">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">PrHD</ostype>
+          <string name="helpTagText">Spela upp HD-mediet</string>
+          <string name="title">HD</string>
+          <string name="viewFrame">200 88 140 20 </string>
+          <string name="bounds">88 200 108 340 </string>
+        </object>
+        <object class="IBCarbonIcon" id="196">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">20 20 48 48 </string>
+          <string name="bounds">20 20 68 68 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="197">
+          <ostype name="controlSignature">cfb3</ostype>
+          <int name="controlID">5</int>
+          <string name="title">Välj den videotyp som ska spelas upp.</string>
+          <string name="viewFrame">83 45 257 23 </string>
+          <string name="bounds">45 83 68 340 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 128 360 </string>
+    </object>
+    <reference idRef="199"/>
+    <reference idRef="195"/>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Hybridskiva</string>
+      <reference name="rootControl" idRef="181"/>
+      <string name="windowRect">416 495 544 855 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="196"/>
+    <reference idRef="186"/>
+    <reference idRef="197"/>
+    <reference idRef="185"/>
+    <reference idRef="200"/>
+    <object class="IBCarbonWindow" id="193">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">2</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">7</int>
+      <string name="title">Hybridskiva</string>
+      <reference name="rootControl" idRef="194"/>
+      <string name="windowRect">436 515 564 875 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="184"/>
+    <reference idRef="189"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="193"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="1"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>HybridDiscDialog</string>
+    <reference idRef="193"/>
+    <string>HybridDiscSheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">201</unsigned_int>
+</object>

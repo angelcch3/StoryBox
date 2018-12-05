@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonRoundButton" id="901">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">HlpB</ostype>
+      <string name="viewFrame">509 354 25 25 </string>
+      <string name="bounds">354 509 379 534 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonButton" id="894">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <string name="title">Сменить регион</string>
+      <string name="viewFrame">358 355 142 20 </string>
+      <string name="bounds">355 358 375 500 </string>
+    </object>
+    <object class="IBCarbonButton" id="896">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Отменить</string>
+      <string name="viewFrame">255 355 91 20 </string>
+      <string name="bounds">355 255 375 346 </string>
+    </object>
+    <object class="IBCarbonIcon" id="910">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">11</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">538976288</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 15 64 64 </string>
+      <string name="bounds">15 20 79 84 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="899">
+      <string name="title">Объект 1</string>
+      <boolean name="checked">TRUE</boolean>
+    </object>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Код региона дисковода</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 551 397 </string>
+        <array count="12" name="subviews">
+          <object class="IBCarbonCustom" id="890">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <string name="classID">com.apple.DVDPlayer.thtx</string>
+            <string name="viewFrame">175 310 200 16 </string>
+            <string name="bounds">310 175 326 375 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="891">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+            <ostype name="command">LckB</ostype>
+            <string name="viewFrame">20 355 20 20 </string>
+            <string name="bounds">355 20 375 40 </string>
+          </object>
+          <reference idRef="894"/>
+          <object class="IBCarbonCustom" id="895">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="classID">com.apple.DVDPlayer.thtx</string>
+            <string name="viewFrame">48 357 199 34 </string>
+            <string name="bounds">357 48 391 247 </string>
+          </object>
+          <reference idRef="896"/>
+          <object class="IBCarbonPopupButton" id="900">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="selectedItem">-2147483648</int>
+            <object name="menu" class="IBCarbonMenu" id="893">
+              <string name="title">Всплывание:</string>
+              <array count="3" name="items">
+                <reference idRef="899"/>
+                <object class="IBCarbonMenuItem" id="897">
+                  <string name="title">Item 2</string>
+                </object>
+                <object class="IBCarbonMenuItem" id="898">
+                  <string name="title">Item 3</string>
+                </object>
+              </array>
+            </object>
+            <string name="title">Новый регион:</string>
+            <int name="titleJustification">-2</int>
+            <string name="viewFrame">175 306 200 20 </string>
+            <string name="bounds">306 175 326 375 </string>
+          </object>
+          <reference idRef="901"/>
+          <object class="IBCarbonHIView" id="902">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">10</int>
+            <string name="classID">com.apple.DVDPlayer.imgv</string>
+            <string name="viewFrame">107 107 338 167 </string>
+            <string name="bounds">107 107 274 445 </string>
+          </object>
+          <reference idRef="910"/>
+          <object class="IBCarbonStaticText" id="911">
+            <int name="fontStyle">4</int>
+            <string name="title">Необходимо указать регион для дисковода DVD.</string>
+            <string name="viewFrame">107 15 392 16 </string>
+            <string name="bounds">15 107 31 499 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="912">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">6</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">&lt;Explanation text replaced here at runtime&gt;</string>
+            <string name="viewFrame">110 39 389 60 </string>
+            <string name="bounds">39 110 99 499 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="913">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Текущий регион:   &lt;0&gt;</string>
+            <string name="viewFrame">160 282 192 16 </string>
+            <string name="bounds">282 160 298 352 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 397 551 </string>
+      </object>
+      <string name="windowRect">44 373 441 924 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="887"/>
+    <reference idRef="900"/>
+    <reference idRef="912"/>
+    <reference idRef="890"/>
+    <reference idRef="895"/>
+    <reference idRef="893"/>
+    <reference idRef="897"/>
+    <reference idRef="911"/>
+    <reference idRef="913"/>
+    <reference idRef="902"/>
+    <reference idRef="891"/>
+    <reference idRef="898"/>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+    <reference idRef="1"/>
+    <reference idRef="886"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="900"/>
+    <reference idRef="893"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="887"/>
+    <reference idRef="893"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RegionChange</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">916</unsigned_int>
+</object>

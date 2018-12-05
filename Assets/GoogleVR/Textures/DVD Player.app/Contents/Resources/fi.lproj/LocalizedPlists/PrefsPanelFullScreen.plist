@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3000</key>
+	<dict>
+		<key>Comment</key>
+		<string>Panel</string>
+		<!-- Localize begin -->
+		<key>Toolbar Item Label</key>
+		<string>Koko näyttö</string>
+		<!-- Localize end -->
+		<key>Toolbar Item Identifier</key>
+		<string>fullscreen</string>
+		<key>Toolbar Item Sub Dir</key>
+		<string>Art</string>
+		<key>Toolbar Item Image</key>
+		<string>PreferenceItemFullScreen.tiff</string>
+		<key>In Default Toolbar</key>
+		<true/>
+		<key>Panel Cmd ID</key>
+		<string>FScI</string>
+		<key>Install Custom Views</key>
+		<array>
+			<dict>
+				<key>View ID</key>
+				<integer>3103</integer>
+				<key>Class ID</key>
+				<string>ined</string>
+			</dict>
+		</array>
+		<key>Accessibility Ignore</key>
+		<true/>
+	</dict>
+	<key>3103</key>
+	<dict>
+		<key>Comment</key>
+		<string>Edit text</string>
+		<key>Allow Negative</key>
+		<false/>
+		<key>Max Digits</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

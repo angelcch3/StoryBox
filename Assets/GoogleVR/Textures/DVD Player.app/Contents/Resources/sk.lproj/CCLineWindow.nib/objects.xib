@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="4" name="allObjects">
+    <object class="IBCarbonHIView" id="947">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <string name="classID">com.apple.DVDPlayer.CCLB</string>
+      <string name="viewFrame">0 0 150 26 </string>
+      <string name="bounds">0 0 26 150 </string>
+    </object>
+    <object class="IBCarbonTextView" id="946">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <boolean name="noSelection">TRUE</boolean>
+      <boolean name="outputInUnicode">TRUE</boolean>
+      <boolean name="noDragProcs">TRUE</boolean>
+      <boolean name="noCaretWhenInactive">TRUE</boolean>
+      <boolean name="noSelectionWhenInactive">TRUE</boolean>
+      <boolean name="singleLine">TRUE</boolean>
+      <boolean name="disableDragAndDrop">TRUE</boolean>
+      <boolean name="fontSubstitution">TRUE</boolean>
+      <string name="viewFrame">0 0 150 26 </string>
+      <string name="bounds">0 0 26 150 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="899">
+      <string name="viewFrame">0 0 150 26 </string>
+      <array count="2" name="subviews">
+        <reference idRef="947"/>
+        <reference idRef="946"/>
+      </array>
+      <string name="bounds">0 0 26 150 </string>
+    </object>
+    <object class="IBCarbonWindow" id="892">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hasShadow">FALSE</boolean>
+      <int name="themeBrush">-1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Informácie</string>
+      <reference name="rootControl" idRef="899"/>
+      <string name="windowRect">159 540 185 690 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="4" name="allParents">
+    <reference idRef="899"/>
+    <reference idRef="899"/>
+    <reference idRef="892"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CCLineWindow</string>
+    <reference idRef="892"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">948</unsigned_int>
+</object>

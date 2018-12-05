@@ -1,0 +1,149 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonHIView" id="219">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="classID">com.apple.DVDPlayer.PTBV</string>
+      <string name="viewFrame">0 2 250 20 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonBevelButton" id="208">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <int name="contentType">0</int>
+          <int name="textPlacement">3</int>
+          <int name="menuBehavior">8192</int>
+          <object name="menu" class="IBCarbonMenu" id="209">
+            <string name="title">BevelMenu</string>
+            <array count="2" name="items">
+              <object class="IBCarbonMenuItem" id="211">
+                <string name="title">书签</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">CBkP</ostype>
+                <string name="helpTagText"></string>
+                <string name="extendedHelpTagText"></string>
+              </object>
+              <object class="IBCarbonMenuItem" id="212">
+                <string name="title">章节</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">CChP</ostype>
+                <string name="helpTagText"></string>
+                <string name="extendedHelpTagText"></string>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">55 1 130 16 </string>
+          <string name="bounds">3 55 19 185 </string>
+        </object>
+      </array>
+      <string name="bounds">2 0 22 250 </string>
+    </object>
+    <object class="IBCarbonHIView" id="207">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="classID">com.apple.DVDPlayer.clrv</string>
+      <string name="viewFrame">0 1 250 1 </string>
+      <string name="bounds">1 0 2 250 </string>
+    </object>
+    <reference idRef="208"/>
+    <reference idRef="209"/>
+    <reference idRef="211"/>
+    <object class="IBCarbonRootControl" id="167">
+      <string name="viewFrame">0 0 250 370 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonHIView" id="206">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="classID">com.apple.DVDPlayer.clrv</string>
+          <string name="viewFrame">0 0 250 1 </string>
+          <string name="bounds">0 0 1 250 </string>
+        </object>
+        <reference idRef="207"/>
+        <reference idRef="219"/>
+        <object class="IBCarbonHIView" id="220">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="classID">com.apple.DVDPlayer.PBBV</string>
+          <string name="viewFrame">0 334 250 36 </string>
+          <array count="1" name="subviews">
+            <object class="IBCarbonHIView" id="217">
+              <ostype name="controlSignature">cfbs</ostype>
+              <int name="controlID">6</int>
+              <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+                <int name="bindingBottomKind">2</int>
+                <int name="bindingRightKind">2</int>
+              </object>
+              <string name="classID">com.apple.DVDPlayer.pgrw</string>
+              <string name="viewFrame">232 16 16 16 </string>
+              <string name="bounds">350 232 366 248 </string>
+            </object>
+          </array>
+          <string name="bounds">334 0 370 250 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 370 250 </string>
+    </object>
+    <reference idRef="212"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">186 902 556 1152 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="220"/>
+    <reference idRef="206"/>
+    <reference idRef="217"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="219"/>
+    <reference idRef="208"/>
+    <reference idRef="209"/>
+    <reference idRef="166"/>
+    <reference idRef="209"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="220"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ClipWindow</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">226</unsigned_int>
+</object>

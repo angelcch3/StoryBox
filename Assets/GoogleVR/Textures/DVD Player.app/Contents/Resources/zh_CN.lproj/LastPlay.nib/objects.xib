@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="20" name="allObjects">
+    <object class="IBCarbonButton" id="183">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">DefB</ostype>
+      <string name="helpTagText">从默认书签位置开始播放</string>
+      <string name="title">默认书签</string>
+      <string name="viewFrame">170 94 140 20 </string>
+      <string name="bounds">94 170 114 310 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="194">
+      <string name="viewFrame">0 0 571 172 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonButton" id="200">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <ostype name="command">DefB</ostype>
+          <string name="helpTagText">从默认书签位置开始播放</string>
+          <string name="title">默认书签</string>
+          <string name="viewFrame">170 94 140 20 </string>
+          <string name="bounds">94 170 114 310 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="195">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <string name="title">这是一张以前观看过的光盘。</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 26 231 20 </string>
+          <string name="bounds">26 195 46 426 </string>
+        </object>
+        <object class="IBCarbonButton" id="196">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">BegB</ostype>
+          <string name="helpTagText">从光盘的开始位置开始播放</string>
+          <string name="title">光盘的开始位置</string>
+          <string name="viewFrame">15 94 140 20 </string>
+          <string name="bounds">94 15 114 155 </string>
+        </object>
+        <object class="IBCarbonButton" id="197">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">LstB</ostype>
+          <string name="helpTagText">从光盘上次播放的位置继续播放</string>
+          <int name="buttonType">1</int>
+          <string name="title">上次播放时间</string>
+          <string name="viewFrame">325 94 140 20 </string>
+          <string name="bounds">94 325 114 465 </string>
+        </object>
+        <object class="IBCarbonIcon" id="199">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">123 21 48 48 </string>
+          <string name="bounds">21 123 69 171 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="202">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <int name="controlSize">1</int>
+          <string name="title">在“DVD 播放程序”偏好设置中设定默认操作。</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">125 142 320 16 </string>
+          <string name="bounds">142 125 158 445 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="201">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <string name="title">请选择开始播放的位置。</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 47 231 23 </string>
+          <string name="bounds">47 195 70 426 </string>
+        </object>
+        <object class="IBCarbonButton" id="198">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <ostype name="command">not!</ostype>
+          <string name="helpTagText">取消播放</string>
+          <int name="buttonType">2</int>
+          <string name="title">取消</string>
+          <string name="viewFrame">482 94 74 20 </string>
+          <string name="bounds">94 482 114 556 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 172 571 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="190">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="title">在“DVD 播放程序”偏好设置中设定默认操作。</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">125 142 320 16 </string>
+      <string name="bounds">142 125 158 445 </string>
+    </object>
+    <object class="IBCarbonButton" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">取消播放</string>
+      <int name="buttonType">2</int>
+      <string name="title">取消</string>
+      <string name="viewFrame">482 94 74 20 </string>
+      <string name="bounds">94 482 114 556 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="181">
+      <string name="viewFrame">0 0 571 172 </string>
+      <array count="8" name="subviews">
+        <reference idRef="183"/>
+        <object class="IBCarbonStaticText" id="184">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">6</int>
+          <string name="title">这是一张以前观看过的光盘。</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 26 231 20 </string>
+          <string name="bounds">26 195 46 426 </string>
+        </object>
+        <object class="IBCarbonButton" id="185">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">BegB</ostype>
+          <string name="helpTagText">从光盘的开始位置开始播放</string>
+          <string name="title">光盘的开始位置</string>
+          <string name="viewFrame">15 94 140 20 </string>
+          <string name="bounds">94 15 114 155 </string>
+        </object>
+        <object class="IBCarbonButton" id="186">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">LstB</ostype>
+          <string name="helpTagText">从光盘上次播放的位置继续播放</string>
+          <int name="buttonType">1</int>
+          <string name="title">上次播放时间</string>
+          <string name="viewFrame">325 94 140 20 </string>
+          <string name="bounds">94 325 114 465 </string>
+        </object>
+        <object class="IBCarbonIcon" id="189">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">5</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">123 21 48 48 </string>
+          <string name="bounds">21 123 69 171 </string>
+        </object>
+        <reference idRef="190"/>
+        <object class="IBCarbonStaticText" id="191">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <string name="title">请选择开始播放的位置。</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">195 47 231 23 </string>
+          <string name="bounds">47 195 70 426 </string>
+        </object>
+        <reference idRef="192"/>
+      </array>
+      <string name="bounds">0 0 172 571 </string>
+    </object>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">播放位置</string>
+      <reference name="rootControl" idRef="181"/>
+      <string name="windowRect">52 769 224 1340 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="197"/>
+    <reference idRef="200"/>
+    <reference idRef="199"/>
+    <reference idRef="195"/>
+    <reference idRef="184"/>
+    <reference idRef="191"/>
+    <object class="IBCarbonWindow" id="193">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">播放位置</string>
+      <reference name="rootControl" idRef="194"/>
+      <string name="windowRect">72 789 244 1360 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="196"/>
+    <reference idRef="202"/>
+    <reference idRef="201"/>
+    <reference idRef="189"/>
+    <reference idRef="186"/>
+    <reference idRef="185"/>
+    <reference idRef="198"/>
+  </array>
+  <array count="20" name="allParents">
+    <reference idRef="181"/>
+    <reference idRef="193"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="180"/>
+    <reference idRef="1"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="194"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="194"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LastPlayDialog</string>
+    <reference idRef="193"/>
+    <string>LastPlaySheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">203</unsigned_int>
+</object>

@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonStaticText" id="937">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1700</int>
+      <string name="title">Kun toistetaan akun varassa:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">74 148 181 16 </string>
+      <string name="bounds">148 74 164 255 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="939">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1702</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="fontStyle">-2</int>
+      <int name="controlSize">1</int>
+      <string name="title">Tämä säästää akun varausta. Levyn etsiminen saattaa olla hitaampaa, kun asema herää.</string>
+      <string name="viewFrame">263 169 237 38 </string>
+      <string name="bounds">169 263 207 500 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="933">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1501</int>
+      <string name="helpTagText">Keskeytä toisto, kun katseluikkuna on pienennetty Dockiin</string>
+      <string name="title">Keskeytä toisto</string>
+      <string name="viewFrame">261 252 187 16 </string>
+      <string name="bounds">252 261 268 448 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="927">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1201</int>
+      <string name="helpTagText">Aloita toisto, jos kelvollinen levy syötetään DVD-soittimen avaamisen jälkeen</string>
+      <string name="title">Aloita toisto</string>
+      <string name="viewFrame">261 111 187 16 </string>
+      <string name="bounds">111 261 127 448 </string>
+    </object>
+    <object class="IBCarbonHIView" id="922">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1000</int>
+      <string name="classID">com.apple.DVDPlayer.PlyP</string>
+      <string name="viewFrame">0 0 520 297 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonStaticText" id="923">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1100</int>
+          <string name="title">DVD-soittimen käynnistyessä:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">65 16 190 16 </string>
+          <string name="bounds">16 65 32 255 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="924">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1101</int>
+          <string name="helpTagText">Aseta koko näytölle, jos havaitaan kelvollinen levy</string>
+          <string name="title">Käytä koko näytön tilaa</string>
+          <string name="viewFrame">261 13 168 18 </string>
+          <string name="bounds">13 261 31 429 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="925">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1102</int>
+          <string name="helpTagText">Aloita toisto, jos havaitaan kelvollinen levy</string>
+          <string name="title">Aloita toisto</string>
+          <string name="viewFrame">261 35 187 16 </string>
+          <string name="bounds">35 261 51 448 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="926">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1200</int>
+          <string name="title">Asetettaessa levy asemaan:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">80 111 175 16 </string>
+          <string name="bounds">111 80 127 255 </string>
+        </object>
+        <reference idRef="927"/>
+        <object class="IBCarbonStaticText" id="928">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1300</int>
+          <string name="title">Mykistettynä:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">80 215 175 16 </string>
+          <string name="bounds">215 80 231 255 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="929">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1301</int>
+          <string name="helpTagText">Kuvaileva tekstitys päälle, kun DVD-soittimen ääni on mykistetty</string>
+          <string name="title">Näytä kuvaileva tekstitys</string>
+          <string name="viewFrame">261 215 222 18 </string>
+          <string name="bounds">215 261 233 483 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="932">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1500</int>
+          <string name="title">Kun katseluikkuna on pienennetty:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">35 252 220 16 </string>
+          <string name="bounds">252 35 268 255 </string>
+        </object>
+        <reference idRef="933"/>
+        <reference idRef="939"/>
+        <reference idRef="937"/>
+        <object class="IBCarbonCheckBox" id="938">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1701</int>
+          <int name="initialState">2</int>
+          <string name="title">Laita DVD-asema nukkumaan</string>
+          <string name="viewFrame">261 141 224 31 </string>
+          <string name="bounds">141 261 172 485 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="934">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1150</int>
+          <string name="title">Kun DVD-soitin ei ole päällimmäisenä:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 73 234 16 </string>
+          <string name="bounds">73 20 89 254 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="935">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1151</int>
+          <string name="helpTagText">Keskeytä toisto, kun soitin ei ole aktiivisena</string>
+          <string name="title">Keskeytä toisto</string>
+          <string name="viewFrame">261 73 187 16 </string>
+          <string name="bounds">73 261 89 448 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 297 520 </string>
+    </object>
+    <reference idRef="925"/>
+    <reference idRef="928"/>
+    <reference idRef="923"/>
+    <reference idRef="934"/>
+    <object class="IBCarbonWindow" id="886">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="hideOnFullScreen">TRUE</boolean>
+      <boolean name="hideOnSuspend">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Ikkuna</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="887">
+        <string name="viewFrame">0 0 520 296 </string>
+        <array count="1" name="subviews">
+          <reference idRef="922"/>
+        </array>
+        <string name="bounds">0 0 296 520 </string>
+      </object>
+      <string name="windowRect">92 838 388 1358 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="938"/>
+    <reference idRef="929"/>
+    <reference idRef="926"/>
+    <reference idRef="887"/>
+    <reference idRef="935"/>
+    <reference idRef="932"/>
+    <reference idRef="924"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="887"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="1"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="886"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+    <reference idRef="922"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrefsPanelPlayer</string>
+    <reference idRef="886"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">940</unsigned_int>
+</object>

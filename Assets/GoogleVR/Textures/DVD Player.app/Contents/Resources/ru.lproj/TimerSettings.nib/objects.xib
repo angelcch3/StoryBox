@@ -1,0 +1,285 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonEditText" id="192">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="title">120</string>
+      <string name="viewFrame">159 76 27 16 </string>
+      <string name="bounds">76 159 92 186 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="180">
+      <string name="title">Выключить Mac</string>
+    </object>
+    <object class="IBCarbonButton" id="193">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">ОК</string>
+      <string name="viewFrame">227 138 109 20 </string>
+      <string name="bounds">138 227 158 336 </string>
+    </object>
+    <object class="IBCarbonEditText" id="205">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">5</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="title">120</string>
+      <string name="viewFrame">158 76 27 16 </string>
+      <string name="bounds">76 158 92 185 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Настройки таймера</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="viewFrame">0 0 356 178 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonStaticText" id="195">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">7</int>
+            <string name="title">мин</string>
+            <string name="viewFrame">196 75 63 16 </string>
+            <string name="bounds">75 196 91 259 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="182">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">3</int>
+            <object name="menu" class="IBCarbonMenu" id="181">
+              <string name="title">Всплывание:</string>
+              <array count="4" name="items">
+                <object class="IBCarbonMenuItem" id="197">
+                  <string name="title">Завершить работу DVD-плеера</string>
+                  <boolean name="checked">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="184">
+                  <string name="title">Режим сна</string>
+                </object>
+                <reference idRef="180"/>
+                <object class="IBCarbonMenuItem" id="183">
+                  <string name="title">Завершить сеанс</string>
+                </object>
+              </array>
+            </object>
+            <string name="title">Действие:</string>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">25 39 311 20 </string>
+            <string name="bounds">39 25 59 336 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="185">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">8</int>
+            <string name="title">Настройки таймера</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">93 9 169 22 </string>
+            <string name="bounds">9 93 31 262 </string>
+          </object>
+          <object class="IBCarbonRadioGroup" id="186">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">4</int>
+            <int name="intercellHeight">6</int>
+            <array count="2" name="radioTitles">
+              <array count="1">
+                <string>через</string>
+              </array>
+              <array count="1">
+                <string>по окончании текущего фильма</string>
+              </array>
+            </array>
+            <string name="viewFrame">95 74 254 44 </string>
+            <string name="bounds">74 95 118 349 </string>
+          </object>
+          <reference idRef="192"/>
+          <reference idRef="193"/>
+          <object class="IBCarbonButton" id="194">
+            <ostype name="controlSignature">cfbs</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Отменить</string>
+            <string name="viewFrame">106 138 109 20 </string>
+            <string name="bounds">138 106 158 215 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 178 356 </string>
+      </object>
+      <string name="windowRect">335 521 513 877 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="185"/>
+    <object class="IBCarbonMenu" id="207">
+      <string name="title">Всплывающее меню:</string>
+      <array count="4" name="items">
+        <object class="IBCarbonMenuItem" id="209">
+          <string name="title">Завершить работу DVD-плеера</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="211">
+          <string name="title">Перейти в режим сна</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="210">
+          <string name="title">Выключить Mac</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="208">
+          <string name="title">Завершить сеанс</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonButton" id="204">
+      <ostype name="controlSignature">cfbs</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Отменить</string>
+      <string name="viewFrame">104 138 110 20 </string>
+      <string name="bounds">138 104 158 214 </string>
+    </object>
+    <reference idRef="197"/>
+    <reference idRef="186"/>
+    <reference idRef="167"/>
+    <reference idRef="209"/>
+    <reference idRef="195"/>
+    <reference idRef="181"/>
+    <object class="IBCarbonRootControl" id="199">
+      <string name="viewFrame">0 0 356 178 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonStaticText" id="201">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">7</int>
+          <string name="title">мин</string>
+          <string name="viewFrame">193 75 63 16 </string>
+          <string name="bounds">75 193 91 256 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="206">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">3</int>
+          <reference name="menu" idRef="207"/>
+          <string name="title">Действие:</string>
+          <int name="titleJustification">0</int>
+          <string name="viewFrame">25 39 311 20 </string>
+          <string name="bounds">39 25 59 336 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="203">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">4</int>
+          <int name="intercellHeight">6</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>через</string>
+            </array>
+            <array count="1">
+              <string>по окончании текущего фильма</string>
+            </array>
+          </array>
+          <string name="viewFrame">93 74 243 66 </string>
+          <string name="bounds">74 93 140 336 </string>
+        </object>
+        <reference idRef="205"/>
+        <object class="IBCarbonButton" id="200">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">ОК</string>
+          <string name="viewFrame">226 138 110 20 </string>
+          <string name="bounds">138 226 158 336 </string>
+        </object>
+        <reference idRef="204"/>
+        <object class="IBCarbonStaticText" id="202">
+          <ostype name="controlSignature">cfbs</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Настройки таймера</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">96 9 164 32 </string>
+          <string name="bounds">9 96 41 260 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 178 356 </string>
+    </object>
+    <reference idRef="203"/>
+    <reference idRef="182"/>
+    <reference idRef="194"/>
+    <reference idRef="206"/>
+    <reference idRef="183"/>
+    <reference idRef="184"/>
+    <object class="IBCarbonWindow" id="198">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Настройки таймера</string>
+      <reference name="rootControl" idRef="199"/>
+      <string name="windowRect">354 990 532 1346 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="208"/>
+    <reference idRef="211"/>
+    <reference idRef="201"/>
+    <reference idRef="200"/>
+    <reference idRef="210"/>
+    <reference idRef="202"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="181"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="206"/>
+    <reference idRef="199"/>
+    <reference idRef="181"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+    <reference idRef="207"/>
+    <reference idRef="167"/>
+    <reference idRef="182"/>
+    <reference idRef="198"/>
+    <reference idRef="199"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="207"/>
+    <reference idRef="207"/>
+    <reference idRef="199"/>
+    <reference idRef="199"/>
+    <reference idRef="207"/>
+    <reference idRef="199"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>TimerSettingsDialog</string>
+    <reference idRef="198"/>
+    <string>TimerSettingsSheet</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">212</unsigned_int>
+</object>
